@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
+import Navbar from "./ui/navbar/navbar";
 
 export default function Home() {
   return (
@@ -31,77 +32,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href=""
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer">
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Moi{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Envie de faire connaissance ? Venez découvrir qui se cache derrière
-            l'écran dans ma section "Moi". Je vous invite à plonger dans mon
-            univers, mes passions et mes aspirations. Ensemble, créons une
-            connexion authentique.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer">
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Mes projets{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Curieux de découvrir les projets sur lesquels j'ai mis mon grain de
-            sel ? Faites un tour sur mes projets et laissez-vous surprendre par
-            mes collaborations créatives !
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer">
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Mon blog{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            En cours de construction
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer">
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Contact{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            À la recherche d'un contact pour votre prochain projet ? Ne cherchez
-            plus, je suis juste un clic de souris away sur mon portFOLIO !
-          </p>
-        </a>
-      </div>
+      <Navbar showParagraph={true} />
     </main>
   );
 }
