@@ -26,8 +26,8 @@ export default function Home() {
         </h1>
         <Image
           className="rounded-full"
-          src="/picture.jpg"
-          alt="Next.js Logo"
+          src="/me.jpg"
+          alt="picture of me"
           width={180}
           height={37}
           priority

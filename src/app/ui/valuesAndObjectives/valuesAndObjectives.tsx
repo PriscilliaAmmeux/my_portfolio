@@ -1,52 +1,59 @@
 import { GiDirectionSigns } from "react-icons/gi";
 import { GoRocket } from "react-icons/go";
+import { AiOutlinePlus } from "react-icons/ai";
 import styles from "../../styles/variables.module.css";
+import Article from "../components/card/card";
 
 export default function ValuesAndObjectives() {
   return (
     <section className=" grid grid-cols-2 gap-4">
-      <article className="mt-8 border-t border-gray-300 pt-6 bg-blue-100 p-6 rounded-md shadow-lg">
-        <div className="flex items-center justify-center mb-4">
-          <GoRocket size={40} className={styles.iconColor} />{" "}
-          <h2 className="ml-4 text-blue-800 text-2xl font-semibold">
-            Mes valeurs !
-          </h2>
-        </div>
-        <p className="text-gray-700">
-          Honnêteté, bienveillance, intégrité, transparence et respect sont des
-          valeurs primordiales dans toutes les interactions, personnelles et
-          professionnelles.
-        </p>
-        <p className="text-gray-700">
-          Importance des relations authentiques et d'un environnement où chacun
-          se sent valorisé et respecté.
-        </p>
-        <p className="text-gray-700">
-          Conviction que la véritable connexion humaine est essentielle dans
-          tout travail.
-        </p>
-        <p className="text-gray-700">
-          Forte préoccupation pour l'accessibilité web et la recherche constante
-          de moyens pour l'améliorer (ouverte à tout conseil).
-        </p>
-      </article>
+      <Article Icon={GoRocket} title="Mes valeurs">
+        <ul className="text-gray-700 flex flex-col space-y-2 font-medium">
+          <li>
+            <span className="font-bold">
+              - Honnêteté, bienveillance, intégrité, transparence et respect
+            </span>{" "}
+            sont des valeurs primordiales dans toutes les interactions,
+            personnelles et professionnelles.
+          </li>
+          <li>
+            <span className="font-bold">
+              {" "}
+              - Importance des relations authentiques{" "}
+            </span>
+            et d'un environnement où chacun se sent valorisé et respecté.
+          </li>
+          <li>
+            - Conviction que la véritable connexion
+            <span className="font-bold"> humaine </span>
+            est essentielle dans tout travail.
+          </li>
+          <li>
+            - Forte préoccupation pour
+            <span className="font-bold"> l'accessibilité web </span>
+            et la recherche constante de moyens pour l'améliorer (ouverte à tout
+            conseil).
+          </li>
+        </ul>
+      </Article>
 
-      <article className="mt-8 border-t border-gray-300 pt-6 bg-blue-100 p-6 rounded-lg shadow-xl">
-        <div className="flex items-center justify-center mb-4">
-          <GiDirectionSigns size={40} className={styles.iconColor} />
-          <h2 className="ml-4 text-blue-800 text-2xl font-semibold">
-            Mes objectifs
-          </h2>
-        </div>
-        <ul className="text-gray-700 flex flex-col space-y-2">
-          <li className="font-medium">Évolution</li>
-          <li className="font-medium">Apprentissage</li>
-          <li className="font-medium">Épanouissement</li>
-          <li className="font-medium">
+      <Article Icon={GiDirectionSigns} title="Mes objectifs">
+        <ul className="text-gray-700 flex flex-col space-y-2 font-medium">
+          <li className="flex items-center">
+            <AiOutlinePlus className="mr-2" /> Évolution
+          </li>
+          <li className="flex items-center">
+            <AiOutlinePlus className="mr-2" /> Apprentissage
+          </li>
+          <li className="flex items-center">
+            <AiOutlinePlus className="mr-2" /> Épanouissement
+          </li>
+          <li className="flex items-center">
+            <AiOutlinePlus className="mr-2" />
             Contribuer à des projets ambitieux et porteurs de sens
           </li>
         </ul>
-      </article>
+      </Article>
     </section>
   );
 }
