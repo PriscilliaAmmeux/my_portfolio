@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-import Footer from "../ui/footer/footer";
+import Footer from "../ui/components/footer/footer";
 import Me from "../ui/me/me";
 
 import Carreer from "../ui/carreer/carreer";

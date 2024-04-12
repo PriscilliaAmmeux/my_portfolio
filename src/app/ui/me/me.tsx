@@ -4,16 +4,16 @@ import styles from "../../styles/variables.module.css";
 
 export default function Me() {
   return (
-    <section className="flex items-center mb-4 bg-gray-800 text-white pt-4 mx-auto mx-8">
-      <div className="flex items-center">
+    <section className="flex items-center justify-center mb-4 bg-gray-800 text-white pt-4 mx-auto mx-8">
+      <div className="flex items-center justify-center">
         <GiLadybug size={60} className={styles.iconColor} />{" "}
         <h1 className=" flex items-center justify center text-white text-4xl font-semibold mb-4 ml-4 whitespace-nowrap">
           Qui suis je ?
         </h1>
       </div>
       <Image
-        className="rounded-lg ml-8 mr-4"
-        src="/me2.jpg"
+        className="ml-8 mr-4"
+        src="/profil.png"
         alt="picture of me"
         width={150}
         height={150}

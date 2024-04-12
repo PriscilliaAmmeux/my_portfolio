@@ -15,7 +15,7 @@ export default function Carreer() {
       <div className="relative flex items-center justify-center space-x-2 mb-10">
         <Image
           className="transform -rotate-6 pt-4"
-          src="/work.jpeg"
+          src="/OIG3.jpeg"
           alt="picture of a woman in front of a computer "
           width={200}
           height={37}
@@ -23,7 +23,7 @@ export default function Carreer() {
         />
         <Image
           className="pt-4 rotate-6"
-          src="/work2.jpeg"
+          src="/bank.jpeg"
           alt="picture of montains"
           width={200}
           height={37}
@@ -39,7 +39,7 @@ export default function Carreer() {
         />
         <Image
           className="pt-4 rotate-6"
-          src="/paint.jpeg"
+          src="/auto.jpeg"
           alt="mum with children who are painting"
           width={200}
           height={37}

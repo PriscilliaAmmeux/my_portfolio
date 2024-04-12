@@ -37,7 +37,7 @@ export default function Navbar({ showParagraph }: { showParagraph: boolean }) {
       </Link>
 
       <Link
-        href=""
+        href="/project"
         className="group rounded-lg border border-transparent px-2 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
         target="_blank"
         rel="noopener noreferrer">
