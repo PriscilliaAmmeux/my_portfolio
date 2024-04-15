@@ -9,9 +9,7 @@ export default function Blog() {
         <Navbar showParagraph={false} />
       </div>
       <Title text="Blog" />
-      <section>
-        <p>Coming soon</p>
-      </section>
+      <section className="flex justify-center mt-40 mb-40">Coming Soon</section>
       <Footer />
     </main>
   );

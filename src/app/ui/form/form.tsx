@@ -1,5 +1,6 @@
 "use client";
 
+import Swal from "sweetalert2";
 import FormField from "../components/formfield/formfield";
 import Button from "../components/button/button";
 
@@ -26,9 +27,9 @@ export default function Form() {
     });
 
     if (response.ok) {
-      console.log("Message sent successfully");
+      Swal.fire("Message envoyé");
     } else {
-      console.log("Message failed to send");
+      console.error("Message failed to send");
     }
   };
 

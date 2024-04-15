@@ -17,7 +17,7 @@ export default function Home() {
             href="https://www.linkedin.com/in/priscillia-ammeux/"
             target="_blank"
             rel="noopener noreferrer">
-            <FaLinkedin />
+            <FaLinkedin className="text-pink-500 hover:text-pink-700 transition-colors duration-300" />
             Par Priscillia Ammeux
           </a>
         </div>
