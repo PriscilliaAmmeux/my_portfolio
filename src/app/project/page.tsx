@@ -9,6 +9,7 @@ export default function Project() {
       <section className="flex justify-center">
         <Navbar showParagraph={false} />
       </section>
+      <h1>Mes projets</h1>
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 container mx-auto mx-4 justify-items-stretch">
         {projects.map((project) => (
           <ProjectCard
