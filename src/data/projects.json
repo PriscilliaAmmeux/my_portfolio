@@ -1,47 +1,79 @@
 [
   {
-    "title": "",
-    "description": "",
-    "image": "",
-    "methodology": "",
-    "tools": "",
+    "id": 1,
+    "title": "Mon portfolio",
+    "description": "Réalisation de mon portfolio",
+    "image": "/portfolio.png",
+    "methodology": "Projet personnel",
+    "tools": "Git, Github",
+    "technology": "Nextjs, React, Tailwindcss, Git, Vercel",
     "demoLink": "",
-    "githubLink": ""
+    "githubLink": "https://github.com/PriscilliaAmmeux/my_portfolio"
   },
   {
-    "title": "",
-    "description": "",
-    "image": "",
-    "methodology": "",
-    "tools": "",
-    "demoLink": "",
-    "githubLink": ""
+    "id": 2,
+    "title": "Yaki",
+    "description": "Conception et développement de 'A' à 'Z' de l’application “YAKI” qui a pour but d'améliorer la gestion du personnel réparti sur plusieurs site (télétravail, clientèle, absent): déclaration de son lieu de travail, visualisation des déclarations de son équipe et de la disponibilité des collaborateurs",
+    "image": "/yaki.png",
+    "methodology": "Agile Scrum",
+    "tools": " Figma, Github, Github project, PgAdmin, Matomo Analytics, Prometheus, Sonarqube, Grafana, Docker, Uml. ",
+    "technology": "Version mobile (Node.js, Flutter, Jest),Version desktop administrateur (Java17,  Spring Boot, Vue3, TypeScript, Jest et Karaté), PostgreSQL",
+    "demoLink": "https://yaki.xpeho.fr/",
+    "githubLink": "https://github.com/XPEHO/YAKI"
   },
   {
-    "title": "",
-    "description": "",
-    "image": "",
-    "methodology": "",
-    "tools": "",
-    "demoLink": "",
-    "githubLink": ""
+    "id": 3,
+    "title": "Yaki UI",
+    "description": "UI pour Yaki",
+    "image": "/yaki.png",
+    "methodology": "Agile Scrum",
+    "tools": "Git, Github",
+    "technology": "Dart, html, css",
+    "demoLink": "https://yaki.xpeho.fr/",
+    "githubLink": "https://github.com/XPEHO/yaki_ui"
   },
   {
-    "title": "",
-    "description": "",
-    "image": "",
-    "methodology": "",
-    "tools": "",
-    "demoLink": "",
-    "githubLink": ""
+    "id": 4,
+    "title": "Origins Digital",
+    "description": "Application mobile first et desktop de streaming réalisé dans le cadre du projet P3 du bootcamp de 5 mois avec la wild code school",
+    "image": "/origins.png",
+    "methodology": "Agile Scrum",
+    "tools": " Figma,Workbench, Git, Github, Trello.",
+    "technology": "React, Express, NodeJs, Sass, MySQL",
+    "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_react-node-express-activity-7030500056227008512-k9fn/?utm_source=share&utm_medium=member_desktop",
+    "githubLink": "https://github.com/PriscilliaAmmeux/2022-09-JS-Lille-project-3-g3-origin"
   },
   {
-    "title": "",
-    "description": "",
-    "image": "",
-    "methodology": "",
-    "tools": "",
-    "demoLink": "",
-    "githubLink": ""
+    "id": 5,
+    "title": "Se salir les doigts",
+    "description": "Projet personnel d'idéés d'activités manuelles à faire avec des enfants réalisés en 36h dans le cadre des évaluations du bootcamp de 5 mois avec la wild code school",
+    "image": "/salir.png",
+    "methodology": "Projet personnel",
+    "tools": " Figma,Workbench, Git, Github, Trello.",
+    "technology": "React, Express, NodeJs, Sass, MySQL",
+    "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_se-salir-les-doigts-activity-7027019180411375616-H4xe/?utm_source=share&utm_medium=member_desktop",
+    "githubLink": "https://github.com/PriscilliaAmmeux/SeSalirLesDoigts"
+  },
+  {
+    "id": 6,
+    "title": "Siloc",
+    "description": "Application de gestion de flotte de véhicules pour Amazon",
+    "image": "/siloc.png",
+    "methodology": "Hackathon 48h",
+    "tools": " Figma,Workbench, Git, Github, Trello.",
+    "technology": "React, Express, NodeJs, Sass, MySQL",
+    "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_siloc-activity-7019661451359342592-VM1d/?utm_source=share&utm_medium=member_desktop",
+    "githubLink": "https://github.com/Sax593/Siloc"
+  },
+  {
+    "id": 7,
+    "title": "SpaceVerse",
+    "description": "Entreprise fondé en 2552 par 5 développeurs se lançant le défi de voyager dans le multiverse",
+    "image": "/spaceverse.png",
+    "methodology": "Hackathon 30h",
+    "tools": " Figma,Workbench, Git, Github, Trello.",
+    "technology": "React, Express, NodeJs, Sass, MySQL",
+    "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_hackathon-activity-7002943012326526978-GIRo/?utm_source=share&utm_medium=member_desktop",
+    "githubLink": "https://github.com/Sax593/hackathon"
   }
 ]

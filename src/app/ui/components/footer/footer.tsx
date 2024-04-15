@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-800 text-white text-center pt-10 pb-10">
       <p>
-        © {new Date().getFullYear()} Priscillia Ammeux. All rights reserved.
+        © {new Date().getFullYear()} Priscillia Ammeux. Tous droits réservés.
       </p>
       <p>Créée avec amour ❤️ par Priscillia Ammeux</p>
     </footer>
