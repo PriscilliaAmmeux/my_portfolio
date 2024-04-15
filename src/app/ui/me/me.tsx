@@ -1,16 +1,11 @@
 import { GiLadybug } from "react-icons/gi";
 import Image from "next/image";
-import styles from "../../styles/variables.module.css";
+import Title from "../components/title/title";
 
 export default function Me() {
   return (
     <section className="flex items-center justify-center mb-4 bg-gray-800 text-white pt-4 mx-auto mx-8">
-      <div className="flex items-center justify-center">
-        <GiLadybug size={60} className={styles.iconColor} />{" "}
-        <h1 className=" flex items-center justify center text-white text-4xl font-semibold mb-4 ml-4 whitespace-nowrap">
-          Qui suis je ?
-        </h1>
-      </div>
+      <Title text="Qui suis je ?" icon={GiLadybug} />
       <Image
         className="ml-8 mr-4"
         src="/profil.png"

@@ -27,7 +27,7 @@
     "description": "UI pour Yaki",
     "image": "/yaki.png",
     "methodology": "Agile Scrum",
-    "tools": "Git, Github",
+    "tools": "Github, Github project",
     "technology": "Dart, html, css",
     "demoLink": "https://yaki.xpeho.fr/",
     "githubLink": "https://github.com/XPEHO/yaki_ui"

@@ -7,6 +7,7 @@ import Button from "../components/button/button";
 export default function Form() {
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+    console.log("form sent");
 
     const target = event.target as typeof event.target & {
       "grid-first-name": { value: string };
@@ -14,7 +15,7 @@ export default function Form() {
       "grid-message": { value: string };
     };
 
-    const response = await fetch("/api/send", {
+    const response = await fetch("../../api/send", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -73,7 +74,7 @@ export default function Form() {
           </div>
         </div>
         <div className="flex justify-center mt-6">
-          <Button text="Envoyer" />
+          <Button type="submit" text="Envoyer" />
         </div>
       </form>
     </section>
