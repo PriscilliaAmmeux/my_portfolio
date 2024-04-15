@@ -1,4 +1,5 @@
 import Footer from "../ui/components/footer/footer";
+import Title from "../ui/components/title/title";
 import Navbar from "../ui/navbar/navbar";
 
 export default function Blog() {
@@ -7,6 +8,7 @@ export default function Blog() {
       <div className="flex justify-center">
         <Navbar showParagraph={false} />
       </div>
+      <Title text="Blog" />
       <section>
         <p>Coming soon</p>
       </section>

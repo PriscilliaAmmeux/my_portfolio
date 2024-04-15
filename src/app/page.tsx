@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
 import Navbar from "./ui/navbar/navbar";
+import Footer from "./ui/components/footer/footer";
+/* eslint-disable react/no-unescaped-entities */
 
 export default function Home() {
   return (
@@ -33,8 +35,9 @@ export default function Home() {
           priority
         />
       </section>
-
       <Navbar showParagraph={true} />
+      <Footer />
     </main>
   );
 }
+/* eslint-disable react/no-unescaped-entities */

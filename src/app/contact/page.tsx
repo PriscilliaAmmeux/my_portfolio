@@ -1,4 +1,5 @@
 import Footer from "../ui/components/footer/footer";
+import Title from "../ui/components/title/title";
 import Form from "../ui/form/form";
 import Navbar from "../ui/navbar/navbar";
 
@@ -8,6 +9,7 @@ export default function Contact() {
       <div className="flex justify-center">
         <Navbar showParagraph={false} />
       </div>
+      <Title text="Contact" />
       <Form />
       <Footer />
     </main>

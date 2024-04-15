@@ -1,3 +1,5 @@
+import Button from "../button/button";
+
 type ProjectCardProps = {
   title: string;
   description: string;
@@ -41,15 +43,9 @@ export default function ProjectCard({
           <p className="text-gray-600">{technology}</p>
         </div>
       </section>
-      <section className="px-6 py-4">
-        <a
-          href={demoLink}
-          className="text-indigo-500 hover:text-indigo-700 mr-4">
-          Voir la démo
-        </a>
-        <a href={githubLink} className="text-indigo-500 hover:text-indigo-700">
-          Voir sur GitHub
-        </a>
+      <section className="px-6 py-4 flex justify-between">
+        <Button text="Voir la démo" href={demoLink} />
+        <Button text="Voir sur GitHub" href={githubLink} />
       </section>
     </section>
   );

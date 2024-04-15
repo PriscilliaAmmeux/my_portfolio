@@ -1,6 +1,7 @@
 "use client";
 
-import { lusitana } from "@/app/ui/fonts";
+import FormField from "../components/formfield/formfield";
+import Button from "../components/button/button";
 
 export default function Form() {
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -33,73 +34,45 @@ export default function Form() {
 
   return (
     <section className="flex justify-center mt-4">
-      <form className=" w-full max-w-lg" onSubmit={handleSubmit}>
-        <h1 className={`${lusitana.className} text-2xl font-bold mb-4`}>
-          Contact
-        </h1>
-        <div className="flex flex-wrap -mx-3 mb-6">
-          <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-            <label
-              className="block uppercase tracking-wide text-white text-xs font-bold mb-2"
-              htmlFor="grid-first-name">
-              Prénom
-            </label>
-            <input
-              className="appearance-none block w-full bg-gray-200 text-gray-800 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+      <form className="w-full max-w-lg" onSubmit={handleSubmit}>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-6">
+          <div>
+            <FormField
               id="grid-first-name"
+              label="Prénom"
               type="text"
               placeholder="Votre prénom"
             />
           </div>
-          <div className="w-full md:w-1/2 px-3">
-            <label
-              className="block uppercase tracking-wide text-white text-xs font-bold mb-2"
-              htmlFor="grid-last-name">
-              Nom
-            </label>
-            <input
-              className="appearance-none block w-full bg-gray-200 text-gray-800 border rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white"
+          <div>
+            <FormField
               id="grid-last-name"
+              label="Nom"
               type="text"
               placeholder="Votre nom"
             />
           </div>
-        </div>
-        <div className="flex flex-wrap -mx-3 mb-6">
-          <div className="w-full px-3">
-            <label
-              className="block uppercase tracking-wide text-white text-xs font-bold mb-2"
-              htmlFor="grid-email">
-              Email
-            </label>
-            <input
-              className="appearance-none block w-full bg-gray-200 text-gray-800 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+          <div className="md:col-span-full">
+            <FormField
               id="grid-email"
+              label="Email"
               type="email"
               placeholder="Votre email"
+              large
+            />
+          </div>
+          <div className="md:col-span-full">
+            <FormField
+              id="grid-message"
+              label="Message"
+              type="textarea"
+              placeholder="Votre message"
+              large
             />
           </div>
         </div>
-        <div className="flex flex-wrap -mx-3 mb-6">
-          <div className="w-full px-3">
-            <label
-              className="block uppercase tracking-wide text-white text-xs font-bold mb-2"
-              htmlFor="grid-message">
-              Message
-            </label>
-            <textarea
-              className="no-resize appearance-none block w-full bg-gray-200 text-gray-800 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white h-48 resize-none"
-              id="grid-message"
-              placeholder="Votre message"></textarea>
-          </div>
-        </div>
-        <div className="md:flex md:items-center">
-          <button
-            style={{ backgroundColor: "rgba(240, 50, 148, 0.8)" }}
-            className={`shadow hover:bg-white focus:shadow-outline focus:outline-none font-bold py-2 px-4 rounded`}
-            type="button">
-            Envoyer
-          </button>
+        <div className="flex justify-center mt-6">
+          <Button text="Envoyer" />
         </div>
       </form>
     </section>

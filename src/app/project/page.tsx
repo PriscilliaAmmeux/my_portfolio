@@ -2,6 +2,7 @@ import Footer from "../ui/components/footer/footer";
 import ProjectCard from "../ui/components/projectCard/projectCard";
 import Navbar from "../ui/navbar/navbar";
 import projects from "../../data/projects.json";
+import Title from "../ui/components/title/title";
 
 export default function Project() {
   return (
@@ -9,7 +10,7 @@ export default function Project() {
       <section className="flex justify-center">
         <Navbar showParagraph={false} />
       </section>
-      <h1>Mes projets</h1>
+      <Title text="Projets" />
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 container mx-auto mx-4 justify-items-stretch">
         {projects.map((project) => (
           <ProjectCard
