@@ -3,11 +3,10 @@ import { FaLinkedin } from "react-icons/fa";
 import { LiaHandPaper } from "react-icons/lia";
 import Navbar from "./ui/navbar/navbar";
 import Footer from "./ui/components/footer/footer";
-/* eslint-disable react/no-unescaped-entities */
 
 export default function Home() {
   return (
-    <main className="bg-gray-800 flex min-h-screen flex-col items-center justify-between p-24 space-y-10 py-20">
+    <main className="bg-gray-800 flex min-h-screen flex-col items-center justify-between px-4 sm:px-24 py-10 sm:py-20 space-y-10">
       <section className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none flex items-center gap-2">
           <LiaHandPaper className="text-pink-500 hover:text-pink-700 transition-colors duration-300" />
@@ -25,15 +24,15 @@ export default function Home() {
         </div>
       </section>
       <section className="flex flex-col items-center ">
-        <h1 className="text-4xl mb-6">
+        <h1 className="text-2xl sm:text-4xl mb-6">
           Conceptrice et Développeuse d'Applications
         </h1>
         <Image
           className="rounded-full"
           src="/me.jpg"
           alt="picture of me"
-          width={180}
-          height={37}
+          width={90}
+          height={18}
           priority
         />
       </section>
@@ -42,4 +41,3 @@ export default function Home() {
     </main>
   );
 }
-/* eslint-disable react/no-unescaped-entities */

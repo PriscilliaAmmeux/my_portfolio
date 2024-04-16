@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <main className="bg-gray-800 pt-4">
+    <main className="bg-gray-800 pt-4 px-4 sm:px-24">
       <div className="flex justify-center">
         <Navbar showParagraph={false} />
       </div>

@@ -8,11 +8,10 @@ import Article from "../components/card/card";
 
 export default function GradesAndKnows() {
   return (
-    <section className=" grid grid-cols-2 gap-4 pt-6">
+    <section className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-6">
       <Article Icon={FaHeadSideVirus} title="Mes compétences">
         <ul className="text-gray-700 list-disc ml-5">
           <li className="flex items-center font-bold">
-            {" "}
             Spécifier, concevoir et développer des logiciels ou applications web
           </li>
           <li className="flex items-center ml-10">
@@ -27,11 +26,9 @@ export default function GradesAndKnows() {
             Vue3, <SiFlutter className="ml-2 mr-2" /> Flutter
           </li>
           <li className="flex items-center pt-3 font-bold ">
-            {" "}
             Concevoir, gérer et interroger des bases de données:{" "}
           </li>
           <li className="flex items-center ml-10">
-            {" "}
             <SiPostgresql className="ml-2 mr-2" />
             <span className="font-normal">PostgreSQL,</span>
             <SiMysql className="ml-2 mr-2" />
@@ -41,7 +38,6 @@ export default function GradesAndKnows() {
             Organiser et gérer des projets informatiques en équipe:{" "}
           </li>
           <li className="flex items-center ml-10">
-            {" "}
             <FaGithub className="ml-2 mr-2" />{" "}
             <span className="font-normal">Git</span>
           </li>

@@ -1,12 +1,11 @@
 import { GiDirectionSigns } from "react-icons/gi";
 import { GoRocket } from "react-icons/go";
 import { AiOutlinePlus } from "react-icons/ai";
-import styles from "../../styles/variables.module.css";
 import Article from "../components/card/card";
 
 export default function ValuesAndObjectives() {
   return (
-    <section className=" grid grid-cols-2 gap-4">
+    <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
       <Article Icon={GoRocket} title="Mes valeurs">
         <ul className="text-gray-700 flex flex-col space-y-2 font-medium">
           <li>

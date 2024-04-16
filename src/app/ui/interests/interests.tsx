@@ -15,7 +15,8 @@ export default function Interests() {
           Centres d'intérêts
         </h1>
       </div>
-      <div className="relative flex items-center justify-center space-x-2">
+      <div className="relative flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-2">
+        {" "}
         <Image
           className="pt-4 rotate-6"
           src="/montains.jpeg"
