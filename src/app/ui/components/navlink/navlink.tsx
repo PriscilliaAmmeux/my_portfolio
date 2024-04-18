@@ -13,7 +13,7 @@ export default function NavLink({
     <Link
       href={href}
       className="group rounded-lg border border-transparent px-2 py-2 transition-colors hover:border-pink-500 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-      target="_blank"
+      target="_self"
       rel="noopener noreferrer">
       <h1 className={`mb-3 text-xl font-semibold`}>
         {title}{" "}
