@@ -5,7 +5,7 @@ export default function Footer() {
         © {new Date().getFullYear()} Priscillia Ammeux. Tous droits réservés.
       </p>
       <p className="text-sm md:text-base">
-        Créée avec amour ❤️ par Priscillia Ammeux
+        Créée avec Next.js et avec amour ❤️ par Priscillia Ammeux
       </p>
     </footer>
   );

@@ -15,7 +15,7 @@ export default function Form() {
       "grid-message": { value: string };
     };
 
-    const response = await fetch("../../api/send", {
+    const response = await fetch("../../../../pages/api/send.js", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -41,9 +41,9 @@ export default function Form() {
           <div>
             <FormField
               id="grid-first-name"
-              label="Prénom"
+              label="Votre prénom"
               type="text"
-              placeholder="Votre prénom"
+              placeholder="Votre prénom*"
             />
           </div>
           <div>
@@ -51,7 +51,7 @@ export default function Form() {
               id="grid-last-name"
               label="Nom"
               type="text"
-              placeholder="Votre nom"
+              placeholder="Votre nom*"
             />
           </div>
           <div className="md:col-span-full">
@@ -59,7 +59,7 @@ export default function Form() {
               id="grid-email"
               label="Email"
               type="email"
-              placeholder="Votre email"
+              placeholder="Votre email*"
               large
             />
           </div>
@@ -68,7 +68,7 @@ export default function Form() {
               id="grid-message"
               label="Message"
               type="textarea"
-              placeholder="Votre message"
+              placeholder="Votre message*"
               large
             />
           </div>
