@@ -23,7 +23,7 @@ export default function Me() {
           Mariée et maman de deux merveilleux enfants âgés de 6 et 4 ans.
         </p>
         <p className="mb-2">
-          J'ai 36 ans et j'habite dans le nord de la France.
+          J'ai 37 ans et j'habite dans le nord de la France.
         </p>
       </div>
     </section>
