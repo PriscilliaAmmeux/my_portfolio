@@ -1,0 +1,23 @@
+.navbarMenu {
+  display: none;
+}
+
+.open {
+  display: block;
+  position: fixed;
+  right: 5;
+  top: 0;
+}
+
+@media (min-width: 1024px) {
+  .navbarMenu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: left;
+    max-width: 80rem;
+    width: 100%;
+  }
+}

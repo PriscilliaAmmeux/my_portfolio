@@ -36,7 +36,7 @@ export default function Home() {
           priority
         />
       </section>
-      <Navbar showParagraph={true} />
+      <Navbar showParagraph={true} isHomePage={true} />
       <Footer />
     </main>
   );

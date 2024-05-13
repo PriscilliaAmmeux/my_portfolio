@@ -14,7 +14,7 @@ export default function Project() {
   return (
     <main className="bg-gray-800 pt-4">
       <section className="flex justify-center">
-        <Navbar showParagraph={false} />
+        <Navbar showParagraph={false} isHomePage={false} />
       </section>
       <Title text="Mes projets" icon={MdComputer} />
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 container mx-auto mx-4 justify-items-stretch">

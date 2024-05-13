@@ -12,7 +12,7 @@ export default function Blog() {
   return (
     <main className="bg-gray-800 pt-4">
       <div className="flex justify-center">
-        <Navbar showParagraph={false} />
+        <Navbar showParagraph={false} isHomePage={false} />
       </div>
       <Title text="Blog" icon={FaPenFancy} />
       <section className="flex justify-center mt-40 mb-40">Coming Soon</section>
