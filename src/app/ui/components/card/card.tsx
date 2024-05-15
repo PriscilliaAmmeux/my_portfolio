@@ -9,6 +9,7 @@ interface ArticleProps {
   Icon: (props: IconProps) => JSX.Element;
   title: string;
   children: ReactNode;
+  className?: string;
 }
 
 export default function Card({ Icon, title, children }: ArticleProps) {
