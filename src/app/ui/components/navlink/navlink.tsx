@@ -4,10 +4,12 @@ export default function NavLink({
   href,
   title,
   children,
+  className,
 }: {
   href: string;
   title: string;
   children?: React.ReactNode;
+  className?: string;
 }) {
   return (
     <Link

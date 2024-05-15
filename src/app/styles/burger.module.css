@@ -1,0 +1,14 @@
+.burgerMenu {
+  display: none;
+}
+
+.open {
+  display: block;
+  position: fixed;
+  z-index: 50;
+  right: 5;
+  left: 5;
+  top: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
