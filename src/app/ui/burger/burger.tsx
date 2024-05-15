@@ -1,9 +1,8 @@
 "use client";
 import { FaBars, FaTimes } from "react-icons/fa";
-
 import NavLink from "../components/navlink/navlink";
-import { useState } from "react";
 import styles from "../../styles/burger.module.css";
+import { useState } from "react";
 
 export default function Burger() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +20,7 @@ export default function Burger() {
 
       <div className={`${styles.burgerMenu} ${isOpen ? styles.open : ""}`}>
         <NavLink
-          className={`${isOpen ? "ml-4" : ""}`}
+          className={`${isOpen ? "ml-8" : ""}`}
           href="/"
           title="Accueil"
         />

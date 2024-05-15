@@ -2,9 +2,9 @@ import Footer from "../ui/components/footer/footer";
 import ProjectCard from "../ui/components/projectCard/projectCard";
 import projects from "../../data/projects.json";
 import Title from "../ui/components/title/title";
+import Navigation from "../ui/navigation/navigation";
 import { MdComputer } from "react-icons/md";
 import { Metadata } from "next";
-import Navigation from "../ui/navigation/navigation";
 
 export const metadata: Metadata = {
   title: "Mes projets - Priscillia Ammeux",
@@ -30,7 +30,6 @@ export default function Project() {
           />
         ))}
       </section>
-
       <Footer />
     </main>
   );
