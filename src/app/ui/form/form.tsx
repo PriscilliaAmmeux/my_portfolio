@@ -35,7 +35,7 @@ export default function Form() {
   };
 
   return (
-    <section className="flex justify-center mt-4">
+    <section className="flex justify-center mt-4 ml-2 mr-2">
       <form className="w-full max-w-lg" onSubmit={handleSubmit}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-6">
           <div>
