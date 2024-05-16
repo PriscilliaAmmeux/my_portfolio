@@ -4,7 +4,6 @@ import { MdOutlineFestival } from "react-icons/md";
 import { RiTeamLine } from "react-icons/ri";
 import { BsArrowRight } from "react-icons/bs";
 import { FaHeart } from "react-icons/fa";
-import Image from "next/image";
 import ImageList from "../components/imageList/imageList";
 
 const images = [
@@ -26,7 +25,7 @@ images[randomIndex].hideOnSmallScreen = false;
 
 export default function Interests() {
   return (
-    <section className="mt-8 pt-4 bg-blue-100 w-full p-6 shadow-lg">
+    <article className="mt-8 pt-4 bg-blue-100 w-full p-6 shadow-lg">
       <div className="flex items-center justify-center mb-6">
         <FaHeart size={40} color="rgba(240, 50, 148, 0.8)" />
         <h1 className="ml-4 text-blue-800 text-2xl font-semibold">
@@ -138,6 +137,6 @@ export default function Interests() {
           professionnel ou personnel
         </p>
       </section>
-    </section>
+    </article>
   );
 }

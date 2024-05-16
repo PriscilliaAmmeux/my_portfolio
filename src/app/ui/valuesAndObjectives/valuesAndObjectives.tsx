@@ -1,12 +1,20 @@
 import { GiDirectionSigns } from "react-icons/gi";
 import { GoRocket } from "react-icons/go";
 import { AiOutlinePlus } from "react-icons/ai";
-import Article from "../components/card/card";
+import Card from "../components/card/card";
+import ItemList from "../components/itemList/itemList";
+
+const objectives = [
+  "Évolution",
+  "Apprentissage",
+  "Épanouissement",
+  "Contribuer à des projets ambitieux et porteurs de sens",
+];
 
 export default function ValuesAndObjectives() {
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <Article Icon={GoRocket} title="Mes valeurs">
+      <Card Icon={GoRocket} title="Mes valeurs" color="bg-blue-100">
         <ul className="text-gray-700 flex flex-col space-y-2 font-medium">
           <li>
             <span className="font-bold">
@@ -34,25 +42,18 @@ export default function ValuesAndObjectives() {
             conseil).
           </li>
         </ul>
-      </Article>
+      </Card>
 
-      <Article Icon={GiDirectionSigns} title="Mes objectifs">
+      <Card Icon={GiDirectionSigns} title="Mes objectifs" color="bg-blue-100">
         <ul className="text-gray-700 flex flex-col space-y-2 font-medium">
-          <li className="flex items-center">
-            <AiOutlinePlus className="mr-2" /> Évolution
-          </li>
-          <li className="flex items-center">
-            <AiOutlinePlus className="mr-2" /> Apprentissage
-          </li>
-          <li className="flex items-center">
-            <AiOutlinePlus className="mr-2" /> Épanouissement
-          </li>
-          <li className="flex items-center">
-            <AiOutlinePlus className="mr-2" />
-            Contribuer à des projets ambitieux et porteurs de sens
-          </li>
+          {objectives.map((objective) => (
+            <ItemList
+              Icon={AiOutlinePlus}
+              text={<p className="leading-relaxed">{objective}</p>}
+            />
+          ))}
         </ul>
-      </Article>
+      </Card>
     </section>
   );
 }

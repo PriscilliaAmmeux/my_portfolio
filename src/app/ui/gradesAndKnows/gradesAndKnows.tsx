@@ -14,7 +14,8 @@ export default function GradesAndKnows() {
       <Card
         className="w-full sm:w-1/2"
         Icon={FaHeadSideVirus}
-        title="Mes compétences">
+        title="Mes compétences"
+        color="bg-blue-100">
         <ul className="text-gray-700 list-disc ml-3">
           <h1 className="flex items-center font-bold">
             Spécifier, concevoir et développer des logiciels ou applications web
@@ -47,7 +48,7 @@ export default function GradesAndKnows() {
         </ul>
       </Card>
 
-      <Card Icon={GrCertificate} title="Mes diplômes">
+      <Card Icon={GrCertificate} title="Mes diplômes" color="bg-blue-100">
         <ul>
           {grades.map((grades) => (
             <GradesItems
