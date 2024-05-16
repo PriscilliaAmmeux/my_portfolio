@@ -5,42 +5,36 @@ import { RiTeamLine } from "react-icons/ri";
 import { BsArrowRight } from "react-icons/bs";
 import { FaHeart } from "react-icons/fa";
 import Image from "next/image";
+import ImageList from "../components/imageList/imageList";
+
+const images = [
+  {
+    src: "/montains.jpeg",
+    alt: "picture of montains",
+    hideOnSmallScreen: true,
+  },
+  { src: "/writing.jpeg", alt: "hand writing", hideOnSmallScreen: true },
+  {
+    src: "/paint.jpeg",
+    alt: "mum with children who are painting",
+    hideOnSmallScreen: true,
+  },
+];
+
+const randomIndex = Math.floor(Math.random() * images.length);
+images[randomIndex].hideOnSmallScreen = false;
 
 export default function Interests() {
   return (
-    <section className="mt-8 pt-6 bg-blue-100 w-full p-6 shadow-lg">
-      <div className="flex items-center justify-center mb-12">
+    <section className="mt-8 pt-4 bg-blue-100 w-full p-6 shadow-lg">
+      <div className="flex items-center justify-center mb-6">
         <FaHeart size={40} color="rgba(240, 50, 148, 0.8)" />
         <h1 className="ml-4 text-blue-800 text-2xl font-semibold">
           Centres d'intérêts
         </h1>
       </div>
       <div className="relative flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-2">
-        {" "}
-        <Image
-          className="pt-4 rotate-6"
-          src="/montains.jpeg"
-          alt="picture of montains"
-          width={200}
-          height={37}
-          priority
-        />
-        <Image
-          className="transform -rotate-6 pt-4"
-          src="/writing.jpeg"
-          alt="hand writing "
-          width={200}
-          height={37}
-          priority
-        />
-        <Image
-          className="pt-4 rotate-6"
-          src="/paint.jpeg"
-          alt="mum with children who are painting"
-          width={200}
-          height={37}
-          priority
-        />
+        <ImageList images={images} />;
       </div>
       <section className="mb-4 text-gray-700 pt-8">
         <div className="flex items-center ">

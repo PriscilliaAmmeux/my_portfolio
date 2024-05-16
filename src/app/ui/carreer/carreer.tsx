@@ -2,12 +2,13 @@ import { MdWork } from "react-icons/md";
 import Image from "next/image";
 import styles from "../../styles/variables.module.css";
 import jobs from "../../../data/jobs.json";
+import ImageList from "../components/imageList/imageList";
 
 const images = [
   {
     src: "/OIG3.jpeg",
     alt: "picture of a woman in front of a computer",
-    hideOnSmallScreen: false,
+    hideOnSmallScreen: true,
   },
   { src: "/bank.jpeg", alt: "picture of montains", hideOnSmallScreen: true },
   { src: "/writing.jpeg", alt: "hand writing", hideOnSmallScreen: true },
@@ -17,23 +18,10 @@ const images = [
     hideOnSmallScreen: true,
   },
 ];
+const randomIndex = Math.floor(Math.random() * images.length);
+images[randomIndex].hideOnSmallScreen = false;
 
 export default function Carreer() {
-  const renderImages = () =>
-    images.map((image, index) => (
-      <Image
-        key={index}
-        className={`${index % 2 === 0 ? "transform -rotate-6" : ""} pt-4 ${
-          image.hideOnSmallScreen ? "sm:hidden md:block" : ""
-        }`}
-        src={image.src}
-        alt={image.alt}
-        width={200}
-        height={37}
-        priority
-      />
-    ));
-
   const renderTasks = (tasks: any[]) =>
     tasks.map((task, taskIndex) => <li key={taskIndex}>{task}</li>);
 
@@ -46,7 +34,7 @@ export default function Carreer() {
         </h1>
       </div>
       <div className="relative flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-2 mb-10">
-        {renderImages()}
+        <ImageList images={images} />
       </div>
       <ul className="list-disc ml-6">
         {jobs.map((job, index) => (
