@@ -1,16 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Mon portfolio",
-    "description": "Réalisation de mon portfolio",
-    "image": "/portfolio.png",
-    "methodology": "Projet personnel",
-    "tools": "Git, Github",
-    "technology": "Nextjs, Tailwindcss, Github, Vercel",
-    "demoLink": "",
-    "githubLink": "https://github.com/PriscilliaAmmeux/my_portfolio"
-  },
-  {
     "id": 2,
     "title": "Yaki",
     "description": "Conception et développement de 'A' à 'Z' de l’application “YAKI” qui a pour but d'améliorer la gestion du personnel réparti sur plusieurs site (télétravail, clientèle, absent): déclaration de son lieu de travail, visualisation des déclarations de son équipe et de la disponibilité des collaborateurs",
@@ -31,6 +20,17 @@
     "technology": "Dart, html, css",
     "demoLink": "https://yaki.xpeho.fr/",
     "githubLink": "https://github.com/XPEHO/yaki_ui"
+  },
+  {
+    "id": 1,
+    "title": "Mon portfolio",
+    "description": "Réalisation de mon portfolio",
+    "image": "/portfolio.png",
+    "methodology": "Projet personnel",
+    "tools": "Git, Github",
+    "technology": "Nextjs, Tailwindcss, Github, Vercel",
+    "demoLink": "",
+    "githubLink": "https://github.com/PriscilliaAmmeux/my_portfolio"
   },
   {
     "id": 4,
