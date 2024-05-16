@@ -1,6 +1,5 @@
 import Button from "../button/button";
 
-
 type ProjectCardProps = {
   title: string;
   description: string;
