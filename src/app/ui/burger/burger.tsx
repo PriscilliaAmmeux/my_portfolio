@@ -14,36 +14,16 @@ export default function Burger() {
     <div>
       <div className="flex justify-end items-center">
         <button className="lg:hidden" onClick={toggleMenu}>
-          {isOpen ? <FaTimes className="mr-2" /> : <FaBars className="mr-2" />}
+          {isOpen ? <FaTimes className="mr-6" /> : <FaBars className="mr-6" />}
         </button>
       </div>
 
       <div className={`${styles.burgerMenu} ${isOpen ? styles.open : ""}`}>
-        <NavLink
-          className={`${isOpen ? "ml-8" : ""}`}
-          href="/"
-          title="Accueil"
-        />
-        <NavLink
-          className={`${isOpen ? "ml-4" : ""}`}
-          href="/about"
-          title="Moi"
-        />
-        <NavLink
-          className={`${isOpen ? "ml-4" : ""}`}
-          href="/project"
-          title="Mes projets"
-        />
-        <NavLink
-          className={`${isOpen ? "ml-4" : ""}`}
-          href="/blog"
-          title="Mon blog"
-        />
-        <NavLink
-          className={`${isOpen ? "ml-4" : ""}`}
-          href="/contact"
-          title="Contact"
-        />
+        <NavLink href="/" title="Accueil" />
+        <NavLink href="/about" title="Moi" />
+        <NavLink href="/project" title="Mes projets" />
+        <NavLink href="/blog" title="Mon blog" />
+        <NavLink href="/contact" title="Contact" />
       </div>
     </div>
   );
