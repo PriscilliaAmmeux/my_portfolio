@@ -1,4 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## About This Project
+
+This project is a portfolio designed to showcase my skills and projects. It is built with Next.js.
+
+In this portfolio, you will find:
+
+- A section about me
+- A list of my projects
+- A blog section with various articles, including the story of my career change
+- A contact form
+
+👉 Please feel free to explore and contact me if you have any questions, comments, or suggestions.
+
+⚠️ Note: This portfolio is personal. Please do not fork it on GitHub. ⚠️
 
 ## Getting Started
 
