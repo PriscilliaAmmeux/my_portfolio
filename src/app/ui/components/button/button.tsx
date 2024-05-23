@@ -1,3 +1,5 @@
+"use client";
+
 import styles from "../../../styles/button.module.css";
 
 export default function Button({
@@ -13,7 +15,7 @@ export default function Button({
   children?: React.ReactNode;
 }) {
   return href ? (
-    <a href={href} onClick={(e) => e.preventDefault()}>
+    <a href={href}>
       <button type={type} className={styles["custom-button"]} onClick={onClick}>
         {text}
       </button>
