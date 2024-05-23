@@ -18,6 +18,9 @@ export const Modal = ({
       }
     };
     window.addEventListener("keydown", handleEscape);
+    return () => {
+      window.removeEventListener("keydown", handleEscape);
+    };
   }, [onClose]);
 
   if (!isOpen) return null;
