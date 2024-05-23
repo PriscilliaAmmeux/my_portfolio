@@ -4,10 +4,14 @@ export default function Button({
   type,
   text,
   href,
+  onClick,
+  children,
 }: {
   type: "submit" | "button";
   text: string;
   href?: string;
+  onClick?: () => void;
+  children?: React.ReactNode;
 }) {
   return href ? (
     <a href={href}>
