@@ -22,7 +22,6 @@ export default function Form() {
       },
       body: json,
     });
-    
     if (response.ok) {
       Swal.fire("Message envoyé");
     } else {
@@ -73,9 +72,9 @@ export default function Form() {
           />
         </div>
       </div>
-      <div className="flex justify-center mt-6">
+      <span className="flex justify-center mt-6">
         <Button type="submit" text="Envoyer" />
-      </div>
+      </span>
     </form>
   );
 }
