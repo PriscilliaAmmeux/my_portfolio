@@ -1,4 +1,5 @@
 "use client";
+
 import { FaBars, FaTimes } from "react-icons/fa";
 import NavLink from "../components/navlink/navlink";
 import styles from "../../styles/burger.module.css";
