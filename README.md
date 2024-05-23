@@ -9,7 +9,9 @@ In this portfolio, you will find:
 - A blog section with various articles, including the story of my career change
 - A contact form
 
-👉 Feel free to explore and contact me if you have any questions or comments.
+👉 Please feel free to explore and contact me if you have any questions, comments, or suggestions.
+
+⚠️ Note: This portfolio is personal. Please do not fork it on GitHub. ⚠️
 
 ## Getting Started
 
