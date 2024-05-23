@@ -17,7 +17,6 @@ export default function FormField({
     ? "appearance-none block w-full bg-gray-200 text-gray-800 border rounded py-4 px-5 mb-3 leading-6 text-lg focus:outline-none focus:bg-white"
     : "appearance-none block bg-gray-200 text-gray-800 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white";
 
-  // Conditionally apply classes based on the 'large' prop
   const containerClass = large ? "w-full" : "w-full md:w-1/2";
 
   return (

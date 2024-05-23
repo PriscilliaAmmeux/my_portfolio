@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import { CiMail } from "react-icons/ci";
 import Footer from "../ui/components/footer/footer";
 import Title from "../ui/components/title/title";
-import Form from "../ui/form/form";
 import Navigation from "../ui/navigation/navigation";
-import  Layout from "../ui/components/layout/layout";
+import Layout from "../ui/components/layout/layout";
+import Form from "../ui/form/form";
 
 export const metadata: Metadata = {
   title: "Contact - Priscillia Ammeux",
