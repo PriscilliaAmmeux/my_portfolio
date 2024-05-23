@@ -46,8 +46,9 @@ export default function ValuesAndObjectives() {
 
       <Card Icon={GiDirectionSigns} title="Mes objectifs" color="bg-blue-100">
         <ul className="text-gray-700 flex flex-col space-y-2 font-medium">
-          {objectives.map((objective) => (
+          {objectives.map((objective, index) => (
             <ItemList
+              key={index}
               Icon={AiOutlinePlus}
               text={<p className="leading-relaxed">{objective}</p>}
             />
