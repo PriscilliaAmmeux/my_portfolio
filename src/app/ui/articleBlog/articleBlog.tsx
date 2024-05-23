@@ -37,6 +37,7 @@ export default function ArticleBlog({
           type="button"
           text="Cliquez pour lire en entier"
           onClick={() => {
+            console.log("button clicked");
             setIsModalOpen(true);
           }}
         />

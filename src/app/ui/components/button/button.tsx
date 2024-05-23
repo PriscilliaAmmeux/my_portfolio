@@ -5,7 +5,6 @@ export default function Button({
   text,
   href,
   onClick,
-  children,
 }: {
   type: "submit" | "button";
   text: string;
@@ -14,13 +13,13 @@ export default function Button({
   children?: React.ReactNode;
 }) {
   return href ? (
-    <a href={href}>
-      <button className={styles["custom-button"]} type={type}>
+    <a href={href} onClick={(e) => e.preventDefault()}>
+      <button type={type} className={styles["custom-button"]} onClick={onClick}>
         {text}
       </button>
     </a>
   ) : (
-    <button className={styles["custom-button"]} type={type}>
+    <button type={type} className={styles["custom-button"]} onClick={onClick}>
       {text}
     </button>
   );

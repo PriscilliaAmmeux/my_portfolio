@@ -15,7 +15,7 @@ export default function Blog() {
     <main className="bg-gray-800 pt-4">
       <Navigation />
       <Title text="Blog" icon={FaPenFancy} />
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-4 container mx-auto mx-4 justify-items-stretch m">
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-4 container mx-auto mx-4 justify-items-stretch">
         {blog.map((article) => (
           <ArticleBlog
             id={article.id}

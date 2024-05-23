@@ -5,7 +5,6 @@ export default function ArticlePage() {
   const router = useRouter();
   const { id } = router.query;
 
-
   const article = blogData.find((blog) => blog.id === Number(id));
 
   if (!article) {
@@ -15,7 +14,6 @@ export default function ArticlePage() {
   return (
     <div>
       <h1>{article.title}</h1>
-      {/* Affichez le reste des données de l'article ici */}
       <button onClick={() => router.push(`/article/${Number(id) - 1}`)}>
         Previous
       </button>

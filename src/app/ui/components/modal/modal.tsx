@@ -21,15 +21,21 @@ export const Modal = ({
   }, [onClose]);
 
   if (!isOpen) return null;
-
   return (
     <>
-      <div className="flex flex-col gap-1">
-        <div className="modal-content">
-          <Button type="button" text="X" onClick={onClose} />
+      <section className="flex flex-col sm:flex-col md:flex-col lg:flex-col xl:flex-col gap-1">
+        <div className="modal-content flex flex-col">
+          <div className="self-end mr-2">
+            <Button type="button" text="X" onClick={onClose} />
+          </div>
           {children}
         </div>
-      </div>
+        <span className="flex justify-center mb-4 mt-2">
+          <Button type="button" onClick={onClose} text="Fermer">
+            Fermer
+          </Button>
+        </span>
+      </section>
     </>
   );
 };
