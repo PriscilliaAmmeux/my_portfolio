@@ -17,8 +17,9 @@ export default function WhyMe() {
     <article className="bg-gray-800 mt-4 text-white p-6">
       <Title text="Pourquoi me choisir ?" icon={FaHandPointRight} />
       <ul className="text-gray-200 flex flex-col space-y-4 font-medium">
-        {cardContent.map((content) => (
+        {cardContent.map((content, index) => (
           <ItemList
+            key={index}
             Icon={FcOk}
             text={<p className="leading-relaxed">{content}</p>}
           />
