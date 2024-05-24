@@ -5,7 +5,7 @@ import Title from "../ui/components/title/title";
 import Navigation from "../ui/navigation/navigation";
 import ArticleBlog from "../ui/articleBlog/articleBlog";
 import blog from "../../data/blog.json";
-import { Layout } from "../ui/components/layout/layout";
+import Layout from "../ui/components/layout/layout";
 
 export const metadata: Metadata = {
   title: "Blog - Priscillia Ammeux",
