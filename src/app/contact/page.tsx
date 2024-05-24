@@ -17,7 +17,7 @@ export default function Contact() {
       <main className="pt-4">
         <Navigation />
         <Title text="Contact" icon={CiMail} />
-        <div className="grid md:grid-cols-4 gap-4 items-center justify-center mx-auto w-full md:w-3/4">
+        <div className="grid md:grid-cols-5 gap-4 items-center justify-center mx-auto w-full md:w-3/4">
           <div className="md:col-span-2 flex flex-col items-center justify-center">
             <img
               src="/illustration-contact.png"
@@ -27,7 +27,7 @@ export default function Contact() {
             />
             <InfoContact />
           </div>
-          <div className="md:col-span-2 flex justify-center">
+          <div className="md:col-span-3 flex justify-center">
             <Form />
           </div>
         </div>

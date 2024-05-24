@@ -17,7 +17,7 @@ export default function FormField({
     ? "appearance-none block w-full border rounded py-4 px-5 mb-3 leading-6 text-lg focus:outline-none bg-white focus:bg-white text-gray-700"
     : "appearance-none block border rounded py-3 px-4 mb-3 leading-tight focus:outline-none bg-white focus:bg-white text-gray-700";
 
-  const containerClass = large ? "w-full" : "w-full md:w-1/2";
+  const containerClass = large ? "w-full" : "w-full md:w-3/4";
 
   return (
     <div className={containerClass + "mb-6 md:mb-0"}>
