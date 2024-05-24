@@ -8,7 +8,7 @@ export default function HomePage() {
   return (
     <>
       <section className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="left-0 top-0 flex h-48 w-full items-end justify-center bg-gradient-to-b dark:from-black dark:via-black to-transparent lg:bg-gradient-to-t lg:from-white lg:via-white lg:dark:from-black lg:dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none flex items-center gap-2">
+        <p className="left-0 top-0 flex h-20 sm:h-48 w-full items-end justify-center bg-gradient-to-b dark:from-black dark:via-black to-transparent lg:bg-gradient-to-t lg:from-white lg:via-white lg:dark:from-black lg:dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none flex items-center gap-2">
           <LiaHandPaper className="text-pink-500 hover:text-pink-700 transition-colors duration-300" />
           Bienvenue !
         </p>

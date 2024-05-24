@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <Layout>
-      <main className="pt-4 sm:px-24">
+      <section className="pt-4 sm:px-24">
         <Navigation />
         <Me />
         <GradesAndKnows />
@@ -25,7 +25,7 @@ export default function About() {
         <WhyMe />
         <Interests />
         <Footer />
-      </main>
+      </section>
     </Layout>
   );
 }

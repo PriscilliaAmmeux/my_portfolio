@@ -15,7 +15,7 @@ export const ThemeSwitcher = () => {
     return null;
   }
   return (
-    <div className="flex items-center justify-end pt-2 pr-2">
+    <div className="flex items-center justify-start pt-2 pl-2">
       <span className="mr-2">Light</span>
       <label
         htmlFor="theme-switch"
