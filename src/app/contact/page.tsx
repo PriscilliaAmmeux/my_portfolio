@@ -17,11 +17,17 @@ export default function Contact() {
       <main className="pt-4">
         <Navigation />
         <Title text="Contact" icon={CiMail} />
-        <div className="grid md:grid-cols-3 gap-4 mx-auto w-full md:w-3/4">
-          <div className="md:col-span-1">
+        <div className="grid md:grid-cols-4 gap-4 items-center justify-center mx-auto w-full md:w-3/4">
+          <div className="md:col-span-2 flex flex-col items-center justify-center">
+            <img
+              src="/illustration-contact.png"
+              alt="Illustration contact"
+              className="mb-2"
+              width={275}
+            />
             <InfoContact />
           </div>
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 flex justify-center">
             <Form />
           </div>
         </div>

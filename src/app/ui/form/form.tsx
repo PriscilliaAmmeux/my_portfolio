@@ -3,6 +3,7 @@
 import Swal from "sweetalert2";
 import FormField from "../components/formfield/formfield";
 import Button from "../components/button/button";
+import { SiMinutemailer } from "react-icons/si";
 
 export default function Form() {
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
@@ -36,9 +37,14 @@ export default function Form() {
 
   return (
     <form
-      className="w-full max-w-2xl p-2 rounded shadow p-2 border-l-2 border-gray-300 md:pl-4"
+      className="w-full max-w-2xl p-2 bg-blue-100 rounded-md"
       onSubmit={handleSubmit}>
-      <h1 className="text-xl font-bold mb-4">Formulaire de contact</h1>
+      <div className="flex items-center justify-center mb-4">
+        <SiMinutemailer size={40} className="text-pink-500" />
+        <h1 className="ml-4 text-blue-800 text-2xl font-semibold">
+          Formulaire de contact
+        </h1>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2">
         <FormField
           id="grid-first-name"

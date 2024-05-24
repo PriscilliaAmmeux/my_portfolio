@@ -1,9 +1,14 @@
 import { FaEnvelope, FaMapMarkerAlt, FaPhone, FaUser } from "react-icons/fa";
+import Card from "../components/card/card";
+import { MdContactPhone } from "react-icons/md";
 
 export default function InfoContact() {
   return (
-    <section className="flex flex-col space-y-2 p-4 border border-gray-300 rounded shadow">
-      <h1 className="text-xl font-bold">Informations de contact</h1>
+    <Card
+      className="w-full sm:w-1/2"
+      Icon={MdContactPhone}
+      title="Informations de contact"
+      color="bg-blue-100">
       <div className="flex flex-col space-y-2">
         <div className="flex items-center space-x-2">
           <FaUser />
@@ -13,15 +18,17 @@ export default function InfoContact() {
           <FaMapMarkerAlt />
           <p>Quesnoy-sur-Deûle</p>
         </div>
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 cursor hover:text-pink-600">
           <FaEnvelope />
-          <p>priscillia.ammeux.pro@gmail.com</p>
+          <a href="mailto:priscillia.ammeux.pro@gmail.com">
+            priscillia.ammeux.pro@gmail.com
+          </a>
         </div>
         <div className="flex items-center space-x-2">
           <FaPhone />
           <p>06.66.92.41.01</p>
         </div>
       </div>
-    </section>
+    </Card>
   );
 }
