@@ -3,7 +3,7 @@ import { inter } from "../../fonts";
 import { ThemeProvider } from "../../themeProvider/themeProvider";
 import { ThemeSwitcher } from "../toggleButton/toggleButton";
 
-export const Layout = ({ children }: { children: React.ReactNode }) => {
+export function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div
       className={`${inter.className} bg-slate-50 bg-pink-100 dark:bg-gray-700 text-gray-700 dark:text-white ${switchThemeDuration}`}>
@@ -13,4 +13,4 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
       </ThemeProvider>
     </div>
   );
-};
+}
