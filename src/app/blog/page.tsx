@@ -8,7 +8,7 @@ import blog from "../../data/blog.json";
 import Layout from "../ui/components/layout/layout";
 
 export const metadata: Metadata = {
-  title: "Blog - Priscillia Ammeux",
+  title: "Blog - Mes articles - Priscillia Ammeux",
 };
 
 export default function Blog() {

@@ -35,24 +35,23 @@ export default function Form() {
   }
 
   return (
-    <form className="w-full max-w-lg" onSubmit={handleSubmit}>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-6">
-        <div>
-          <FormField
-            id="grid-first-name"
-            label="Prénom"
-            type="text"
-            placeholder="Votre prénom"
-          />
-        </div>
-        <div>
-          <FormField
-            id="grid-last-name"
-            label="Nom"
-            type="text"
-            placeholder="Votre nom"
-          />
-        </div>
+    <form
+      className="w-full max-w-2xl p-2 rounded shadow p-2 border-l-2 border-gray-300 md:pl-4"
+      onSubmit={handleSubmit}>
+      <h1 className="text-xl font-bold mb-4">Formulaire de contact</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2">
+        <FormField
+          id="grid-first-name"
+          label="Prénom"
+          type="text"
+          placeholder="Votre prénom"
+        />
+        <FormField
+          id="grid-last-name"
+          label="Nom"
+          type="text"
+          placeholder="Votre nom"
+        />
         <div className="md:col-span-full">
           <FormField
             id="grid-email"
