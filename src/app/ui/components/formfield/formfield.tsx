@@ -23,7 +23,7 @@ export default function FormField({
   return (
     <div className={containerClass + "mb-6 md:mb-0"}>
       <label
-        className="block uppercase tracking-wide text-white text-xs font-bold mb-2 w-full"
+        className="block uppercase tracking-wide text-xs font-bold mb-2 w-full"
         htmlFor={id}>
         {label}
       </label>
