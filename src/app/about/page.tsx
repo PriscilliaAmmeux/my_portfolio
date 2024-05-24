@@ -7,7 +7,7 @@ import ValuesAndObjectives from "../ui/valuesAndObjectives/valuesAndObjectives";
 import GradesAndKnows from "../ui/gradesAndKnows/gradesAndKnows";
 import Interests from "../ui/interests/interests";
 import Navigation from "../ui/navigation/navigation";
-import { Layout } from "../ui/components/layout/layout";
+import { Layout } from "../ui/components/layoutPage/layout";
 
 export const metadata: Metadata = {
   title: "À propos de moi - Priscillia Ammeux",

@@ -1,4 +1,4 @@
-import { Layout } from "./ui/components/layout/layout";
+import { LayoutPage } from "./ui/components/layoutPage/layout";
 import HomePage from "./ui/homePage/homePage";
 
 export const metadata = {
@@ -8,10 +8,10 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <Layout>
+    <LayoutPage>
       <main className="flex min-h-screen flex-col items-center justify-between sm:px-24 sm:py-20 space-y-10">
         <HomePage />
       </main>
-    </Layout>
+    </LayoutPage>
   );
 }
