@@ -7,6 +7,7 @@ import ValuesAndObjectives from "../ui/valuesAndObjectives/valuesAndObjectives";
 import GradesAndKnows from "../ui/gradesAndKnows/gradesAndKnows";
 import Interests from "../ui/interests/interests";
 import Navigation from "../ui/navigation/navigation";
+import { Layout } from "../ui/components/layout/layout";
 
 export const metadata: Metadata = {
   title: "À propos de moi - Priscillia Ammeux",
@@ -14,15 +15,17 @@ export const metadata: Metadata = {
 
 export default function About() {
   return (
-    <main className="bg-gray-800 pt-4 sm:px-24">
-      <Navigation />
-      <Me />
-      <GradesAndKnows />
-      <Carreer />
-      <ValuesAndObjectives />
-      <WhyMe />
-      <Interests />
-      <Footer />
-    </main>
+    <Layout>
+      <main className="pt-4 sm:px-24">
+        <Navigation />
+        <Me />
+        <GradesAndKnows />
+        <Carreer />
+        <ValuesAndObjectives />
+        <WhyMe />
+        <Interests />
+        <Footer />
+      </main>
+    </Layout>
   );
 }
