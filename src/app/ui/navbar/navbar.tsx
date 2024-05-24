@@ -25,8 +25,7 @@ export default function Navbar({ showParagraph }: { showParagraph: boolean }) {
       </NavLink>
       <NavLink href="/blog" title="Mon blog">
         {showParagraph && (
-          <p
-            className={`m-0 max-w-[30ch] text-sm opacity-50 hover:text-gray-800`}>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             Mes articles vous attendent dans ma section "Blog". Ici, je partage
             mon histoire au sujet de ma reconversion, d'autres articles sont à
             venir. Restez connecté pour ne rien manquer !
