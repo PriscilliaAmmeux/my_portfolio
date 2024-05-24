@@ -5,7 +5,7 @@ import Title from "../ui/components/title/title";
 import Navigation from "../ui/navigation/navigation";
 import { MdComputer } from "react-icons/md";
 import { Metadata } from "next";
-import { Layout } from "../ui/components/layoutPage/layout";
+import { Layout } from "../ui/components/layout/layout";
 
 export const metadata: Metadata = {
   title: "Mes projets - Priscillia Ammeux",
