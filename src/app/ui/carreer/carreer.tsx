@@ -25,10 +25,10 @@ export default function Carreer() {
     tasks.map((task, taskIndex) => <li key={taskIndex}>{task}</li>);
 
   return (
-    <section className="mt-8 pt-6 bg-gray-800 text-white w-full p-6 shadow-lg">
+    <section className="mt-8 pt-6 w-full p-6">
       <div className="flex items-center justify-center mb-4">
         <MdWork size={40} className={styles.colorFirst} />{" "}
-        <h1 className="ml-4 text-white text-2xl font-semibold ">
+        <h1 className="ml-4 text-2xl font-semibold ">
           Mon parcours professionnel
         </h1>
       </div>

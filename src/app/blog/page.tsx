@@ -5,6 +5,7 @@ import Title from "../ui/components/title/title";
 import Navigation from "../ui/navigation/navigation";
 import ArticleBlog from "../ui/articleBlog/articleBlog";
 import blog from "../../data/blog.json";
+import Layout from "../ui/components/layout/layout";
 
 export const metadata: Metadata = {
   title: "Blog - Priscillia Ammeux",
@@ -12,23 +13,25 @@ export const metadata: Metadata = {
 
 export default function Blog() {
   return (
-    <main className="bg-gray-800 pt-4">
-      <Navigation />
-      <Title text="Blog" icon={FaPenFancy} />
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-4 container mx-auto mx-4 justify-items-stretch">
-        {blog.map((article) => (
-          <ArticleBlog
-            id={article.id}
-            key={article.id}
-            img={article.img}
-            title={article.title}
-            subtitle={article.subtitle}
-            date={article.date}
-            sections={article.sections}
-          />
-        ))}
-      </section>
-      <Footer />
-    </main>
+    <Layout>
+      <main className="pt-4">
+        <Navigation />
+        <Title text="Blog" icon={FaPenFancy} />
+        <section className="grid grid-cols-1 md:grid-cols-3 gap-4 container mx-auto mx-4 justify-items-stretch">
+          {blog.map((article) => (
+            <ArticleBlog
+              id={article.id}
+              key={article.id}
+              img={article.img}
+              title={article.title}
+              subtitle={article.subtitle}
+              date={article.date}
+              sections={article.sections}
+            />
+          ))}
+        </section>
+        <Footer />
+      </main>
+    </Layout>
   );
 }

@@ -4,7 +4,7 @@ import Title from "../components/title/title";
 
 export default function Me() {
   return (
-    <section className="flex flex-col sm:flex-row items-center justify-center mb-4 bg-gray-800 text-white pt-4 mx-auto px-4 sm:px-8">
+    <section className="flex flex-col sm:flex-row items-center justify-center mb-4 pt-4 mx-auto px-4 sm:px-8">
       <Title text="Qui suis je ?" icon={GiLadybug} />
       <Image
         className="ml-8 mr-4"
@@ -14,7 +14,7 @@ export default function Me() {
         height={150}
         priority
       />
-      <div className="text-white ml-5 mt-4 sm:mt-0">
+      <div className="ml-5 mt-4 sm:mt-0">
         <p className="mb-2">
           Je m'appelle Priscillia, une exploratrice passionnée du monde du
           développement web.

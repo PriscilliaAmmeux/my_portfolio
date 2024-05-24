@@ -14,7 +14,7 @@ export default function NavLink({
   return (
     <Link
       href={href}
-      className={`group rounded-lg border border-transparent px-2 py-2 transition-colors hover:border-pink-500 hover:bg-gray-100 hover:text-pink-200 hover:pink:border-neutral-700 hover:dark:bg-neutral-800/30 ${className}`}
+      className={`group rounded-lg border border-transparent px-2 py-2 transition-colors hover:border-pink-500 hover:bg-pink-200 hover:text-black dark:hover:text-pink-200 hover:pink:border-neutral-700 dark:hover:bg-neutral-800/30 ${className}`}
       target="_self"
       rel="noopener noreferrer">
       <div>

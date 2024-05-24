@@ -14,9 +14,9 @@ const cardContent = [
 
 export default function WhyMe() {
   return (
-    <article className="bg-gray-800 mt-4 text-white p-6">
+    <article className="mt-4 p-6">
       <Title text="Pourquoi me choisir ?" icon={FaHandPointRight} />
-      <ul className="text-gray-200 flex flex-col space-y-4 font-medium">
+      <ul className="flex flex-col space-y-4 font-medium">
         {cardContent.map((content, index) => (
           <ItemList
             key={index}
