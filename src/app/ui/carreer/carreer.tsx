@@ -1,7 +1,7 @@
 import { MdWork } from "react-icons/md";
 import styles from "../../styles/variables.module.css";
 import jobs from "../../../data/jobs.json";
-import ImageList from "../components/imageList/imageList";
+import ImageList from "../../components/imageList/imageList";
 
 const images = [
   {

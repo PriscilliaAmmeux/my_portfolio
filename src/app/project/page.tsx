@@ -1,11 +1,11 @@
-import Footer from "../ui/components/footer/footer";
-import ProjectCard from "../ui/components/projectCard/projectCard";
+import Footer from "../components/footer/footer";
+import ProjectCard from "../components/projectCard/projectCard";
 import projects from "../../data/projects.json";
-import Title from "../ui/components/title/title";
+import Title from "../components/title/title";
 import Navigation from "../ui/navigation/navigation";
 import { MdComputer } from "react-icons/md";
 import { Metadata } from "next";
-import Layout from "../ui/components/layout/layout";
+import Layout from "../components/layout/layout";
 
 export const metadata: Metadata = {
   title: "Mes projets - Priscillia Ammeux",

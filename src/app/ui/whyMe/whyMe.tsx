@@ -1,7 +1,7 @@
 import { FaHandPointRight } from "react-icons/fa";
 import { FcOk } from "react-icons/fc";
-import Title from "../components/title/title";
-import ItemList from "../components/itemList/itemList";
+import Title from "../../components/title/title";
+import ItemList from "../../components/itemList/itemList";
 
 const cardContent = [
   "Ma motivation sans faille, mon dynamisme et ma positivité sont des atouts que je mets au service de chaque projet.",

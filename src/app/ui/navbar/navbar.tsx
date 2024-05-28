@@ -1,4 +1,4 @@
-import NavLink from "../components/navlink/navlink";
+import NavLink from "../../components/navlink/navlink";
 
 export default function Navbar({ showParagraph }: { showParagraph: boolean }) {
   return (

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
 import { LiaHandPaper } from "react-icons/lia";
-import Footer from "../components/footer/footer";
+import Footer from "../../components/footer/footer";
 import Navbar from "../navbar/navbar";
 
 export default function HomePage() {

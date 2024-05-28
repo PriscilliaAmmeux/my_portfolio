@@ -1,4 +1,4 @@
-import styles from "../../../styles/variables.module.css";
+import styles from "../../styles/variables.module.css";
 import { ReactNode } from "react";
 
 interface IconProps extends React.SVGProps<SVGSVGElement> {

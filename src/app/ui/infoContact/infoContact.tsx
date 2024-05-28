@@ -1,5 +1,5 @@
 import { FaEnvelope, FaMapMarkerAlt, FaPhone, FaUser } from "react-icons/fa";
-import Card from "../components/card/card";
+import Card from "../../components/card/card";
 import { MdContactPhone } from "react-icons/md";
 
 export default function InfoContact() {

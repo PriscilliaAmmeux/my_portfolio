@@ -1,6 +1,6 @@
 import { GiLadybug } from "react-icons/gi";
 import Image from "next/image";
-import Title from "../components/title/title";
+import Title from "../../components/title/title";
 
 export default function Me() {
   return (

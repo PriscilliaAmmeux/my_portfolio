@@ -1,6 +1,6 @@
 import { switchThemeDuration } from "@/app/constants/switchThemeDuration";
-import { inter } from "../../fonts";
-import { ThemeProvider } from "../../themeProvider/themeProvider";
+import { inter } from "../../ui/fonts";
+import { ThemeProvider } from "../../ui/themeProvider/themeProvider";
 import { ThemeSwitcher } from "../toggleButton/toggleButton";
 
 export default function Layout({ children }: { children: React.ReactNode }) {

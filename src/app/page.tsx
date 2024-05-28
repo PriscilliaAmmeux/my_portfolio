@@ -1,4 +1,4 @@
-import Layout from "./ui/components/layout/layout";
+import Layout from "./components/layout/layout";
 import HomePage from "./ui/homePage/homePage";
 
 export const metadata = {
