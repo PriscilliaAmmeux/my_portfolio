@@ -25,10 +25,9 @@ export default function Contact() {
               className="mb-2"
               width={275}
             />
-            <InfoContact />
           </div>
           <div className="md:col-span-3 flex justify-center">
-            <Form />
+            <InfoContact />
           </div>
         </div>
         <Footer />

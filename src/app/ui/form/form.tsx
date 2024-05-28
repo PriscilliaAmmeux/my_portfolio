@@ -3,11 +3,11 @@
 import { z } from "zod";
 import Button from "../../components/button/button";
 import { SiMinutemailer } from "react-icons/si";
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import axios from "axios";
-import { FiMail, FiPhone, FiUser } from "react-icons/fi";
+import { FiMail, FiPhone, FiUser, FiFileText } from "react-icons/fi";
 
 const formSchema = z.object({
   nameSurname: z.string().min(1, { message: "Prénom et Nom obligatoire" }),
@@ -20,6 +20,7 @@ const formSchema = z.object({
     .regex(/^\+33[67]\d{8}$/, {
       message: "Téléphone invalide, le format doit être +33[6 ou 7]xxxxxxxxx",
     }),
+  subject: z.string().min(1, { message: "Objet obligatoire" }),
   message: z
     .string()
     .min(10, { message: "Message must be at least 10 characters" })
@@ -38,12 +39,6 @@ export default function Form() {
     formState: { errors, isSubmitting, isSubmitSuccessful },
   } = useForm<FormData>({
     resolver: zodResolver(formSchema),
-    defaultValues: {
-      nameSurname: "",
-      email: "",
-      phone: "+33612345678",
-      message: "",
-    },
   });
 
   const processForm = async (data: FormData) => {
@@ -59,7 +54,7 @@ export default function Form() {
       const response = await axios(config);
       if (response.status === 200) {
         setResult(
-          "Your message has been sent. Thank you for contacting us. We will get back to you as soon as possible."
+          "Votre message a bien été envoyé. Je vous recontacterai dans les plus brefs délais. Merci 🐞"
         );
         setResultColor("text-green-500");
         reset();
@@ -80,7 +75,7 @@ export default function Form() {
           Formulaire de contact
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div>
         <div className="relative mb-4">
           {errors.nameSurname?.message ? (
             <FiUser className="w-6 h-6 absolute top-1/2 -translate-y-1/2 left-2 border-r pr-2 text-red-500" />
@@ -136,13 +131,35 @@ export default function Form() {
           ${errors.phone?.message && "shadow-[0_0_0_2px] shadow-red-500"}
           `}
             type="tel"
-            placeholder="Phone"
+            placeholder="Numéro de téléphone exemple: +33612345678"
             {...register("phone")}
           />
         </div>
         {errors.phone?.message && (
           <div className="text-red-500 text-xs mt-1">
             {errors.phone?.message}
+          </div>
+        )}
+      </div>
+      <div className="mb-4">
+        <div className="relative">
+          {errors.subject?.message ? (
+            <FiFileText className="w-6 h-6 text-red-500 absolute top-1/2 -translate-y-1/2 left-2 border-r pr-2" />
+          ) : (
+            <FiFileText className="w-6 h-6 absolute top-1/2 -translate-y-1/2 left-2 border-r pr-2" />
+          )}
+          <input
+            className={`shadow appearance-none outline-none border rounded w-full py-2 pl-10 leading-tight duration-300
+    ${errors.subject?.message && "shadow-[0_0_0_2px] shadow-red-500"}
+    `}
+            type="text"
+            placeholder="Sujet de votre demande"
+            {...register("subject")}
+          />
+        </div>
+        {errors.subject?.message && (
+          <div className="text-red-500 text-xs mt-1">
+            {errors.subject?.message}
           </div>
         )}
       </div>
