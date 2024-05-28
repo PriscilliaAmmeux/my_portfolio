@@ -1,11 +1,10 @@
 import { Metadata } from "next";
 import { CiMail } from "react-icons/ci";
-import Footer from "../components/footer/footer";
 import Title from "../components/title/title";
 import Navigation from "../ui/navigation/navigation";
 import Layout from "../components/layout/layout";
-import Form from "../ui/form/form";
 import InfoContact from "../ui/infoContact/infoContact";
+import Footer from "../components/footer/footer";
 
 export const metadata: Metadata = {
   title: "Me Contacter - Priscillia Ammeux",
@@ -30,8 +29,10 @@ export default function Contact() {
             <InfoContact />
           </div>
         </div>
-        <Footer />
       </main>
+      <span className="fixed inset-x-0 bottom-0">
+        <Footer />
+      </span>
     </Layout>
   );
 }

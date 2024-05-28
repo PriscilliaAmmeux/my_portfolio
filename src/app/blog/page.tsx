@@ -30,8 +30,10 @@ export default function Blog() {
             />
           ))}
         </section>
-        <Footer />
       </main>
+      <span className="fixed inset-x-0 bottom-0">
+        <Footer />
+      </span>
     </Layout>
   );
 }
