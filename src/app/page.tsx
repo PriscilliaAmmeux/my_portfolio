@@ -1,5 +1,6 @@
 import Layout from "./components/layout/layout";
 import HomePage from "./ui/homePage/homePage";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Darkmode with Next.js and TailwindCSS",
