@@ -1,8 +1,8 @@
 import { GiDirectionSigns } from "react-icons/gi";
 import { GoRocket } from "react-icons/go";
 import { AiOutlinePlus } from "react-icons/ai";
-import Card from "../components/card/card";
-import ItemList from "../components/itemList/itemList";
+import Card from "../../components/card/card";
+import ItemList from "../../components/itemList/itemList";
 
 const objectives = [
   "Évolution",

@@ -1,13 +1,13 @@
 import { Metadata } from "next";
 import { CiMail } from "react-icons/ci";
-import Footer from "../ui/components/footer/footer";
-import Title from "../ui/components/title/title";
-import Form from "../ui/form/form";
+import Title from "../components/title/title";
 import Navigation from "../ui/navigation/navigation";
-import  Layout from "../ui/components/layout/layout";
+import Layout from "../components/layout/layout";
+import InfoContact from "../ui/infoContact/infoContact";
+import Footer from "../components/footer/footer";
 
 export const metadata: Metadata = {
-  title: "Contact - Priscillia Ammeux",
+  title: "Me Contacter - Priscillia Ammeux",
 };
 
 export default function Contact() {
@@ -16,9 +16,23 @@ export default function Contact() {
       <main className="pt-4">
         <Navigation />
         <Title text="Contact" icon={CiMail} />
-        <Form />
-        <Footer />
+        <div className="grid md:grid-cols-5 gap-4 items-center justify-center mx-auto w-full md:w-3/4">
+          <div className="md:col-span-2 flex flex-col items-center justify-center">
+            <img
+              src="/illustration-contact.png"
+              alt="Illustration contact"
+              className="mb-2"
+              width={275}
+            />
+          </div>
+          <div className="md:col-span-3 flex justify-center">
+            <InfoContact />
+          </div>
+        </div>
       </main>
+      <span className="fixed inset-x-0 bottom-0">
+        <Footer />
+      </span>
     </Layout>
   );
 }

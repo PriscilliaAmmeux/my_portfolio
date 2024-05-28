@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Button from "../components/button/button";
-import { Modal } from "../components/modal/modal";
+import Button from "../../components/button/button";
+import { Modal } from "../../components/modal/modal";
 
 interface ArticleProps {
   id: number;
@@ -37,7 +37,6 @@ export default function ArticleBlog({
           type="button"
           text="Cliquez pour lire en entier"
           onClick={() => {
-            console.log("button clicked");
             setIsModalOpen(true);
           }}
         />

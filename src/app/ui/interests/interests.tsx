@@ -4,7 +4,7 @@ import { MdOutlineFestival } from "react-icons/md";
 import { RiTeamLine } from "react-icons/ri";
 import { BsArrowRight } from "react-icons/bs";
 import { FaHeart } from "react-icons/fa";
-import ImageList from "../components/imageList/imageList";
+import ImageList from "../../components/imageList/imageList";
 
 const images = [
   {

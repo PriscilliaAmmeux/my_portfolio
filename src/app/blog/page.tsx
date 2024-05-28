@@ -1,14 +1,14 @@
 import { Metadata } from "next";
 import { FaPenFancy } from "react-icons/fa";
-import Footer from "../ui/components/footer/footer";
-import Title from "../ui/components/title/title";
+import Footer from "../components/footer/footer";
+import Title from "../components/title/title";
 import Navigation from "../ui/navigation/navigation";
 import ArticleBlog from "../ui/articleBlog/articleBlog";
 import blog from "../../data/blog.json";
-import Layout from "../ui/components/layout/layout";
+import Layout from "../components/layout/layout";
 
 export const metadata: Metadata = {
-  title: "Blog - Priscillia Ammeux",
+  title: "Blog - Mes articles - Priscillia Ammeux",
 };
 
 export default function Blog() {
@@ -30,8 +30,10 @@ export default function Blog() {
             />
           ))}
         </section>
-        <Footer />
       </main>
+      <span className="fixed inset-x-0 bottom-0">
+        <Footer />
+      </span>
     </Layout>
   );
 }

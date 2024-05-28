@@ -1,4 +1,4 @@
-import styles from "../../../styles/variables.module.css";
+import styles from "../../styles/variables.module.css";
 
 type TitleProps = {
   text: string;
