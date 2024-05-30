@@ -24,14 +24,12 @@ export default function ArticleBlog({
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <article className="rounded overflow-hidden shadow-lg bg-white mt-4 ">
-      <div className="cursor-pointer">
-        <img className="w-full" src={img} alt={"image de l'article"} />
-        <h1 className="text-blue-800 font-bold text-xl mt-4 text-center">
-          {title}
-        </h1>
-        <h2 className="text-blue-700 text-base text-center">{subtitle}</h2>
-        <p className="text-gray-700 text-base ml-2 text-center mr-2">{date}</p>
-      </div>
+      <img className="w-full" src={img} alt={"image de l'article"} />
+      <h1 className="text-blue-800 font-bold text-xl mt-4 text-center">
+        {title}
+      </h1>
+      <h2 className="text-blue-700 text-base text-center">{subtitle}</h2>
+      <p className="text-gray-700 text-base ml-2 text-center mr-2">{date}</p>
       <span className="flex justify-center mb-4 mt-2">
         <Button
           type="button"
