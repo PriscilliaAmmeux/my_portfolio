@@ -40,6 +40,7 @@ export default function Navbar({ showParagraph }: { showParagraph: boolean }) {
           </p>
         )}
       </NavLink>
+      
       <NavLink href="/CV_Priscillia_Ammeux.pdf" title="Télécharger mon CV" />
     </div>
   );
