@@ -19,7 +19,7 @@ export default function NavLink({
       rel="noopener noreferrer">
       <div>
         <h1
-          className={`ml-4 mb-3 text-xl text-pink-500 font-semibold hover:text-pink-500`}>
+          className={`mb-3 text-xl text-pink-500 font-semibold hover:text-pink-500`}>
           {title}{" "}
           <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
             -&gt;
