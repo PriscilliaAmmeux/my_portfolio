@@ -2,7 +2,7 @@ import NavLink from "../../components/navlink/navlink";
 
 export default function Navbar({ showParagraph }: { showParagraph: boolean }) {
   return (
-    <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-5 lg:text-left">
+    <div className="mb-32 grid text-center lg:max-w-6xl lg:w-full lg:mb-0 lg:grid-cols-6 lg:text-left">
       <NavLink href="/" title="Accueil" />
       <NavLink href="/about" title="Moi">
         {showParagraph && (
@@ -40,6 +40,7 @@ export default function Navbar({ showParagraph }: { showParagraph: boolean }) {
           </p>
         )}
       </NavLink>
+      <NavLink href="/CV_Priscillia_Ammeux.pdf" title="Télécharger mon CV" />
     </div>
   );
 }

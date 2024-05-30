@@ -16,7 +16,7 @@ export default function InfoContact() {
         </div>
         <div className="flex items-center space-x-2">
           <FaMapMarkerAlt />
-          <p>Quesnoy-sur-Deûle</p>
+          <p>Lille</p>
         </div>
         <div className="flex items-center space-x-2 cursor hover:text-pink-600">
           <FaEnvelope />
