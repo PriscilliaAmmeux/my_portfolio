@@ -19,7 +19,7 @@ export const ThemeSwitcher = () => {
       <span className="mr-2">Light</span>
       <label
         htmlFor="theme-switch"
-        className={`w-fit p-2 rounded-md hover:scale-110 active:scale-100 duration-200 bg-slate-200 dark:bg-[#212933] cursor-pointer`}
+        className={`w-fit p-2 rounded-md hover:scale-110 active:scale-100 duration-200 bg-slate-200 dark:bg-[#d4dfee] cursor-pointer`}
         title="Switch between light and dark mode">
         <div className="relative">
           <input
