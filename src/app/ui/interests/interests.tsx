@@ -66,7 +66,7 @@ export default function Interests() {
           <p>
             Organisation d'événements tels que Halloween, concours de la plus
             jolie maison décorée à Noël, chasse aux œufs de Pâques, fête des
-            voisins
+            voisins.
           </p>
         </section>
         <section className="ml-4 mb-4 text-gray-700">
@@ -75,13 +75,13 @@ export default function Interests() {
             <BsArrowRight />
             <p className="font-bold ml-2">
               Secrétaire bénévole dans un syndicat de copropriété d'un
-              lotissement de 64 lots (Résidence Olympiade à Quesnoy sur Deule)
+              lotissement de 64 lots (Résidence Olympiade à Quesnoy sur Deule).
             </p>
           </div>
           <p>
             Gestion de la copropriété, entretien des espaces verts,
             comptabilité, assurance, coordination avec la mairie sur divers
-            sujets concernant l'entretien de la voirie et des espaces verts
+            sujets concernant l'entretien de la voirie et des espaces verts.
           </p>
         </section>
       </section>
@@ -95,7 +95,7 @@ export default function Interests() {
         </div>
         <p>
           Participation à des marches de 5 à 6 kms le mardi soir, de 7 à 8 km le
-          vendredi soir et de 10 à 15 km le dimanche matin
+          vendredi soir et de 10 à 15 km le dimanche matin.
         </p>
       </section>
       <section className="mb-4 text-gray-700">
@@ -105,18 +105,18 @@ export default function Interests() {
         </div>
         <p>
           Randonnées en famille le dimanche après-midi, de 5 à 10 km, dans la
-          région des Hauts de France et en Belgique
+          région des Hauts de France et en Belgique.
         </p>
       </section>
       <section className="mb-4 text-gray-700">
         <div className="flex items-center">
           <FaPaintBrush />
           <p className="font-bold ml-2">
-            Activités manuelles avec mes enfants{" "}
+            Activités manuelles avec mes enfants
           </p>{" "}
         </div>
         <p>
-          Page Instagram{" "}
+          Page Instagram
           <a
             href="https://www.instagram.com/se_salir_les_doigts?igsh=MWc2emg1MDZhNzNhbw=="
             target="_blank"
@@ -124,7 +124,7 @@ export default function Interests() {
             className="text-blue-500 hover:underline">
             "Se salir les doigts"
           </a>{" "}
-          depuis mars 2022
+          depuis mars 2022.
         </p>
       </section>
       <section className="mb-4 text-gray-700">
@@ -134,7 +134,7 @@ export default function Interests() {
         </div>
         <p>
           J'apprécie écrire et communiquer, que ce soit dans un contexte
-          professionnel ou personnel
+          professionnel ou personnel.
         </p>
       </section>
     </article>
