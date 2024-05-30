@@ -23,6 +23,7 @@ export default function Burger() {
         <NavLink href="/" title="Accueil" />
         <NavLink href="/about" title="Moi" />
         <NavLink href="/project" title="Mes projets" />
+        <NavLink href="/prestations" title="Prestations" />
         <NavLink href="/blog" title="Mon blog" />
         <NavLink href="/contact" title="Contact" />
         <NavLink href="/CV_Priscillia_Ammeux.pdf" title="Télécharger mon CV" />
