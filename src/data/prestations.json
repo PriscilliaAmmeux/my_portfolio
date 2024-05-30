@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Site Vitrine WordPress 1 Page",
-    "price": "999 € HT",
+    "price": "850 € HT (promotion jusqu'au 30/06/2024 au lieu de 999 € HT),",
     "description": "Votre vitrine en ligne clé en main.",
     "presentation": [
       {
@@ -33,8 +33,8 @@
   {
     "id": 2,
     "title": "Site Vitrine Personnalisé",
-    "price": "1299 € HT",
-    "description": "Site vitrine personnalisé en Next.js pour des performances optimales, reflétant fidèlement votre image de marque après analyse approfondie de vos besoins.",
+    "price": "1150 € HT (promotion jusqu'au 30/06/2024 au lieu de 1299 € HT)",
+    "description": "Site vitrine personnalisé (max 3 pages dont le formulaire de contact) en Next.js pour des performances optimales, reflétant fidèlement votre image de marque après analyse approfondie de vos besoins.",
     "presentation": [
       {
         "content": "Accompagnement personnalisé dans l'analyse de vos besoins,"
@@ -70,8 +70,8 @@
   {
     "id": 3,
     "title": "Site E-Commerce Personnalisé",
-    "price": "1699 € HT",
-    "description": "Site e-commerce personnalisé développé avec Next.js pour une expérience d'achat optimale, répondant parfaitement à vos besoins commerciaux après une analyse approfondie.",
+    "price": "1499 € HT (promotion jusqu'au 30/06/2024 au lieu de 1699 € HT)",
+    "description": "Site e-commerce personnalisé (max 5 pages incluant le formulaire de contact, la page compte client et le panier) développé avec Next.js pour une expérience d'achat optimale, répondant parfaitement à vos besoins commerciaux après une analyse approfondie.",
     "presentation": [
       {
         "content": "Accompagnement personnalisé dans l'analyse de vos besoins commerciaux,"
