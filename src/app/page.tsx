@@ -14,6 +14,7 @@ export default function Home() {
       <main className="flex min-h-screen flex-col items-center justify-between sm:px-24 sm:py-20 space-y-10">
         <HomePage />
       </main>
+      <Analytics />
     </Layout>
   );
 }
