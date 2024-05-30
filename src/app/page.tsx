@@ -3,8 +3,9 @@ import HomePage from "./ui/homePage/homePage";
 import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
-  title: "Darkmode with Next.js and TailwindCSS",
-  description: "My portfolio showcase dark mode with Next.js and TailwindCSS",
+  title: "Priscillia Ammeux - Conceptrice et Développeuse d'Applications",
+  description:
+    "Découvrez mon portfolio et mes services de développement freelance, alliant expertise technique et créativité pour réaliser vos projets digitaux.",
 };
 
 export default function Home() {
