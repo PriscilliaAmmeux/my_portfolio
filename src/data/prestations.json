@@ -3,27 +3,27 @@
     "id": 1,
     "title": "Site Vitrine WordPress 1 Page",
     "price": "999 € HT",
-    "description": "Votre vitrine en ligne clé en main : site WordPress ",
+    "description": "Votre vitrine en ligne clé en main.",
     "presentation": [
       {
-        "content": "Accompagnement personnalisé dans la réflexion et l'analyse de vos besoins"
+        "content": "Accompagnement personnalisé dans la réflexion et l'analyse de vos besoins,"
       },
-      { "content": "Hébergement et nom de domaine inclus pendant 1 an" },
-      { "content": "Incorporation fluide de vos contenus au sein de la page" },
-      { "content": "Intégration d'un formulaire de contact" },
+      { "content": "Hébergement et nom de domaine inclus pendant 1 an," },
+      { "content": "Incorporation fluide de vos contenus au sein de la page," },
+      { "content": "Intégration d'un formulaire de contact," },
       {
-        "content": "Optimisation mobile pour une expérience utilisateur optimale"
+        "content": "Optimisation mobile pour une expérience utilisateur optimale,"
       },
-      { "content": "Optimisation SEO pour une meilleure visibilité" },
-      { "content": "Sécurisation de votre site" },
-      { "content": "Formation à l'administration de votre site" }
+      { "content": "Optimisation SEO pour une meilleure visibilité," },
+      { "content": "Sécurisation de votre site," },
+      { "content": "Formation à l'administration de votre site." }
     ],
     "avantages": [
       {
-        "content": "Gain de temps et d'argent : une solution économique et rapide pour être en ligne rapidement."
+        "content": "Gain de temps et d'argent : une solution économique et rapide pour être en ligne rapidement,"
       },
       {
-        "content": "Efficacité : Une seule page où l'essentiel de vos informations est regroupé."
+        "content": "Efficacité : Une seule page où l'essentiel de vos informations est regroupé,"
       },
       {
         "content": "Facilité d'utilisation : Un site simple et intuitif pour vos visiteurs."
@@ -37,31 +37,33 @@
     "description": "Site vitrine personnalisé en Next.js pour des performances optimales, reflétant fidèlement votre image de marque après analyse approfondie de vos besoins.",
     "presentation": [
       {
-        "content": "Accompagnement personnalisé dans l'analyse de vos besoins"
+        "content": "Accompagnement personnalisé dans l'analyse de vos besoins,"
       },
-      { "content": "Hébergement et nom de domaine inclus 1 an" },
+      { "content": "Hébergement et nom de domaine inclus 1 an," },
       {
-        "content": "Création d'un site vitrine personnalisé avec Next.js"
+        "content": "Création d'un site vitrine personnalisé avec Next.js,"
       },
-      { "content": "Incorporation fluide de vos contenus" },
-      { "content": "Intégration d'un formulaire de contact" },
-      { "content": "Optimisation mobile et SEO" },
-      { "content": "Sécurisation avancée du site" },
-      { "content": "Formation à l'administration du site" },
-      { "content": "Espace administrateur pour gestion autonome des contenus" }
+      { "content": "Incorporation fluide de vos contenus," },
+      { "content": "Intégration d'un formulaire de contact," },
+      { "content": "Optimisation mobile et SEO," },
+      { "content": "Sécurisation avancée du site," },
+      {
+        "content": "Espace administrateur pour gestion autonome des contenus,"
+      },
+      { "content": "Formation à l'administration du site." }
     ],
     "avantages": [
       {
-        "content": "Solution sur mesure selon vos besoins"
+        "content": "Solution sur mesure selon vos besoins,"
       },
       {
-        "content": "Technologie avancée en Next.js"
+        "content": "Technologie avancée en Next.js,"
       },
       {
-        "content": "Gestion simplifiée avec un espace admin intuitif"
+        "content": "Gestion simplifiée avec un espace admin intuitif,"
       },
       {
-        "content": "Visibilité optimisée grâce au SEO avancé"
+        "content": "Visibilité optimisée grâce au SEO avancé."
       }
     ]
   },
@@ -72,37 +74,34 @@
     "description": "Site e-commerce personnalisé développé avec Next.js pour une expérience d'achat optimale, répondant parfaitement à vos besoins commerciaux après une analyse approfondie.",
     "presentation": [
       {
-        "content": "Accompagnement personnalisé dans l'analyse de vos besoins commerciaux"
+        "content": "Accompagnement personnalisé dans l'analyse de vos besoins commerciaux,"
       },
-      { "content": "Hébergement et nom de domaine inclus 1 an" },
+      { "content": "Hébergement et nom de domaine inclus 1 an," },
       {
-        "content": "Création d'un site e-commerce personnalisé avec Next.js"
-      },
-      {
-        "content": "Incorporation fluide de vos produits et contenus"
+        "content": "Incorporation fluide de vos produits et contenus,"
       },
       {
-        "content": "Intégration d'un système de gestion des paiements sécurisé"
+        "content": "Intégration d'un système de gestion des paiements sécurisé,"
       },
-      { "content": "Optimisation mobile et SEO" },
-      { "content": "Sécurisation avancée du site" },
-      { "content": "Formation à l'administration du site" },
+      { "content": "Optimisation mobile et SEO," },
+      { "content": "Sécurisation avancée du site," },
       {
-        "content": "Espace administrateur complet pour une gestion aisée des produits, commandes et clients"
-      }
+        "content": "Espace administrateur complet pour une gestion aisée des produits, commandes et clients,"
+      },
+      { "content": "Formation à l'administration du site." }
     ],
     "avantages": [
       {
-        "content": "Solution sur mesure selon vos besoins"
+        "content": "Solution sur mesure selon vos besoins,"
       },
       {
-        "content": "Technologie avancée en Next.js pour une performance optimale"
+        "content": "Technologie avancée en Next.js,"
       },
       {
-        "content": "Gestion simplifiée avec un espace admin intuitif"
+        "content": "Gestion simplifiée avec un espace admin intuitif,"
       },
       {
-        "content": "Visibilité optimisée grâce au SEO avancé"
+        "content": "Visibilité optimisée grâce au SEO avancé."
       }
     ]
   },
@@ -110,13 +109,24 @@
     "id": 4,
     "title": "Site sur Mesure",
     "price": "Sur devis",
-    "description": "Création de sites web entièrement personnalisés, adaptés à vos besoins spécifiques. Chaque projet est unique et réalisé sur mesure pour répondre parfaitement à vos attentes et objectifs."
+    "description": "Création de sites web entièrement personnalisés, adaptés à vos besoins spécifiques."
   },
   {
     "id": 5,
     "title": "Refonte de Site Web",
     "price": "Sur devis",
-    "description": "Amélioration et modernisation de votre site web existant. Analyse de l'interface utilisateur, optimisation des performances, mise à jour du design et des fonctionnalités pour un site plus attractif et efficace."
+    "description": "Amélioration et modernisation de votre site web existant. ",
+    "presentation": [
+      {
+        "content": " Analyse de l'interface utilisateur,"
+      },
+      {
+        "content": "Optimisation des performances,"
+      },
+      {
+        "content": "Mise à jour du design et des fonctionnalités pour un site plus attractif et efficace."
+      }
+    ]
   },
   {
     "id": 6,
@@ -125,19 +135,19 @@
     "description": "Maintenez à jour votre site web pour garantir sa sécurité et sa performance.",
     "presentation": [
       {
-        "content": "Mise à jour régulière de votre site pour garantir sa sécurité et sa performance"
+        "content": "Mise à jour régulière de votre site pour garantir sa sécurité et sa performance,"
       },
       {
-        "content": "Sauvegarde régulière de vos données pour éviter toute perte d'informations"
+        "content": "Sauvegarde régulière de vos données pour éviter toute perte d'informations,"
       },
       {
-        "content": "Support technique pour répondre à vos questions et résoudre d'éventuels problèmes"
+        "content": "Support technique pour répondre à vos questions et résoudre d'éventuels problèmes,"
       },
       {
-        "content": "Petites modifications et ajustements ponctuels sur votre site"
+        "content": "Petites modifications et ajustements ponctuels sur votre site,"
       },
       {
-        "content": "Restoration de votre site en cas de problème technique"
+        "content": "Restoration de votre site en cas de problème technique."
       }
     ]
   }
