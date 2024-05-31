@@ -40,15 +40,12 @@
         "content": "Accompagnement personnalisé dans l'analyse de vos besoins,"
       },
       { "content": "Hébergement et nom de domaine inclus 1 an," },
-      {
-        "content": "Création d'un site vitrine personnalisé avec Next.js,"
-      },
       { "content": "Incorporation fluide de vos contenus," },
       { "content": "Intégration d'un formulaire de contact," },
       { "content": "Optimisation mobile et SEO," },
       { "content": "Sécurisation avancée du site," },
       {
-        "content": "Espace administrateur pour gestion autonome des contenus,"
+        "content": "Espace administrateur pour une gestion autonome des contenus,"
       },
       { "content": "Formation à l'administration du site." }
     ],
