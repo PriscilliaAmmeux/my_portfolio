@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import styles from "../../styles/toggleButton.module.css";
 
-export const ThemeSwitcher = () => {
+export const ToggleButton = () => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
 
