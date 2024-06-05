@@ -2,7 +2,7 @@ import NavLink from "../../components/navlink/navlink";
 
 export default function Navbar({ showParagraph }: { showParagraph: boolean }) {
   return (
-    <div className="mb-32 grid lg:max-w-7xl lg:w-full lg:mb-0 lg:grid-cols-7 lg:text-left">
+    <div className="mb-32 grid lg:max-w-8xl lg:w-full lg:mb-0 lg:grid-cols-8 lg:text-left">
       <NavLink href="/" title="Accueil" />
       <NavLink href="/about" title="Moi">
         {showParagraph && (
@@ -50,7 +50,27 @@ export default function Navbar({ showParagraph }: { showParagraph: boolean }) {
         )}
       </NavLink>
 
-      <NavLink href="/CV_Priscillia_Ammeux.pdf" title="Télécharger mon CV" />
+      <NavLink href="/CV_Priscillia_Ammeux.pdf" title="Télécharger mon CV">
+        {showParagraph && (
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Vous recherchez quelqu'un de motivé, passionné et curieux ? Vous
+            êtes au bon endroit ! Vous pouvez télécharger mon CV en cliquant sur
+            le bouton ci-dessous.
+          </p>
+        )}
+      </NavLink>
+
+      <NavLink
+        href="/CV_Priscillia_Ammeux_Alternance.pdf"
+        title="Télécharger mon CV alternance">
+        {showParagraph && (
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            Vous recherchez un alternant pour votre entreprise ? Vous êtes au
+            bon endroit ! Vous pouvez télécharger mon CV en cliquant sur le
+            bouton ci-dessous.
+          </p>
+        )}
+      </NavLink>
     </div>
   );
 }
