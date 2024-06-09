@@ -15,7 +15,7 @@ const PrestationList: React.FC<PrestationListProps> = ({ list }) => (
 
 export default function ListPrestations() {
   return (
-    <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 h-full">
+    <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
       {prestations.map((prestation) => (
         <Card
           key={prestation.id}
