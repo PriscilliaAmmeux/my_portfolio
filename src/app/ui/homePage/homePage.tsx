@@ -18,7 +18,8 @@ export default function HomePage() {
             className=" pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
             href="https://www.linkedin.com/in/priscillia-ammeux/"
             target="_blank"
-            rel="noopener noreferrer">
+            rel="noopener noreferrer"
+            aria-label="Link to LinkedIn profile">
             <FaLinkedin className="text-pink-500 hover:text-pink-700 transition-colors duration-300" />
             Par Priscillia Ammeux
           </a>
