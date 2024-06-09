@@ -1,36 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Site Vitrine WordPress 1 Page",
-    "price": "850 € HT (promotion jusqu'au 30/06/2024 au lieu de 999 € HT),",
-    "description": "Votre vitrine en ligne clé en main.",
-    "presentation": [
-      {
-        "content": "Accompagnement personnalisé dans la réflexion et l'analyse de vos besoins,"
-      },
-      { "content": "Hébergement et nom de domaine inclus pendant 1 an," },
-      { "content": "Incorporation fluide de vos contenus au sein de la page," },
-      { "content": "Intégration d'un formulaire de contact," },
-      {
-        "content": "Optimisation mobile pour une expérience utilisateur optimale,"
-      },
-      { "content": "Optimisation SEO pour une meilleure visibilité," },
-      { "content": "Sécurisation de votre site," },
-      { "content": "Formation à l'administration de votre site." }
-    ],
-    "avantages": [
-      {
-        "content": "Gain de temps et d'argent : une solution économique et rapide pour être en ligne rapidement,"
-      },
-      {
-        "content": "Efficacité : Une seule page où l'essentiel de vos informations est regroupé,"
-      },
-      {
-        "content": "Facilité d'utilisation : Un site simple et intuitif pour vos visiteurs."
-      }
-    ]
-  },
-  {
     "id": 2,
     "title": "Site Vitrine Personnalisé",
     "price": "1150 € HT (promotion jusqu'au 30/06/2024 au lieu de 1299 € HT)",
