@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <Layout>
-      <main className="pt-4">
+      <main className="pt-4 lg:pl-2 lg:pr-2">
         <Navigation />
         <Title text="Prestations" icon={BsGearFill} />
         <ListPrestations />
