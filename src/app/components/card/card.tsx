@@ -24,7 +24,7 @@ export default function Card({
 }: ArticleProps) {
   return (
     <section
-      style={{ position: "relative" }}
+      style={{ position: "relative", maxHeight: "45rem" }}
       className={`mb-4 ${color} p-6 rounded-md shadow-lg mr-4 ml-4`}>
       <div className="mb-10">
         <div className="flex items-center justify-center mb-4">
@@ -35,7 +35,11 @@ export default function Card({
       </div>
       {button && (
         <span
-          style={{ position: "absolute", bottom: "0", width: "90%" }}
+          style={{
+            position: "absolute",
+            bottom: "0",
+            width: "90%",
+          }}
           className="flex justify-center items-end mb-2">
           <Button href={button.href} text={button.text} type={"button"} />
         </span>
