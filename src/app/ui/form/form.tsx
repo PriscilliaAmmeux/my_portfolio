@@ -2,16 +2,33 @@
 
 import Button from "../../components/button/button";
 import { SiMinutemailer } from "react-icons/si";
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { FiMail, FiPhone, FiUser, FiFileText } from "react-icons/fi";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 
-export default function Form() {
+type FormProps = {
+  className?: string;
+};
+
+export default function Form({ className }: FormProps) {
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const isFormValid =
+    name !== "" && phone !== "" && email !== "" && message !== "";
+
   const form = useRef<HTMLFormElement>(null);
-  
+
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    if (!isFormValid) {
+      alert("Veuillez remplir tous les champs");
+      return;
+    }
 
     const SERVICE_ID = process.env.NEXT_PUBLIC_SERVICE_ID;
     const TEMPLATE_ID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
@@ -46,13 +63,16 @@ export default function Form() {
   return (
     <form
       ref={form}
-      className="w-full max-w-2xl p-2 bg-blue-100 rounded-md"
+      className={`p-6 gap-4 flex flex-col w-full max-w-2xl p-2 bg-blue-100 rounded-md ${className}`}
       onSubmit={sendEmail}
       noValidate>
-      <SiMinutemailer size={40} className="text-pink-500" />
-      <h1 className="ml-4 text-blue-800 text-2xl font-semibold">
-        Formulaire de contact
-      </h1>
+      <div className="flex items-center justify-center mb-4">
+        <SiMinutemailer size={40} className="text-pink-500" />
+        <h1 className="ml-4 text-blue-800 text-2xl font-semibold">
+          Formulaire de contact
+        </h1>
+      </div>
+
       <label htmlFor="name" className="sr-only">
         Votre nom
       </label>
@@ -62,7 +82,9 @@ export default function Form() {
         placeholder="Votre nom"
         required
         aria-required="true"
-        className="mb-4 p-2 border border-gray-300 rounded"
+        className="mb-4 p-2 border border-gray-300 rounded bg-white text-gray-800"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
       />
       <label htmlFor="phone" className="sr-only">
         Votre téléphone
@@ -73,7 +95,9 @@ export default function Form() {
         placeholder="Votre téléphone"
         required
         aria-required="true"
-        className="mb-4 p-2 border border-gray-300 rounded"
+        className="mb-4 p-2 border border-gray-300 rounded bg-white text-gray-800"
+        value={phone}
+        onChange={(e) => setPhone(e.target.value)}
       />
       <label htmlFor="email" className="sr-only">
         Votre email
@@ -84,7 +108,9 @@ export default function Form() {
         placeholder="Votre email"
         required
         aria-required="true"
-        className="mb-4 p-2 border border-gray-300 rounded"
+        className="mb-4 p-2 border border-gray-300 rounded bg-white text-gray-800"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
       />
       <label htmlFor="message" className="sr-only">
         Tapez ici votre message
@@ -94,10 +120,16 @@ export default function Form() {
         placeholder="Votre message"
         required
         aria-required="true"
-        className="mb-4 p-2 border border-gray-300 rounded h-32"
+        className="mb-4 p-2 border border-gray-300 rounded h-32 bg-white text-gray-800"
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
       />
 
-      <Button type="submit" text="Envoyer mon message" />
+      <Button
+        type="submit"
+        text="Envoyer mon message"
+        disabled={!isFormValid}
+      />
     </form>
   );
 }
