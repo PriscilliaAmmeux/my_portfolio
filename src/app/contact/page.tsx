@@ -14,10 +14,12 @@ export const metadata: Metadata = {
 export default function Contact() {
   return (
     <Layout>
-      <main className="pt-4">
+      <section className="pt-4">
         <Navigation />
         <Title text="Contact" icon={CiMail} />
         <div className="grid md:grid-cols-5 gap-4 items-center justify-center mx-auto w-full md:w-3/4">
+          <Form className="md:col-span-3" />
+
           <div className="md:col-span-2 flex flex-col items-center justify-center">
             <img
               src="/illustration-contact.png"
@@ -25,14 +27,10 @@ export default function Contact() {
               className="mb-2"
               width={275}
             />
-          </div>
-          <div className="md:col-span-3 flex justify-center">
             <InfoContact />
-            <Form />
           </div>
         </div>
-      </main>
-
+      </section>
       <Footer />
     </Layout>
   );
