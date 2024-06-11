@@ -16,6 +16,7 @@ export default function Form({ className }: FormProps) {
   const [phone, setPhone] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [honeypot, setHoneypot] = useState("");
 
   const isFormValid =
     name !== "" && phone !== "" && email !== "" && message !== "";
@@ -27,6 +28,11 @@ export default function Form({ className }: FormProps) {
 
     if (!isFormValid) {
       alert("Veuillez remplir tous les champs");
+      return;
+    }
+
+    if (honeypot !== "") {
+      alert("Vous êtes un robot");
       return;
     }
 
@@ -52,7 +58,7 @@ export default function Form({ className }: FormProps) {
       (error) => {
         Swal.fire({
           title: "Erreur!",
-          text: "Veuillez vérifier le CAPTCHA.",
+          text: "Une erreur est survenue lors de l'envoi du message. Veillez réessayer plus tard.",
           icon: "error",
         });
       }
@@ -124,7 +130,14 @@ export default function Form({ className }: FormProps) {
         value={message}
         onChange={(e) => setMessage(e.target.value)}
       />
-
+      <input
+        type="text"
+        name="honeypot"
+        placeholder=""
+        style={{ display: "none", visibility: "hidden", position: "absolute" }}
+        value={honeypot}
+        onChange={(e) => setHoneypot(e.target.value)}
+      />
       <Button
         type="submit"
         text="Envoyer mon message"
