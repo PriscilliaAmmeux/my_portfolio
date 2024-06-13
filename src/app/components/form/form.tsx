@@ -1,9 +1,8 @@
 "use client";
 
-import Button from "../../components/button/button";
+import Button from "../button/button";
 import { SiMinutemailer } from "react-icons/si";
 import { useRef, useState } from "react";
-import { FiMail, FiPhone, FiUser, FiFileText } from "react-icons/fi";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 
@@ -18,17 +17,13 @@ export default function Form({ className }: FormProps) {
   const [message, setMessage] = useState("");
   const [honeypot, setHoneypot] = useState("");
 
-  const isFormValid =
-    name !== "" && phone !== "" && email !== "" && message !== "";
-
   const form = useRef<HTMLFormElement>(null);
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    if (!isFormValid) {
-      alert("Veuillez remplir tous les champs");
-      return;
+    if (form.current && !form.current.checkValidity()) {
+      return alert("Veuillez remplir tous les champs du formulaire."), false;
     }
 
     if (honeypot !== "") {
@@ -36,9 +31,18 @@ export default function Form({ className }: FormProps) {
       return;
     }
 
+    const regex = /^(06|07)\d{8}$/;
+    if (!regex.test(phone)) {
+      alert(
+        "Veuillez entrer un numéro de téléphone valide exemple 06 XX XX XX XX."
+      );
+      return;
+    }
+
     const SERVICE_ID = process.env.NEXT_PUBLIC_SERVICE_ID;
     const TEMPLATE_ID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
     const PUBLIC_KEY = process.env.NEXT_PUBLIC_PUBLIC_KEY;
+
     if (!SERVICE_ID || !TEMPLATE_ID || !PUBLIC_KEY) {
       throw new Error("Environment variables are not defined");
     }
@@ -47,23 +51,27 @@ export default function Form({ className }: FormProps) {
       throw new Error("Form is not rendered yet");
     }
 
-    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY).then(
-      (result) => {
-        Swal.fire({
-          title: "Succès!",
-          text: "Votre message a bien été envoyé.",
-          icon: "success",
-        });
-      },
-      (error) => {
-        Swal.fire({
-          title: "Erreur!",
-          text: "Une erreur est survenue lors de l'envoi du message. Veillez réessayer plus tard.",
-          icon: "error",
-        });
-      }
-    );
-    (e.target as HTMLFormElement).reset();
+    emailjs
+      .sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
+      .then(
+        (result) => {
+          Swal.fire({
+            title: "Succès!",
+            text: "Votre message a bien été envoyé.",
+            icon: "success",
+          });
+        },
+        (error) => {
+          Swal.fire({
+            title: "Erreur!",
+            text: "Une erreur est survenue lors de l'envoi du message. Veillez réessayer plus tard.",
+            icon: "error",
+          });
+        }
+      )
+      .catch((error) => {
+        console.error("Error sending email: ", error);
+      });
   };
 
   return (
@@ -93,7 +101,7 @@ export default function Form({ className }: FormProps) {
         onChange={(e) => setName(e.target.value)}
       />
       <label htmlFor="phone" className="sr-only">
-        Votre téléphone
+        Votre téléphone par exemple: 0612345678 (sans espace)
       </label>
       <input
         type="tel"
@@ -141,7 +149,7 @@ export default function Form({ className }: FormProps) {
       <Button
         type="submit"
         text="Envoyer mon message"
-        disabled={!isFormValid}
+        aria-label="Cliquez sur le bouton pour envoyer le message"
       />
     </form>
   );

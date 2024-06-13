@@ -12,7 +12,7 @@ export default function Burger() {
     setIsOpen(!isOpen);
   };
   return (
-    <div>
+    <section>
       <div className="flex justify-end items-center">
         <button className="lg:hidden" onClick={toggleMenu}>
           {isOpen ? <FaTimes className="mr-6" /> : <FaBars className="mr-6" />}
@@ -32,6 +32,6 @@ export default function Burger() {
           title="Télécharger mon CV alternance"
         />
       </div>
-    </div>
+    </section>
   );
 }

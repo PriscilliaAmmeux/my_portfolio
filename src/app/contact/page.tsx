@@ -5,7 +5,7 @@ import Navigation from "../ui/navigation/navigation";
 import Layout from "../components/layout/layout";
 import InfoContact from "../ui/infoContact/infoContact";
 import Footer from "../components/footer/footer";
-import Form from "../ui/form/form";
+import Form from "../components/form/form";
 
 export const metadata: Metadata = {
   title: "Me Contacter - Priscillia Ammeux",
