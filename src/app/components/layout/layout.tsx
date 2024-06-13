@@ -11,25 +11,23 @@ export const metadata = {
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <section className="flex ">
-      <div
-        className={`${inter.className} flex flex-col min-h-screen bg-slate-50 bg-pink-100 dark:bg-gray-700 text-gray-700 dark:text-white ${switchThemeDuration}`}>
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="flex justify-around">
-            <ToggleButton />
-            <a href="/ecoIndex.webp" download>
-              <img
-                className="pt-1 cursor-pointer"
-                src="/ecoIndex2.webp"
-                alt="note"
-                width="100"
-              />
-            </a>
-          </div>
+    <section
+      className={`${inter.className} flex flex-col min-h-screen bg-slate-50 bg-pink-100 dark:bg-gray-700 text-gray-700 dark:text-white ${switchThemeDuration}`}>
+      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <div className="flex justify-around">
+          <ToggleButton />
+          <a href="/ecoIndex.webp" download>
+            <img
+              className="pt-1 cursor-pointer"
+              src="/ecoIndex2.webp"
+              alt="note"
+              width="100"
+            />
+          </a>
+        </div>
 
-          {children}
-        </ThemeProvider>
-      </div>
+        {children}
+      </ThemeProvider>
     </section>
   );
 }
