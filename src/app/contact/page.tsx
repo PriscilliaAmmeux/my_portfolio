@@ -22,7 +22,7 @@ export default function Contact() {
 
           <div className="md:col-span-2 flex flex-col items-center justify-center">
             <img
-              src="/illustration-contact.png"
+              src="/illustration-contact.webp"
               alt="Illustration contact"
               className="mb-2"
               width={275}

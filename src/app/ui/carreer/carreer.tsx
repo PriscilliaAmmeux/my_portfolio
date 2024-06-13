@@ -5,14 +5,14 @@ import ImageList from "../../components/imageList/imageList";
 
 const images = [
   {
-    src: "/OIG3.jpeg",
+    src: "/OIG3.webp",
     alt: "picture of a woman in front of a computer",
     hideOnSmallScreen: true,
   },
-  { src: "/bank.jpeg", alt: "picture of montains", hideOnSmallScreen: true },
-  { src: "/writing.jpeg", alt: "hand writing", hideOnSmallScreen: true },
+  { src: "/bank.webp", alt: "picture of montains", hideOnSmallScreen: true },
+  { src: "/writing.webp", alt: "hand writing", hideOnSmallScreen: true },
   {
-    src: "/auto.jpeg",
+    src: "/auto.webp",
     alt: "mum with children who are painting",
     hideOnSmallScreen: true,
   },

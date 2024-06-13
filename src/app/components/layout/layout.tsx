@@ -17,10 +17,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <div className="flex justify-around">
             <ToggleButton />
-            <a href="/ecoIndex.png" download>
+            <a href="/ecoIndex.webp" download>
               <img
                 className="pt-1 cursor-pointer"
-                src="/ecoIndex.svg"
+                src="/ecoIndex2.webp"
                 alt="note"
                 width="100"
               />

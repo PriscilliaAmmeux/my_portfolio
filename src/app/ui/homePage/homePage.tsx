@@ -31,7 +31,7 @@ export default function HomePage() {
         </h1>
         <Image
           className="rounded-full"
-          src="/me.jpg"
+          src="/me.webp"
           alt="picture of me"
           width={90}
           height={18}
