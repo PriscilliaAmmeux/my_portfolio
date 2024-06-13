@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function Project() {
   return (
     <Layout>
-      <main className="pt-4">
+      <main className="pt-4 sm:px-24">
         <Navigation />
         <Title text="Mes projets" icon={MdComputer} />
         <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 container mx-auto mx-4 justify-items-stretch">
