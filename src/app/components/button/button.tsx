@@ -10,6 +10,7 @@ export default function Button({
   disabled,
   ariaLabel,
   title,
+  className,
 }: {
   type: "submit" | "button";
   text: string;
@@ -19,12 +20,13 @@ export default function Button({
   disabled?: boolean;
   ariaLabel: string;
   title?: string;
+  className?: string;
 }) {
   return href ? (
     <a href={href}>
       <button
         type={type}
-        className={styles["custom-button"]}
+        className={styles["custom-button"] + ` ${className}`}
         onClick={onClick}
         aria-label={ariaLabel}>
         {text}
@@ -33,7 +35,7 @@ export default function Button({
   ) : (
     <button
       type={type}
-      className={styles["custom-button"]}
+      className={styles["custom-button"] + ` ${className}`}
       onClick={onClick}
       aria-label={ariaLabel}
       title={title}>
