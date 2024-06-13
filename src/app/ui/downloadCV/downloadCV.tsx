@@ -4,8 +4,9 @@ import Button from "@/app/components/button/button";
 
 const DownloadCV = () => {
   return (
-    <section className="flex justify-around">
+    <section className="flex flex-col sm- flew-row justify-around">
       <Button
+        className="m-2 sm:m-0"
         type={"button"}
         text={"Télécharger mon CV"}
         onClick={() => window.open("/CV_Priscillia_Ammeux.pdf", "_blank")}
@@ -17,6 +18,7 @@ const DownloadCV = () => {
         }
       />
       <Button
+        className="m-2 sm:m-0"
         type={"button"}
         text={"Télécharger mon CV pour alternance"}
         onClick={() =>
