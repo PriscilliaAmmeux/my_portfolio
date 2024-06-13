@@ -4,7 +4,7 @@ import Button from "@/app/components/button/button";
 
 const DownloadCV = () => {
   return (
-    <section className="flex flex-col sm- flew-row justify-around">
+    <section className="flex flex-col sm:flex-row justify-around">
       <Button
         className="m-2 sm:m-0"
         type={"button"}
