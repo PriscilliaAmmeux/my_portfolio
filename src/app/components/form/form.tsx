@@ -149,7 +149,7 @@ export default function Form({ className }: FormProps) {
       <Button
         type="submit"
         text="Envoyer mon message"
-        aria-label="Cliquez sur le bouton pour envoyer le message"
+        ariaLabel={"Cliquez sur le bouton pour envoyer le message"}
       />
     </form>
   );
