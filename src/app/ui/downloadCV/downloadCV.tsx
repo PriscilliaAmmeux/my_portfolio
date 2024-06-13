@@ -2,7 +2,7 @@
 
 import Button from "@/app/components/button/button";
 
-export default function () {
+const DownloadCV = () => {
   return (
     <section className="flex justify-around">
       <Button
@@ -29,4 +29,9 @@ export default function () {
       />
     </section>
   );
-}
+};
+
+DownloadCV.displayName = "DownloadCV";
+
+export default DownloadCV;
+git s
