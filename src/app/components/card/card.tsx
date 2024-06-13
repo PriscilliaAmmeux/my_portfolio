@@ -41,7 +41,12 @@ export default function Card({
             width: "90%",
           }}
           className="flex justify-center items-end mb-2">
-          <Button href={button.href} text={button.text} type={"button"} />
+          <Button
+            href={button.href}
+            text={button.text}
+            type={"button"}
+            ariaLabel={button.text}
+          />
         </span>
       )}
     </section>

@@ -8,6 +8,8 @@ export default function Button({
   href,
   onClick,
   disabled,
+  ariaLabel,
+  title,
 }: {
   type: "submit" | "button";
   text: string;
@@ -15,15 +17,26 @@ export default function Button({
   onClick?: () => void;
   children?: React.ReactNode;
   disabled?: boolean;
+  ariaLabel: string;
+  title?: string;
 }) {
   return href ? (
     <a href={href}>
-      <button type={type} className={styles["custom-button"]} onClick={onClick}>
+      <button
+        type={type}
+        className={styles["custom-button"]}
+        onClick={onClick}
+        aria-label={ariaLabel}>
         {text}
       </button>
     </a>
   ) : (
-    <button type={type} className={styles["custom-button"]} onClick={onClick}>
+    <button
+      type={type}
+      className={styles["custom-button"]}
+      onClick={onClick}
+      aria-label={ariaLabel}
+      title={title}>
       {text}
     </button>
   );

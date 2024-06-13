@@ -37,6 +37,7 @@ export default function ArticleBlog({
           onClick={() => {
             setIsModalOpen(true);
           }}
+          ariaLabel="Cliquez qur le bouton pour lire en entier l'article"
         />
       </span>
       <Modal

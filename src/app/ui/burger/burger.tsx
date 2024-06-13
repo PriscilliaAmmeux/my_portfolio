@@ -14,7 +14,10 @@ export default function Burger() {
   return (
     <section>
       <div className="flex justify-end items-center">
-        <button className="lg:hidden" onClick={toggleMenu}>
+        <button
+          className="lg:hidden"
+          onClick={toggleMenu}
+          aria-label={isOpen ? "Fermer le menu" : "Ouvrir le menu"}>
           {isOpen ? <FaTimes className="mr-6" /> : <FaBars className="mr-6" />}
         </button>
       </div>

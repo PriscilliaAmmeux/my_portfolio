@@ -8,6 +8,7 @@ import GradesAndKnows from "../ui/gradesAndKnows/gradesAndKnows";
 import Interests from "../ui/interests/interests";
 import Navigation from "../ui/navigation/navigation";
 import Layout from "../components/layout/layout";
+import DownloadCV from "../ui/downloadCV/downloadCV";
 
 export const metadata: Metadata = {
   title: "À propos de moi - Priscillia Ammeux",
@@ -19,6 +20,7 @@ export default function About() {
       <section className="pt-4 sm:px-24">
         <Navigation />
         <Me />
+        <DownloadCV />
         <GradesAndKnows />
         <Carreer />
         <ValuesAndObjectives />
