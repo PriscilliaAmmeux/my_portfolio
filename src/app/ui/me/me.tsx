@@ -8,7 +8,7 @@ export default function Me() {
       <Title text="Qui suis je ?" icon={GiLadybug} />
       <Image
         className="ml-8 mr-4"
-        src="/profil.png"
+        src="/profil.webp"
         alt="picture of me"
         width={150}
         height={150}

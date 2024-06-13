@@ -8,13 +8,13 @@ import ImageList from "../../components/imageList/imageList";
 
 const images = [
   {
-    src: "/montains.jpeg",
+    src: "/montains.webp",
     alt: "picture of montains",
     hideOnSmallScreen: true,
   },
-  { src: "/writing.jpeg", alt: "hand writing", hideOnSmallScreen: true },
+  { src: "/writing.webp", alt: "hand writing", hideOnSmallScreen: true },
   {
-    src: "/paint.jpeg",
+    src: "/paint.webp",
     alt: "mum with children who are painting",
     hideOnSmallScreen: true,
   },
