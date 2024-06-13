@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function Blog() {
   return (
     <Layout>
-      <main className="pt-4">
+      <main className="pt-4 sm:px-24">
         <Navigation />
         <Title text="Blog" icon={FaPenFancy} />
         <section className="w-full md:w-1/2 gap-4 container mx-auto mx-4">

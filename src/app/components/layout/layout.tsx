@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex">
+    <section className="flex ">
       <div
         className={`${inter.className} flex flex-col min-h-screen bg-slate-50 bg-pink-100 dark:bg-gray-700 text-gray-700 dark:text-white ${switchThemeDuration}`}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
@@ -30,6 +30,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           {children}
         </ThemeProvider>
       </div>
-    </div>
+    </section>
   );
 }

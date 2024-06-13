@@ -2,7 +2,7 @@ import NavLink from "../../components/navlink/navlink";
 
 export default function Navbar({ showParagraph }: { showParagraph: boolean }) {
   return (
-    <section className="mb-32 grid lg:max-w-6xl lg:w-full lg:mb-0 lg:grid-cols-6 lg:text-left">
+    <section className="mb-32 grid lg:max-w-6xl lg:w-full lg:mb-0 lg:grid-cols-6 lg:text-center">
       <NavLink href="/" title="Accueil" />
       <NavLink href="/about" title="Moi">
         {showParagraph && (
