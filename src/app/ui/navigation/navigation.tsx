@@ -1,7 +1,7 @@
 import Burger from "../burger/burger";
 import NavBar from "../navBar/navBar";
 
-export default function navigation() {
+export default function Navigation() {
   return (
     <div>
       <section className="pt-4 block lg:hidden">
