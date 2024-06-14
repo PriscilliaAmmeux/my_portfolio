@@ -1,8 +1,6 @@
 import { Metadata } from "next";
 import { FaPenFancy } from "react-icons/fa";
-import Footer from "../ui/footer/footer";
 import Title from "../components/title/title";
-import Navigation from "../ui/navigation/navigation";
 import ArticleBlog from "../ui/articleBlog/articleBlog";
 import blog from "../../data/blog.json";
 import Layout from "../components/layout/layout";
