@@ -14,7 +14,7 @@ export default function Blog() {
     <Layout>
       <section className="pt-4 sm:px-24">
         <Title text="Blog" icon={FaPenFancy} />
-        <div className="w-full md:w-1/2 gap-4 container mx-auto mx-4">
+        <div className="w-full md:w-1/2 gap-4 container mx-auto mx-3">
           {blog.map((article) => (
             <ArticleBlog
               id={article.id}
