@@ -4,10 +4,10 @@ import Navbar from "../navBar/navBar";
 export default function navigation() {
   return (
     <div>
-      <section className="lg:hidden">
+      <section className="pt-4 block lg:hidden">
         <Burger />
       </section>
-      <section className="w-full">
+      <section className="hidden lg:block w-full">
         <Navbar />
       </section>
     </div>
