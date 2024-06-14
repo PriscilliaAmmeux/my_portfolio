@@ -1,5 +1,5 @@
 import Burger from "../burger/burger";
-import NavBar from "@/app/ui/navBar/navBar";
+import NavBar from "../navBar/navBar";
 
 export default function navigation() {
   return (
