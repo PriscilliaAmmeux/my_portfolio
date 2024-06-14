@@ -6,7 +6,7 @@ export default function NavBarHome({
   showParagraph: boolean;
 }) {
   return (
-    <section className="mb-32 grid lg:max-w-6xl lg:w-full lg:mb-0 lg:grid-cols-6 lg:text-center">
+    <section className="mb-4 md:mb-32 grid lg:max-w-6xl lg:w-full lg:mb-0 lg:grid-cols-6 lg:text-center">
       <NavLink href="/" title="Accueil" />
       <NavLink href="/about" title="Moi">
         {showParagraph && (
