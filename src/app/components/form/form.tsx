@@ -77,11 +77,11 @@ export default function Form({ className }: FormProps) {
   return (
     <form
       ref={form}
-      className={`p-6 gap-4 flex flex-col w-full max-w-2xl p-2 bg-blue-100 rounded-md ${className}`}
+      className={`p-6 mb-6 gap-4 flex flex-col w-full max-w-2xl p-2 bg-blue-100 rounded-md ${className}`}
       onSubmit={sendEmail}
       noValidate>
       <div className="flex items-center justify-center mb-4">
-        <SiMinutemailer size={40} className="text-pink-500" />
+        <SiMinutemailer size={40} className="text-pink-700" />
         <h1 className="ml-4 text-blue-800 text-2xl font-semibold">
           Formulaire de contact
         </h1>

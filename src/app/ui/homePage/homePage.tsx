@@ -1,36 +1,44 @@
 import Image from "next/image";
+import { switchThemeDuration } from "@/app/constants/switchThemeDuration";
 import { FaLinkedin } from "react-icons/fa";
 import { LiaHandPaper } from "react-icons/lia";
-import Footer from "../../components/footer/footer";
-import Navbar from "../navbar/navbar";
+import Footer from "../footer/footer";
+import NavbarHome from "../navBarHome/navBarHome";
+import { ThemeProvider } from "../themeProvider/themeProvider";
+import { ToggleButton } from "@/app/components/toggleButton/toggleButton";
 
 export default function HomePage() {
   return (
-    <>
-      <section className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="mt-10 flex h-20 sm:h-36 w-full items-end justify-center lg:static lg:h-auto lg:w-auto lg:bg-none flex items-center gap-2">
-          <LiaHandPaper className="text-pink-500 hover:text-pink-700 transition-colors duration-300" />
+    <main className="bg-pink-100 dark:bg-gray-700 text-gray-700 dark:text-white">
+      <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+        <div className="flex justify-around">
+          <ToggleButton />
+        </div>
+      </ThemeProvider>
+      <section className="flex flex-col mt-10 mb-10 justify-between items-center z-10 max-w-5xl mx-auto w-full font-mono text-sm lg:flex-row">
+        <p className="flex items-center justify-center gap-2 mt-10 lg:mt-0 lg:static lg:h-auto lg:w-auto lg:bg-none">
+          <LiaHandPaper className="text-pink-700 hover:text-pink-700 transition-colors duration-300" />
           Bienvenue !
         </p>
 
-        <div className="fixed bottom-0 left-0 flex h-36 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+        <div className="flex items-center justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
-            className=" pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
+            className="flex items-center gap-2 p-8 lg:p-0 lg:pointer-events-auto"
             href="https://www.linkedin.com/in/priscillia-ammeux/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Link to LinkedIn profile">
-            <FaLinkedin className="text-pink-500 hover:text-pink-700 transition-colors duration-300" />
+            <FaLinkedin className="text-pink-700 hover:text-pink-700 transition-colors duration-300" />
             Par Priscillia Ammeux
           </a>
         </div>
       </section>
       <section className="flex flex-col items-center ">
-        <h1 className="text-2xl sm:text-4xl mb-6 text-center">
+        <h1 className="text-2xl sm:text-4xl mb-10 text-center">
           Conceptrice et Développeuse d'Applications
         </h1>
         <Image
-          className="rounded-full"
+          className="rounded-full mb-10"
           src="/me.webp"
           alt="picture of me"
           width={90}
@@ -38,8 +46,10 @@ export default function HomePage() {
           priority
         />
       </section>
-      <Navbar showParagraph={true} />
+      <section className="flex justify-center">
+        <NavbarHome showParagraph={true} />
+      </section>
       <Footer />
-    </>
+    </main>
   );
 }

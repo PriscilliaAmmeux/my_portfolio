@@ -1,4 +1,4 @@
-import Footer from "../components/footer/footer";
+import Footer from "../ui/footer/footer";
 import ProjectCard from "../components/projectCard/projectCard";
 import projects from "../../data/projects.json";
 import Title from "../components/title/title";
@@ -14,10 +14,9 @@ export const metadata: Metadata = {
 export default function Project() {
   return (
     <Layout>
-      <main className="pt-4 sm:px-24">
-        <Navigation />
+      <section className="pt-4 sm:px-24">
         <Title text="Mes projets" icon={MdComputer} />
-        <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 container mx-auto mx-4 justify-items-stretch">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 container mx-auto mx-4 justify-items-stretch">
           {projects.map((project) => (
             <ProjectCard
               key={project.id}
@@ -31,9 +30,8 @@ export default function Project() {
               githubLink={project.githubLink}
             />
           ))}
-        </section>
-        <Footer />
-      </main>
+        </div>
+      </section>
     </Layout>
   );
 }

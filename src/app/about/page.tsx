@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import Footer from "../components/footer/footer";
+import Footer from "../ui/footer/footer";
 import Me from "../ui/me/me";
 import WhyMe from "../ui/whyMe/whyMe";
 import Carreer from "../ui/carreer/carreer";
@@ -17,17 +17,13 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <Layout>
-      <section className="pt-4 sm:px-24">
-        <Navigation />
-        <Me />
-        <DownloadCV />
-        <GradesAndKnows />
-        <Carreer />
-        <ValuesAndObjectives />
-        <WhyMe />
-        <Interests />
-        <Footer />
-      </section>
+      <Me />
+      <DownloadCV />
+      <GradesAndKnows />
+      <Carreer />
+      <ValuesAndObjectives />
+      <WhyMe />
+      <Interests />
     </Layout>
   );
 }

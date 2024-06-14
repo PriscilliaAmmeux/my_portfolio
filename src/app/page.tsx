@@ -11,12 +11,12 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <Layout>
-      <main className="w-full flex min-h-screen flex-col items-center justify-between space-y-10">
+    <main>
+      <section>
         <HomePage />
-      </main>
+      </section>
       <Analytics />
       <SpeedInsights />
-    </Layout>
+    </main>
   );
 }

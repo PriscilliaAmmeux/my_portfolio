@@ -2,6 +2,8 @@ import { switchThemeDuration } from "@/app/constants/switchThemeDuration";
 import { inter } from "../../ui/fonts";
 import { ThemeProvider } from "../../ui/themeProvider/themeProvider";
 import { ToggleButton } from "../toggleButton/toggleButton";
+import NavBar from "@/app/ui/navBar/navBar";
+import Footer from "@/app/ui/footer/footer";
 
 export const metadata = {
   title: "Priscillia Ammeux - Conceptrice et Développeuse d'Applications",
@@ -13,21 +15,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <section
       className={`${inter.className} flex flex-col min-h-screen bg-slate-50 bg-pink-100 dark:bg-gray-700 text-gray-700 dark:text-white ${switchThemeDuration}`}>
+      <NavBar />
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         <div className="flex justify-around">
           <ToggleButton />
-          <a href="/ecoIndex.webp" download>
-            <img
-              className="pt-1 cursor-pointer"
-              src="/ecoIndex2.webp"
-              alt="note"
-              width="100"
-            />
-          </a>
         </div>
-
         {children}
       </ThemeProvider>
+      <Footer />
     </section>
   );
 }

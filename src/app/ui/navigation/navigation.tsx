@@ -1,5 +1,5 @@
 import Burger from "../burger/burger";
-import Navbar from "../navbar/navbar";
+import Navbar from "../navBar/navBar";
 
 export default function navigation() {
   return (
@@ -7,8 +7,8 @@ export default function navigation() {
       <section className="lg:hidden">
         <Burger />
       </section>
-      <section className="hidden lg:flex justify-center">
-        <Navbar showParagraph={false} />
+      <section className="w-full">
+        <Navbar />
       </section>
     </div>
   );
