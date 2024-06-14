@@ -1,10 +1,8 @@
 import { Metadata } from "next";
 import { CiMail } from "react-icons/ci";
 import Title from "../components/title/title";
-import Navigation from "../ui/navigation/navigation";
 import Layout from "../components/layout/layout";
 import InfoContact from "../ui/infoContact/infoContact";
-import Footer from "../ui/footer/footer";
 import Form from "../components/form/form";
 
 export const metadata: Metadata = {

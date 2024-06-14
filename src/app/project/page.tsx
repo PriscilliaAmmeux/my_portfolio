@@ -1,8 +1,6 @@
-import Footer from "../ui/footer/footer";
 import ProjectCard from "../components/projectCard/projectCard";
 import projects from "../../data/projects.json";
 import Title from "../components/title/title";
-import Navigation from "../ui/navigation/navigation";
 import { MdComputer } from "react-icons/md";
 import { Metadata } from "next";
 import Layout from "../components/layout/layout";
