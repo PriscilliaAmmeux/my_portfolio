@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { switchThemeDuration } from "@/app/constants/switchThemeDuration";
 import { FaLinkedin } from "react-icons/fa";
 import { LiaHandPaper } from "react-icons/lia";
 import Footer from "../footer/footer";
