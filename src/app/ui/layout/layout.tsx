@@ -1,8 +1,7 @@
 import { switchThemeDuration } from "@/app/constants/switchThemeDuration";
-import { inter } from "../../ui/fonts";
-import { ThemeProvider } from "../../ui/themeProvider/themeProvider";
-import { ToggleButton } from "../toggleButton/toggleButton";
-
+import { inter } from "../fonts";
+import { ThemeProvider } from "../themeProvider/themeProvider";
+import { ToggleButton } from "../../components/toggleButton/toggleButton";
 import Footer from "@/app/ui/footer/footer";
 import Navigation from "@/app/ui/navigation/navigation";
 

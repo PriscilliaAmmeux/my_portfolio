@@ -1,6 +1,6 @@
 import { BsGearFill } from "react-icons/bs";
-import Layout from "../components/layout/layout";
-import Title from "../components/title/title";
+import Layout from "../ui/layout/layout";
+import Title from "../ui/title/title";
 import { Metadata } from "next";
 import Process from "../ui/process/process";
 import ListPrestations from "../ui/listPrestations/listPrestations";

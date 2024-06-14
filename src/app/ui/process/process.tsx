@@ -1,5 +1,5 @@
 import ItemList from "@/app/components/itemList/itemList";
-import Title from "@/app/components/title/title";
+import Title from "@/app/ui/title/title";
 import { IoIosSearch } from "react-icons/io";
 import { FcOk } from "react-icons/fc";
 
