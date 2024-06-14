@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 import { FaPenFancy } from "react-icons/fa";
-import Title from "../components/title/title";
+import Title from "../ui/title/title";
 import ArticleBlog from "../ui/articleBlog/articleBlog";
 import blog from "../../data/blog.json";
-import Layout from "../components/layout/layout";
+import Layout from "../ui/layout/layout";
 
 export const metadata: Metadata = {
   title: "Blog - Mes articles - Priscillia Ammeux",

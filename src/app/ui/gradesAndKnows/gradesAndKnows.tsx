@@ -3,10 +3,10 @@ import { FaHeadSideVirus } from "react-icons/fa";
 import { SiMysql, SiPostgresql } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import Card from "../../components/card/card";
-import BackendSkills from "../../components/backendSkills/backendSkills";
-import FrontendSkills from "../../components/frontendSkills/frontendSkills";
+import BackendSkills from "../backendSkills/backendSkills";
+import FrontendSkills from "../frontendSkills/frontendSkills";
 import grades from "../../../data/grades.json";
-import GradesItems from "../../components/gradesItems/gradesItems";
+import GradesItems from "../gradesItems/gradesItems";
 
 export default function GradesAndKnows() {
   return (

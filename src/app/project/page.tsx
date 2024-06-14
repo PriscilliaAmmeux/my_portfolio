@@ -1,9 +1,9 @@
 import ProjectCard from "../components/projectCard/projectCard";
 import projects from "../../data/projects.json";
-import Title from "../components/title/title";
+import Title from "../ui/title/title";
 import { MdComputer } from "react-icons/md";
 import { Metadata } from "next";
-import Layout from "../components/layout/layout";
+import Layout from "../ui/layout/layout";
 
 export const metadata: Metadata = {
   title: "Mes projets - Priscillia Ammeux",

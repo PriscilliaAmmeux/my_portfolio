@@ -1,6 +1,6 @@
 import { FaHandPointRight } from "react-icons/fa";
 import { FcOk } from "react-icons/fc";
-import Title from "../../components/title/title";
+import Title from "../title/title";
 import ItemList from "../../components/itemList/itemList";
 
 const cardContent = [
