@@ -27,7 +27,7 @@ export default function Interests() {
   return (
     <article className="mt-8 pt-4 bg-blue-100 w-full p-6 shadow-lg">
       <div className="flex items-center justify-center mb-6">
-        <FaHeart size={40} color="rgba(240, 50, 148, 0.8)" />
+        <FaHeart size={40} color="#be185d" />
         <h1 className="ml-4 text-blue-800 text-2xl font-semibold">
           Centres d'intérêts
         </h1>
