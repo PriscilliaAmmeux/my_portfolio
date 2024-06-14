@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { FaPenFancy } from "react-icons/fa";
-import Footer from "../components/footer/footer";
+import Footer from "../ui/footer/footer";
 import Title from "../components/title/title";
 import Navigation from "../ui/navigation/navigation";
 import ArticleBlog from "../ui/articleBlog/articleBlog";
@@ -14,10 +14,9 @@ export const metadata: Metadata = {
 export default function Blog() {
   return (
     <Layout>
-      <main className="pt-4 sm:px-24">
-        <Navigation />
+      <section className="pt-4 sm:px-24">
         <Title text="Blog" icon={FaPenFancy} />
-        <section className="w-full md:w-1/2 gap-4 container mx-auto mx-4">
+        <div className="w-full md:w-1/2 gap-4 container mx-auto mx-4">
           {blog.map((article) => (
             <ArticleBlog
               id={article.id}
@@ -29,9 +28,8 @@ export default function Blog() {
               sections={article.sections}
             />
           ))}
-        </section>
-      </main>
-      <Footer />
+        </div>
+      </section>
     </Layout>
   );
 }

@@ -48,7 +48,7 @@ export default function ArticleBlog({
         <div>
           {sections.map((section, index) => (
             <section key={index}>
-              <h2 className="text-pink-500 font-bold mb-2 mt-4 ml-2">
+              <h2 className="text-pink-700 font-bold mb-2 mt-4 ml-2">
                 {section.title}
               </h2>
               <p className="text-gray-600 ml-2">{section.content}</p>

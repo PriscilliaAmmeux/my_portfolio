@@ -26,7 +26,7 @@ export default function ListPrestations() {
           button={{ href: "/contact", text: "Contactez moi" }}>
           <div className="flex-grow">
             <ul className="text-gray-700 list-disc mt-2 mb-2 list-none text-sm">
-              <li className="mt-2 mb-2 text-pink-500 font-bold">
+              <li className="mt-2 mb-2 text-pink-700 font-bold">
                 {prestation.price}
               </li>
               <li className="mt-2 mb-2">{prestation.description}</li>
