@@ -14,18 +14,20 @@ export default function Blog() {
     <Layout>
       <section className="pt-4 sm:px-24">
         <Title text="Blog" icon={FaPenFancy} />
-        <div className="w-full md:w-1/2 gap-4 container mx-auto mx-3">
-          {blog.map((article) => (
-            <ArticleBlog
-              id={article.id}
-              key={article.id}
-              img={article.img}
-              title={article.title}
-              subtitle={article.subtitle}
-              date={article.date}
-              sections={article.sections}
-            />
-          ))}
+        <div className="w-full container mx-auto px-3">
+          <div className="md:grid md:grid-cols-2 gap-4">
+            {blog.map((article) => (
+              <ArticleBlog
+                id={article.id}
+                key={article.id}
+                img={article.img}
+                title={article.title}
+                subtitle={article.subtitle}
+                date={article.date}
+                sections={article.sections}
+              />
+            ))}
+          </div>
         </div>
       </section>
     </Layout>

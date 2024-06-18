@@ -30,10 +30,6 @@ export default function Burger() {
         <NavLink href="/blog" title="Mon blog" />
         <NavLink href="/contact" title="Contact" />
         <NavLink href="/CV_Priscillia_Ammeux.pdf" title="Télécharger mon CV" />
-        <NavLink
-          href="/CV_Priscillia_Ammeux_Alternance.pdf"
-          title="Télécharger mon CV alternance"
-        />
       </div>
     </section>
   );
