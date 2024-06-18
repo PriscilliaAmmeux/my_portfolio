@@ -44,11 +44,60 @@
       },
       {
         "title": "Perspectives d'Avenir",
-        "content": "Actuellement, je suis à la recherche d'une entreprise qui saura me faire confiance. Mon objectif est de trouver un poste en CDI, CDD ou alternance de 15 mois à partir de septembre, afin de compléter ma formation avec un mastère Architecte Web (RNCP niveau 7) à l'école ForEach. Ce que je recherche avant tout, c'est une entreprise où je pourrai non seulement contribuer dès le départ, mais aussi avoir des opportunités d'évolution à long terme."
+        "content": "Actuellement, je suis à la recherche d'une entreprise qui saura me faire confiance. Mon objectif est de trouver un poste en CDI, CDD. Ce que je recherche avant tout, c'est une entreprise où je pourrai non seulement contribuer dès le départ, mais aussi avoir des opportunités d'évolution à long terme. De plus, je cherche à me former d'avantages sur l'accessibilité web."
       },
       {
         "title": "Conclusion",
         "content": "Malgré les défis et les sacrifices, je ne regrette pas ma reconversion. Elle m'a permis de retrouver une passion pour mon travail et m'a ouvert des portes vers de nouvelles opportunités professionnelles et de développement personnel."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "img": "/afraid.webp",
+    "title": "Les erreurs que j’ai faites pendant ma reconversion",
+    "subtitle": "Il ne faut pas se mentir, la reconversion n’est pas un long fleuve tranquille.",
+    "date": "le 18 juin 2024",
+    "sections": [
+      {
+        "title": "Ne pas me sentir légitime dans le milieu",
+        "content": "Surtout en tant que débutante."
+      },
+      {
+        "title": "Se comparer aux autres",
+        "content": "Chacun a son propre chemin et ses propres compétences. La comparaison excessive peut être démoralisante."
+      },
+      {
+        "title": "Ne pas oser postuler à des offres d’emploi",
+        "content": "Car je ne connaissais pas les stacks ou pour d'autres raisons."
+      },
+      {
+        "title": "Comment ne pas se laisser envahir par ses peurs ?",
+        "content": ""
+      },
+      {
+        "title": "Parler autour de soi",
+        "content": "Nous ne sommes pas seuls. Si je vis cela, alors peut-être que les autres aussi. Discuter avec des collègues, des mentors ou des amis peut vraiment aider à relativiser et à se sentir soutenu."
+      },
+      {
+        "title": "Oser",
+        "content": "Sortir de sa zone de confort est le meilleur exercice pour justement y faire face. Ne pas connaître une stack ? Et alors, ça s’apprend ! Chaque défi est une opportunité de grandir et d'apprendre quelque chose de nouveau."
+      },
+      {
+        "title": "Accepter l’imperfection",
+        "content": "Personne n’est parfait. Faire des erreurs fait partie du processus d’apprentissage. L'important est de tirer des leçons de ces erreurs."
+      },
+      {
+        "title": "Se fixer des objectifs réalistes",
+        "content": "Définir des objectifs atteignables et les diviser en petites étapes peut aider à rester motivé et à mesurer ses progrès."
+      },
+      {
+        "title": "Rester curieux",
+        "content": "Continuer à apprendre et à se former est essentiel. Le domaine du développement est en constante évolution, et il y a toujours de nouvelles compétences à acquérir."
+      },
+      {
+        "title": "Conclusion",
+        "content": "Vous ne me connaissez pas encore ? Je m’appelle Priscillia AMMEUX, développeuse freelance, en recherche d’emploi, je crée des sites internet pour particuliers et professionnels. Merci à Stéphanie Heudre et Adrien Demarle, mes deux premiers clients testeurs, qui me font confiance et m’aident à améliorer mon processus. Bientôt un petit partage d’ailleurs. #teasing Vous voulez en savoir plus ? N’hésitez pas à me contacter en message privé."
       }
     ]
   }
