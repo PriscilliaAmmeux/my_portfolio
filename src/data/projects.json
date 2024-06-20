@@ -1,5 +1,16 @@
 [
   {
+    "id": 8,
+    "title": "Stéphanie HEUDRE - Praticienne bien-être certifiée",
+    "description": "Site internet réalisé dans le cadre d'une prestation pour une cliente souhaitant un site vitrine pour son activité de praticienne bien-être.",
+    "image": "/stephanie.webp",
+    "methodology": "Agile Scrum",
+    "tools": "Github, Github project, Vercel",
+    "technology": "Nextjs, Tailwindcss, Typescript",
+    "demoLink": "https://www.massage-stephanie-heudre.fr/",
+    "githubLink": "https://github.com/PriscilliaAmmeux/massage_stephanie"
+  },
+  {
     "id": 2,
     "title": "Yaki",
     "description": "Conception et développement de 'A' à 'Z' de l’application “YAKI” qui a pour but d'améliorer la gestion du personnel réparti sur plusieurs site (télétravail, clientèle, absent): déclaration de son lieu de travail, visualisation des déclarations de son équipe et de la disponibilité des collaborateurs",
@@ -27,8 +38,8 @@
     "description": "Réalisation de mon portfolio",
     "image": "/portfolio.webp",
     "methodology": "Projet personnel",
-    "tools": "Git, Github",
-    "technology": "Nextjs, Tailwindcss, Github, Vercel",
+    "tools": "Git, Github, Vercel",
+    "technology": "Nextjs, Typescript, Tailwindcss",
     "demoLink": "https://www.priscillia-ammeux-portfolio.fr/",
     "githubLink": "https://github.com/PriscilliaAmmeux/my_portfolio"
   },
