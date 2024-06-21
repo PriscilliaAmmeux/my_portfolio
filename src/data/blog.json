@@ -2,6 +2,7 @@
   {
     "id": 1,
     "img": "/result.webp",
+    "alt": "panneau d'affichage avec le mot 'résultat' écrit dessus",
     "title": "Ma Reconversion Professionnelle",
     "subtitle": "Bilan 2 ans et demi après son début",
     "date": "le 16 mai 2025",
@@ -55,6 +56,7 @@
   {
     "id": 2,
     "img": "/afraid.webp",
+    "alt": "illustration d'une femme effrayée devant un écran d'ordinateur ",
     "title": "Les erreurs que j’ai faites pendant ma reconversion",
     "subtitle": "Il ne faut pas se mentir, la reconversion n’est pas un long fleuve tranquille.",
     "date": "le 18 juin 2024",
@@ -98,6 +100,56 @@
       {
         "title": "Conclusion",
         "content": "Vous ne me connaissez pas encore ? Je m’appelle Priscillia AMMEUX, développeuse freelance, en recherche d’emploi, je crée des sites internet pour particuliers et professionnels. Merci à Stéphanie Heudre et Adrien Demarle, mes deux premiers clients testeurs, qui me font confiance et m’aident à améliorer mon processus. Bientôt un petit partage d’ailleurs. #teasing Vous voulez en savoir plus ? N’hésitez pas à me contacter en message privé."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "img": "/junior.webp",
+    "alt": "femme développeuse habillée en super-héroïne avec une cape et un masque devant un écran d'ordinateur",
+    "title": "Les Développeurs Juniors : Un Atout Sous-Estimé",
+    "subtitle": "",
+    "date": "le 21/06/2024",
+    "sections": [
+      {
+        "title": "On pense à tort que :",
+        "content": [
+          "Les développeurs juniors ne peuvent pas être productifs sans supervision constante.",
+          "La qualité du code des juniors est toujours inférieure à celle des développeurs seniors.",
+          "Investir dans la formation des développeurs juniors est une perte de temps et d'argent."
+        ]
+      },
+      {
+        "title": "Mais en réalité :",
+        "content": [
+          "Les développeurs juniors apportent souvent de nouvelles perspectives et des idées innovantes. Lorsqu'ils sont bien encadrés, ils peuvent rapidement devenir autonomes et très productifs.",
+          "La qualité du code d'un développeur junior peut être excellente avec les bonnes pratiques de revue de code et de mentorat. De plus, ils sont souvent plus à jour sur les technologies modernes et les meilleures pratiques.",
+          "Investir dans la formation des juniors est un investissement dans l'avenir de l'entreprise. Ils peuvent rapidement acquérir des compétences essentielles et contribuer de manière significative à long terme."
+        ]
+      },
+      {
+        "title": "En tant que profil reconverti, nous apportons également l'expérience et les compétences de nos anciens métiers.",
+        "content": ""
+      },
+      {
+        "title": "C’est problématique car :",
+        "content": [
+          "Sous-estimer les juniors limite leur potentiel et celui de l'entreprise. ",
+          "Cela crée une culture de méfiance et de stagnation au lieu de l'innovation.",
+          "Ignorer la formation des juniors mène à une pénurie de talents qualifiés à long terme."
+        ]
+      },
+      {
+        "title": "Alors quoi faire ?",
+        "content": [
+          "Mettre en place des programmes de mentorat où les seniors encadrent les juniors.",
+          "Encourager une culture d'apprentissage continu pour tous les niveaux d'expérience.",
+          "Valoriser et célébrer les contributions des développeurs juniors pour renforcer leur confiance et leur motivation."
+        ]
+      },
+      {
+        "title": "Conclusion",
+        "content": "Les développeurs juniors sont le futur de la tech. Investissons en eux aujourd'hui pour construire un avenir plus innovant et dynamique. "
       }
     ]
   }

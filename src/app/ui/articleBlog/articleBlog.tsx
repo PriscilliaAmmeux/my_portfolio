@@ -7,15 +7,17 @@ import { Modal } from "../../components/modal/modal";
 interface ArticleProps {
   id: number;
   img: string;
+  alt: string;
   title: string;
   subtitle: string;
   date: string;
-  sections: { title: string; content: string }[];
+  sections: { title: string; content: string | string[] }[];
 }
 
 export default function ArticleBlog({
   id,
   img,
+  alt,
   title,
   subtitle,
   date,
@@ -24,7 +26,7 @@ export default function ArticleBlog({
   const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <article className="rounded overflow-hidden shadow-lg bg-white mt-4 ">
-      <img className="w-full" src={img} alt={"image de l'article"} />
+      <img className="w-full" src={img} alt={alt} />
       <h1 className="text-blue-800 font-bold text-xl mt-4 text-center">
         {title}
       </h1>
@@ -51,7 +53,17 @@ export default function ArticleBlog({
               <h2 className="text-pink-700 font-bold mb-2 mt-4 ml-2">
                 {section.title}
               </h2>
-              <p className="text-gray-600 ml-2">{section.content}</p>
+              {Array.isArray(section.content) ? (
+                <ul className="list-disc ml-4">
+                  {section.content.map((item, itemIndex) => (
+                    <li key={itemIndex} className="text-gray-600 ml-2">
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="text-gray-600 ml-2">{section.content}</p>
+              )}
             </section>
           ))}
         </div>
