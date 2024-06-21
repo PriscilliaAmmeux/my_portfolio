@@ -21,6 +21,7 @@ export default function Blog() {
                 id={article.id}
                 key={article.id}
                 img={article.img}
+                alt={article.alt}
                 title={article.title}
                 subtitle={article.subtitle}
                 date={article.date}
