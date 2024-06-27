@@ -1,6 +1,5 @@
 import { GiDirectionSigns } from "react-icons/gi";
 import { GoRocket } from "react-icons/go";
-import { AiOutlinePlus } from "react-icons/ai";
 import Card from "../../components/card/card";
 import ItemList from "../../components/itemList/itemList";
 
@@ -9,47 +8,37 @@ const objectives = [
   "Apprentissage",
   "Épanouissement",
   "Contribuer à des projets ambitieux et porteurs de sens",
+  "Formation à l'accessibilité web d'ici fin d'année 2024 avec Access42",
+];
+
+const values = [
+  "Honnêteté, bienveillance, intégrité, transparence et respect",
+  "Inclusivité",
+  "Importance des relations authentiques",
+  "Conviction que la véritable connexion humaine est essentielle dans tout travail",
+  "Forte préoccupation pour l'accessibilité web et la recherche constante de moyens pour l'améliorer (ouverte à tout conseil)",
+  "Développement durable respectueux de l'environnement tout en assurant des performances élevées",
 ];
 
 export default function ValuesAndObjectives() {
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
       <Card Icon={GoRocket} title="Mes valeurs" color="bg-blue-100">
-        <ul className="text-gray-700 flex flex-col space-y-2 font-medium">
-          <li>
-            <span className="font-bold">
-              - Honnêteté, bienveillance, intégrité, transparence et respect
-            </span>{" "}
-            sont des valeurs primordiales dans toutes les interactions,
-            personnelles et professionnelles.
-          </li>
-          <li>
-            <span className="font-bold">
-              {" "}
-              - Importance des relations authentiques{" "}
-            </span>
-            et d'un environnement où chacun se sent valorisé et respecté.
-          </li>
-          <li>
-            - Conviction que la véritable connexion
-            <span className="font-bold"> humaine </span>
-            est essentielle dans tout travail.
-          </li>
-          <li>
-            - Forte préoccupation pour
-            <span className="font-bold"> l'accessibilité web </span>
-            et la recherche constante de moyens pour l'améliorer (ouverte à tout
-            conseil).
-          </li>
+        <ul className="list-disc ml-5">
+          {values.map((value, index) => (
+            <ItemList
+              key={index}
+              text={<p className="leading-relaxed">{value}</p>}
+            />
+          ))}
         </ul>
       </Card>
 
       <Card Icon={GiDirectionSigns} title="Mes objectifs" color="bg-blue-100">
-        <ul className="text-gray-700 flex flex-col space-y-2 font-medium">
+        <ul className="list-disc ml-5">
           {objectives.map((objective, index) => (
             <ItemList
               key={index}
-              Icon={AiOutlinePlus}
               text={<p className="leading-relaxed">{objective}</p>}
             />
           ))}
