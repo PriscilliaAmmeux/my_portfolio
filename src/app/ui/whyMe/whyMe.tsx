@@ -1,7 +1,6 @@
 import { FaHandPointRight } from "react-icons/fa";
 import { FcOk } from "react-icons/fc";
 import Title from "../title/title";
-import ItemList from "../../components/itemList/itemList";
 
 const cardContent = [
   "Ma motivation sans faille, mon dynamisme et ma positivité sont des atouts que je mets au service de chaque projet.",
@@ -16,15 +15,14 @@ export default function WhyMe() {
   return (
     <article className="mt-4 p-6">
       <Title text="Pourquoi me choisir ?" icon={FaHandPointRight} />
-      <ul className="flex flex-col space-y-4 font-medium">
+      <div className="flex flex-col space-y-4 font-medium">
         {cardContent.map((content, index) => (
-          <ItemList
-            key={index}
-            Icon={FcOk}
-            text={<p className="leading-relaxed">{content}</p>}
-          />
+          <div key={index} className="leading-relaxed">
+            <FcOk size={24} className="inline-block mr-2" />
+            <p>{content}</p>
+          </div>
         ))}
-      </ul>
+      </div>
     </article>
   );
 }
