@@ -5,6 +5,8 @@ import Footer from "../footer/footer";
 import NavbarHome from "../navBarHome/navBarHome";
 import { ThemeProvider } from "../themeProvider/themeProvider";
 import { ToggleButton } from "@/app/components/toggleButton/toggleButton";
+import { SiMalt } from "react-icons/si";
+import ProfileLink from "../profileLink/profileLink";
 
 export default function HomePage() {
   return (
@@ -20,17 +22,18 @@ export default function HomePage() {
           Bienvenue !
         </p>
 
-        <div className="flex items-center justify-center dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="flex items-center gap-2 p-8 lg:p-0 lg:pointer-events-auto"
-            href="https://www.linkedin.com/in/priscillia-ammeux/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Link to LinkedIn profile">
-            <FaLinkedin className="text-pink-700 hover:text-pink-700 transition-colors duration-300" />
-            Par Priscillia Ammeux
-          </a>
-        </div>
+        <ProfileLink
+          href="https://www.linkedin.com/in/priscillia-ammeux/"
+          ariaLabel="Link to LinkedIn profile"
+          Icon={FaLinkedin}>
+          Mon profil LinkedIn
+        </ProfileLink>
+        <ProfileLink
+          href="https://www.malt.fr/profile/priscilliaammeux1"
+          ariaLabel="Link to malt profile"
+          Icon={SiMalt}>
+          Mon Profil Malt
+        </ProfileLink>
       </section>
       <section className="flex flex-col items-center ">
         <h1 className="text-2xl sm:text-4xl mb-10 text-center">
