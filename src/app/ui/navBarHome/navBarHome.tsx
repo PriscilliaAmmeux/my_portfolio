@@ -7,8 +7,8 @@ export default function NavBarHome({
 }) {
   return (
     <section className="mb-4 md:mb-32 grid lg:max-w-6xl lg:w-full lg:mb-0 lg:grid-cols-6 lg:text-center">
-      <NavLink href="/" title="Accueil" />
-      <NavLink href="/about" title="Moi">
+      <NavLink href="/" title="Accueil" isActive={true} />
+      <NavLink href="/about" title="Moi" isActive={false}>
         {showParagraph && (
           <p className={`m-0 max-w-[30ch] text-sm`}>
             Envie de faire connaissance ? Venez découvrir qui se cache derrière
@@ -18,7 +18,7 @@ export default function NavBarHome({
           </p>
         )}
       </NavLink>
-      <NavLink href="/project" title="Mes projets">
+      <NavLink href="/project" title="Mes projets" isActive={false}>
         {showParagraph && (
           <p className={`m-0 max-w-[30ch] text-sm`}>
             Curieux de découvrir les projets sur lesquels j'ai mis mon grain de
@@ -27,7 +27,7 @@ export default function NavBarHome({
           </p>
         )}
       </NavLink>
-      <NavLink href="/prestations" title="Prestations">
+      <NavLink href="/prestations" title="Prestations" isActive={false}>
         {showParagraph && (
           <p className={`m-0 max-w-[30ch] text-sm`}>
             Besoin d'un coup de main pour votre prochain projet ? Découvrez mes
@@ -36,7 +36,7 @@ export default function NavBarHome({
           </p>
         )}
       </NavLink>
-      <NavLink href="/blog" title="Mon blog">
+      <NavLink href="/blog" title="Mon blog" isActive={false}>
         {showParagraph && (
           <p className={`m-0 max-w-[30ch] text-sm`}>
             Mes articles vous attendent dans ma section "Blog". Ici, je partage
@@ -45,7 +45,7 @@ export default function NavBarHome({
           </p>
         )}
       </NavLink>
-      <NavLink href="/contact" title="Contact">
+      <NavLink href="/contact" title="Contact" isActive={false}>
         {showParagraph && (
           <p className={`m-0 max-w-[30ch] text-sm`}>
             À la recherche d'un contact pour votre prochain projet ? Ne cherchez
