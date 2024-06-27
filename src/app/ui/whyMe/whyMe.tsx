@@ -17,9 +17,11 @@ export default function WhyMe() {
       <Title text="Pourquoi me choisir ?" icon={FaHandPointRight} />
       <div className="flex flex-col space-y-4 font-medium">
         {cardContent.map((content, index) => (
-          <div key={index} className="leading-relaxed">
-            <FcOk size={24} className="inline-block mr-2" />
-            <p>{content}</p>
+          <div key={index} className="flex items-center">
+            <div>
+              <FcOk className="mr-2 fc-ok-icon" />
+            </div>
+            <p className="leading-relaxed">{content}</p>
           </div>
         ))}
       </div>

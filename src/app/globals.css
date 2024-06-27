@@ -32,3 +32,8 @@ body {
     text-wrap: balance;
   }
 }
+
+.fc-ok-icon {
+  width: 24px;
+  height: 24px;
+}
