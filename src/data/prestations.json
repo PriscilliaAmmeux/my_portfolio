@@ -2,7 +2,7 @@
   {
     "id": 2,
     "title": "Site Vitrine Personnalisé",
-    "price": "1150 € HT (promotion jusqu'au 30/06/2024 au lieu de 1299 € HT)",
+    "price": "1150 € HT (promotion jusqu'au 31/08/2024 au lieu de 1299 € HT)",
     "description": "Site vitrine personnalisé (max 3 pages dont le formulaire de contact) en Next.js pour des performances optimales, reflétant fidèlement votre image de marque après analyse approfondie de vos besoins.",
     "presentation": [
       {
@@ -12,6 +12,7 @@
       { "content": "Incorporation fluide de vos contenus," },
       { "content": "Intégration d'un formulaire de contact," },
       { "content": "Optimisation mobile et SEO," },
+      { "content": "Accessibilité pour tous," },
       { "content": "Sécurisation avancée du site," },
       {
         "content": "Espace administrateur pour une gestion autonome des contenus,"
@@ -36,7 +37,7 @@
   {
     "id": 3,
     "title": "Site E-Commerce Personnalisé",
-    "price": "1499 € HT (promotion jusqu'au 30/06/2024 au lieu de 1699 € HT)",
+    "price": "1499 € HT (promotion jusqu'au 31/08/2024 au lieu de 1699 € HT)",
     "description": "Site e-commerce personnalisé (max 5 pages incluant le formulaire de contact, la page compte client et le panier) développé avec Next.js pour une expérience d'achat optimale, répondant parfaitement à vos besoins commerciaux après une analyse approfondie.",
     "presentation": [
       {
@@ -50,6 +51,7 @@
         "content": "Intégration d'un système de gestion des paiements sécurisé,"
       },
       { "content": "Optimisation mobile et SEO," },
+      { "content": "Accessibilité pour tous," },
       { "content": "Sécurisation avancée du site," },
       {
         "content": "Espace administrateur complet pour une gestion aisée des produits, commandes et clients,"
@@ -88,6 +90,9 @@
       },
       {
         "content": "Optimisation des performances,"
+      },
+      {
+        "content": "Rendre un site internet ou une application mobile accessible à tous"
       },
       {
         "content": "Mise à jour du design et des fonctionnalités pour un site plus attractif et efficace."
