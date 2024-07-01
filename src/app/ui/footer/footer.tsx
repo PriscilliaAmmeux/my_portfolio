@@ -1,15 +1,10 @@
 import { FaLinkedin } from "react-icons/fa";
-import Logo from "../logo/logo";
 import ProfileLink from "../profileLink/profileLink";
 import { SiMalt } from "react-icons/si";
 
 export default function Footer() {
   return (
     <footer className="bg-pink-100 dark:bg-gray-700 mt-10 w-full p-4 md:p-10 gap-5 md:gap-20 bottom-0 flex flex-col md:flex-row justify-around items-center">
-      <section>
-        <Logo width={200} />
-      </section>
-
       <section className="text-center">
         <p className="text-xs md:text-sm lg:text-base font-semibold">
           © {new Date().getFullYear()} Priscillia Ammeux. Tous droits réservés.
@@ -50,13 +45,15 @@ export default function Footer() {
         <ProfileLink
           href="https://www.linkedin.com/in/priscillia-ammeux/"
           ariaLabel="Link to LinkedIn profile"
-          Icon={FaLinkedin}>
+          Icon={FaLinkedin}
+          size={20}>
           Mon profil LinkedIn
         </ProfileLink>
         <ProfileLink
           href="https://www.malt.fr/profile/priscilliaammeux1"
           ariaLabel="Link to malt profile"
-          Icon={SiMalt}>
+          Icon={SiMalt}
+          size={50}>
           Mon Profil Malt
         </ProfileLink>
       </section>
