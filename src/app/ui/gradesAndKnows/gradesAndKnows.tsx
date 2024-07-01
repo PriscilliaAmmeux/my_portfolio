@@ -48,7 +48,10 @@ export default function GradesAndKnows() {
         </ul>
       </Card>
 
-      <Card Icon={GrCertificate} title="Mes diplômes" color="bg-blue-100">
+      <Card
+        Icon={GrCertificate}
+        title="Mes diplômes & formations"
+        color="bg-blue-100">
         <ul>
           {grades.map((grades) => (
             <GradesItems
