@@ -1,4 +1,7 @@
+import { FaLinkedin } from "react-icons/fa";
 import Logo from "../logo/logo";
+import ProfileLink from "../profileLink/profileLink";
+import { SiMalt } from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -6,14 +9,15 @@ export default function Footer() {
       <section>
         <Logo width={200} />
       </section>
+
       <section className="text-center">
         <p className="text-xs md:text-sm lg:text-base font-semibold">
           © {new Date().getFullYear()} Priscillia Ammeux. Tous droits réservés.
         </p>
-        <p className="text-xs md:text-sm lg:text-base">
+        <p className="text-xs md:text-sm lg:text-base p-1">
           Créée avec amour ❤️ par Priscillia Ammeux
         </p>
-        <div className="flex justify-center mt-2 md:mt-0">
+        <div className="flex justify-center mt-2 md:mt-0 ">
           <a href="/ecoIndex.webp" download>
             <img
               className="cursor-pointer"
@@ -27,7 +31,7 @@ export default function Footer() {
       </section>
 
       <section className="text-center">
-        <h1 className="underline font-semibold text-xs md:text-sm lg:text-base">
+        <h1 className="underline font-semibold text-xs md:text-sm lg:text-base p-1">
           Mentions légales:{" "}
         </h1>
         <p className="text-xs md:text-sm lg:text-base">
@@ -37,9 +41,24 @@ export default function Footer() {
           href="/CGV_Priscillia_Ammeux.pdf"
           download
           aria-label="Cliquez ici pour télécharger les conditions générales de ventes"
-          className="text-xs md:text-sm lg:text-base underline hover:text-pink-700 hover:font-bold">
+          className="text-xs md:text-sm lg:text-base underline hover:text-pink-700 hover:font-bold p-1">
           Télécharger les CGV
         </a>
+      </section>
+
+      <section>
+        <ProfileLink
+          href="https://www.linkedin.com/in/priscillia-ammeux/"
+          ariaLabel="Link to LinkedIn profile"
+          Icon={FaLinkedin}>
+          Mon profil LinkedIn
+        </ProfileLink>
+        <ProfileLink
+          href="https://www.malt.fr/profile/priscilliaammeux1"
+          ariaLabel="Link to malt profile"
+          Icon={SiMalt}>
+          Mon Profil Malt
+        </ProfileLink>
       </section>
     </footer>
   );
