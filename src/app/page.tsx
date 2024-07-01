@@ -11,9 +11,7 @@ export const metadata = {
 export default function Home() {
   return (
     <main>
-      <section>
-        <HomePage />
-      </section>
+      <HomePage />
       <Analytics />
       <SpeedInsights />
     </main>

@@ -8,13 +8,13 @@ export default function Logo({ width }: LogoProps = { width: 100 }) {
       <img
         src="/logo-complet.webp"
         alt="logo d'entreprise (Priscillia AMMEUX - Créatrice Développeuse)"
-        className="mb-2 block dark:hidden"
+        className="block dark:hidden"
         width={width}
       />
       <img
         src="/logo-bg-dark.webp"
         alt="logo d'entreprise (Priscillia AMMEUX - Créatrice Développeuse)"
-        className="mb-2 hidden dark:block"
+        className="hidden dark:block"
         width={width}
       />
     </section>
