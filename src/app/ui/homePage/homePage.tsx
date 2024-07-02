@@ -7,7 +7,7 @@ import Logo from "../logo/logo";
 
 export default function HomePage() {
   return (
-    <main className="bg-pink-100 dark:bg-gray-700 text-gray-700 dark:text-white">
+    <main className="bg-pink-100 dark:bg-gray-700 text-gray-700 dark:text-white ">
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         <div className="flex justify-around">
           <ToggleButton />
@@ -31,9 +31,10 @@ export default function HomePage() {
         />
       </section>
 
-      <section className="flex justify-center">
+      <section className="flex justify-center ">
         <NavbarHome showParagraph={true} />
       </section>
+
       <Footer />
     </main>
   );
