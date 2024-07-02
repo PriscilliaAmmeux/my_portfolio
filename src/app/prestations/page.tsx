@@ -4,6 +4,7 @@ import Title from "../ui/title/title";
 import { Metadata } from "next";
 import Process from "../ui/process/process";
 import ListPrestations from "../ui/listPrestations/listPrestations";
+import HelpNorth from "../ui/helpNorth/helpNorth";
 
 export const metadata: Metadata = {
   title: "Mes prestations - Priscillia Ammeux",
@@ -16,6 +17,7 @@ export default function Page() {
         <Title text="Prestations" icon={BsGearFill} />
         <ListPrestations />
         <Process />
+        <HelpNorth />
       </main>
     </Layout>
   );

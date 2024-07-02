@@ -23,7 +23,12 @@ export default function ListPrestations() {
           Icon={IoMdGitNetwork}
           title={prestation.title}
           color="bg-blue-100"
-          button={{ href: "/contact", text: "Contactez moi" }}>
+          button={{
+            href: "/contact",
+            text: "Contactez moi",
+            ariaLabel:
+              "Cliquez sur le bouton contactez moi afin d'aller sur la page contact",
+          }}>
           <div className="flex-grow">
             <ul className="text-gray-700 list-disc mt-2 mb-2 list-none text-sm">
               <li className="mt-2 mb-2 text-pink-700 font-bold">
