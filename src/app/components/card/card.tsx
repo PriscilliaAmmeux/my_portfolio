@@ -12,7 +12,7 @@ interface ArticleProps {
   children: ReactNode;
   className?: string;
   color?: string;
-  button?: { href: string; text: string };
+  button?: { href: string; text: string; ariaLabel: string };
 }
 
 export default function Card({
