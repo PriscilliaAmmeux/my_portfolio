@@ -121,5 +121,16 @@
         "content": "Restoration de votre site en cas de problème technique."
       }
     ]
+  },
+  {
+    "id": 6,
+    "title": "TJM",
+    "price": "350 € HT / jour",
+    "description": "",
+    "presentation": [
+      {
+        "content": "A négocier selon la durée et la complexité du projet."
+      }
+    ]
   }
 ]
