@@ -15,7 +15,7 @@ export default function HomePage() {
       </ThemeProvider>
 
       <section className="flex flex-col sm:flex-row justify-between items-center text-center sm:text-left">
-        <Logo width={300} />
+        <Logo width={250} />
 
         <h1 className="text-2xl sm:text-4xl mb-10">
           Conceptrice et Développeuse d'Applications
