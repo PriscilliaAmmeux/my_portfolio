@@ -18,7 +18,7 @@ export default function ProfileLink({
   return (
     <section className="flex items-center justify-center dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
       <a
-        className="flex items-center p-1 gap-2 lg:p-0 lg:pointer-events-auto cursor-pointer hover:text-pink-700 transition-colors duration-300"
+        className="flex items-center p-1 gap-2 lg:p-0 lg:pointer-events-auto cursor-pointer transition-colors duration-300 text-xs md:text-sm lg:text-base hover:text-pink-700 hover:font-bold p-1"
         href={href}
         target="_blank"
         rel="noopener noreferrer"

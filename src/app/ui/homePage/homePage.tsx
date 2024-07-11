@@ -7,7 +7,7 @@ import Logo from "../logo/logo";
 
 export default function HomePage() {
   return (
-    <main className="bg-pink-100 dark:bg-gray-700 text-gray-700 dark:text-white ">
+    <section className="md:h-screen bg-pink-100 dark:bg-gray-700 text-gray-700 dark:text-white ">
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         <div className="flex justify-around">
           <ToggleButton />
@@ -26,7 +26,7 @@ export default function HomePage() {
           src="/me.webp"
           alt="picture of me"
           width={200}
-          height={100}
+          height={200}
           priority
         />
       </section>
@@ -35,7 +35,9 @@ export default function HomePage() {
         <NavbarHome showParagraph={true} />
       </section>
 
-      <Footer />
-    </main>
+      <div className="md:fixed inset-x-0 bottom-0">
+        <Footer />
+      </div>
+    </section>
   );
 }
