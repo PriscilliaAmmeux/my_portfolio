@@ -46,15 +46,15 @@ export default function ProjectCard({
       <section className="px-6 py-4 flex justify-between absolute bottom-0 w-full">
         <Button
           type="button"
-          text="Voir la démo"
+          text="Visiter le site web"
           href={demoLink}
-          ariaLabel="Cliquez sur le bouton pour aller voir la démo du site"
+          ariaLabel="Cliquez sur le bouton pour visiter le site web"
         />
         <Button
           type="button"
           text="Voir sur GitHub"
           href={githubLink}
-          ariaLabel="Cliquez sur le bouton pour aller voir le Github du site"
+          ariaLabel="Cliquez sur le bouton pour visiter le Github du site"
         />
       </section>
     </section>
