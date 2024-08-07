@@ -5,12 +5,6 @@ import { ToggleButton } from "../../components/toggleButton/toggleButton";
 import Footer from "@/app/ui/footer/footer";
 import Navigation from "@/app/ui/navigation/navigation";
 
-export const metadata = {
-  title: "Priscillia Ammeux - Conceptrice et Développeuse d'Applications",
-  description:
-    "Découvrez mon portfolio et mes services de développement freelance, alliant expertise technique et créativité pour réaliser vos projets digitaux.",
-};
-
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <section
