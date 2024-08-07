@@ -5,7 +5,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata = {
   title: "Priscillia Ammeux - Conceptrice et Développeuse d'Applications",
   description:
-    "Découvrez mon portfolio et mes services de développement freelance, alliant expertise technique et créativité pour réaliser vos projets digitaux.",
+    "Priscillia Ammeux, freelance, développeuse web, création et conception de site web. Expertise technique et créativité.",
 };
 
 export default function Home() {
