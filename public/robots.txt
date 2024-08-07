@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.priscillia-ammeux-portfolio.fr//sitemap.xml
