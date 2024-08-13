@@ -7,7 +7,6 @@ import BackendSkills from "../backendSkills/backendSkills";
 import FrontendSkills from "../frontendSkills/frontendSkills";
 import grades from "../../../data/grades.json";
 import GradesItems from "../gradesItems/gradesItems";
-import { BiHandicap } from "react-icons/bi";
 import DesignSkills from "../designSkills/designSkills";
 
 export default function GradesAndKnows() {
