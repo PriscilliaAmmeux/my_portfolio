@@ -29,9 +29,9 @@ export default function Interests() {
     <article className="mt-8 pt-4 bg-blue-100 w-full p-6 shadow-lg">
       <section className="flex items-center justify-center mb-6">
         <FaHeart size={40} color="#be185d" />
-        <h1 className="ml-4 text-blue-800 text-2xl font-semibold">
+        <h2 className="ml-4 text-blue-800 text-2xl font-semibold">
           Centres d'intérêts
-        </h1>
+        </h2>
       </section>
       <section className="relative flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-2 pb-6">
         <ImageList images={images} />;

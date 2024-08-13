@@ -5,7 +5,7 @@ import { BiLogoSpringBoot } from "react-icons/bi";
 export default function backendSkills() {
   return (
     <li>
-      <h1>Backend:</h1>
+      <h2>Backend:</h2>
       <ul>
         <SkillItem Icon={FaJava} skill="Java" />
         <SkillItem Icon={BiLogoSpringBoot} skill="SpringBoot" />

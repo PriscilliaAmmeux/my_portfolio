@@ -28,9 +28,9 @@ export default function Carreer() {
     <section className="mt-8 pt-6 w-full p-6">
       <div className="flex items-center justify-center mb-4">
         <MdWork size={40} className={styles.colorFirst} />{" "}
-        <h1 className="ml-4 text-2xl font-semibold ">
+        <h2 className="ml-4 text-2xl font-semibold ">
           Mon parcours professionnel
-        </h1>
+        </h2>
       </div>
       <div className="relative flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-2 mb-10">
         <ImageList images={images} />

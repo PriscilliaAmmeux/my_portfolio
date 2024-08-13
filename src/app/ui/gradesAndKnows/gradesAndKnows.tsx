@@ -18,18 +18,18 @@ export default function GradesAndKnows() {
         title="Mes compétences"
         color="bg-blue-100">
         <ul className="text-gray-700 list-disc ml-3">
-          <h1 className="flex items-center font-bold">
+          <h3 className="flex items-center font-bold">
             Spécifier, concevoir et développer des logiciels ou applications web
-          </h1>
+          </h3>
           <ul className="grid grid-cols-3 gap-4">
             <BackendSkills />
             <FrontendSkills />
             <DesignSkills />
           </ul>
 
-          <h1 className="flex items-center pt-3 font-bold ">
+          <h3 className="flex items-center pt-3 font-bold ">
             Concevoir, gérer et interroger des bases de données:{" "}
-          </h1>
+          </h3>
           <li className="flex items-center ml-6">
             <SiPostgresql className="ml-2 mr-2" />
             <span className="font-normal">PostgreSQL,</span>
@@ -37,41 +37,41 @@ export default function GradesAndKnows() {
             <span className="font-normal">MySQL</span>
           </li>
 
-          <h1 className="flex items-center pt-3 font-bold">
+          <h3 className="flex items-center pt-3 font-bold">
             Organiser et gérer des projets informatiques en équipe:{" "}
-          </h1>
+          </h3>
           <li className="flex items-center ml-6">
             <FaGithub className="ml-2 mr-2" />{" "}
             <span className="font-normal">Git</span>
           </li>
 
-          <h1 className="flex items-center pt-3 font-bold">
+          <h3 className="flex items-center pt-3 font-bold">
             Conseiller et orienter le client dans son choix
-          </h1>
+          </h3>
 
-          <h1 className="flex items-center pt-3 font-bold">
+          <h3 className="flex items-center pt-3 font-bold">
             Outils et technologies de déploiement:
-          </h1>
+          </h3>
           <li className="flex items-center ml-6">
             <span className="font-normal">Docker, Vercel</span>
           </li>
 
-          <h1 className="flex items-center pt-3 font-bold">Tests :</h1>
+          <h3 className="flex items-center pt-3 font-bold">Tests :</h3>
           <li className="flex items-center ml-6">
             JUnit, Jest, Karaté ( Framework de tests d'API REST), Playwright.
           </li>
 
-          <h1 className="flex items-center pt-3 font-bold">
+          <h3 className="flex items-center pt-3 font-bold">
             Accessibilité Web:
-          </h1>
+          </h3>
           <li className="flex items-center ml-6">
             Techniques et pratiques d’accessibilité (formation prévue courant
             octobre- novembre)
           </li>
 
-          <h1 className="flex items-center pt-3 font-bold">
+          <h3 className="flex items-center pt-3 font-bold">
             Pratiques de développement durable
-          </h1>
+          </h3>
           <li className="flex items-center ml-6">
             Optimisation de la consommation énergétique des applications
           </li>

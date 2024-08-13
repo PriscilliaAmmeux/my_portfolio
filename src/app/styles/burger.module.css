@@ -3,12 +3,14 @@
 }
 
 .open {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: fixed;
   z-index: 50;
-  right: 5;
+  right: 0;
   left: 10;
   top: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.753);
+  height: 100%;
 }

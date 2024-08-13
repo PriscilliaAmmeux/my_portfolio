@@ -5,7 +5,7 @@ import { SiCss3, SiTailwindcss } from "react-icons/si";
 export default function designSkills() {
   return (
     <li>
-      <h1>Design: </h1>
+      <h2>Design: </h2>
       <ul>
         <SkillItem Icon={SiTailwindcss} skill="Tailwindcss" />
         <SkillItem Icon={SiCss3} skill="CSS" />

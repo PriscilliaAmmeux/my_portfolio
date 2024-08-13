@@ -14,19 +14,20 @@ export default function HomePage() {
         </div>
       </ThemeProvider>
 
-      <section className="flex flex-col sm:flex-row justify-between items-center text-center sm:text-left">
-        <Logo width={250} />
+      <section className="flex flex-col sm:flex-row justify-between items-center text-center sm:text-left ">
+        <Logo width={200} />
 
-        <h1 className="text-2xl sm:text-4xl mb-10">
-          Conceptrice et Développeuse d'Applications
+        <h1 className="text-2xl sm:text-3xl flex flex-col items-center">
+          Priscillia AMMEUX
+          <span> Conceptrice et Développeuse d'Applications</span>
         </h1>
 
         <Image
           className="rounded-full sm:mr-10 mb-10 sm:mb-0"
           src="/me.webp"
           alt="picture of me"
-          width={200}
-          height={200}
+          width={150}
+          height={150}
           priority
         />
       </section>

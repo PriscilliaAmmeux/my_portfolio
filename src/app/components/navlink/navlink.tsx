@@ -33,14 +33,14 @@ export default function NavLink({
       className={`group rounded-lg border border-transparent px-2 py-1 transition-colors hover:border-pink-700 hover:bg-pink-200 hover:text-black dark:hover:text-pink-100 hover:pink:border-neutral-700 dark:hover:bg-neutral-800/30 ${className}`}
       target="_self"
       rel="noopener noreferrer">
-      <h1
+      <h3
         className={`ml-4 sm:ml-0 mb-1 text-xl dark:text-white text-pink-700 font-semibold`}
         onClick={onClick}
         style={{
           color: isActive ? "underline" : "",
         }}>
         {title}
-      </h1>
+      </h3>
       {children}
     </Link>
   );

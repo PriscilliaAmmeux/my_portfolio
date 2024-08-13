@@ -26,9 +26,9 @@ export default function Footer() {
       </section>
 
       <section className="text-center">
-        <h1 className="underline font-semibold text-xs md:text-sm lg:text-base p-1">
+        <h3 className="underline font-semibold text-xs md:text-sm lg:text-base p-1">
           Mentions légales:{" "}
-        </h1>
+        </h3>
         <p className="text-xs md:text-sm lg:text-base">
           Siret de l'établissement: 92901000700011
         </p>
