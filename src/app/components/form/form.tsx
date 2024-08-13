@@ -82,9 +82,9 @@ export default function Form({ className }: FormProps) {
       noValidate>
       <div className="flex items-center justify-center mb-4">
         <SiMinutemailer size={40} className="text-pink-700" />
-        <h1 className="ml-4 text-blue-800 text-2xl font-semibold">
+        <h2 className="ml-4 text-blue-800 text-2xl font-semibold">
           Formulaire de contact
-        </h1>
+        </h2>
       </div>
 
       <label htmlFor="name" className="sr-only">

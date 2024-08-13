@@ -6,7 +6,7 @@ import {  SiFlutter } from "react-icons/si";
 export default function frontendSkills() {
   return (
     <li>
-      <h1>Frontend:</h1>
+      <h3>Frontend:</h3>
       <ul>
         <SkillItem Icon={TbBrandNextjs} skill="Nextjs" />
         <SkillItem Icon={FaVuejs} skill="Vue3" />

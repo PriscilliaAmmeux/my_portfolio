@@ -29,7 +29,7 @@ export default function ProjectCard({
         alt={"screen ou icon de l'application"}
       />
       <section className="mb-20 px-5 py-4">
-        <h1 className="text-blue-800 font-bold text-xl mb-8 mt-4">{title}</h1>
+        <h2 className="text-blue-800 font-bold text-xl mb-8 mt-4">{title}</h2>
         <p className="text-gray-700 text-base">{description}</p>
         <p className="text-gray-600 text-sm mt-2">{methodology}</p>
         <div className="mt-4">

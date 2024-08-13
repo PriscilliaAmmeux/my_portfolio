@@ -62,9 +62,9 @@ export default function ArticleBlog({
   return (
     <article className="rounded overflow-hidden shadow-lg bg-white mt-4 ">
       <img className="w-full" src={img} alt={alt} />
-      <h1 className="text-blue-800 font-bold text-xl mt-4 text-center">
+      <h2 className="text-blue-800 font-bold text-xl mt-4 text-center">
         {title}
-      </h1>
+      </h2>
       <h2 className="text-blue-700 text-base text-center">{subtitle}</h2>
       <p className="text-gray-700 text-base ml-2 text-center mr-2">{date}</p>
       <span className="flex justify-center mb-4 mt-2">
