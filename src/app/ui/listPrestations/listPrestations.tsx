@@ -1,7 +1,7 @@
 import Card from "@/app/components/card/card";
 import prestations from "../../../data/prestations.json";
-
 import { IoMdGitNetwork } from "react-icons/io";
+
 interface PrestationListProps {
   list?: { content: string }[];
   className?: string;
