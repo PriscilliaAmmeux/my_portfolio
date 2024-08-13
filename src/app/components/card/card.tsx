@@ -24,7 +24,7 @@ export default function Card({
 }: ArticleProps) {
   return (
     <section
-      style={{ position: "relative", maxHeight: "45rem" }}
+      style={{ position: "relative", maxHeight: "60rem" }}
       className={`mb-4 ${color} p-6 rounded-md shadow-lg mr-4 ml-4`}>
       <div className="mb-10">
         <div className="flex items-center justify-center mb-4">
