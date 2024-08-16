@@ -1,7 +1,7 @@
 import { ImPencil2 } from "react-icons/im";
 import { FaWalking, FaPaintBrush } from "react-icons/fa";
 import { MdOutlineFestival } from "react-icons/md";
-import { RiTeamLine } from "react-icons/ri";
+import { RiKakaoTalkLine, RiTeamLine } from "react-icons/ri";
 import { BsArrowRight } from "react-icons/bs";
 import { FaHeart } from "react-icons/fa";
 import ImageList from "../../components/imageList/imageList";
@@ -37,6 +37,12 @@ export default function Interests() {
         <ImageList images={images} />;
       </section>
 
+      <InterestSection
+        Icon={RiKakaoTalkLine}
+        title="Talk: Comment lutter contre le syndrome de l'imposteur"
+        description="Je donnerai ce talk le 20 septembre prochain à Zenika Lille avec les ChtiteDev. Pour y participer, inscrivez-vous sur Meetup (lien ci-dessous)."
+        link="https://www.meetup.com/fr-FR/nightclazz-lille-by-zenika/events/302803688/?_xtd=gqFyqTMwNjIyNzk5OKFwo2FwaQ%253D%253D&from=ref"
+      />
       <InterestSection
         Icon={MdOutlineFestival}
         title="Membre du Comité de Sélection - Dev Fest Lille 2024"

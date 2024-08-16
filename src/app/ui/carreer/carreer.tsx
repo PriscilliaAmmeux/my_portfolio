@@ -42,6 +42,29 @@ export default function Carreer() {
             {job.tasks && (
               <ul className="list-disc ml-6">{renderTasks(job.tasks)}</ul>
             )}
+            {Array.isArray(job.link)
+              ? job.link.map((link, linkIndex) => (
+                  <a
+                    key={linkIndex}
+                    href={link}
+                    className="cursor-pointer underline hover:text-pink-700 hover:font-bold pl-6 block"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    En savoir plus sur{" "}
+                    {link.includes("massage")
+                      ? "Stéphanie Heudre"
+                      : "Adrien Demarle"}
+                  </a>
+                ))
+              : job.link && (
+                  <a
+                    href={job.link}
+                    className="cursor-pointer underline hover:text-pink-700 hover:font-bold pl-6"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    En savoir plus sur KreaWebSolutions
+                  </a>
+                )}
           </li>
         ))}
       </ul>
