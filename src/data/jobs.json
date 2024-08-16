@@ -1,10 +1,23 @@
 [
   {
+    "title": "Développeuse fullstack freelance - KreaWebSolutions ",
+    "date": "Août 2024 à aujourd'hui",
+    "tasks": [
+      "KreaWebSolutions, c'est un collectif de freelances, une équipe soudée de 6 experts passionnés ( 3 développeurs web, 2 rédactrices web, 1 coach mindset), prêts à relever tous vos défis digitaux. Ensemble, nous allions nos forces pour offrir des solutions web sur mesure. "
+    ],
+    "link": "https://kreawebsolutions.fr/"
+  },
+
+  {
     "title": "Développeuse fullstack freelance - Siren 929010007 ",
     "date": "Juin 2024 à aujourd'hui",
     "tasks": [
       "Développement sur mesure de projets web pour des clients particuliers et professionnels.",
       "Projets: Stéphanie Heudre - Praticienne bien-être certifiée, et Adrien Demarle - Ostéopathe D.O. (voir onglet \"Mes Projets\")"
+    ],
+    "link": [
+      "https://www.massage-stephanie-heudre.fr/",
+      "https://www.adrien-demarle-osteopathe.fr/"
     ]
   },
 
