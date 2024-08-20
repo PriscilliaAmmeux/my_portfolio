@@ -42,12 +42,6 @@ export default function ListPrestations() {
                     <PrestationList list={prestation.presentation} />
                   </>
                 )}
-              {prestation.avantages && prestation.avantages.length > 0 && (
-                <>
-                  <li className="mt-2 mb-2 font-bold">Avantages :</li>
-                  <PrestationList list={prestation.avantages} />
-                </>
-              )}
             </ul>
           </div>
         </Card>
