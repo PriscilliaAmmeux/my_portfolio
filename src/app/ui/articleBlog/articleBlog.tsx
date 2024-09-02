@@ -13,7 +13,12 @@ interface ArticleProps {
   date: string;
   sections: {
     title: string;
-    content: string | string[] | { description: string; details: string[] };
+    part?: {
+      subtitle: string;
+      content: string;
+    }[];
+    content?: string | string[] | { description: string; details: string[] };
+    link?: string;
   }[];
 }
 
@@ -43,7 +48,7 @@ export default function ArticleBlog({
           ))}
         </ul>
       );
-    } else {
+    } else if (content && content.description && content.details) {
       return (
         <>
           <p className="text-gray-600 ml-2">{content.description}</p>
@@ -56,6 +61,8 @@ export default function ArticleBlog({
           </ul>
         </>
       );
+    } else {
+      return null;
     }
   };
 
@@ -74,7 +81,7 @@ export default function ArticleBlog({
           onClick={() => {
             setIsModalOpen(true);
           }}
-          ariaLabel="Cliquez qur le bouton pour lire en entier l'article"
+          ariaLabel="Cliquez sur le bouton pour lire en entier l'article"
         />
       </span>
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
@@ -84,7 +91,28 @@ export default function ArticleBlog({
               <h2 className="text-pink-700 font-bold mb-2 mt-4 ml-2">
                 {section.title}
               </h2>
-              {renderContent(section.content)}
+              {section.content && renderContent(section.content)}
+              {section.part && (
+                <div>
+                  {section.part.map((part, partIndex) => (
+                    <div key={partIndex}>
+                      <h3 className="text-blue-700 font-semibold ml-2">
+                        {part.subtitle}
+                      </h3>
+                      <p className="text-gray-600 ml-2 mb-4">{part.content}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
+              {section.link && (
+                <a
+                  href={section.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-700 underline ml-2 mb-5">
+                  Voir la documentation
+                </a>
+              )}
             </section>
           ))}
         </div>
