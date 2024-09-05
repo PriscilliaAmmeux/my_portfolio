@@ -27,18 +27,10 @@ export default function Footer() {
       </section>
 
       <section className="text-center">
-        <h3 className="underline font-semibold text-xs md:text-sm lg:text-base p-1">
-          Mentions légales:{" "}
-        </h3>
-        <p className="text-xs md:text-sm lg:text-base">
-          Siret de l'établissement: 92901000700011
-        </p>
         <a
-          href="/CGV_Priscillia_Ammeux.pdf"
-          download
-          aria-label="Cliquez ici pour télécharger les conditions générales de ventes"
-          className="text-xs md:text-sm lg:text-base underline hover:text-pink-700 hover:font-bold p-1">
-          Télécharger les CGV
+          href="/legalNotices"
+          className="hover:text-pink-700 hover:font-bold cursor-pointer">
+          Mentions légales
         </a>
       </section>
 
