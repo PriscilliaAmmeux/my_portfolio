@@ -1,6 +1,7 @@
-import { FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import ProfileLink from "../profileLink/profileLink";
 import { SiMalt } from "react-icons/si";
+import { BsInstagram } from "react-icons/bs";
 
 export default function Footer() {
   return (
@@ -41,21 +42,31 @@ export default function Footer() {
         </a>
       </section>
 
-      <section>
+      <section className="flex justify-between space-x-2">
         <ProfileLink
           href="https://www.linkedin.com/in/priscillia-ammeux/"
           ariaLabel="Link to LinkedIn profile"
           Icon={FaLinkedin}
-          size={20}>
-          Mon profil LinkedIn
-        </ProfileLink>
+          size={20}
+        />
         <ProfileLink
           href="https://www.malt.fr/profile/priscilliaammeux1"
           ariaLabel="Link to malt profile"
           Icon={SiMalt}
-          size={50}>
-          Mon Profil Malt
-        </ProfileLink>
+          size={50}
+        />
+        <ProfileLink
+          href="https://www.facebook.com/priscillia.selva/?locale=fr_FR"
+          ariaLabel="Link to Facebook profile"
+          Icon={FaFacebook}
+          size={20}
+        />
+        <ProfileLink
+          href="https://www.instagram.com/priscillia_ammeux/"
+          ariaLabel="Link to Facebook profile"
+          Icon={BsInstagram}
+          size={20}
+        />
       </section>
     </footer>
   );
