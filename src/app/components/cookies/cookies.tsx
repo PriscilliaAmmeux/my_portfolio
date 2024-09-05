@@ -70,9 +70,10 @@ export default function Cookies() {
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
             <p className="mb-4 text-black">
-              En cliquant sur « Tout accepter », vous acceptez l'utilisation de
-              cookies techniques nécessaires au bon fonctionnement du site,
-              ainsi que des cookies à des fins statistiques.{" "}
+              En cliquant sur &laquo; Tout accepter &raquo;, vous acceptez
+              l&apos;utilisation de cookies techniques nécessaires au bon
+              fonctionnement du site, ainsi que des cookies à des fins
+              statistiques.
               <a href="/legalNotices" className="text-blue-700 underline">
                 En savoir plus
               </a>{" "}
