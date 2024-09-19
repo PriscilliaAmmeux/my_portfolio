@@ -2,90 +2,124 @@
   {
     "id": 1,
     "title": "Site Vitrine Basique",
-    "price": "699 € HT (promotion jusqu'au 31/12/2024 au lieu de 799 € HT)",
-    "description": "Site vitrine basique (max 3 pages dont le formulaire de contact)  en Next.js pour des performances optimales. Idéal pour une présence en ligne efficace et professionnelle.",
+    "price": "599 € HT (promotion jusqu'au 31/12/2024 au lieu de 799 € HT)",
+    "description": "Un site vitrine clé en main pour une présence en ligne rapide et efficace. Idéal pour attirer vos premiers clients et renforcer votre crédibilité.",
     "presentation": [
       {
-        "content": "Accompagnement personnalisé dans l'analyse de vos besoins,"
+        "content": "Analyse de vos besoins : Nous vous guidons pour cibler vos objectifs et maximiser l’impact de votre site."
       },
-      { "content": "Hébergement et nom de domaine inclus 1 an," },
-      { "content": "Incorporation fluide de vos contenus," },
-      { "content": "Intégration d'un formulaire de contact," },
-      { "content": "Optimisation mobile et SEO," },
-      { "content": "Accessibilité pour tous," },
-      { "content": "Sécurisation avancée du site," }
+      {
+        "content": "Hébergement et nom de domaine inclus 1 an : Pas besoin de vous soucier de la technique, nous gérons tout !"
+      },
+      {
+        "content": "Intégration fluide de vos contenus : Votre message est mis en valeur de manière professionnelle."
+      },
+      {
+        "content": "Formulaire de contact : Permettez à vos visiteurs de vous contacter facilement."
+      },
+      {
+        "content": "Optimisation mobile et SEO : Votre site sera visible sur Google et adapté à tous les appareils."
+      },
+      { "content": "Accessibilité : Votre site sera utilisable par tous." },
+      {
+        "content": "Sécurisation avancée : Protégez votre site et les données de vos visiteurs."
+      }
     ]
   },
 
   {
     "id": 2,
     "title": "Site Vitrine Personnalisé",
-    "price": "1150 € HT (promotion jusqu'au 31/12/2024 au lieu de 1299 € HT)",
-    "description": "Site vitrine personnalisé (max 3 pages dont le formulaire de contact) en Next.js pour des performances optimales, reflétant fidèlement votre image de marque après analyse approfondie de vos besoins.",
+    "price": "1099 € HT (promotion jusqu'au 31/12/2024 au lieu de 1299 € HT)",
+    "description": "Un site vitrine sur mesure, conçu pour refléter fidèlement votre image de marque et capter l'attention de vos clients potentiels.",
     "presentation": [
       {
-        "content": "Accompagnement personnalisé dans l'analyse de vos besoins,"
+        "content": "Accompagnement sur mesure : Nous analysons vos besoins pour créer un site qui répond parfaitement à vos objectifs commerciaux."
       },
-      { "content": "Hébergement et nom de domaine inclus 1 an," },
-      { "content": "Incorporation fluide de vos contenus," },
-      { "content": "Intégration d'un formulaire de contact," },
-      { "content": "Optimisation mobile et SEO," },
-      { "content": "Accessibilité pour tous," },
-      { "content": "Sécurisation avancée du site," },
       {
-        "content": "Espace administrateur pour une gestion autonome des contenus,"
+        "content": "Hébergement et nom de domaine inclus 1 an : Tranquillité d'esprit garantie."
       },
-      { "content": "Formation à l'administration du site." }
+      {
+        "content": "Contenus intégrés avec soin : Chaque détail est pensé pour convaincre vos visiteurs."
+      },
+      {
+        "content": "Formulaire de contact : Facilitez la prise de contact avec vos clients."
+      },
+      {
+        "content": "Optimisation mobile et SEO : Assurez votre visibilité en ligne."
+      },
+      {
+        "content": "Accessibilité universelle : Rendez votre site utilisable pour tous vos visiteurs."
+      },
+      {
+        "content": "Sécurisation avancée : Sécurisez vos données et celles de vos clients."
+      },
+      {
+        "content": "Espace administrateur : Gérez vos contenus en toute autonomie."
+      },
+      {
+        "content": "Formation à l'administration : Prenez en main votre site en toute confiance."
+      }
     ]
   },
   {
     "id": 3,
     "title": "Site E-Commerce Personnalisé",
     "price": "1499 € HT (promotion jusqu'au 31/12/2024 au lieu de 1699 € HT)",
-    "description": "Site e-commerce personnalisé (max 5 pages incluant le formulaire de contact, la page compte client et le panier) développé avec Next.js pour une expérience d'achat optimale, répondant parfaitement à vos besoins commerciaux après une analyse approfondie.",
+    "description": "Un site e-commerce optimisé pour convertir vos visiteurs en acheteurs, avec des fonctionnalités sur mesure pour maximiser vos ventes en ligne.",
     "presentation": [
       {
-        "content": "Accompagnement personnalisé dans l'analyse de vos besoins commerciaux,"
-      },
-      { "content": "Hébergement et nom de domaine inclus 1 an," },
-      {
-        "content": "Incorporation fluide de vos produits et contenus,"
+        "content": "Analyse de vos besoins commerciaux : Nous adaptons votre site à vos objectifs de vente."
       },
       {
-        "content": "Intégration d'un système de gestion des paiements sécurisé,"
+        "content": "Hébergement et nom de domaine inclus 1 an : Votre boutique en ligne est prête à fonctionner immédiatement."
       },
-      { "content": "Optimisation mobile et SEO," },
-      { "content": "Accessibilité pour tous," },
-      { "content": "Sécurisation avancée du site," },
       {
-        "content": "Espace administrateur complet pour une gestion aisée des produits, commandes et clients,"
+        "content": "Intégration fluide de vos produits : Vos articles seront présentés de manière claire et attractive."
       },
-      { "content": "Formation à l'administration du site." }
+      {
+        "content": "Paiement sécurisé : Offrez une expérience d'achat en toute sécurité."
+      },
+      {
+        "content": "Optimisation mobile et SEO : Maximisez votre visibilité et vos conversions sur tous les appareils."
+      },
+      {
+        "content": "Accessibilité universelle : Votre site est utilisable par tous."
+      },
+      {
+        "content": "Sécurisation avancée : Protégez vos données commerciales."
+      },
+      {
+        "content": "Espace administrateur complet : Gérer vos produits, commandes et clients devient un jeu d’enfant."
+      },
+      {
+        "content": "Formation à l'administration : Prenez le contrôle de votre site pour gérer votre activité en ligne efficacement."
+      }
     ]
   },
   {
     "id": 4,
     "title": "Site sur Mesure",
     "price": "Sur devis",
-    "description": "Création de sites web entièrement personnalisés, adaptés à vos besoins spécifiques."
+    "description": "Création de sites web entièrement personnalisés, adaptés à vos besoins spécifiques, pour des résultats alignés avec vos objectifs d'affaires."
   },
   {
     "id": 5,
     "title": "Refonte de Site Web",
     "price": "Sur devis",
-    "description": "Amélioration et modernisation de votre site web existant. ",
+    "description": "Optimisez et modernisez votre site existant pour améliorer vos performances en ligne et attirer plus de clients. ",
     "presentation": [
       {
-        "content": " Analyse de l'interface utilisateur,"
+        "content": "Analyse gratuite de l'interface utilisateur : Un premier diagnostic pour identifier les améliorations potentielles."
       },
       {
-        "content": "Optimisation des performances,"
+        "content": "Optimisation des performances : Accélérez votre site et améliorez l'expérience utilisateur"
       },
       {
-        "content": "Rendre un site internet ou une application mobile accessible à tous"
+        "content": "Accessibilité : Rendez votre site internet ou application mobile accessible à tous."
       },
       {
-        "content": "Mise à jour du design et des fonctionnalités pour un site plus attractif et efficace."
+        "content": "Mise à jour du design et des fonctionnalités : Un site plus attractif et efficace, adapté à vos besoins."
       }
     ]
   },
@@ -122,5 +156,19 @@
         "content": "A négocier selon la durée et la complexité du projet."
       }
     ]
+  },
+  {
+    "id": 8,
+    "title": "Freelance ou collectif",
+    "description": "Si votre projet nécessite davantage de ressources, je peux travailler si vous le souhaitez avec KreaWebSolutions:",
+    "presentation": [
+      {
+        "content": "Un collectif de 5 freelances : 3 développeurs webs, 1 rédactrice web et 1 coach mindset."
+      },
+      {
+        "content": "Les tarifs et prestations seront alors définis avec toute l'équipe, afin d'offrir une solution complète et adaptée."
+      }
+    ],
+    "url": "https://kreawebsolutions.fr/"
   }
 ]
