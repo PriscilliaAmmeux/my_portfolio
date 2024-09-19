@@ -2,7 +2,7 @@
 
 import Button from "@/app/components/button/button";
 
-const DownloadCV = () => {
+export default function downloadCV() {
   return (
     <section className="flex flex-col sm:flex-row justify-around">
       <Button
@@ -19,8 +19,4 @@ const DownloadCV = () => {
       />
     </section>
   );
-};
-
-DownloadCV.displayName = "DownloadCV";
-
-export default DownloadCV;
+}
