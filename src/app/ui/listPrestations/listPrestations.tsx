@@ -42,6 +42,13 @@ export default function ListPrestations() {
                     <PrestationList list={prestation.presentation} />
                   </>
                 )}
+              {prestation.url && (
+                <li className="mt-2 mb-2">
+                  <a href={prestation.url} className="text-blue-500 underline">
+                    En savoir plus ici
+                  </a>
+                </li>
+              )}
             </ul>
           </div>
         </Card>
