@@ -9,12 +9,12 @@ const DownloadCV = () => {
         className="m-2 sm:m-0"
         type={"button"}
         text={"Télécharger mon CV"}
-        onClick={() => window.open("/CV_Priscillia_Ammeux.pdf", "_blank")}
+        onClick={() => window.open("/CV_Priscillia_Ammeux.pdf")}
         ariaLabel={
           "Cliquez sur ce bouton pour télécharger mon CV pour un CDI, une mission FREELANCE ou un CDD"
         }
         title={
-          "Télécharger ici mon CV pour une CDI, une mission FREELANCE ou un CDD"
+          "Télécharger ici mon CV pour un CDI, une mission FREELANCE ou un CDD"
         }
       />
     </section>
