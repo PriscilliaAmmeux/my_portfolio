@@ -98,7 +98,7 @@ export default function Burger() {
             isActive={true}
           />
           <NavLink
-            href="/CV_Priscillia_Ammeux.pdf"
+            href="/CV_Priscillia_AMMEUX.pdf"
             title="Télécharger mon CV"
             onClick={handleCloseMenu}
             isActive={true}
