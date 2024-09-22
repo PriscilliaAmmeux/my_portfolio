@@ -15,7 +15,7 @@ interface ArticleProps {
     title: string;
     part?: {
       subtitle: string;
-      content: string;
+      content: string | { list: string }[];
     }[];
     content?: string | string[] | { description: string; details: string[] };
     link?: string;
