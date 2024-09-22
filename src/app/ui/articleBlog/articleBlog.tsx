@@ -126,7 +126,7 @@ export default function ArticleBlog({
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-700 underline ml-2 mb-5">
-                  Voir la documentation
+                  En savoir plus
                 </a>
               )}
             </section>
