@@ -34,23 +34,39 @@ export default function ArticleBlog({
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const renderContent = (
-    content: string | string[] | { description: string; details: string[] }
+    content:
+      | string
+      | string[]
+      | { description: string; details: string[] }
+      | { list: string }[]
   ) => {
     if (typeof content === "string") {
       return <p className="text-gray-600 ml-2">{content}</p>;
     } else if (Array.isArray(content)) {
+      if (content.length > 0 && typeof content[0] === "string") {
+        return (
+          <ul className="list-disc ml-4">
+            {content.map((item, itemIndex) => (
+              <li key={itemIndex} className="text-gray-600 ml-2">
+                {typeof item === "string" ? item : item.list}
+              </li>
+            ))}
+          </ul>
+        );
+      } else {
+        return (
+          <ul className="list-disc ml-4">
+            {(content as { list: string }[]).map((item, itemIndex) => (
+              <li key={itemIndex} className="text-gray-600 ml-2">
+                {item.list}
+              </li>
+            ))}
+          </ul>
+        );
+      }
+    } else {
       return (
-        <ul className="list-disc ml-4">
-          {content.map((item, itemIndex) => (
-            <li key={itemIndex} className="text-gray-600 ml-2">
-              {item}
-            </li>
-          ))}
-        </ul>
-      );
-    } else if (content && content.description && content.details) {
-      return (
-        <>
+        <div>
           <p className="text-gray-600 ml-2">{content.description}</p>
           <ul className="list-disc ml-4">
             {content.details.map((detail, detailIndex) => (
@@ -59,10 +75,8 @@ export default function ArticleBlog({
               </li>
             ))}
           </ul>
-        </>
+        </div>
       );
-    } else {
-      return null;
     }
   };
 
@@ -99,7 +113,9 @@ export default function ArticleBlog({
                       <h3 className="text-blue-700 font-semibold ml-2">
                         {part.subtitle}
                       </h3>
-                      <p className="text-gray-600 ml-2 mb-4">{part.content}</p>
+                      <div className="text-gray-600 ml-2 mb-4">
+                        {renderContent(part.content)}
+                      </div>
                     </div>
                   ))}
                 </div>
