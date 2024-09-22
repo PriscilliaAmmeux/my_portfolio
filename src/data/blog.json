@@ -304,7 +304,7 @@
             ]
           },
           {
-            "subtitle": "Quelques chiffres marquants",
+            "subtitle": "Quelques chiffres marquants:",
             "content": [
               {
                 "list": "48% des femmes interrogées ont déclaré se sentir parfois comme des imposteurs, contre 34% des hommes."
@@ -322,7 +322,7 @@
           },
 
           {
-            "subtitle": "Des techniques pour lutter ",
+            "subtitle": "Des techniques pour lutter: ",
             "content": [
               {
                 "list": "Faire des listes: Connaissances, compétences, projets réussis, reconnaissances."
@@ -339,7 +339,7 @@
             ]
           },
           {
-            "subtitle": "S’entourer des Bonnes Personnes: ce qui m’a aidé",
+            "subtitle": "S’entourer des Bonnes Personnes: ce qui m’a le plus aidé.",
             "content": [
               {
                 "list": "Faire partie du comité de sélection de la DevFest Lille 2024 : 441 relecture de CFP, rencontre des personnes extraordinaires qui m’inspire à continuer ce travail qui me donne des paillettes dans les yeux, équipe formidable de femmes (speakeuses et reviewers) qui m’ont poussé à donner ce talk."
@@ -353,7 +353,7 @@
             ]
           },
           {
-            "subtitle": "Mais aussi",
+            "subtitle": "Mais aussi...",
             "content": [
               {
                 "list": "Accepter ses Limites et Éviter le Perfectionnisme : On ne peut pas tout savoir, n’ayez pas peur de l’échec. "
