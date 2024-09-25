@@ -40,8 +40,8 @@ export default function Interests() {
       <InterestSection
         Icon={RiKakaoTalkLine}
         title="Talk: Comment lutter contre le syndrome de l'imposteur"
-        description="Je donnerai ce talk le 20 septembre prochain à Zenika Lille avec les ChtiteDev. Pour y participer, inscrivez-vous sur Meetup (lien ci-dessous)."
-        link="https://www.meetup.com/fr-FR/nightclazz-lille-by-zenika/events/302803688/?_xtd=gqFyqTMwNjIyNzk5OKFwo2FwaQ%253D%253D&from=ref"
+        description="J'ai donné ce talk le 20 septembre 2024 à Zenika Lille avec les ChtiteDev. Vous pouvez également retrouver l'article au complet dans l'onglet Blog."
+        link="https://www.linkedin.com/feed/update/urn:li:activity:7243861708853641216/"
       />
       <InterestSection
         Icon={MdOutlineFestival}
