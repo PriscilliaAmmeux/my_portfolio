@@ -92,6 +92,7 @@ export default function GradesAndKnows() {
               key={grades.id}
               title={grades.title}
               description={grades.description}
+              pdf={grades.pdf}
             />
           ))}
         </ul>
