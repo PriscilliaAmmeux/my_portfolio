@@ -6,7 +6,7 @@ export default function downloadCV() {
   return (
     <section className="flex flex-col sm:flex-row justify-around">
       <a
-        href="/CV_Priscillia_AMMEUX.pdf"
+        href="https://cvdesignr.com/p/65957cf24ea70"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Cliquez sur ce bouton pour télécharger mon CV pour un CDI, une mission FREELANCE ou un CDD"

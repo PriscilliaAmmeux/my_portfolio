@@ -1,13 +1,19 @@
 [
   {
+    "id": 5,
+    "title": "MASTERE Architecte Web \" Titre RNCP Expert en stratégie et transformation digitale\"",
+    "description": "En alternance - niveau 7 - Formation de septembre 2024 à novembre 2025 - ForEach Academy - Marcq en Baroeul (59)",
+    "pdf": "/Programme_Mastere.pdf"
+  },
+  {
     "id": 1,
-    "title": "Titre RNCP \"Conceptrice et développeuse d’applications\"",
-    "description": "en alternance - niveau 6 - Acquis en Février 2024"
+    "title": "Titre RNCP \"Conceptrice et développeuse d’applications \" ",
+    "description": "En alternance - niveau 6 - Wild Code School - Wild Code School - Remote - Acquis en Février 2024"
   },
   {
     "id": 2,
-    "title": "Titre RNCP \"Développeuse web et web mobile\"",
-    "description": "- niveau 5 - Acquis en Octobre 2023"
+    "title": "Titre RNCP \"Développeuse web et web mobile \" ",
+    "description": "Niveau 5 - Wild Code School - Lille (59) - Acquis en Octobre 2023"
   },
   {
     "id": 3,
@@ -16,6 +22,6 @@
   {
     "id": 4,
     "title": "BTS Assistant de Gestion PME PMI",
-    "description": "- Lycée Duhamel Du Monceau à Pithiviers (45) - Acquis en 2008"
+    "description": "Lycée Duhamel Du Monceau à Pithiviers (45) - Acquis en 2008"
   }
 ]
