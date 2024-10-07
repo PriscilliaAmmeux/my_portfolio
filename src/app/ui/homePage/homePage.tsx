@@ -15,7 +15,7 @@ export default function HomePage() {
       </ThemeProvider>
 
       <section className="flex flex-col sm:flex-row justify-between items-center text-center sm:text-left ">
-        <Logo width={200} />
+        <Logo width={200} height={200} />
 
         <h1 className="text-2xl sm:text-3xl flex flex-col items-center">
           Priscillia AMMEUX

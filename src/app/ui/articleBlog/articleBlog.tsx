@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Button from "../../components/button/button";
 import { Modal } from "../../components/modal/modal";
+import Image from "next/image";
 
 interface ArticleProps {
   id: number;
@@ -82,7 +83,7 @@ export default function ArticleBlog({
 
   return (
     <article className="rounded overflow-hidden shadow-lg bg-white mt-4 max-w-lg mx-auto">
-      <img className="w-full" src={img} alt={alt} />
+      <Image className="w-full" src={img} alt={alt} height={275} width={275} />
       <h2 className="text-blue-800 font-bold text-xl mt-4 text-center">
         {title}
       </h2>

@@ -1,4 +1,5 @@
 import Button from "../button/button";
+import Image from "next/image";
 
 type ProjectCardProps = {
   title: string;
@@ -23,7 +24,7 @@ export default function ProjectCard({
 }: ProjectCardProps) {
   return (
     <section className="relative rounded overflow-hidden shadow-lg bg-white mt-4">
-      <img
+      <Image
         className="w-full"
         src={image}
         alt={"screen ou icon de l'application"}

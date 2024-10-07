@@ -40,7 +40,7 @@ export default function Burger() {
     >
       <div className="flex justify-between items-center mt-2">
         <span className="ml-2">
-          <Logo width={50} />
+          <Logo width={50} height={50} />
         </span>
         <div className="flex flex-col items-center ">
           <h2 className="text-2xl font-bold">Priscillia AMMEUX</h2>

@@ -4,6 +4,7 @@ import Title from "../ui/title/title";
 import Layout from "../ui/layout/layout";
 import InfoContact from "../ui/infoContact/infoContact";
 import Form from "../components/form/form";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Me Contacter - Priscillia Ammeux",
@@ -18,11 +19,12 @@ export default function Contact() {
           <Form className="md:col-span-5" />
           <div className="md:col-span-1"></div>
           <div className="md:col-span-2 flex flex-col items-center justify-center">
-            <img
+            <Image
               src="/illustration-contact.webp"
               alt="Illustration contact"
               className="mb-2"
               width={275}
+              height={275}
             />
             <InfoContact />
           </div>
