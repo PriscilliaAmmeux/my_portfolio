@@ -1,11 +1,13 @@
 "use client";
 
-import { FaBars, FaLinkedin, FaTimes } from "react-icons/fa";
+import { FaBars, FaFacebook, FaLinkedin, FaTimes } from "react-icons/fa";
 import NavLink from "../../components/navlink/navlink";
 import styles from "../../styles/burger.module.css";
 import { useState, useEffect } from "react";
 import Logo from "../logo/logo";
 import ProfileLink from "../profileLink/profileLink";
+import { BsInstagram } from "react-icons/bs";
+import { SiMalt } from "react-icons/si";
 
 export default function Burger() {
   const [isOpen, setIsOpen] = useState(false);
@@ -97,22 +99,46 @@ export default function Burger() {
             onClick={handleCloseMenu}
             isActive={true}
           />
-          <NavLink
-            href="/https://cvdesignr.com/p/65957cf24ea70"
-            title="Télécharger mon CV"
-            onClick={handleCloseMenu}
-            isActive={true}
-          />
-          <span className="flex items-center mt-5">
-            {" "}
+
+          <span className="flex items-center mt-5 mb-5">
             <ProfileLink
               href="https://www.linkedin.com/in/priscillia-ammeux/"
               ariaLabel="Link to LinkedIn profile"
               Icon={FaLinkedin}
-              size={20}>
-              Mon profil LinkedIn
-            </ProfileLink>
+              size={20}
+            />
+            <ProfileLink
+              href="https://www.malt.fr/profile/priscilliaammeux1"
+              ariaLabel="Link to malt profile"
+              Icon={SiMalt}
+              size={50}
+            />
+            <ProfileLink
+              href="https://www.facebook.com/priscillia.selva/?locale=fr_FR"
+              ariaLabel="Link to Facebook profile"
+              Icon={FaFacebook}
+              size={20}
+            />
+            <ProfileLink
+              href="https://www.instagram.com/priscillia_ammeux/"
+              ariaLabel="Link to Facebook profile"
+              Icon={BsInstagram}
+              size={20}
+            />
           </span>
+
+          <NavLink
+            href="https://cvdesignr.com/p/65957cf24ea70"
+            title="CV développeur web"
+            onClick={handleCloseMenu}
+            isActive={true}
+          />
+          <NavLink
+            href="https://cvdesignr.com/p/6703a012ac667"
+            title="CV pour un autre poste"
+            onClick={handleCloseMenu}
+            isActive={true}
+          />
         </nav>
       )}
     </section>
