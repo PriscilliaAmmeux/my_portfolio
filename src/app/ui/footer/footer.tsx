@@ -2,6 +2,7 @@ import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import ProfileLink from "../profileLink/profileLink";
 import { SiMalt } from "react-icons/si";
 import { BsInstagram } from "react-icons/bs";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -15,12 +16,12 @@ export default function Footer() {
         </p>
         <div className="flex justify-center mt-2 md:mt-0 ">
           <a href="/ecoIndex.webp" download>
-            <img
+            <Image
               className="cursor-pointer"
               src="/ecoIndex2.webp"
               alt="note"
               width="80"
-              height="auto"
+              height="20"
             />
           </a>
         </div>

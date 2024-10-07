@@ -3,7 +3,7 @@ import Card from "../../components/card/card";
 import grades from "../../../data/grades.json";
 import GradesItems from "../gradesItems/gradesItems";
 
-export default function () {
+export default function QualificationTraining() {
   return (
     <Card
       Icon={GrCertificate}
