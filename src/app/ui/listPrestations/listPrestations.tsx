@@ -1,15 +1,16 @@
 import Card from "@/app/components/card/card";
 import prestations from "../../../data/prestations.json";
-import { IoMdGitNetwork } from "react-icons/io";
+import { MdOutlineCleaningServices } from "react-icons/md";
 
 interface PrestationListProps {
-  list?: { content: string }[];
-  className?: string;
+  list: { content: string }[];
 }
 
 const PrestationList: React.FC<PrestationListProps> = ({ list }) => (
   <ul className="list-disc pl-5">
-    {list && list.map((item, index) => <li key={index}>{item.content}</li>)}
+    {list.map((item, index) => (
+      <li key={index}>{item.content}</li>
+    ))}
   </ul>
 );
 
@@ -20,7 +21,7 @@ export default function ListPrestations() {
         <Card
           key={prestation.id}
           className="w-full lg:w-1/3 px-2 flex flex-col justify-between h-full"
-          Icon={IoMdGitNetwork}
+          Icon={MdOutlineCleaningServices}
           title={prestation.title}
           color="bg-blue-100"
           button={{
@@ -48,6 +49,9 @@ export default function ListPrestations() {
                     En savoir plus ici
                   </a>
                 </li>
+              )}
+              {prestation.info && (
+                <li className="mt-8 mb-2 italic">{prestation.info}</li>
               )}
             </ul>
           </div>

@@ -163,12 +163,29 @@
     "description": "Si votre projet nécessite davantage de ressources, je peux travailler si vous le souhaitez avec KreaWebSolutions:",
     "presentation": [
       {
-        "content": "Un collectif de 5 freelances : 3 développeurs webs, 1 rédactrice web et 1 coach mindset."
+        "content": "Un collectif de 5 freelances : 3 développeurs web, 1 rédactrice web et 1 coach mindset."
       },
       {
         "content": "Les tarifs et prestations seront alors définis avec toute l'équipe, afin d'offrir une solution complète et adaptée."
       }
     ],
     "url": "https://kreawebsolutions.fr/"
+  },
+  {
+    "id": 9,
+    "title": "Prestations salariales",
+    "description": "Selon la distance entre mon domicile et le lieu de travail, voici mes prétentions salariales brut annuel :",
+    "presentation": [
+      {
+        "content": "entre 0 et 5 km : 25 000 €"
+      },
+      {
+        "content": "entre 6 et 10 km : 28 000 € *"
+      },
+      {
+        "content": "plus de 11 km (max 16 km): 31 000 € *"
+      }
+    ],
+    "info": "* possibilité de négocier si 2 à 3 jours de télétravail par semaine."
   }
 ]

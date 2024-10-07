@@ -10,7 +10,7 @@ export default function Title({ text, icon: Icon }: TitleProps) {
     <div className="flex items-center justify-center space-x-4">
       <Icon size={50} className={styles.colorFirst} />
       <h2
-        className="flex justify-center text-3xl font-bold mt-10 mb-10 text-2xl"
+        className="flex justify-center text-3xl font-bold mt-5 mb-5 text-2xl"
         style={{ whiteSpace: "nowrap" }}>
         {text}
       </h2>

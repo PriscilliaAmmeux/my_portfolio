@@ -57,27 +57,27 @@ export default function Interests() {
       <section className="ml-4 text-gray-700">
         <InterestSection
           Icon={BsArrowRight}
-          title="Trésorière bénévole et membre actif du bureau d'une association de quartier"
-          description="Organisation d'événements tels que Halloween, concours de la plus jolie maison décorée à Noël, châsse aux œufs de Pâques, fête des voisins."
+          title="Association de quartier(Bénévole)"
+          description="Composé de 3 membres, nous organisons divers évènements pour les enfants du quartier,tels que la chasse aux œufs de Pâques, Halloween; mais aussi la fête des voisins..."
         />
 
         <InterestSection
           Icon={BsArrowRight}
           title="Secrétaire bénévole dans un syndicat de copropriété"
-          description="Gestion de la copropriété, entretien des espaces verts, comptabilité, assurance, coordination avec la mairie sur divers sujets concernant l'entretien de la voirie et des espaces verts."
+          description="Gestion de la copropriété entre 4 personnes."
         />
       </section>
 
       <InterestSection
         Icon={FaWalking}
         title="Membre du club de marche “marcher par tous les temps” à Quesnoy Sur Deule"
-        description="Participation à des marches de 5 à 6 kms le mardi soir, de 7 à 8 km le vendredi soir et de 10 à 15 km le dimanche matin."
+        description=""
       />
 
       <InterestSection
         Icon={FaWalking}
         title="Randonnées en famille"
-        description="Randonnées en famille le dimanche après-midi, dans la région des Hauts de France et en Belgique."
+        description=""
       />
 
       <InterestSection
