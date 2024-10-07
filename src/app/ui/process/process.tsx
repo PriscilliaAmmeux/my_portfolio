@@ -33,7 +33,7 @@ const processContent = [
 export default function Process() {
   return (
     <article className="p-6 md:ml-20 md:mr-20">
-      <Title text="Comment je procède ?" icon={IoIosSearch} />
+      <Title text="Comment je procède pour votre projet web ?" icon={IoIosSearch} />
       <ul className="flex flex-col space-y-4 font-medium">
         {processContent.map((item, index) => (
           <ItemList

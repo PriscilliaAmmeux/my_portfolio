@@ -4,20 +4,24 @@ import Card from "../../components/card/card";
 import ItemList from "../../components/itemList/itemList";
 
 const objectives = [
-  "Évolution",
-  "Apprentissage",
-  "Épanouissement",
-  "Contribuer à des projets ambitieux et porteurs de sens",
-  "Formation à l'accessibilité web d'ici fin d'année 2024 avec Access42",
+  "Évolution.",
+  "Apprentissage.",
+  "Épanouissement.",
+  "Contribuer à des projets ambitieux et porteurs de sens.",
+  "Formation à l'accessibilité web.",
+  "Equilibre vie professionnelle et vie personnelle.",
+  "Partage de connaissances.",
+  "CDI ou CDD longue durée pour plus de stabilité professionnelle.",
 ];
 
 const values = [
-  "Honnêteté, bienveillance, intégrité, transparence et respect",
-  "Inclusivité",
-  "Importance des relations authentiques",
-  "Conviction que la véritable connexion humaine est essentielle dans tout travail",
-  "Forte préoccupation pour l'accessibilité web et la recherche constante de moyens pour l'améliorer (ouverte à tout conseil)",
-  "Développement durable respectueux de l'environnement tout en assurant des performances élevées",
+  "Honnêteté, bienveillance, intégrité, transparence et respect.",
+  "Inclusivité.",
+  "Importance des relations authentiques.",
+  "Conviction que la véritable connexion humaine est essentielle dans tout travail.",
+  "Forte préoccupation pour l'accessibilité web et la recherche constante de moyens pour l'améliorer (ouverte à tout conseil).",
+  "Développement durable respectueux de l'environnement tout en assurant des performances élevées.",
+  "Énergique et engagée, je cherche à donner du sens à mes journées, quel que soit mon métier.",
 ];
 
 export default function ValuesAndObjectives() {
