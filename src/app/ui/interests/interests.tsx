@@ -46,7 +46,7 @@ export default function Interests() {
       <InterestSection
         Icon={MdOutlineFestival}
         title="Membre du Comité de Sélection - Dev Fest Lille 2024"
-        description="Contribution à la sélection des discours pour l'événement en évaluant leur pertinence et leur qualité."
+        description=""
       />
 
       <InterestSection
@@ -58,13 +58,13 @@ export default function Interests() {
         <InterestSection
           Icon={BsArrowRight}
           title="Association de quartier(Bénévole)"
-          description="Composé de 3 membres, nous organisons divers évènements pour les enfants du quartier,tels que la chasse aux œufs de Pâques, Halloween; mais aussi la fête des voisins..."
+          description=""
         />
 
         <InterestSection
           Icon={BsArrowRight}
           title="Secrétaire bénévole dans un syndicat de copropriété"
-          description="Gestion de la copropriété entre 4 personnes."
+          description=""
         />
       </section>
 
@@ -83,25 +83,13 @@ export default function Interests() {
       <InterestSection
         Icon={FaPaintBrush}
         title="Activités manuelles avec mes enfants"
-        description={
-          <>
-            Page Instagram{" "}
-            <span className="hover:font-bold hover:text-pink-700 cursor-pointer">
-              “Se salir les doigts”
-            </span>{" "}
-            depuis mars 2022.
-            <a
-              href="https://www.instagram.com/se_salir_les_doigts?igsh=MWc2emg1MDZhNzNhbw=="
-              target="_blank"
-              rel="noopener noreferrer"></a>
-          </>
-        }
+        description=""
       />
 
       <InterestSection
         Icon={ImPencil2}
         title="Écriture et communication"
-        description="J'apprécie écrire et communiquer, que ce soit dans un contexte professionnel ou personnel."
+        description=""
       />
     </article>
   );

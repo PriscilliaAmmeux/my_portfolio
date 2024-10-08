@@ -1,13 +1,14 @@
 import Image from "next/image";
 import Footer from "../footer/footer";
-import NavbarHome from "../navBarHome/navBarHome";
 import { ThemeProvider } from "../themeProvider/themeProvider";
 import { ToggleButton } from "@/app/components/toggleButton/toggleButton";
 import Logo from "../logo/logo";
+import Navbar from "../navbar/navbar";
 
 export default function HomePage() {
   return (
     <section className="md:h-screen bg-pink-100 dark:bg-gray-700 text-gray-700 dark:text-white ">
+      <Navbar />
       <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
         <div className="flex justify-around">
           <ToggleButton />
@@ -19,7 +20,7 @@ export default function HomePage() {
 
         <h1 className="text-2xl sm:text-3xl flex flex-col items-center">
           Priscillia AMMEUX
-          <span> Conceptrice et Développeuse d'Applications</span>
+          <span>Développeuse Fullstack NextJs NodeJs</span>
         </h1>
 
         <Image
@@ -30,10 +31,6 @@ export default function HomePage() {
           height={150}
           priority
         />
-      </section>
-
-      <section className="flex justify-center ">
-        <NavbarHome showParagraph={true} />
       </section>
 
       <div className="md:fixed inset-x-0 bottom-0">
