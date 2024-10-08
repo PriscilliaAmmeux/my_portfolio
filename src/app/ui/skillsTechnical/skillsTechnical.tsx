@@ -45,18 +45,7 @@ export default function SkillsTechnical() {
           octobre-novembre)
         </SkillSection>
 
-        <SkillSection title="Pratiques de développement durable">
-          <ul>
-            <li>
-              Optimisation de la consommation énergétique des applications
-            </li>
-            <li>
-              {" "}
-              Utilisation de services et infrastructures à faible empreinte
-              carbone
-            </li>{" "}
-          </ul>
-        </SkillSection>
+        <SkillSection title="Pratiques de développement durable"></SkillSection>
       </ul>
     </Card>
   );
