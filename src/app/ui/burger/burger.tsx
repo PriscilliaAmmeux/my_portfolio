@@ -129,13 +129,7 @@ export default function Burger() {
 
           <NavLink
             href="https://cvdesignr.com/p/65957cf24ea70"
-            title="CV développeur web"
-            onClick={handleCloseMenu}
-            isActive={true}
-          />
-          <NavLink
-            href="https://cvdesignr.com/p/6703a012ac667"
-            title="CV pour un autre poste"
+            title="Télécharger mon CV"
             onClick={handleCloseMenu}
             isActive={true}
           />
