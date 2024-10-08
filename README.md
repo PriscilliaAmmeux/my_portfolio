@@ -11,31 +11,34 @@ In this portfolio, you will find:
 
 👉 Please feel free to explore and contact me if you have any questions, comments, or suggestions.
 
-⚠️ Note: This portfolio is personal. Please do not fork it on GitHub. ⚠️
-
 🚀 **Hacktoberfest Participation 2024:** Contributions to this project are welcome during Hacktoberfest! Please feel free to submit your pull requests. 
 
 💡 **Pull Request Guidelines:** When submitting a PR, please provide detailed information about your suggestions or changes. I appreciate any advice or feedback on my code, as I am always looking to improve!
 
-## Getting Started
+## Installation
 
-First, run the development server:
+To install and run this project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/your-username/repo-name.git
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Navigate to the project directory:
+   
+    ```bash
+     cd repo-name
+    
+3. Install the dependencies
+   ```bash
+     npm install
+   
+4. Start the development server:
+   ```bash
+     npm run dev
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+5- Open http://localhost:3000 in your browser to see the site in action.
+
 
 ## Learn More
 
@@ -52,6 +55,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-## Private Projects
-
-This repository contains some of my private projects. As these projects are private, they are not available for forking. However, you can view the code and learn from it. If you have any questions or need further clarification on any part of the code, feel free to open an issue and I will be happy to help.
