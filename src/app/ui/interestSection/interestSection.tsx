@@ -4,7 +4,7 @@ import { IconType } from "react-icons";
 interface InterestSectionProps {
   Icon: IconType;
   title: string;
-  description: React.ReactNode;
+  description?: React.ReactNode;
   link?: string;
 }
 

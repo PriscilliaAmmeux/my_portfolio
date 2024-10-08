@@ -15,7 +15,6 @@ export default function QualificationsTraining() {
             key={grades.id}
             title={grades.title}
             description={grades.description}
-            pdf={grades.pdf}
           />
         ))}
       </ul>

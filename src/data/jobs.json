@@ -1,28 +1,31 @@
 [
   {
+    "id": 1,
     "title": "Développeuse fullstack freelance - Siren 929010007 ",
     "date": "Juin 2024 à aujourd'hui",
     "tasks": [
       "Développement sur mesure de projets web pour des clients particuliers et professionnels.",
-      "Projets: Stéphanie Heudre - Praticienne bien-être certifiée, et Adrien Demarle - Ostéopathe D.O. (voir onglet \"Mes Projets\")"
+      "Stéphanie Heudre - Praticienne bien-être certifiée",
+      "Adrien Demarle - Ostéopathe D.O."
     ],
-    "link": [
-      "https://www.massage-stephanie-heudre.fr/",
-      "https://www.adrien-demarle-osteopathe.fr/"
-    ]
+    "link": "/project"
   },
 
   {
+    "id": 2,
     "title": "Développeuse fullstack en alternance - XPEHO - Villeneuve d'Ascq - Hybride",
     "date": "Mars 2023 à Février 2024",
-    "tasks": ["Projet Yaki (voir onglet \"Mes Projets\")"]
+    "tasks": [
+      "Projet Yaki : Yaki Sur Site ? Application de gestion du personnel réparti sur plusieurs sites."
+    ],
+    "link": "/project"
   },
   {
+    "id": 3,
     "title": "Formation Développeuse Web Fullstack - Akkodis Lille",
-    "date": "Novembre 2021 à février 2023",
+    "date": "Septembre 2022 à février 2023",
     "tasks": [
-      "Bootcamp de 5 mois avec la Wild Code School de Lille (présentiel) - Septembre 2022 à février 2023",
-      "E-learning avec Open Class Room - Novembre 2021 à septembre 2022"
+      "Bootcamp de 5 mois avec la Wild Code School de Lille (présentiel) - Septembre 2022 à février 2023"
     ]
   }
 ]

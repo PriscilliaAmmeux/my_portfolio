@@ -34,7 +34,7 @@ export default function NavLink({
       target="_self"
       rel="noopener noreferrer">
       <h3
-        className={`ml-4 sm:ml-0 mb-1 text-xl dark:text-white text-pink-700 font-semibold`}
+        className={`ml-4 sm:ml-0 mb-1 dark:text-white text-pink-700 font-semibold`}
         onClick={onClick}
         style={{
           color: isActive ? "underline" : "",

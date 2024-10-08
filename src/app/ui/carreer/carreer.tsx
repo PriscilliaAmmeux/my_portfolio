@@ -1,29 +1,17 @@
 import { MdWork } from "react-icons/md";
 import styles from "../../styles/variables.module.css";
 import jobs from "../../../data/jobs.json";
-import ImageList from "../../components/imageList/imageList";
+import Image from "next/image";
 
-const images = [
-  {
-    src: "/OIG3.webp",
-    alt: "picture of a woman in front of a computer",
-    hideOnSmallScreen: true,
-  },
-  { src: "/bank.webp", alt: "picture of montains", hideOnSmallScreen: true },
-  { src: "/writing.webp", alt: "hand writing", hideOnSmallScreen: true },
-  {
-    src: "/auto.webp",
-    alt: "mum with children who are painting",
-    hideOnSmallScreen: true,
-  },
-];
-const randomIndex = Math.floor(Math.random() * images.length);
-images[randomIndex].hideOnSmallScreen = false;
+const image = {
+  src: "/OIG3.webp",
+  alt: "picture of a woman in front of a computer",
+  width: 200,
+  height: 200,
+  hideOnSmallScreen: true,
+};
 
 export default function Carreer() {
-  const renderTasks = (tasks: any[]) =>
-    tasks.map((task, taskIndex) => <li key={taskIndex}>{task}</li>);
-
   return (
     <section className="mt-8 pt-6 w-full p-6">
       <div className="flex items-center justify-center mb-4">
@@ -33,38 +21,32 @@ export default function Carreer() {
         </h2>
       </div>
       <div className="relative flex flex-col sm:flex-row items-center justify-center space-x-0 sm:space-x-2 mb-10">
-        <ImageList images={images} />
+        <Image
+          src={image.src}
+          alt={image.alt}
+          width={image.width}
+          height={image.height}
+          className={image.hideOnSmallScreen ? "hidden sm:block" : ""}
+        />
       </div>
       <ul className="list-disc ml-6">
-        {jobs.map((job, index) => (
-          <li key={index} className="mb-6">
+        {jobs.map((job, id) => (
+          <li key={id} className="mb-6">
             <h2 className="text-lg font-semibold mb-2">{`${job.title} - ${job.date}`}</h2>
             {job.tasks && (
-              <ul className="list-disc ml-6">{renderTasks(job.tasks)}</ul>
+              <ul className="list-disc ml-6">
+                {job.tasks.map((task) => (
+                  <li key={id}>{task}</li>
+                ))}
+              </ul>
             )}
-            {Array.isArray(job.link)
-              ? job.link.map((link, linkIndex) => (
-                  <a
-                    key={linkIndex}
-                    href={link}
-                    className="cursor-pointer underline hover:text-pink-700 hover:font-bold pl-6 block"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    En savoir plus sur{" "}
-                    {link.includes("massage")
-                      ? "Stéphanie Heudre"
-                      : "Adrien Demarle"}
-                  </a>
-                ))
-              : job.link && (
-                  <a
-                    href={job.link}
-                    className="cursor-pointer underline hover:text-pink-700 hover:font-bold pl-6"
-                    target="_blank"
-                    rel="noopener noreferrer">
-                    En savoir plus sur KreaWebSolutions
-                  </a>
-                )}
+            {job.link && (
+              <a
+                href={job.link}
+                className="underline hover:text-pink-700 hover:font-bold ml-6">
+                Voir mes projets
+              </a>
+            )}
           </li>
         ))}
       </ul>

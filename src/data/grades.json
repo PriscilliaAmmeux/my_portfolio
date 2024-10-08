@@ -1,22 +1,17 @@
 [
-  
   {
     "id": 1,
     "title": "Titre RNCP \"Conceptrice et développeuse d’applications \" ",
-    "description": "En alternance - niveau 6 - Wild Code School - Wild Code School - Remote - Acquis en Février 2024"
+    "description": "Niveau 6 - Wild Code School - Acquis"
   },
   {
     "id": 2,
     "title": "Titre RNCP \"Développeuse web et web mobile \" ",
-    "description": "Niveau 5 - Wild Code School - Lille (59) - Acquis en Octobre 2023"
-  },
-  {
-    "id": 3,
-    "description": "Divers certificats - E-learning - Open Class Room - Novembre 2021 à Septembre 2022"
+    "description": "Niveau 5 - Wild Code School - Acquis"
   },
   {
     "id": 4,
     "title": "BTS Assistant de Gestion PME PMI",
-    "description": "Lycée Duhamel Du Monceau à Pithiviers (45) - Acquis en 2008"
+    "description": "- Acquis"
   }
 ]

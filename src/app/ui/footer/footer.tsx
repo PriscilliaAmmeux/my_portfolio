@@ -14,20 +14,6 @@ export default function Footer() {
         <p className="text-xs md:text-sm lg:text-base p-1">
           Créée avec amour ❤️ par Priscillia Ammeux
         </p>
-        <div className="flex justify-center mt-2 md:mt-0 ">
-          <a href="/ecoIndex.webp" download>
-            <Image
-              className="cursor-pointer"
-              src="/ecoIndex2.webp"
-              alt="note"
-              width="80"
-              height="20"
-            />
-          </a>
-        </div>
-      </section>
-
-      <section className="text-center">
         <a
           href="/legalNotices"
           className="hover:text-pink-700 hover:font-bold cursor-pointer">
