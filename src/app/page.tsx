@@ -1,7 +1,7 @@
-import HomePage from "./ui/homePage/homePage";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Cookies from "./components/cookies/cookies";
+import About from "./ui/about/about";
 
 export const metadata = {
   title: "Priscillia Ammeux - Conceptrice et Développeuse d'Applications",
@@ -12,7 +12,7 @@ export const metadata = {
 export default function Home() {
   return (
     <main>
-      <HomePage />
+      <About />
       <Analytics />
       <SpeedInsights />
       <Cookies />

@@ -21,6 +21,7 @@ export default function Project() {
               title={project.title}
               description={project.description}
               methodology={project.methodology}
+              how={project.how}
               image={project.image}
               tools={project.tools}
               technology={project.technology}

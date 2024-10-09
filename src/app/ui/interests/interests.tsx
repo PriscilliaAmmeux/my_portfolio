@@ -40,57 +40,44 @@ export default function Interests() {
       <InterestSection
         Icon={RiKakaoTalkLine}
         title="Talk: Comment lutter contre le syndrome de l'imposteur"
-        description="J'ai donné ce talk le 20 septembre 2024 à Zenika Lille avec les ChtiteDev. Vous pouvez également retrouver l'article au complet dans l'onglet Blog."
-        link="https://www.linkedin.com/feed/update/urn:li:activity:7243861708853641216/"
+        description="J'ai donné ce talk le 20 septembre 2024 à Zenika Lille avec les ChtiteDev. Vous pouvez également retrouver l'article au complet dans l'onglet Blog:"
+        link="/blog"
       />
+      
       <InterestSection
         Icon={MdOutlineFestival}
         title="Membre du Comité de Sélection - Dev Fest Lille 2024"
-        description=""
       />
 
       <InterestSection
         Icon={RiTeamLine}
         title=" Bénévolats et engagements associatifs"
-        description=""
       />
       <section className="ml-4 text-gray-700">
         <InterestSection
           Icon={BsArrowRight}
           title="Association de quartier(Bénévole)"
-          description=""
         />
 
         <InterestSection
           Icon={BsArrowRight}
           title="Secrétaire bénévole dans un syndicat de copropriété"
-          description=""
         />
       </section>
 
       <InterestSection
         Icon={FaWalking}
         title="Membre du club de marche “marcher par tous les temps” à Quesnoy Sur Deule"
-        description=""
       />
 
-      <InterestSection
-        Icon={FaWalking}
-        title="Randonnées en famille"
-        description=""
-      />
+      <InterestSection Icon={FaWalking} title="Randonnées en famille" />
 
       <InterestSection
         Icon={FaPaintBrush}
         title="Activités manuelles avec mes enfants"
-        description=""
       />
 
-      <InterestSection
-        Icon={ImPencil2}
-        title="Écriture et communication"
-        description=""
-      />
+      <InterestSection Icon={ImPencil2} title="Écriture et communication" />
     </article>
   );
 }

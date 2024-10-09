@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 
 interface SkillSectionProps {
   title: string;
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 export default function SkillSection({ title, children }: SkillSectionProps) {

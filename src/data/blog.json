@@ -179,14 +179,12 @@
       },
       {
         "title": "Prendre des mesures dès la phase de conception",
-        "content": {
-          "description": "Pour garantir l'accessibilité dès la phase de conception, il est crucial de suivre les normes et les guides des bonnes pratiques, tels que : ",
-          "details": [
-            "WCAG (Web Content Accessibility Guidelines) : Fournit une série de recommandations pour rendre le contenu web plus accessible.",
-            "RGAA (Référentiel Général d'Amélioration de l'Accessibilité) : Spécifique à la France, il offre des critères d’accessibilité pour les sites web publics.",
-            "RAAM (Référentiel d'Accessibilité des Administrations Modernes): Couvre les administrations modernes en offrant des directives spécifiques pour l’accessibilité."
-          ]
-        }
+        "content": [
+          "Pour garantir l'accessibilité dès la phase de conception, il est crucial de suivre les normes et les guides des bonnes pratiques, tels que : ",
+          "WCAG (Web Content Accessibility Guidelines) : Fournit une série de recommandations pour rendre le contenu web plus accessible.",
+          "RGAA (Référentiel Général d'Amélioration de l'Accessibilité) : Spécifique à la France, il offre des critères d’accessibilité pour les sites web publics.",
+          "RAAM (Référentiel d'Accessibilité des Administrations Modernes): Couvre les administrations modernes en offrant des directives spécifiques pour l’accessibilité."
+        ]
       },
       {
         "title": "Ressources et références",
