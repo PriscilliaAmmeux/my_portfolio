@@ -24,10 +24,6 @@ export default function InfoContact() {
             priscillia.ammeux.pro@gmail.com
           </a>
         </div>
-        <div className="flex items-center space-x-2">
-          <FaPhone />
-          <p>06.66.92.41.01</p>
-        </div>
       </div>
     </Card>
   );
