@@ -65,13 +65,7 @@ export default function Burger() {
         >
           <NavLink
             href="/"
-            title="Accueil"
-            onClick={handleCloseMenu}
-            isActive={true}
-          />
-          <NavLink
-            href="/about"
-            title="Moi"
+            title="À propos de moi"
             onClick={handleCloseMenu}
             isActive={true}
           />
