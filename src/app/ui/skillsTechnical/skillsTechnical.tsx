@@ -41,8 +41,8 @@ export default function SkillsTechnical() {
         <SkillSection title="Tests">Karaté, Junit, Jest</SkillSection>
 
         <SkillSection title="Accessibilité Web">
-          Techniques et pratiques d’accessibilité (formation prévue courant
-          octobre-novembre)
+          Techniques et pratiques d’accessibilité (formation prévue le 1er
+          décembre 2024)
         </SkillSection>
 
         <SkillSection title="Pratiques de développement durable"></SkillSection>
