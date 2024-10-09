@@ -2,7 +2,6 @@ import { BsGearFill } from "react-icons/bs";
 import Layout from "../ui/layout/layout";
 import Title from "../ui/title/title";
 import { Metadata } from "next";
-import Process from "../ui/process/process";
 import ListPrestations from "../ui/listPrestations/listPrestations";
 import HelpNorth from "../ui/helpNorth/helpNorth";
 
@@ -16,7 +15,7 @@ export default function Page() {
       <main className="pt-4 lg:pl-2 lg:pr-2">
         <Title text="Prestations" icon={BsGearFill} />
         <ListPrestations />
-        <Process />
+
         <HelpNorth />
       </main>
     </Layout>
