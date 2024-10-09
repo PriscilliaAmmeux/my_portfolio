@@ -15,7 +15,6 @@ export default function Page() {
       <main className="pt-4 lg:pl-2 lg:pr-2">
         <Title text="Prestations" icon={BsGearFill} />
         <ListPrestations />
-
         <HelpNorth />
       </main>
     </Layout>
