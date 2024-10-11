@@ -50,9 +50,6 @@ export default function ListPrestations() {
                   </a>
                 </li>
               )}
-              {prestation.info && (
-                <li className="mt-8 mb-2 italic">{prestation.info}</li>
-              )}
             </ul>
           </div>
         </Card>
