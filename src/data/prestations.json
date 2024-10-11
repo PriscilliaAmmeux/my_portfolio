@@ -147,17 +147,6 @@
     ]
   },
   {
-    "id": 7,
-    "title": "TJM",
-    "price": "350 € HT / jour",
-    "description": "",
-    "presentation": [
-      {
-        "content": "A négocier selon la durée et la complexité du projet."
-      }
-    ]
-  },
-  {
     "id": 8,
     "title": "Freelance ou collectif",
     "description": "Si votre projet nécessite davantage de ressources, je peux travailler si vous le souhaitez avec KreaWebSolutions:",
@@ -170,22 +159,5 @@
       }
     ],
     "url": "https://kreawebsolutions.fr/"
-  },
-  {
-    "id": 9,
-    "title": "Prestations salariales",
-    "description": "Selon la distance entre mon domicile et le lieu de travail, voici mes prétentions salariales brut annuel :",
-    "presentation": [
-      {
-        "content": "entre 0 et 5 km : 25 000 €"
-      },
-      {
-        "content": "entre 6 et 10 km : 28 000 € *"
-      },
-      {
-        "content": "plus de 11 km (max 16 km): 31 000 € *"
-      }
-    ],
-    "info": "* possibilité de négocier si 2 à 3 jours de télétravail par semaine."
   }
 ]
