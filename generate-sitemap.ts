@@ -4,7 +4,6 @@ const { SitemapStream, streamToPromise } = require("sitemap");
 // Define the URLs to include in the sitemap
 const urls = [
   { url: "/", changefreq: "daily", priority: 1.0 },
-  { url: "/about", changefreq: "daily", priority: 0.9 },
   { url: "/project", changefreq: "daily", priority: 0.8 },
   { url: " /prestations", changefreq: "daily", priority: 0.8 },
   { url: " /blog", changefreq: "daily", priority: 0.8 },

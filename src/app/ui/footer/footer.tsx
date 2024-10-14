@@ -1,4 +1,4 @@
-import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import ProfileLink from "../profileLink/profileLink";
 import { SiMalt } from "react-icons/si";
 import { BsInstagram } from "react-icons/bs";
@@ -44,6 +44,12 @@ export default function Footer() {
           href="https://www.instagram.com/priscillia_ammeux/"
           ariaLabel="Link to Facebook profile"
           Icon={BsInstagram}
+          size={20}
+        />
+        <ProfileLink
+          href="https://github.com/PriscilliaAmmeux"
+          ariaLabel="Link to GitHub profile"
+          Icon={FaGithub}
           size={20}
         />
       </section>
