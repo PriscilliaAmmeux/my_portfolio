@@ -22,10 +22,34 @@
   },
   {
     "id": 3,
-    "title": "Formation Développeuse Web Fullstack - Akkodis Lille",
+    "title": "Formation Développeuse Web Fullstack - Akkodis - Lille",
     "date": "Septembre 2022 à février 2023",
     "tasks": [
       "Bootcamp de 5 mois avec la Wild Code School de Lille (présentiel) - Septembre 2022 à février 2023"
+    ]
+  },
+  {
+    "title": "Période consacrée volontairement à l'éducation de mes enfants",
+    "date": "  2019 - 2021"
+  },
+  {
+    "title": "Gestionnaire Cash Management - en prestation pour la Société Générale - Akkodis - Lille",
+    "date": "2015 - 2019",
+    "tasks": [
+      "Gestion des flux financiers internationaux pour plusieurs pays (France, Espagne, Inde, États-Unis, Luxembourg, Suisse, Angleterre, Allemagne).",
+      "Gestion des incidents et analyse niveau 1 et 2 (échanges par email en anglais)."
+    ]
+  },
+  {
+    "title": " Gestionnaire Back Office Financement Réseaux - Mobilize Financial Services - Noisy le grand (93) ",
+    "date": "2010 - 2015",
+    "tasks": [
+      "Gestion et mise en place de financements.",
+      "Gestion des habilitations",
+      "Portefeuille de 185 concessions et 20 agents (Direction Régionale de Lyon et Binôme sur la Direction Régionale de Lille),",
+      "Affacturage Renault, RRG (Renault Retail Group).",
+      "Traitement et versement des primes constructeurs au réseau (Bonification Diac),",
+      "Ajustement de facturation Nissan, Renault, Infiniti."
     ]
   }
 ]
