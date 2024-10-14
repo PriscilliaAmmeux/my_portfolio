@@ -3,6 +3,7 @@ import ProfileLink from "../profileLink/profileLink";
 import { SiMalt } from "react-icons/si";
 import { BsInstagram } from "react-icons/bs";
 import Image from "next/image";
+import ScrollToTopButton from "@/app/components/scrollToTopButton/scrollToTopButton";
 
 export default function Footer() {
   return (
@@ -47,6 +48,7 @@ export default function Footer() {
           size={20}
         />
       </section>
+      <ScrollToTopButton />
     </footer>
   );
 }
