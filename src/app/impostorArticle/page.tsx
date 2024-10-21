@@ -4,6 +4,8 @@ import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Layout from "../ui/layout/layout";
 import ExternalLink from "../components/ExternalLink/ExternalLink";
 import { Ultra } from "next/font/google";
+import Link from "next/link";
+import Button from "../components/button/button";
 
 export const metadata: Metadata = {
   title:
@@ -233,6 +235,12 @@ export default function ImpostorArticle() {
           }
         />
       </ArticleHeader>
+      <Link className="flex justify-center" href="/nextJSArticle">
+        <Button
+          type={"button"}
+          text={"Article suivant"}
+          ariaLabel={"Article suivant"}></Button>
+      </Link>
     </Layout>
   );
 }

@@ -3,6 +3,8 @@ import ArticleHeader from "../components/articleHeader/articleHeader";
 import ExternalLink from "../components/ExternalLink/ExternalLink";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Layout from "../ui/layout/layout";
+import Link from "next/link";
+import Button from "../components/button/button";
 
 export const metadata: Metadata = {
   title: "Blog - Pourquoi je travaille avec Next.js - Priscillia Ammeux",
@@ -87,6 +89,12 @@ export default function NextJSArticle() {
           }
         />
       </ArticleHeader>
+      <Link className="flex justify-center" href="/accessibilityArticle">
+        <Button
+          type={"button"}
+          text={"Article suivant"}
+          ariaLabel={"Article suivant"}></Button>
+      </Link>
     </Layout>
   );
 }

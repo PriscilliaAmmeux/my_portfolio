@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import Layout from "../ui/layout/layout";
 import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
+import Link from "next/link";
+import Button from "../components/button/button";
 
 export const metadata: Metadata = {
   title: "Blog - Les erreurs que j’ai faites pendant ma reconversion",
@@ -69,6 +71,14 @@ export default function MistakesArticle() {
           </li>
         </ul>
       </ArticleHeader>
+      <Link
+        className="flex justify-center"
+        href="/professionalReconversionArticle">
+        <Button
+          type={"button"}
+          text={"Article suivant"}
+          ariaLabel={"Article suivant"}></Button>
+      </Link>
     </Layout>
   );
 }
