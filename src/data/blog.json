@@ -21,49 +21,7 @@
     "alt": "femme développeuse habillée en super-héroïne avec une cape et un masque devant un écran d'ordinateur",
     "title": "Les Développeurs Juniors : Un Atout Sous-Estimé",
     "subtitle": "",
-    "date": "21/06/2024",
-    "sections": [
-      {
-        "title": "On pense à tort que :",
-        "content": [
-          "Les développeurs juniors ne peuvent pas être productifs sans supervision constante.",
-          "La qualité du code des juniors est toujours inférieure à celle des développeurs seniors.",
-          "Investir dans la formation des développeurs juniors est une perte de temps et d'argent."
-        ]
-      },
-      {
-        "title": "Mais en réalité :",
-        "content": [
-          "Les développeurs juniors apportent souvent de nouvelles perspectives et des idées innovantes. Lorsqu'ils sont bien encadrés, ils peuvent rapidement devenir autonomes et très productifs.",
-          "La qualité du code d'un développeur junior peut être excellente avec les bonnes pratiques de revue de code et de mentorat. De plus, ils sont souvent plus à jour sur les technologies modernes et les meilleures pratiques.",
-          "Investir dans la formation des juniors est un investissement dans l'avenir de l'entreprise. Ils peuvent rapidement acquérir des compétences essentielles et contribuer de manière significative à long terme."
-        ]
-      },
-      {
-        "title": "En tant que profil reconverti, nous apportons également l'expérience et les compétences de nos anciens métiers.",
-        "content": ""
-      },
-      {
-        "title": "C’est problématique car :",
-        "content": [
-          "Sous-estimer les juniors limite leur potentiel et celui de l'entreprise. ",
-          "Cela crée une culture de méfiance et de stagnation au lieu de l'innovation.",
-          "Ignorer la formation des juniors mène à une pénurie de talents qualifiés à long terme."
-        ]
-      },
-      {
-        "title": "Alors quoi faire ?",
-        "content": [
-          "Mettre en place des programmes de mentorat où les seniors encadrent les juniors.",
-          "Encourager une culture d'apprentissage continu pour tous les niveaux d'expérience.",
-          "Valoriser et célébrer les contributions des développeurs juniors pour renforcer leur confiance et leur motivation."
-        ]
-      },
-      {
-        "title": "Conclusion",
-        "content": "Les développeurs juniors sont le futur de la tech. Investissons en eux aujourd'hui pour construire un avenir plus innovant et dynamique. "
-      }
-    ]
+    "date": "21/06/2024"
   },
   {
     "id": 4,
@@ -71,42 +29,7 @@
     "alt": "illustration de plusieurs individus porteurs de handicap ou non, de toutes origines, âges et genres, utilisant des technologies d'assistance pour naviguer sur internet",
     "title": "L'accessibilité Web : Une Nécessité Incontournable",
     "subtitle": "",
-    "date": "02/07/2024",
-    "sections": [
-      {
-        "title": "Quelques chiffres clés",
-        "content": [
-          "15% de la population mondiale : représente environ un milliard de personnes vivant avec un handicap.",
-          "57% des sites web : ne sont pas accessibles aux personnes aveugles ou malvoyantes, selon une étude de WebAIM en 2023.",
-          "2025 : une année charnière avec l'entrée en vigueur de nouvelles réglementations européennes sur l'accessibilité numérique. "
-        ]
-      },
-      {
-        "title": "Les émoticônes et l'accessibilité",
-        "content": "Les émoticônes permettent d'exprimer des émotions de manière visuelle, mais posent un problème majeur pour l'accessibilité. Les lecteurs d'écrans ne les décrivent pas toujours correctement, compliquant la compréhension pour les personnes aveugles ou malvoyantes. Pour remédier à cela, je limite l'utilisation des émoticônes dans mes publications LinkedIn et les accompagne d'une description entre parenthèses. Par exemple, 😊 (visage souriant)."
-      },
-      {
-        "title": "Le faux gras et l'accessibilité",
-        "content": "Le faux gras, souvent utilisé pour mettre en évidence certaines parties de texte, pose également des problèmes d'accessibilité. Il est créé avec des caractères Unicode ressemblant à des lettres en gras, mais les lecteurs d'écrans ne les interprètent pas comme du texte standard. Cela peut entraîner une confusion et une perte d’information pour les utilisateurs malvoyants."
-      },
-      {
-        "title": "Prendre des mesures dès la phase de conception",
-        "content": [
-          "Pour garantir l'accessibilité dès la phase de conception, il est crucial de suivre les normes et les guides des bonnes pratiques, tels que : ",
-          "WCAG (Web Content Accessibility Guidelines) : Fournit une série de recommandations pour rendre le contenu web plus accessible.",
-          "RGAA (Référentiel Général d'Amélioration de l'Accessibilité) : Spécifique à la France, il offre des critères d’accessibilité pour les sites web publics.",
-          "RAAM (Référentiel d'Accessibilité des Administrations Modernes): Couvre les administrations modernes en offrant des directives spécifiques pour l’accessibilité."
-        ]
-      },
-      {
-        "title": "Ressources et références",
-        "content": "Pour approfondir vos connaissances sur l'accessibilité et adopter les meilleures pratiques, je recommande le livre gratuit « Giving a damn about accessibility. A candid and practical handbook for designers » de Sheri Byrne-Haber. Ce guide offre des conseils pratiques et des perspectives précieuses pour les designers qui souhaitent améliorer l'accessibilité de leurs produits numériques."
-      },
-      {
-        "title": "Vers une obligation légale",
-        "content": "En 2025, de nouvelles lois entreront en vigueur en Europe pour renforcer l'accessibilité numérique. Ces lois obligeront les entreprises et les institutions à rendre leurs sites web et applications accessibles à tous. L'obligation rime ici avec devoir, car il est de notre responsabilité morale et éthique de garantir que tout le monde puisse accéder à l’information de manière égale."
-      }
-    ]
+    "date": "02/07/2024"
   },
   {
     "id": 5,

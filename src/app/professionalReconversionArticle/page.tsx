@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Découvrez le parcours de Priscillia Ammeux dans sa reconversion professionnelle en tant que développeuse web, ses défis et ses réussites.",
 };
 
-export default function ProfessionalReconversion() {
+export default function ProfessionalReconversionArticle() {
   return (
     <Layout>
       <ArticleHeader
