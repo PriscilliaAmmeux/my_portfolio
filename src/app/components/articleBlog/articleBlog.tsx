@@ -30,6 +30,8 @@ export default function ArticleBlog({
       return "/accessibilityArticle";
     } else if (id === 5) {
       return "/nextJSArticle";
+    } else if (id === 6) {
+      return "/impostorArticle";
     } else {
       return "/blog";
     }
