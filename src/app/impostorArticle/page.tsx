@@ -5,8 +5,10 @@ import Layout from "../ui/layout/layout";
 import ExternalLink from "../components/ExternalLink/ExternalLink";
 
 export const metadata: Metadata = {
-  title: "Blog - ",
-  description: "",
+  title:
+    "Blog - Comment lutter contre le syndrome de l'imposteur - Priscillia Ammeux",
+  description:
+    "Découvrez les stratégies de Priscillia Ammeux pour lutter contre le syndrome de l'imposteur et renforcer la confiance en soi.",
 };
 
 export default function ImpostorArticle() {

@@ -26,6 +26,7 @@ export default function Blog() {
           <div className="md:grid md:grid-cols-3 gap-4">
             {sortedBlog.map((article) => (
               <ArticleBlog
+                key={article.id}
                 id={article.id}
                 img={article.img}
                 alt={article.alt}
