@@ -3,6 +3,7 @@ import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Layout from "../ui/layout/layout";
 import ExternalLink from "../components/ExternalLink/ExternalLink";
+import { Ultra } from "next/font/google";
 
 export const metadata: Metadata = {
   title:
@@ -23,19 +24,31 @@ export default function ImpostorArticle() {
         subtitle={""}
         date={"22/09/2024"}>
         <SectionArticle
-          title=""
-          content="As-tu déjà eu l'impression qu'on allait te « démasquer » ? Que tes réussites sont dues à la chance ou à d'autres personnes plutôt qu'à tes compétences ? Si oui, tu n'es pas seul(e) !"
-        />
-        <SectionArticle
-          title=""
-          content="En septembre, j'ai eu l'opportunité de donner mon tout premier talk sur le syndrome de l'imposteur chez Zenika à Lille. Est ce que j'ai aimé donner ce talk ? Un grand OUIIIIIIIIIIIIIIIIIIIIIIIIIIIIII 😊 (visage trèèèèèèssssss souriant)."
-        />
-        <SectionArticle
-          title="Voici donc les points clés que nous avons abordés :"
+          title="Introduction"
           content={
-            <ul className="list-disc list-inside space-y-4">
+            <ul>
               <li>
-                <span className="font-bold ">Un peu d’histoire : </span>
+                As-tu déjà eu l'impression qu'on allait te « démasquer » ? Que
+                tes réussites sont dues à la chance ou à d'autres personnes
+                plutôt qu'à tes compétences ? Si oui, tu n'es pas seul(e) !
+              </li>
+              <li>
+                En septembre, j'ai eu l'opportunité de donner mon tout premier
+                talk sur le syndrome de l'imposteur chez Zenika à Lille. Est ce
+                que j'ai aimé donner ce talk ? Un grand
+                OUIIIIIIIIIIIIIIIIIIIIIIIIIIIIII 😊 (visage trèèèèèèssssss
+                souriant).
+              </li>
+            </ul>
+          }
+        />
+
+        <SectionArticle
+          title="Historique et définition"
+          content={
+            <ul className="list-decimal list-inside space-y-4">
+              <li>
+                <span className="font-bold "> </span>
                 Introduit en 1978 par 2 psychologues suite à une étude qu’elles
                 avaient mené sur 150 femmes diplômées, exerçant des métiers
                 prestigieux et jouissant d’une excellente réputation: Pauline
@@ -45,7 +58,7 @@ export default function ImpostorArticle() {
                 <span className="font-bold ">
                   Le syndrome de l'imposteur, Qu’est ce que c’est ?
                 </span>
-                <ul className="space-y-4 pl-6 pt-2">
+                <ul className="space-y-2 pl-6 pt-2">
                   <li>
                     - Le syndrome de l’imposteur c’est quand tu ressens un doute
                     persistant quant à ta propre valeur et à tes capacités​.
@@ -70,47 +83,48 @@ export default function ImpostorArticle() {
                   </li>
                 </ul>
               </li>
+            </ul>
+          }
+        />
+        <SectionArticle
+          title="Pourquoi il perdure ?"
+          content={
+            <ul className="list-disc list-inside space-y-2 pl-6">
               <li>
-                <span className="font-bold pr-1">Pourquoi il perdure ?</span>
-                <ul className="list-decimal pl-8 space-y-4 pt-2 p">
-                  <li>
-                    <span className="font-bold ">
-                      Pression de la perfection dans notre société :
-                    </span>
-                    Dans notre société qui valorise l'excellence, beaucoup se
-                    sentent obligés d'être parfaits. Cette pression peut
-                    conduire à un sentiment d'inadéquation lorsqu'on se compare
-                    aux autres ou à des idéaux inatteignables.
-                  </li>
-                  <li>
-                    <span className="font-bold ">Comparaison Sociale :</span>
-                    Avec les réseaux sociaux et le monde numérique, il est
-                    facile de se comparer constamment aux autres, souvent sans
-                    voir les défis ou les échecs qu'ils ont pu surmonter. Cela
-                    renforce l'idée que l'on est moins compétent que ses pairs."
-                  </li>
-                  <li>
-                    <span className="font-bold ">Culture de la Réussite :</span>
-                    Dans certains milieux, la réussite est mise sur un
-                    piédestal, et toute erreur est perçue comme un échec. Cela
-                    peut exacerber le sentiment de ne pas être à la hauteur.
-                  </li>
-                  <li>
-                    <span className="font-bold ">Cycle d'Auto-Doute :</span>
-                    Ceux qui souffrent du syndrome de l'imposteur ont tendance à
-                    minimiser leurs succès et à se concentrer sur leurs erreurs,
-                    ce qui crée un cycle de doute de soi qui est difficile à
-                    briser.
-                  </li>
-                </ul>
+                <span className="font-bold pr-1">
+                  Pression de la perfection dans notre société :
+                </span>
+                Dans notre société qui valorise l'excellence, beaucoup se
+                sentent obligés d'être parfaits. Cette pression peut conduire à
+                un sentiment d'inadéquation lorsqu'on se compare aux autres ou à
+                des idéaux inatteignables.
+              </li>
+              <li>
+                <span className="font-bold pr-1">Comparaison Sociale :</span>
+                Avec les réseaux sociaux et le monde numérique, il est facile de
+                se comparer constamment aux autres, souvent sans voir les défis
+                ou les échecs qu'ils ont pu surmonter. Cela renforce l'idée que
+                l'on est moins compétent que ses pairs."
+              </li>
+              <li>
+                <span className="font-bold pr-1">Culture de la Réussite :</span>
+                Dans certains milieux, la réussite est mise sur un piédestal, et
+                toute erreur est perçue comme un échec. Cela peut exacerber le
+                sentiment de ne pas être à la hauteur.
+              </li>
+              <li>
+                <span className="font-bold pr-1">Cycle d'Auto-Doute :</span>
+                Ceux qui souffrent du syndrome de l'imposteur ont tendance à
+                minimiser leurs succès et à se concentrer sur leurs erreurs, ce
+                qui crée un cycle de doute de soi qui est difficile à briser.
               </li>
             </ul>
           }
         />
         <SectionArticle
-          title="Quelques chiffres marquants :"
+          title="Quelques chiffres marquants "
           content={
-            <ul className="list-disc list-inside space-y-4">
+            <ul className="list-disc list-inside space-y-2 pl-6">
               <li>
                 48% des femmes interrogées ont déclaré se sentir parfois comme
                 des imposteurs, contre 34% des hommes.
@@ -128,68 +142,75 @@ export default function ImpostorArticle() {
           }
         />
         <SectionArticle
-          title="Des techniques pour lutter :"
+          title="Des techniques pour lutter "
           content={
-            <ul className="list-disc list-inside space-y-4">
+            <ul className="list-disc list-inside space-y-2 pl-6">
               <li>
-                <span className="font-bold ">Faire des listes :</span>
+                <span className="font-bold pr-2">Faire des listes :</span>
                 Connaissances, compétences, projets réussis, reconnaissances.
               </li>
               <li>
-                <span className="font-bold ">Apprendre de ses erreurs :</span>
+                <span className="font-bold pr-2">
+                  Apprendre de ses erreurs :
+                </span>
                 Valoriser les échecs comme des opportunités d'apprentissage."
               </li>
+
               <li>
-                <span className="font-bold ">
-                  S’entourer d’amis et de pairs:
-                </span>
-                La force du collectif.
-              </li>
-              <li>
-                <span className="font-bold ">Partager et contribuer :</span>
+                <span className="font-bold pr-2">Partager et contribuer :</span>
                 Parler en public, écrire des articles, contribuer à l’open
                 source.
               </li>
-            </ul>
-          }
-        />
-        <SectionArticle
-          title="S’entourer des Bonnes Personnes: ce qui m’a le plus aidé."
-          content={
-            <ul className="list-disc list-inside space-y-4">
               <li>
-                <span className="font-bold ">
-                  Faire partie du comité de sélection de la DevFest Lille 2024 :
+                <span className="font-bold pr-2">
+                  S’entourer des Bonnes Personnes :
                 </span>
-                441 relecture de CFP, rencontre des personnes extraordinaires
-                qui m’inspire à continuer ce travail qui me donne des paillettes
-                dans les yeux, équipe formidable de femmes (speakeuses et
-                reviewers) qui m’ont poussé à donner ce talk.
-              </li>
-              <li>
-                <span className="font-bold ">La communauté des ChtiteDev</span>
-                qui m’a encouragé à faire ce talk
-              </li>
-              <li>
-                <span className="font-bold ">Oser : </span>aujourd’hui je fais
-                partie du collectif KreaWebSolutions, un collectif de 5
-                personnes car j’ai osé contacter Arnaud sur LinkedIn.
+                <ul className="list-disc list-inside space-y-2 pl-6">
+                  <li>
+                    <span className="underline pr-2">
+                      Faire partie du comité de sélection de la DevFest Lille
+                      2024
+                    </span>
+                    :
+                    <ul className="pl-10">
+                      <li>- 441 relecture de CFP</li>
+                      <li>
+                        - rencontre des personnes extraordinaires qui m’inspire
+                        à continuer ce travail qui me donne des paillettes dans
+                        les yeux
+                      </li>
+                      <li>
+                        - équipe formidable de femmes (speakeuses et reviewers)
+                        qui m’ont poussé à donner ce talk
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <span className="underline pr-2">
+                      La communauté des ChtiteDev
+                    </span>
+                    : qui m’a encouragé à faire ce talk
+                  </li>
+                  <li className="underline pr-2">Oser</li>
+                  <li className="underline pr-2">La force du collectif.</li>
+                </ul>
               </li>
             </ul>
           }
         />
+
         <SectionArticle
           title="Mais aussi..."
           content={
-            <ul className="list-disc list-inside space-y-4">
+            <ul className="list-disc list-inside space-y-2 pl-6">
               <li>
-                <span className="font-bold ">
+                <span className="font-bold pr-2">
                   Accepter ses Limites et Éviter le Perfectionnisme :
                 </span>
                 On ne peut pas tout savoir, n’ayez pas peur de l’échec.
               </li>
               <li>
-                <span className="font-bold ">
+                <span className="font-bold pr-2">
                   Les Refus ne sont pas des Échecs :
                 </span>
                 les refus d'emplois ou d'opportunités ne sont pas des échecs,
@@ -202,7 +223,9 @@ export default function ImpostorArticle() {
           title="Conclusion"
           content={
             <div>
-              <p>Vous êtes Légitime !</p>
+              <p className="text-pink-700 font-bold pb-2">
+                Vous êtes Légitime !
+              </p>
               <ExternalLink href="https://www.linkedin.com/feed/update/urn:li:activity:7243861708853641216/">
                 Pour retrouver le post LinkedIn de mon talk, c'est par ici !
               </ExternalLink>
