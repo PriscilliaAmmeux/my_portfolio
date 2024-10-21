@@ -28,6 +28,8 @@ export default function ArticleBlog({
       return "/juniorArticle";
     } else if (id === 4) {
       return "/accessibilityArticle";
+    } else if (id === 5) {
+      return "/nextJSArticle";
     } else {
       return "/blog";
     }
