@@ -2,6 +2,8 @@ import { Metadata } from "next";
 import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Layout from "../ui/layout/layout";
+import Link from "next/link";
+import Button from "../components/button/button";
 
 export const metadata: Metadata = {
   title: "Blog - L'accessibilité Web : Une Nécessité Incontournable",
@@ -94,6 +96,12 @@ export default function AccessibilityArticle() {
           }
         />
       </ArticleHeader>
+      <Link className="flex justify-center" href="/juniorArticle">
+        <Button
+          type={"button"}
+          text={"Article suivant"}
+          ariaLabel={"Article suivant"}></Button>
+      </Link>
     </Layout>
   );
 }

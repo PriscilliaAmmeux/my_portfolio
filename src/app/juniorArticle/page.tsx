@@ -1,6 +1,8 @@
+import Link from "next/link";
 import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Layout from "../ui/layout/layout";
+import Button from "../components/button/button";
 
 export default function JuniorArticle() {
   return (
@@ -108,6 +110,12 @@ export default function JuniorArticle() {
           }
         />
       </ArticleHeader>
+      <Link className="flex justify-center" href="/mistakesArticle">
+        <Button
+          type={"button"}
+          text={"Article suivant"}
+          ariaLabel={"Article suivant"}></Button>
+      </Link>
     </Layout>
   );
 }
