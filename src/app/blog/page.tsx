@@ -32,7 +32,6 @@ export default function Blog() {
                 title={article.title}
                 subtitle={article.subtitle}
                 date={article.date}
-                sections={article.sections}
               />
             ))}
           </div>

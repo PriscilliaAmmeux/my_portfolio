@@ -1,7 +1,14 @@
+import { Metadata } from "next";
 import ArticleHeader from "../components/articleHeader/articleHeader";
 import ExternalLink from "../components/ExternalLink/ExternalLink";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Layout from "../ui/layout/layout";
+
+export const metadata: Metadata = {
+  title: "Blog - Pourquoi je travaille avec Next.js - Priscillia Ammeux",
+  description:
+    "Découvrez pourquoi Priscillia Ammeux utilise Next.js pour maximiser les performances, l'optimisation SEO et l'accessibilité de ses projets web.",
+};
 
 export default function NextJSArticle() {
   return (
@@ -79,10 +86,6 @@ export default function NextJSArticle() {
             </div>
           }
         />
-        <SectionArticle title="" content="" />
-        <SectionArticle title="" content="" />
-        <SectionArticle title="" content="" />
-        <SectionArticle title="" content="" />
       </ArticleHeader>
     </Layout>
   );
