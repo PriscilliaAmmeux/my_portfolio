@@ -39,37 +39,37 @@ export default function MistakesArticle() {
 
         <SectionArticle
           title="Comment ne pas se laisser envahir par ses peurs ?"
-          content=""
+          content={
+            <ul className="list-disc list-inside space-y-4 pl-4 ">
+              <li>
+                <strong>Parler autour de soi:</strong> Nous ne sommes pas
+                seul(e)s. Si je vis cela, alors peut-être que les autres aussi.
+                Discuter avec des collègues, des mentors ou des ami(e)s peut
+                vraiment aider à relativiser et à se sentir soutenu.
+              </li>
+              <li>
+                <strong>Oser:</strong> Sortir de sa zone de confort est le
+                meilleur moyen de faire face à ses peurs. Ne pas connaître une
+                stack ? Et alors, ça s’apprend ! Chaque défi est une opportunité
+                de grandir et d'apprendre quelque chose de nouveau.
+              </li>
+              <li>
+                <strong>Accepter l’imperfection:</strong> Personne n’est
+                parfait·e. Faire des erreurs fait partie du processus
+                d’apprentissage. L'important est d’en tirer des leçons.
+              </li>
+              <li>
+                <strong>Se fixer des objectifs réalistes:</strong> Définir des
+                objectifs atteignables et les diviser en petites étapes peut
+                aider à rester motivé·e et à mesurer ses progrès.
+              </li>
+              <li>
+                <strong>Rester curieux·se :</strong> Continuer à apprendre et à
+                se former est essentiel.
+              </li>
+            </ul>
+          }
         />
-
-        <ul className="list-disc list-inside space-y-4 pl-4 ">
-          <li>
-            <strong>Parler autour de soi:</strong> Nous ne sommes pas seul(e)s.
-            Si je vis cela, alors peut-être que les autres aussi. Discuter avec
-            des collègues, des mentors ou des ami(e)s peut vraiment aider à
-            relativiser et à se sentir soutenu.
-          </li>
-          <li>
-            <strong>Oser:</strong> Sortir de sa zone de confort est le meilleur
-            moyen de faire face à ses peurs. Ne pas connaître une stack ? Et
-            alors, ça s’apprend ! Chaque défi est une opportunité de grandir et
-            d'apprendre quelque chose de nouveau.
-          </li>
-          <li>
-            <strong>Accepter l’imperfection:</strong> Personne n’est parfait·e.
-            Faire des erreurs fait partie du processus d’apprentissage.
-            L'important est d’en tirer des leçons.
-          </li>
-          <li>
-            <strong>Se fixer des objectifs réalistes:</strong> Définir des
-            objectifs atteignables et les diviser en petites étapes peut aider à
-            rester motivé·e et à mesurer ses progrès.
-          </li>
-          <li>
-            <strong>Rester curieux·se :</strong> Continuer à apprendre et à se
-            former est essentiel.
-          </li>
-        </ul>
       </ArticleHeader>
       <Link
         className="flex justify-center"
