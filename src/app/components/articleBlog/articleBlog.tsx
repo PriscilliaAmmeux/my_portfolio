@@ -1,6 +1,5 @@
 "use client";
 
-import Button from "../../components/button/button";
 import NavLink from "../navlink/navlink";
 
 interface ArticleProps {
@@ -10,8 +9,7 @@ interface ArticleProps {
   title: string;
   subtitle: string;
   date: string;
-  sections: [];
-}
+  }
 
 export default function ArticleBlog({
   id,
@@ -21,6 +19,16 @@ export default function ArticleBlog({
   subtitle,
   date,
 }: ArticleProps) {
+  const getHref = (id: number) => {
+    if (id === 1) {
+      return "/professionalReconversion";
+    } else if (id === 2) {
+      return "/mistakes";
+    } else {
+      return "/blog";
+    }
+  };
+
   return (
     <article className="rounded overflow-hidden shadow-lg bg-white mt-4 ">
       <img className="w-full" src={img} alt={alt} />
@@ -29,17 +37,11 @@ export default function ArticleBlog({
       </h2>
       <h3 className="text-blue-700 text-base text-center">{subtitle}</h3>
       <p className="text-gray-700 text-base ml-2 text-center mr-2">{date}</p>
-      <span className="flex justify-center mb-4 mt-2">
+      <span className="flex justify-center mt-2">
         <NavLink
-          href={id === 1 ? "/professionalReconversion" : "#"}
+          href={getHref(id)}
           title="Lire l'article"
           isActive={true}></NavLink>
-        <Button
-          type="button"
-          text="Lire l'article"
-          onClick={() => {}}
-          ariaLabel="Cliquez sur le bouton pour lire l'article"
-        />
       </span>
     </article>
   );
