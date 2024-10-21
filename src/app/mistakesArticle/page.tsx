@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Découvrez les erreurs et les leçons apprises par Priscillia Ammeux lors de sa reconversion professionnelle en tant que développeuse web.",
 };
 
-export default function Mistakes() {
+export default function MistakesArticle() {
   return (
     <Layout>
       <ArticleHeader

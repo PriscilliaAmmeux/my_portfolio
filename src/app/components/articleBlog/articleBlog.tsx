@@ -9,7 +9,7 @@ interface ArticleProps {
   title: string;
   subtitle: string;
   date: string;
-  }
+}
 
 export default function ArticleBlog({
   id,
@@ -21,9 +21,13 @@ export default function ArticleBlog({
 }: ArticleProps) {
   const getHref = (id: number) => {
     if (id === 1) {
-      return "/professionalReconversion";
+      return "/professionalReconversionArticle";
     } else if (id === 2) {
-      return "/mistakes";
+      return "/mistakesArticle";
+    } else if (id === 3) {
+      return "/juniorArticle";
+    } else if (id === 4) {
+      return "/accessibilityArticle";
     } else {
       return "/blog";
     }
