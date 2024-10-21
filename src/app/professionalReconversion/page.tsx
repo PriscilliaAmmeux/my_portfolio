@@ -5,8 +5,9 @@ import ExternalLink from "../components/ExternalLink/ExternalLink";
 import ArticleHeader from "../components/articleHeader/articleHeader";
 
 export const metadata: Metadata = {
-  title:
-    "Blog - Ma reconversion professionnelle - Développeur web - Priscillia Ammeux",
+  title: "Blog - Ma reconversion professionnelle",
+  description:
+    "Découvrez le parcours de Priscillia Ammeux dans sa reconversion professionnelle en tant que développeuse web, ses défis et ses réussites.",
 };
 
 export default function ProfessionalReconversion() {
@@ -18,7 +19,6 @@ export default function ProfessionalReconversion() {
         title={"Ma Reconversion Professionnelle"}
         subtitle={"Bilan 2 ans et demi après son début"}
         date={" 16/05/2024"}>
-            
         <SectionArticle
           title="Introduction"
           content="Ma reconversion professionnelle a débuté à la fin de mon congé parental en novembre 2021. Le fait d'être parent a profondément modifié mes perspectives professionnelles. Non seulement je désirais exercer un métier qui me passionnait, mais également mon poste précédent, occupé en prestation pour la société Général, avait été délocalisé en Inde."

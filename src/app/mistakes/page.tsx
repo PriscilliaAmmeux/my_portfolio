@@ -4,8 +4,9 @@ import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 
 export const metadata: Metadata = {
-  title:
-    "Blog - Ma reconversion professionnelle - Développeur web - Priscillia Ammeux",
+  title: "Blog - Les erreurs que j’ai faites pendant ma reconversion",
+  description:
+    "Découvrez les erreurs et les leçons apprises par Priscillia Ammeux lors de sa reconversion professionnelle en tant que développeuse web.",
 };
 
 export default function Mistakes() {
