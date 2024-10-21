@@ -48,7 +48,7 @@ export default function ImpostorArticle() {
         <SectionArticle
           title="Historique et définition"
           content={
-            <ul className="list-decimal list-inside space-y-4">
+            <ul className="list-decimal list-inside space-y-4 ">
               <li>
                 <span className="font-bold "> </span>
                 Introduit en 1978 par 2 psychologues suite à une étude qu’elles

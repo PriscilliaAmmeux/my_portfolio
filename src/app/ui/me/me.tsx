@@ -14,16 +14,25 @@ export default function Me() {
         priority
         className="mt-4 lg:mt-0"
       />
-
-      <p className="mt-4 lg:mt-0 lg:ml-4 text-justify">
-        Je m'appelle Priscillia, je suis développeuse web fullstack, je créé des
-        sites web et applications mobiles. Diplômée en Développement Web et Web
-        Mobile ainsi qu'en Conception et Développement d'Applications, j'ai
-        travaillé sur divers projets en freelance et au sein d'entreprises.
-        Maîtrisant des outils tels que Next.js, je suis à la recherche d'un CDI
-        pour contribuer à des projets innovants et mettre à profit mes
-        compétences techniques.
-      </p>
+      <div className="lg:ml-4 mt-4 lg:mt-0 text-justify">
+        <h1 className="text-xl font-semibold mb-2">
+          Bonjour, je suis Priscillia Ammeux !
+        </h1>
+        <p>
+          Développeuse web fullstack, motivée par la création de sites web et
+          d'applications mobiles. Diplômée en Développement Web et Web Mobile,
+          ainsi qu'en Conception et Développement d'Applications, j'ai eu
+          l'occasion de travailler sur divers projets, tant en freelance qu'au
+          sein d'équipes.
+        </p>
+        <p>
+          J'aime explorer des technologies comme Next.js, React.js , Flutter,
+          Node.js et Typescript. Actuellement, je suis à la recherche d'un CDI
+          où je pourrais mettre à profit mes compétences, contribuer à des
+          projets innovants et continuer à apprendre dans un environnement
+          dynamique.
+        </p>
+      </div>
     </section>
   );
 }

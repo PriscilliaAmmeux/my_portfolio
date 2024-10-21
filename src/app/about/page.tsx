@@ -8,6 +8,8 @@ import DownloadCV from "../ui/downloadCV/downloadCV";
 
 export const metadata: Metadata = {
   title: "À propos de moi - Priscillia Ammeux",
+  description:
+    "Découvrez le parcours professionnel de Priscillia Ammeux, développeuse web fullstack passionnée. Explorez ses compétences, ses projets et sa recherche d'un CDI.",
 };
 
 export default function About() {
