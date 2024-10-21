@@ -25,13 +25,13 @@ export default function Card({
   return (
     <section
       style={{ position: "relative", maxHeight: "60rem" }}
-      className={`mb-4 ${color} p-6 rounded-md shadow-lg mr-4 ml-4`}>
+      className={`mb-4 ${color} p-6 rounded-md shadow-lg mr-4 ml-4 `}>
       <div className="mb-10">
         <div className="flex items-center justify-center mb-4">
           <Icon size={30} className={styles.colorFirst} />
           <h2 className="ml-4 text-blue-800 text-2xl font-semibold">{title}</h2>
         </div>
-        <div className="text-gray-700">{children}</div>
+        <div className="text-gray-700 text-justify">{children}</div>
       </div>
       {button && (
         <span
