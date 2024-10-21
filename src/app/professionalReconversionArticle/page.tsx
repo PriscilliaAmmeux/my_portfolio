@@ -32,7 +32,7 @@ export default function ProfessionalReconversionArticle() {
         <SectionArticle
           title="Mon Parcours"
           content={
-            <>
+            <p>
               J'ai entamé ma reconversion en suivant les cours en ligne de
               Mathieu Nebra sur OpenClassrooms, portant sur le HTML, CSS et
               JavaScript. Par la suite, j'ai découvert Motiv'Her{" "}
@@ -48,7 +48,7 @@ export default function ProfessionalReconversionArticle() {
               un financement total de ma formation via Transition Pro, tout en
               conservant mon salaire (après étude de mon dossier en juillet
               2022).
-            </>
+            </p>
           }
         />
 
