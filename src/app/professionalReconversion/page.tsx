@@ -3,7 +3,7 @@ import Layout from "../ui/layout/layout";
 import Image from "next/image";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import ExternalLink from "../components/ExternalLink/ExternalLink";
-
+import ArticleHeader from "../components/articleHeader/articleHeader";
 
 export const metadata: Metadata = {
   title:
@@ -13,27 +13,12 @@ export const metadata: Metadata = {
 export default function ProfessionalReconversion() {
   return (
     <Layout>
-      <article className="rounded overflow-hidden shadow-lg bg-white m-6 p-6">
-        <section className="flex justify-center">
-          <Image
-            className="h-auto max-w-full"
-            src="/result.webp"
-            alt="Résultat"
-            width={600}
-            height={400}
-          />
-        </section>
-
-        <h2 className="text-pink-700 font-bold text-xl mt-4 text-center">
-          Ma Reconversion Professionnelle
-        </h2>
-        <h3 className="text-blue-900 font-bold text-center">
-          Bilan 2 ans et demi après son début
-        </h3>
-        <p className="text-gray-700 text-base ml-2 text-center mr-2">
-          16/05/2024
-        </p>
-
+      <ArticleHeader
+        imgSrc={"/result.webp"}
+        imgAlt={"panneau d'affichage avec le mot 'résultat' écrit dessus"}
+        title={"Ma Reconversion Professionnelle"}
+        subtitle={"Bilan 2 ans et demi après son début"}
+        date={" 16/05/2024"}>
         <SectionArticle
           title="Introduction"
           content="Ma reconversion professionnelle a débuté à la fin de mon congé parental en novembre 2021. Le fait d'être parent a profondément modifié mes perspectives professionnelles. Non seulement je désirais exercer un métier qui me passionnait, mais également mon poste précédent, occupé en prestation pour la société Général, avait été délocalisé en Inde."
@@ -106,7 +91,7 @@ export default function ProfessionalReconversion() {
           title="Conclusion"
           content="Malgré les défis et les sacrifices, je ne regrette pas ma reconversion. Elle m'a permis de retrouver une passion pour mon travail et m'a ouvert des portes vers de nouvelles opportunités professionnelles et de développement personnel."
         />
-      </article>
+      </ArticleHeader>
     </Layout>
   );
 }
