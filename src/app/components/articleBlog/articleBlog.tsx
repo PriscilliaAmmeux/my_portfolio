@@ -1,6 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import NavLink from "../navlink/navlink";
+import Button from "../button/button";
 
 interface ArticleProps {
   id: number;
@@ -45,11 +47,13 @@ export default function ArticleBlog({
       </h2>
       <h3 className="text-blue-700 text-base text-center">{subtitle}</h3>
       <p className="text-gray-700 text-base ml-2 text-center mr-2">{date}</p>
-      <span className="flex justify-center absolute bottom-0 w-full py-2">
-        <NavLink
-          href={getHref(id)}
-          title="Lire l'article"
-          isActive={true}></NavLink>
+      <span className="flex justify-center absolute bottom-0 w-full py-2 ">
+        <Link className="flex justify-center" href={getHref(id)}>
+          <Button
+            type={"button"}
+            text={"Lire l'article"}
+            ariaLabel={"Lire l'article"}></Button>
+        </Link>
       </span>
     </article>
   );
