@@ -39,11 +39,18 @@ export default function Interests() {
 
       <InterestSection
         Icon={RiKakaoTalkLine}
+        title="Meet-up : Les Femmes dans la Tech – S’inspirer, se soutenir, réussir !"
+        description="Je suis ravie de vous retrouver pour mon deuxième talk et cette fois-ci, entourée de plusieurs femmes incroyables dans la tech ! Quand ? Le 21 novembre 2024. En collaboration avec Polarity Association et Chtitedev, organisé par CBTW ! Rejoignez-nous pour une soirée d’échanges inspirants et de partage d’expériences, où nous aborderons ensemble les défis et réussites des femmes dans ce secteur !"
+        link="https://www.linkedin.com/feed/update/urn:li:activity:7260230099902296066/"
+      />
+
+      <InterestSection
+        Icon={RiKakaoTalkLine}
         title="Talk: Comment lutter contre le syndrome de l'imposteur"
         description="J'ai donné ce talk le 20 septembre 2024 à Zenika Lille avec les ChtiteDev. Vous pouvez également retrouver l'article au complet dans l'onglet Blog:"
         link="/blog"
       />
-      
+
       <InterestSection
         Icon={MdOutlineFestival}
         title="Membre du Comité de Sélection - Dev Fest Lille 2024"
