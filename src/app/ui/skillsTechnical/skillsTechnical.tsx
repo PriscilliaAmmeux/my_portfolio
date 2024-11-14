@@ -13,9 +13,9 @@ export default function SkillsTechnical() {
       Icon={FaHeadSideVirus}
       title="Mes compétences techniques"
       color="bg-blue-100">
-      <ul className="text-gray-700 list-disc ml-3">
+      <ul className="text-gray-700 list-disc">
         <SkillSection title="Spécifier, concevoir et développer des logiciels ou applications web">
-          <ul className="grid grid-cols-3 gap-4">
+          <ul className="md:grid md:grid-cols-3 md:gap-3 sm:gap-1">
             <BackendSkills />
             <FrontendSkills />
             <DesignSkills />
@@ -23,14 +23,14 @@ export default function SkillsTechnical() {
         </SkillSection>
 
         <SkillSection title="Concevoir, gérer et interroger des bases de données">
-          <SiPostgresql className="ml-2 mr-2" />
+          <SiPostgresql className="hidden sm:inline ml-2 mr-2" />
           PostgreSQL,
-          <SiMysql className="ml-2 mr-2" />
+          <SiMysql className="hidden sm:inline ml-2 mr-2" />
           MySQL
         </SkillSection>
 
         <SkillSection title="Organiser et gérer des projets informatiques en équipe">
-          <FaGithub className="ml-2 mr-2" />
+          <FaGithub className="ml-2 mr-2 hidden sm:inline" />
           Git
         </SkillSection>
 
@@ -41,11 +41,12 @@ export default function SkillsTechnical() {
         <SkillSection title="Tests">Karaté, Junit, Jest</SkillSection>
 
         <SkillSection title="Accessibilité Web">
-          Techniques et pratiques d’accessibilité (formation prévue le 1er
+          Techniques et pratiques d’accessibilité (formation prévue le 4
           décembre 2024)
         </SkillSection>
 
-        <SkillSection title="Pratiques de développement durable"></SkillSection>
+        <SkillSection title="Éco-conception"></SkillSection>
+        <SkillSection title="SEO"></SkillSection>
       </ul>
     </Card>
   );
