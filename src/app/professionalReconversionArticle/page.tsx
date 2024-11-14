@@ -30,6 +30,12 @@ export default function ProfessionalReconversionArticle() {
           title="Les débuts"
           content="Au collège, j'ai développé un intérêt pour la technologie et même créé un site internet. Cependant, à cette époque, le domaine de l'informatique était souvent perçu comme réservé aux hommes, ce qui m'a découragée."
         />
+        <SectionArticle
+          title="Ma Vie Professionnelle Avant la Reconversion"
+          content="J'ai commencé ma carrière en tant que gestionnaire back office chez Mobilize Financial Services (anciennement RCI Banque). Mon rôle consistait à gérer les financements et opérations pour un portefeuille de 185 concessions et 20 agents. Cette expérience m'a permis d'acquérir une solide expertise dans la gestion des données financières et la conformité bancaire. J'ai également appris à travailler en étroite collaboration avec des équipes pluridisciplinaires, un savoir-faire que je continue d'appliquer aujourd'hui dans mes projets de développement web. Ensuite, j'ai travaillé pour la Société Générale, où j'étais en charge de la gestion des flux financiers internationaux, notamment à travers 8 implémentations européennes. Mon rôle était de gérer les opérations financières pour le service en lien direct avec les clients, en veillant à leur bon déroulement et à la résolution des incidents au niveau 2. Ce poste m'a permis de renforcer ma capacité à gérer des processus complexes, tout en garantissant un service fluide et efficace en collaboration avec les équipes responsables des relations clients. Cette expérience a été un atout précieux dans ma transition vers le développement web, où l'organisation et la gestion de projets sont primordiales.
+
+Quand mon poste a été délocalisé, j'ai pris la décision de réorienter ma carrière vers un domaine plus en phase avec mes passions pour la technologie et l'innovation. C'est ainsi que je me suis lancée dans le développement web, un domaine qui m'enthousiasme depuis mon adolescence."
+        />
 
         <SectionArticle
           title="Mon Parcours"
