@@ -31,7 +31,7 @@ export default function SkillsTechnical() {
 
         <SkillSection title="Organiser et gérer des projets informatiques en équipe">
           <FaGithub className="ml-2 mr-2 hidden sm:inline" />
-          Git
+          Git, Github, Github project
         </SkillSection>
 
         <SkillSection title="Déployer des applications web">
@@ -47,6 +47,9 @@ export default function SkillsTechnical() {
 
         <SkillSection title="Éco-conception"></SkillSection>
         <SkillSection title="SEO"></SkillSection>
+        <SkillSection title="Méthodologie Agile Scrum">
+          Expérience de travail en équipe dans un environnement Agile
+        </SkillSection>
       </ul>
     </Card>
   );
