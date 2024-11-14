@@ -9,7 +9,7 @@ export default function SkillItem({
 }) {
   return (
     <li className="flex items-center">
-      <Icon className="ml-2 mr-2" /> {skill}
+      <Icon className="ml-2 mr-2 hidden sm:inline" /> {skill}
     </li>
   );
 }
