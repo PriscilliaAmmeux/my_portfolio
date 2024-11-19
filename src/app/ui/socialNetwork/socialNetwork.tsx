@@ -5,7 +5,7 @@ import ProfileLink from "../profileLink/profileLink";
 import { BsInstagram } from "react-icons/bs";
 import { SiMalt } from "react-icons/si";
 
-export default function () {
+export default function SocialNetwork() {
   return (
     <section className="flex justify-between space-x-2">
       <ProfileLink
