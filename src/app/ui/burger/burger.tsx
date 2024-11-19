@@ -1,13 +1,14 @@
 "use client";
 
-import { FaBars, FaFacebook, FaLinkedin, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import NavLink from "../../components/navlink/navlink";
 import styles from "../../styles/burger.module.css";
 import { useState, useEffect } from "react";
 import Logo from "../logo/logo";
 import ProfileLink from "../profileLink/profileLink";
-import { BsInstagram } from "react-icons/bs";
-import { SiMalt } from "react-icons/si";
+
+import { TbBrandLinktree } from "react-icons/tb";
+import SocialNetwork from "../socialNetwork/socialNetwork";
 
 export default function Burger() {
   const [isOpen, setIsOpen] = useState(false);
@@ -95,30 +96,7 @@ export default function Burger() {
           />
 
           <span className="flex items-center mt-5 mb-5">
-            <ProfileLink
-              href="https://www.linkedin.com/in/priscillia-ammeux/"
-              ariaLabel="Link to LinkedIn profile"
-              Icon={FaLinkedin}
-              size={20}
-            />
-            <ProfileLink
-              href="https://www.malt.fr/profile/priscilliaammeux1"
-              ariaLabel="Link to malt profile"
-              Icon={SiMalt}
-              size={50}
-            />
-            <ProfileLink
-              href="https://www.facebook.com/priscillia.selva/?locale=fr_FR"
-              ariaLabel="Link to Facebook profile"
-              Icon={FaFacebook}
-              size={20}
-            />
-            <ProfileLink
-              href="https://www.instagram.com/priscillia_ammeux/"
-              ariaLabel="Link to Facebook profile"
-              Icon={BsInstagram}
-              size={20}
-            />
+            <SocialNetwork />
           </span>
 
           <NavLink
