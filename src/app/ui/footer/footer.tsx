@@ -1,10 +1,5 @@
-import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
-import ProfileLink from "../profileLink/profileLink";
-import { SiMalt } from "react-icons/si";
-import { FaThreads } from "react-icons/fa6";
-import { BsInstagram } from "react-icons/bs";
-import { TbBrandLinktree } from "react-icons/tb";
 import ScrollToTopButton from "@/app/components/scrollToTopButton/scrollToTopButton";
+import SocialNetwork from "../socialNetwork/socialNetwork";
 
 export default function Footer() {
   return (
@@ -22,52 +17,7 @@ export default function Footer() {
           Mentions légales
         </a>
       </section>
-
-      <section className="flex justify-between space-x-2">
-        <ProfileLink
-          href="https://linktr.ee/priscillia_ammeux"
-          ariaLabel="Link to all social media profiles"
-          Icon={TbBrandLinktree}
-          size={20}
-        />
-        <ProfileLink
-          href="https://www.linkedin.com/in/priscillia-ammeux/"
-          ariaLabel="Link to LinkedIn profile"
-          Icon={FaLinkedin}
-          size={20}
-        />
-        <ProfileLink
-          href="https://www.malt.fr/profile/priscilliaammeux1"
-          ariaLabel="Link to malt profile"
-          Icon={SiMalt}
-          size={50}
-        />
-        <ProfileLink
-          href="https://www.facebook.com/priscillia.selva/"
-          ariaLabel="Link to Facebook profile"
-          Icon={FaFacebook}
-          size={20}
-        />
-        <ProfileLink
-          href="https://www.instagram.com/priscillia_ammeux_web"
-          ariaLabel="Link to Facebook profile"
-          Icon={BsInstagram}
-          size={20}
-        />
-
-        <ProfileLink
-          href="https://www.threads.net/@priscillia_ammeux_web"
-          ariaLabel="Link to Threads profile"
-          Icon={FaThreads}
-          size={20}
-        />
-        <ProfileLink
-          href="https://github.com/PriscilliaAmmeux"
-          ariaLabel="Link to GitHub profile"
-          Icon={FaGithub}
-          size={20}
-        />
-      </section>
+      <SocialNetwork />
       <ScrollToTopButton />
     </footer>
   );
