@@ -27,24 +27,24 @@ export default function TrainingImportance() {
         <SectionArticle
           title="Mes Méthodes de Formation"
           content={
-            <ul>
-              <li className="list-disc list-inside pl-2">
+            <ul className="list-disc list-inside ">
+              <li className=" pl-2">
                 <span className="font-bold">YouTube : </span>Une mine d’or de
                 tutoriels gratuits pour apprendre de nouvelles techniques ou
                 revoir les bases.
               </li>
-              <li className="list-disc list-inside pl-2">
+              <li className=" pl-2">
                 <span className="font-bold">Articles sur Medium : </span>
                 Parfait pour approfondir des sujets techniques ou découvrir les
                 tendances.
               </li>
-              <li className="list-disc list-inside pl-2">
+              <li className="pl-2">
                 <span className="font-bold">L’entourage : </span> Rien de mieux
                 que les échanges avec d’autres développeurs pour des astuces ou
                 des retours d’expérience précieux (communauté, meetups,
                 conférences, etc.).
               </li>
-              <li className="list-disc list-inside pl-2">
+              <li className="pl-2">
                 <span className="font-bold">La documentation : </span>Un
                 incontournable pour comprendre en détail le fonctionnement d’une
                 technologie et s’assurer de suivre les bonnes pratiques.
@@ -56,20 +56,20 @@ export default function TrainingImportance() {
           title="Mes Prochaines Étapes de Formation"
           content={
             <section>
-              <ul>
-                <li className="list-disc list-inside pl-2">
+              <ul className="list-disc list-inside ">
+                <li className="pl-2">
                   <span className="font-bold">
                     Accessibilité avec Emmanuel Demey :
                   </span>
                   Un domaine essentiel pour rendre le web accessible à tous
                   (formation prévue le 4 décembre)
                 </li>
-                <li className="list-disc list-inside pl-2">
+                <li className="pl-2">
                   <span className="font-bold">SEO grâce à des experts : </span>
                   Découvrir des stratégies pour mieux référencer mes projets
                   web.
                 </li>
-                <li className="list-disc list-inside pl-2">
+                <li className="pl-2">
                   <span className="font-bold">Astuce : </span> Apprendre de
                   spécialistes, c’est se nourrir de leur expertise et gagner du
                   temps.
@@ -88,14 +88,14 @@ export default function TrainingImportance() {
               <p className="font-bold pb-2">
                 Le secret ? Être curieux.se et proactif.ve.
               </p>
-              <ul>
-                <li className="list-disc list-inside pl-2">
+              <ul className="list-disc list-inside">
+                <li className="pl-2">
                   J’échange régulièrement avec d'autres développeurs
                 </li>
-                <li className="list-disc list-inside pl-2">
+                <li className="pl-2">
                   Je reste attentive à chaque conseil ou outil partagé
                 </li>
-                <li className="list-disc list-inside pl-2">
+                <li className="pl-2">
                   Chaque jour est une opportunité d’apprendre quelque chose de
                   nouveau
                 </li>
