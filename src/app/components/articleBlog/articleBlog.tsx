@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import NavLink from "../navlink/navlink";
 import Button from "../button/button";
 
 interface ArticleProps {
@@ -34,7 +33,9 @@ export default function ArticleBlog({
       return "/nextJSArticle";
     } else if (id === 6) {
       return "/impostorArticle";
-    } else {
+    } else if (id === 7) {
+      return "/trainingImportance";
+    }else {
       return "/blog";
     }
   };

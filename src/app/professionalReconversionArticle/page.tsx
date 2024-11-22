@@ -100,7 +100,7 @@ Quand mon poste a été délocalisé, j'ai pris la décision de réorienter ma c
           content="Malgré les défis et les sacrifices, je ne regrette pas ma reconversion. Elle m'a permis de retrouver une passion pour mon travail et m'a ouvert des portes vers de nouvelles opportunités professionnelles et de développement personnel."
         />
       </ArticleHeader>
-      <Link className="flex justify-center" href="/impostorArticle">
+      <Link className="flex justify-center" href="/trainingImportance">
         <Button
           type={"button"}
           text={"Article suivant"}
