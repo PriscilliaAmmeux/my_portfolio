@@ -4,6 +4,7 @@ import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Link from "next/link";
 import Button from "../components/button/button";
+import ListItemSectionArticle from "../ui/listItemSectionArticle/listItemSectionArticle";
 
 export const metadata: Metadata = {
   title: "Blog - L'importance de se former",
@@ -28,27 +29,22 @@ export default function TrainingImportance() {
           title="Mes Méthodes de Formation"
           content={
             <ul className="list-disc list-inside ">
-              <li className=" pl-2">
-                <span className="font-bold">YouTube : </span>Une mine d’or de
-                tutoriels gratuits pour apprendre de nouvelles techniques ou
-                revoir les bases.
-              </li>
-              <li className=" pl-2">
-                <span className="font-bold">Articles sur Medium : </span>
-                Parfait pour approfondir des sujets techniques ou découvrir les
-                tendances.
-              </li>
-              <li className="pl-2">
-                <span className="font-bold">L’entourage : </span> Rien de mieux
-                que les échanges avec d’autres développeurs pour des astuces ou
-                des retours d’expérience précieux (communauté, meetups,
-                conférences, etc.).
-              </li>
-              <li className="pl-2">
-                <span className="font-bold">La documentation : </span>Un
-                incontournable pour comprendre en détail le fonctionnement d’une
-                technologie et s’assurer de suivre les bonnes pratiques.
-              </li>
+              <ListItemSectionArticle
+                title="YouTube"
+                description=": Une mine d’or de tutoriels gratuits pour apprendre de nouvelles techniques ou revoir les bases."
+              />
+              <ListItemSectionArticle
+                title="Articles sur Medium"
+                description=": Parfait pour approfondir des sujets techniques ou découvrir les tendances."
+              />
+              <ListItemSectionArticle
+                title="L’entourage"
+                description=": Rien de mieux que les échanges avec d’autres développeurs pour des astuces ou des retours d’expérience précieux (communauté, meetups, conférences, etc.)."
+              />
+              <ListItemSectionArticle
+                title="La documentation"
+                description=": Un incontournable pour comprendre en détail le fonctionnement d’une technologie et s’assurer de suivre les bonnes pratiques."
+              />
             </ul>
           }
         />
@@ -57,23 +53,18 @@ export default function TrainingImportance() {
           content={
             <section>
               <ul className="list-disc list-inside ">
-                <li className="pl-2">
-                  <span className="font-bold">
-                    Accessibilité avec Emmanuel Demey :
-                  </span>
-                  Un domaine essentiel pour rendre le web accessible à tous
-                  (formation prévue le 4 décembre)
-                </li>
-                <li className="pl-2">
-                  <span className="font-bold">SEO grâce à des experts : </span>
-                  Découvrir des stratégies pour mieux référencer mes projets
-                  web.
-                </li>
-                <li className="pl-2">
-                  <span className="font-bold">Astuce : </span> Apprendre de
-                  spécialistes, c’est se nourrir de leur expertise et gagner du
-                  temps.
-                </li>
+                <ListItemSectionArticle
+                  title="Accessibilité avec Emmanuel Demey"
+                  description=": Un domaine essentiel pour rendre le web accessible à tous (formation prévue le 4 décembre)"
+                />
+                <ListItemSectionArticle
+                  title="SEO grâce à des experts"
+                  description=": Découvrir des stratégies pour mieux référencer mes projets web."
+                />
+                <ListItemSectionArticle
+                  title="Astuce"
+                  description=": Apprendre de spécialistes, c’est se nourrir de leur expertise et gagner du temps."
+                />
               </ul>
               <p className="text-pink-700 italic pt-4 pb-2">
                 Toujours un objectif en tête !
@@ -89,16 +80,18 @@ export default function TrainingImportance() {
                 Le secret ? Être curieux.se et proactif.ve.
               </p>
               <ul className="list-disc list-inside">
-                <li className="pl-2">
-                  J’échange régulièrement avec d'autres développeurs
-                </li>
-                <li className="pl-2">
-                  Je reste attentive à chaque conseil ou outil partagé
-                </li>
-                <li className="pl-2">
-                  Chaque jour est une opportunité d’apprendre quelque chose de
-                  nouveau
-                </li>
+                <ListItemSectionArticle
+                  title=""
+                  description="J’échange régulièrement avec d'autres développeurs"
+                />
+                <ListItemSectionArticle
+                  title=""
+                  description="Je reste attentive à chaque conseil ou outil partagé"
+                />
+                <ListItemSectionArticle
+                  title=""
+                  description="Chaque jour est une opportunité d’apprendre quelque chose de nouveau"
+                />
               </ul>
               <p className="text-pink-700 italic pt-4 pb-2">
                 "L’apprentissage ne s’arrête jamais. Même un petit tip peut
