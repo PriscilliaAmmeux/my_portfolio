@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useEffect } from "react";
 
 function setCookie(name: string, value: string, hours: number) {
@@ -68,6 +69,17 @@ export default function Cookies() {
       {showPopup && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="bg-white p-6 rounded-lg shadow-lg max-w-md w-full">
+            <div className="flex flex-row items-center">
+              <Image
+                src="/cookies.webp"
+                alt="Cookie"
+                width={100}
+                height={100}
+              />
+              <p className="pb-2 font-bold text-black">
+                Salut c&apos;est nous, les COOKIES !
+              </p>
+            </div>
             <p className="mb-4 text-black">
               En cliquant sur &laquo; Tout accepter &raquo;, vous acceptez
               l&apos;utilisation de cookies techniques nécessaires au bon
@@ -80,17 +92,17 @@ export default function Cookies() {
             <div className="flex justify-end space-x-4">
               <button
                 onClick={handleAccept}
-                className="bg-green-600 text-white px-4 py-2 rounded hover:font-bold">
+                className="bg-green-800 text-white px-4 py-2 rounded hover:underline">
                 Tout accepter
               </button>
               <button
                 onClick={handleRefused}
-                className="bg-red-600 text-white px-4 py-2 rounded hover:font-bold">
+                className="bg-red-700 text-white px-4 py-2 rounded hover:underline">
                 Tout refuser
               </button>
               <button
                 onClick={handleCustomize}
-                className="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">
+                className="bg-gray-600 text-white px-4 py-2 rounded hover:underline">
                 Personnaliser mes choix
               </button>
             </div>
@@ -129,12 +141,12 @@ export default function Cookies() {
             <div className="flex justify-end space-x-4">
               <button
                 onClick={handleCancel}
-                className="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">
+                className="bg-gray-500 text-white px-4 py-2 rounded hover:underline">
                 Annuler
               </button>
               <button
                 onClick={handleSave}
-                className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-700">
+                className="bg-green-800 text-white px-4 py-2 rounded hover:underline">
                 Enregistrer
               </button>
             </div>
