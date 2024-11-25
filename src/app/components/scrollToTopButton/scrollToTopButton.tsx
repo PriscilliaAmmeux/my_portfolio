@@ -40,7 +40,7 @@ export default function ScrollToTopButton() {
           borderRadius: "5px",
           cursor: "pointer",
         }}>
-        ↑ Top
+        ↑ Remonter en haut de page
       </button>
     </section>
   );
