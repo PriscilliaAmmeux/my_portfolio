@@ -3,26 +3,26 @@
     "id": 1,
     "title": "Site Vitrine Basique",
     "price": "599 € HT (promotion jusqu'au 31/12/2024 au lieu de 799 € HT)",
-    "description": "Un site vitrine clé en main pour une présence en ligne rapide et efficace. Idéal pour attirer vos premiers clients et renforcer votre crédibilité.",
+    "description": "Un site vitrine clé en main pour une présence en ligne rapide et efficace",
     "presentation": [
       {
-        "content": "Analyse de vos besoins : Nous vous guidons pour cibler vos objectifs et maximiser l’impact de votre site."
+        "content": "Analyse de vos besoins"
       },
       {
-        "content": "Hébergement et nom de domaine inclus 1 an : Pas besoin de vous soucier de la technique, nous gérons tout !"
+        "content": "Hébergement et nom de domaine inclus 1 an"
       },
       {
-        "content": "Intégration fluide de vos contenus : Votre message est mis en valeur de manière professionnelle."
+        "content": "Intégration fluide de vos contenus"
       },
       {
-        "content": "Formulaire de contact : Permettez à vos visiteurs de vous contacter facilement."
+        "content": "Formulaire de contact"
       },
       {
-        "content": "Optimisation mobile et SEO : Votre site sera visible sur Google et adapté à tous les appareils."
+        "content": "Optimisation mobile et SEO"
       },
-      { "content": "Accessibilité : Votre site sera utilisable par tous." },
+      { "content": "Accessibilité pour tous" },
       {
-        "content": "Sécurisation avancée : Protégez votre site et les données de vos visiteurs."
+        "content": "Sécurisation avancée"
       }
     ]
   },
@@ -30,70 +30,35 @@
   {
     "id": 2,
     "title": "Site Vitrine Personnalisé",
-    "price": "1099 € HT (promotion jusqu'au 31/12/2024 au lieu de 1299 € HT)",
-    "description": "Un site vitrine sur mesure, conçu pour refléter fidèlement votre image de marque et capter l'attention de vos clients potentiels.",
+    "price": "1299 € HT",
+    "description": "Un site vitrine sur mesure",
     "presentation": [
       {
-        "content": "Accompagnement sur mesure : Nous analysons vos besoins pour créer un site qui répond parfaitement à vos objectifs commerciaux."
+        "content": "Accompagnement sur mesure"
       },
       {
-        "content": "Hébergement et nom de domaine inclus 1 an : Tranquillité d'esprit garantie."
+        "content": "Hébergement et nom de domaine inclus 1 an"
       },
       {
-        "content": "Contenus intégrés avec soin : Chaque détail est pensé pour convaincre vos visiteurs."
+        "content": "Contenus intégrés avec soin"
       },
       {
-        "content": "Formulaire de contact : Facilitez la prise de contact avec vos clients."
+        "content": "Formulaire de contact"
       },
       {
-        "content": "Optimisation mobile et SEO : Assurez votre visibilité en ligne."
+        "content": "Optimisation mobile et SEO"
       },
       {
-        "content": "Accessibilité universelle : Rendez votre site utilisable pour tous vos visiteurs."
+        "content": "Accessibilité universelle"
       },
       {
-        "content": "Sécurisation avancée : Sécurisez vos données et celles de vos clients."
+        "content": "Sécurisation avancée"
       },
       {
-        "content": "Espace administrateur : Gérez vos contenus en toute autonomie."
+        "content": "Espace administrateur pour gérer vos contenus"
       },
       {
-        "content": "Formation à l'administration : Prenez en main votre site en toute confiance."
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "title": "Site E-Commerce Personnalisé",
-    "price": "1499 € HT (promotion jusqu'au 31/12/2024 au lieu de 1699 € HT)",
-    "description": "Un site e-commerce optimisé pour convertir vos visiteurs en acheteurs, avec des fonctionnalités sur mesure pour maximiser vos ventes en ligne.",
-    "presentation": [
-      {
-        "content": "Analyse de vos besoins commerciaux : Nous adaptons votre site à vos objectifs de vente."
-      },
-      {
-        "content": "Hébergement et nom de domaine inclus 1 an : Votre boutique en ligne est prête à fonctionner immédiatement."
-      },
-      {
-        "content": "Intégration fluide de vos produits : Vos articles seront présentés de manière claire et attractive."
-      },
-      {
-        "content": "Paiement sécurisé : Offrez une expérience d'achat en toute sécurité."
-      },
-      {
-        "content": "Optimisation mobile et SEO : Maximisez votre visibilité et vos conversions sur tous les appareils."
-      },
-      {
-        "content": "Accessibilité universelle : Votre site est utilisable par tous."
-      },
-      {
-        "content": "Sécurisation avancée : Protégez vos données commerciales."
-      },
-      {
-        "content": "Espace administrateur complet : Gérer vos produits, commandes et clients devient un jeu d’enfant."
-      },
-      {
-        "content": "Formation à l'administration : Prenez le contrôle de votre site pour gérer votre activité en ligne efficacement."
+        "content": "Formation à l'administration de votre site"
       }
     ]
   },
@@ -101,25 +66,25 @@
     "id": 4,
     "title": "Site sur Mesure",
     "price": "Sur devis",
-    "description": "Création de sites web entièrement personnalisés, adaptés à vos besoins spécifiques, pour des résultats alignés avec vos objectifs d'affaires."
+    "description": "Création de sites web entièrement personnalisés"
   },
   {
     "id": 5,
     "title": "Refonte de Site Web",
     "price": "Sur devis",
-    "description": "Optimisez et modernisez votre site existant pour améliorer vos performances en ligne et attirer plus de clients. ",
+    "description": "Optimisez et modernisez votre site existant",
     "presentation": [
       {
-        "content": "Analyse gratuite de l'interface utilisateur : Un premier diagnostic pour identifier les améliorations potentielles."
+        "content": "Analyse gratuite de l'interface utilisateur"
       },
       {
-        "content": "Optimisation des performances : Accélérez votre site et améliorez l'expérience utilisateur"
+        "content": "Optimisation des performances"
       },
       {
-        "content": "Accessibilité : Rendez votre site internet ou application mobile accessible à tous."
+        "content": "Accessibilité pour tous"
       },
       {
-        "content": "Mise à jour du design et des fonctionnalités : Un site plus attractif et efficace, adapté à vos besoins."
+        "content": "Mise à jour du design et des fonctionnalités"
       }
     ]
   },
@@ -131,9 +96,6 @@
     "presentation": [
       {
         "content": "Mise à jour régulière de votre site pour garantir sa sécurité et sa performance,"
-      },
-      {
-        "content": "Sauvegarde régulière de vos données pour éviter toute perte d'informations,"
       },
       {
         "content": "Support technique pour répondre à vos questions et résoudre d'éventuels problèmes,"
