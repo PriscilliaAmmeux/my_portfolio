@@ -3,8 +3,8 @@ import SocialNetwork from "../socialNetwork/socialNetwork";
 
 export default function Footer() {
   return (
-    <footer className="bg-pink-100 dark:bg-gray-700 mt-10 w-full p-4 md:p-10 gap-5 md:gap-20 bottom-0 flex flex-col md:flex-row justify-around items-center">
-      <section className="text-center">
+    <footer className="bg-pink-100 dark:bg-gray-700 mt-10 w-full p-4 md:p-10 gap-5 md:gap-20 bottom-0 flex flex-col  justify-around items-center">
+      <section className="text-center mb-10 md:mb-0">
         <p className="text-xs md:text-sm lg:text-base font-semibold">
           © {new Date().getFullYear()} Priscillia Ammeux. Tous droits réservés.
         </p>
@@ -16,8 +16,9 @@ export default function Footer() {
           className="hover:text-pink-700 hover:font-bold cursor-pointer">
           Mentions légales
         </a>
+        <SocialNetwork />
       </section>
-      <SocialNetwork />
+
       <ScrollToTopButton />
     </footer>
   );
