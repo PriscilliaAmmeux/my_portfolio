@@ -35,7 +35,9 @@ export default function ArticleBlog({
       return "/impostorArticle";
     } else if (id === 7) {
       return "/trainingImportance";
-    }else {
+    } else if (id === 8) {
+      return "/lessPresent";
+    } else {
       return "/blog";
     }
   };
