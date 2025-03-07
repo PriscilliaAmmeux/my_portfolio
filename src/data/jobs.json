@@ -1,11 +1,13 @@
 [
   {
     "id": 1,
-    "title": "Conseillère client - Foundever - Wasquehal ",
+    "title": "Conseillère client - Foundever - En prestation pour BNP Paribas- Wasquehal ",
     "date": "Janvier 2025 à aujourd'hui",
     "tasks": [
-      "En prestation pour BNP Paribas",
-      "Epargne salariale et collective: PEE, PERCO, PERECO, PERU, PERO, PERE"
+      "Renseignement des salariés et titulaires de comptes BNP Paribas sur les dispositifs d'épargne salariale et collective (PEE, PERECO, PERCO, PERU, PERO).",
+      "Explication des abondements, investissements, et supports de placement disponibles.",
+      "Information sur les cas de déblocage, la fiscalité associée, et les options de placement.",
+      "Gestion des demandes clients via les outils dédiés, en respectant les procédures et les normes de qualité BNP Paribas."
     ]
   },
   {
@@ -15,7 +17,8 @@
     "tasks": [
       "Développement sur mesure de projets web pour des clients particuliers et professionnels.",
       "Stéphanie Heudre - Praticienne bien-être certifiée",
-      "Adrien Demarle - Ostéopathe D.O."
+      "Adrien Demarle - Ostéopathe D.O.",
+      "Frédéric Deparis - Auteur de livres"
     ],
     "link": "/project"
   },

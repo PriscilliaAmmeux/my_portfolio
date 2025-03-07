@@ -1,12 +1,25 @@
 [
   {
-    "id": 9,
-    "title": "Adrien Demarle - Ostéopathe D.O.",
-    "description": "Site internet réalisé dans le cadre d'une prestation pour un client souhaitant un site vitrine pour son activité d'ostéopathe. Le site est responsive, accessible, et développé en adoptant des pratiques écologiques.",
-    "image": "/adrienDemarle.webp",
+    "id": 10,
+    "title": "Frédéric Deparis - Auteur de livres",
+    "description": "Site internet réalisé pour Frédéric Deparis, un auteur de livres. Le site présente ses œuvres et permet aux visiteurs de commander ses livres et de le contacter. Le site est responsive, accessible et développé en utilisant des pratiques modernes.",
+    "image": "/fred.webp",
     "methodology": "Agile Scrum",
     "how": "Freelance - Réalisé seule",
     "tools": "Github, Github project, Vercel",
+    "technology": "Nextjs, Tailwindcss, Typescript",
+    "demoLink": "https://www.nepomucene.fr/",
+    "githubLink": "https://github.com/PriscilliaAmmeux/freddeparis"
+  },
+
+  {
+    "id": 9,
+    "title": "Adrien Demarle - Ostéopathe D.O.",
+    "description": "Site internet réalisé dans le cadre d'une prestation pour un client souhaitant un site vitrine pour son activité d'ostéopathe. Le site est responsive, accessible, et développé en adoptant des pratiques écologiques.",
+    "image": "/adrien.webp",
+    "methodology": "Agile Scrum",
+    "how": "Freelance - Réalisé seule",
+    "tools": "Figma, Github, Github project, Vercel",
     "technology": "Nextjs, Tailwindcss, Typescript, Jest (tests unitaires), Playwright (test end-to-end).",
     "demoLink": "https://www.adrien-demarle-osteopathe.fr/",
     "githubLink": "https://github.com/PriscilliaAmmeux/ost-o-adrien-demarle"
@@ -15,7 +28,7 @@
   {
     "id": 8,
     "title": "Stéphanie HEUDRE - Praticienne bien-être certifiée",
-    "description": "Site internet réalisé dans le cadre d'une prestation pour un client souhaitant un site vitrine pour son activité d'ostéopathe. Le site est responsive, accessible, et développé en adoptant des pratiques écologiques.",
+    "description": "Site internet réalisé dans le cadre d'une prestation pour un client souhaitant un site vitrine pour son activité de praticienne bien-être. Le site est responsive, accessible, et développé en adoptant des pratiques écologiques.",
     "image": "/stephanie.webp",
     "methodology": "Agile Scrum",
     "how": "Freelance - Réalisé seule",
@@ -67,7 +80,7 @@
     "image": "/origins.webp",
     "methodology": "Agile Scrum",
     "how": "Réalisé en équipe - projet école (5 développeurs)",
-    "tools": " Figma,Workbench, Git, Github, Trello.",
+    "tools": " Figma, Workbench, Git, Github, Trello.",
     "technology": "React, Express, NodeJs, Sass, MySQL",
     "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_react-node-express-activity-7030500056227008512-k9fn/?utm_source=share&utm_medium=member_desktop",
     "githubLink": "https://github.com/PriscilliaAmmeux/2022-09-JS-Lille-project-3-g3-origin"
@@ -76,10 +89,10 @@
     "id": 3,
     "title": "Se salir les doigts",
     "description": "Projet personnel d'idéés d'activités manuelles à faire avec des enfants réalisés en 36h dans le cadre des évaluations du bootcamp de 5 mois avec la wild code school",
-    "image": "/salir.webp",
+    "image": "/sesalirlesdoigts.webp",
     "methodology": "Projet personnel",
     "how": "Réalisé seule - projet école",
-    "tools": " Figma,Workbench, Git, Github, Trello.",
+    "tools": " Figma, Workbench, Git, Github, Trello.",
     "technology": "React, Express, NodeJs, Sass, MySQL",
     "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_se-salir-les-doigts-activity-7027019180411375616-H4xe/?utm_source=share&utm_medium=member_desktop",
     "githubLink": "https://github.com/PriscilliaAmmeux/SeSalirLesDoigts"
@@ -91,7 +104,7 @@
     "image": "/siloc.webp",
     "methodology": "Hackathon 48h",
     "how": "Réalisé en équipe - projet école (5 développeurs)",
-    "tools": " Figma,Workbench, Git, Github, Trello.",
+    "tools": " Figma, Workbench, Git, Github, Trello.",
     "technology": "React, Express, NodeJs, Sass, MySQL",
     "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_siloc-activity-7019661451359342592-VM1d/?utm_source=share&utm_medium=member_desktop",
     "githubLink": "https://github.com/Sax593/Siloc"
@@ -103,7 +116,7 @@
     "image": "/spaceverse.webp",
     "methodology": "Hackathon 30h",
     "how": "Réalisé en équipe - projet école (5 développeurs)",
-    "tools": " Figma,Workbench, Git, Github, Trello.",
+    "tools": " Figma, Workbench, Git, Github, Trello.",
     "technology": "React, Express, NodeJs, Sass, MySQL",
     "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_hackathon-activity-7002943012326526978-GIRo/?utm_source=share&utm_medium=member_desktop",
     "githubLink": "https://github.com/Sax593/hackathon"

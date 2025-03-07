@@ -2,8 +2,8 @@
   {
     "id": 1,
     "title": "Site Vitrine Basique",
-    "price": "599 € HT (promotion jusqu'au 31/12/2024 au lieu de 799 € HT)",
-    "description": "Un site vitrine clé en main pour une présence en ligne rapide et efficace",
+    "price": "600 € HT",
+    "description": "Un site vitrine clé en main pour une présence en ligne rapide et efficace, max 2 pages dont le fomulaire de contact.",
     "presentation": [
       {
         "content": "Analyse de vos besoins"
@@ -30,8 +30,8 @@
   {
     "id": 2,
     "title": "Site Vitrine Personnalisé",
-    "price": "1299 € HT",
-    "description": "Un site vitrine sur mesure",
+    "price": "1300 € HT",
+    "description": "Un site vitrine sur mesure, max 5 pages dont le formulaire de contact.",
     "presentation": [
       {
         "content": "Accompagnement sur mesure"
@@ -49,42 +49,13 @@
         "content": "Optimisation mobile et SEO"
       },
       {
-        "content": "Accessibilité universelle"
+        "content": "Accessibilité pour tous"
       },
       {
         "content": "Sécurisation avancée"
       },
       {
-        "content": "Espace administrateur pour gérer vos contenus"
-      },
-      {
         "content": "Formation à l'administration de votre site"
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Site sur Mesure",
-    "price": "Sur devis",
-    "description": "Création de sites web entièrement personnalisés"
-  },
-  {
-    "id": 5,
-    "title": "Refonte de Site Web",
-    "price": "Sur devis",
-    "description": "Optimisez et modernisez votre site existant",
-    "presentation": [
-      {
-        "content": "Analyse gratuite de l'interface utilisateur"
-      },
-      {
-        "content": "Optimisation des performances"
-      },
-      {
-        "content": "Accessibilité pour tous"
-      },
-      {
-        "content": "Mise à jour du design et des fonctionnalités"
       }
     ]
   },
@@ -102,11 +73,14 @@
       },
       {
         "content": "Petites modifications et ajustements ponctuels sur votre site,"
-      },
-      {
-        "content": "Restoration de votre site en cas de problème technique."
       }
     ]
+  },
+  {
+    "id": 7,
+    "title": "Ajout de Contenus",
+    "price": "100 € HT / page",
+    "description": "Ajoutez des pages à votre site web pour présenter vos services, vos produits ou votre entreprise."
   },
   {
     "id": 8,
@@ -114,7 +88,7 @@
     "description": "Si votre projet nécessite davantage de ressources, je peux travailler si vous le souhaitez avec KreaWebSolutions:",
     "presentation": [
       {
-        "content": "Un collectif de 5 freelances : 3 développeurs web, 1 rédactrice web et 1 coach mindset."
+        "content": "Un collectif de 4 freelances : 2 développeurs web, 1 rédactrice web et 1 coach mindset."
       },
       {
         "content": "Les tarifs et prestations seront alors définis avec toute l'équipe, afin d'offrir une solution complète et adaptée."
