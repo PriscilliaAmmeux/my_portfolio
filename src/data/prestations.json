@@ -30,8 +30,8 @@
   {
     "id": 2,
     "title": "Site Vitrine Personnalisé",
-    "price": "1300 € HT",
-    "description": "Un site vitrine sur mesure, max 5 pages dont le formulaire de contact.",
+    "price": "1200 € HT",
+    "description": "Un site vitrine sur mesure, max 4 pages dont le formulaire de contact.",
     "presentation": [
       {
         "content": "Accompagnement sur mesure"
@@ -79,7 +79,7 @@
   {
     "id": 7,
     "title": "Ajout de Contenus",
-    "price": "100 € HT / page",
+    "price": "200 € HT / page",
     "description": "Ajoutez des pages à votre site web pour présenter vos services, vos produits ou votre entreprise."
   },
   {
