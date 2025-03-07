@@ -2,20 +2,14 @@
   {
     "id": 1,
     "title": "Site Vitrine Basique",
-    "price": "600 € HT",
-    "description": "Un site vitrine clé en main pour une présence en ligne rapide et efficace, max 2 pages dont le fomulaire de contact.",
+    "price": "450 € HT",
+    "description": "Un site vitrine, max 2 pages dont le fomulaire de contact.",
     "presentation": [
-      {
-        "content": "Analyse de vos besoins"
-      },
       {
         "content": "Hébergement et nom de domaine inclus 1 an"
       },
       {
-        "content": "Intégration fluide de vos contenus"
-      },
-      {
-        "content": "Formulaire de contact"
+        "content": "Formulaire de contact inclus"
       },
       {
         "content": "Optimisation mobile et SEO"
@@ -30,20 +24,14 @@
   {
     "id": 2,
     "title": "Site Vitrine Personnalisé",
-    "price": "1200 € HT",
+    "price": "1050 € HT",
     "description": "Un site vitrine sur mesure, max 4 pages dont le formulaire de contact.",
     "presentation": [
-      {
-        "content": "Accompagnement sur mesure"
-      },
       {
         "content": "Hébergement et nom de domaine inclus 1 an"
       },
       {
-        "content": "Contenus intégrés avec soin"
-      },
-      {
-        "content": "Formulaire de contact"
+        "content": "Formulaire de contact inclus"
       },
       {
         "content": "Optimisation mobile et SEO"
@@ -53,9 +41,6 @@
       },
       {
         "content": "Sécurisation avancée"
-      },
-      {
-        "content": "Formation à l'administration de votre site"
       }
     ]
   },
@@ -79,11 +64,24 @@
   {
     "id": 7,
     "title": "Ajout de Contenus",
-    "price": "200 € HT / page",
-    "description": "Ajoutez des pages à votre site web pour présenter vos services, vos produits ou votre entreprise. OU bien un refonte partielle d'une page existante.",
+    "price": "200 € HT / page simple ou 300 € HT / page complexe",
+    "description": "Ajoutez une page supplémentaire à votre site."
   },
   {
     "id": 8,
+    "title": "Grosse modification ",
+    "price": "200 € HT / page ",
+    "description": "Refonte partielle, restructuration du contenu, optimisation SEO."
+  },
+  {
+    "id": 9,
+    "title": "Retouche mineure",
+    "price": "50 €/heure",
+    "description": ""
+  },
+
+  {
+    "id": 10,
     "title": "Freelance ou collectif",
     "description": "Si votre projet nécessite davantage de ressources, je peux travailler si vous le souhaitez avec KreaWebSolutions:",
     "presentation": [
