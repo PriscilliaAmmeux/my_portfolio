@@ -38,13 +38,6 @@ export default function SocialNetwork() {
         Icon={BsInstagram}
         size={20}
       />
-
-      <ProfileLink
-        href="https://www.threads.net/@priscillia_ammeux_web"
-        ariaLabel="Link to Threads profile"
-        Icon={FaThreads}
-        size={20}
-      />
       <ProfileLink
         href="https://github.com/PriscilliaAmmeux"
         ariaLabel="Link to GitHub profile"

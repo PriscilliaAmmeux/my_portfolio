@@ -55,6 +55,7 @@ export default function ProjectCard({
           text="Visiter le site web"
           href={demoLink}
           ariaLabel="Cliquez sur le bouton pour visiter le site web"
+          className="mr-2"
         />
         <Button
           type="button"
