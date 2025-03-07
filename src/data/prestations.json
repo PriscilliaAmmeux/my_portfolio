@@ -12,9 +12,8 @@
         "content": "Formulaire de contact inclus"
       },
       {
-        "content": "Optimisation mobile et SEO"
+        "content": " Site optimisé pour le SEO et l’accessibilité"
       },
-      { "content": "Accessibilité pour tous" },
       {
         "content": "Sécurisation avancée"
       }
@@ -34,10 +33,7 @@
         "content": "Formulaire de contact inclus"
       },
       {
-        "content": "Optimisation mobile et SEO"
-      },
-      {
-        "content": "Accessibilité pour tous"
+        "content": " Site optimisé pour le SEO et l’accessibilité"
       },
       {
         "content": "Sécurisation avancée"
@@ -47,7 +43,7 @@
   {
     "id": 6,
     "title": "Maintenance de Site Web",
-    "price": "35 € HT / mois ou 350 € HT / an",
+    "price": "50 € HT / mois ou 500 € HT / an",
     "description": "Maintenez à jour votre site web pour garantir sa sécurité et sa performance.",
     "presentation": [
       {
