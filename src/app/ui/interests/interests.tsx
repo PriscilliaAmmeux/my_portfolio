@@ -39,8 +39,8 @@ export default function Interests() {
 
       <InterestSection
         Icon={RiKakaoTalkLine}
-        title="Meet-up : Les Femmes dans la Tech – S’inspirer, se soutenir, réussir !"
-        description="Je suis ravie de vous retrouver pour mon deuxième talk et cette fois-ci, entourée de plusieurs femmes incroyables dans la tech ! Quand ? Le 21 novembre 2024. En collaboration avec Polarity Association et Chtitedev, organisé par CBTW ! Rejoignez-nous pour une soirée d’échanges inspirants et de partage d’expériences, où nous aborderons ensemble les défis et réussites des femmes dans ce secteur !"
+        title="Retour sur le Meet-up : Les Femmes dans la Tech – S’inspirer, se soutenir, réussir !"
+        description="J’ai eu le plaisir de donner mon deuxième talk lors de cet événement aux côtés de femmes incroyables dans la tech ! C’était le 21 novembre 2024, en collaboration avec Polarity Association et Chtitedev, organisé par CBTW. Une soirée riche en échanges inspirants et en partages d’expériences sur les défis et les réussites des femmes dans ce secteur !"
         link="https://www.linkedin.com/feed/update/urn:li:activity:7260230099902296066/"
       />
 
