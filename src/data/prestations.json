@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Site Vitrine Basique",
     "price": "450 € HT",
-    "description": "Un site vitrine, max 2 pages dont le fomulaire de contact.",
+    "description": "Un site vitrine, max 2 pages dont le formulaire de contact.",
     "presentation": [
       {
         "content": "Hébergement et nom de domaine inclus 1 an"
@@ -13,9 +13,6 @@
       },
       {
         "content": " Site optimisé pour le SEO et l’accessibilité"
-      },
-      {
-        "content": "Sécurisation avancée"
       }
     ]
   },
@@ -34,9 +31,6 @@
       },
       {
         "content": " Site optimisé pour le SEO et l’accessibilité"
-      },
-      {
-        "content": "Sécurisation avancée"
       }
     ]
   },
