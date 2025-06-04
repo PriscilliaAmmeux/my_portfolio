@@ -27,8 +27,8 @@ export default function LessPresent() {
           content="Vous l’avez peut-être remarqué, je suis moins active ces derniers temps sur les réseaux. La raison est simple : j’ai un travail à plein temps à côté, ce qui me laisse moins de temps pour mes projets web."
         />
         <SectionArticle
-          title="Reconversion et descente aux enfers : le récit d’un parcours semé d’embûches"
-          content="En 2021, à la fin de mon congé parental, j’ai pris une décision courageuse : me reconvertir. Mon ancien service avait été relocalisé en Inde, et je voulais m’assurer un avenir dans un métier d’avenir. J’ai plongé dans le développement web, enchaînant un bootcamp, une alternance, et deux diplômes RNCP. Ces mois ont été intenses, riches d’apprentissages et de rencontres. Mais en 2024, le marché s’est effondré. Mon alternance n’a pas pu se prolonger, et les recrutements dans le secteur se sont taris."
+          title="Reconversion : le récit d’un parcours semé d’embûches"
+          content="En 2021, à la fin de mon congé parental, j’ai pris une décision courageuse : me reconvertir. Mon ancien service avait été relocalisé en Inde, et je voulais m’assurer un avenir dans un métier d’avenir. J’ai plongé dans le développement web, enchaînant un bootcamp, une alternance, et deux diplômes RNCP. Ces mois ont été intenses, riches d’apprentissages et de rencontres. Mais en 2024, le marché s’est effondré. Mon alternance n’a pas pu se prolonger, et les recrutements dans le secteur se sont taris. Malgré tout, je ne regrette rien : j’ai appris, j’ai codé jusqu’à pas d’heure, j’ai débuggé, persévéré, progressé. C’est ça qui m’anime."
         />
         <SectionArticle
           title="Une résilience à toute épreuve"
@@ -36,7 +36,7 @@ export default function LessPresent() {
         />
         <SectionArticle
           title="Un regard neuf sur mes projets et mon avenir"
-          content="Désormais, je choisis mes projets web avec soin : ils doivent avoir du sens et être portés par des clients avec qui j’ai plaisir à travailler. Le développement restera un loisir, une passion, et non plus une contrainte. Mon contrat actuel, un CDD, se termine fin mai, et ma priorité est de trouver un CDI pour plus de stabilité."
+          content="Désormais, je choisis mes projets web avec soin : ils doivent avoir du sens et être portés par des clients avec qui j’ai plaisir à travailler. Le développement restera un loisir, une passion, et non plus une contrainte."
         />
         <SectionArticle
           title="Merci pour votre soutien"
