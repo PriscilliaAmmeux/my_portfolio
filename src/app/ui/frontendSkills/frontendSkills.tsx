@@ -6,11 +6,16 @@ import SkillList from "@/app/components/skillList/skillList";
 
 export default function frontendSkills() {
   return (
-    <SkillList title="Frontend:">
-      <SkillItem Icon={TbBrandNextjs} skill="Next.js," />
-      <SkillItem Icon={FaVuejs} skill="Vue3," />
-      <SkillItem Icon={FaReact} skill="React," />
-      <SkillItem Icon={SiFlutter} skill="Flutter" />
-    </SkillList>
+    <>
+      <SkillList title="Frontend Desktop">
+        <SkillItem Icon={TbBrandNextjs} skill="Next" />
+        <SkillItem Icon={FaReact} skill="React" />
+      </SkillList>
+
+      <SkillList title="Frontend Mobile">
+        <SkillItem Icon={FaReact} skill="React Native" />
+        <SkillItem Icon={SiFlutter} skill="Flutter" />
+      </SkillList>
+    </>
   );
 }

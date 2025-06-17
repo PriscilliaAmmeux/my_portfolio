@@ -15,7 +15,7 @@ export default function SkillsTechnical() {
       color="bg-blue-100">
       <ul className="text-gray-700 list-disc">
         <SkillSection title="Spécifier, concevoir et développer des logiciels ou applications web">
-          <ul className="md:grid md:grid-cols-3 md:gap-3 sm:gap-1">
+          <ul className="md:grid md:grid-cols-4 md:gap-3 sm:gap-1">
             <BackendSkills />
             <FrontendSkills />
             <DesignSkills />
@@ -41,15 +41,12 @@ export default function SkillsTechnical() {
         <SkillSection title="Tests">Karaté, Junit, Jest</SkillSection>
 
         <SkillSection title="Accessibilité Web">
-          Techniques et pratiques d’accessibilité (formation prévue le 4
-          décembre 2024)
+          Techniques et pratiques d’accessibilité
         </SkillSection>
 
         <SkillSection title="Éco-conception"></SkillSection>
         <SkillSection title="SEO"></SkillSection>
-        <SkillSection title="Méthodologie Agile Scrum">
-          Expérience de travail en équipe dans un environnement Agile
-        </SkillSection>
+        <SkillSection title="Méthodologie Agile Scrum"></SkillSection>
       </ul>
     </Card>
   );
