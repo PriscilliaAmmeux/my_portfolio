@@ -14,11 +14,6 @@ const images = [
     hideOnSmallScreen: true,
   },
   { src: "/writing.webp", alt: "hand writing", hideOnSmallScreen: true },
-  {
-    src: "/paint.webp",
-    alt: "mum with children who are painting",
-    hideOnSmallScreen: true,
-  },
 ];
 
 const randomIndex = Math.floor(Math.random() * images.length);
@@ -26,7 +21,7 @@ images[randomIndex].hideOnSmallScreen = false;
 
 export default function Interests() {
   return (
-    <article className="mt-8 pt-4 bg-blue-100 w-full p-6 shadow-lg">
+    <article className="mt-8 pt-4 w-full p-6 ">
       <section className="flex items-center justify-center mb-6">
         <FaHeart size={40} color="#be185d" />
         <h2 className="ml-4 text-blue-800 text-2xl font-semibold">
@@ -71,18 +66,6 @@ export default function Interests() {
           title="Secrétaire bénévole dans un syndicat de copropriété"
         />
       </section>
-
-      <InterestSection
-        Icon={FaWalking}
-        title="Membre du club de marche “marcher par tous les temps” à Quesnoy Sur Deule"
-      />
-
-      <InterestSection Icon={FaWalking} title="Randonnées en famille" />
-
-      <InterestSection
-        Icon={FaPaintBrush}
-        title="Activités manuelles avec mes enfants"
-      />
 
       <InterestSection Icon={ImPencil2} title="Écriture et communication" />
     </article>

@@ -14,7 +14,6 @@ export default function QualificationsTraining() {
           <GradesItems
             key={grades.id}
             title={grades.title}
-            description={grades.description}
           />
         ))}
       </ul>
