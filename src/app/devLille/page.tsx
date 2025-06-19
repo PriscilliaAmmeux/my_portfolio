@@ -34,60 +34,72 @@ export default function DevLille() {
                 enrichissantes les unes que les autres :
               </p>
               <ul className="list-disc list-inside">
-                <li>
-                  <strong>
+                <li className="mt-4 mb-4">
+                  <span className="font-bold">
                     Rendre ses tests concis et évolutifs grâce à JUnit 5 & cie
-                  </strong>{" "}
+                  </span>{" "}
                   par Juliette de Rancourt : une session claire et inspirante
                   pour améliorer la lisibilité et la maintenabilité des tests,
                   un sujet trop souvent négligé mais tellement crucial pour la
                   qualité du code.
                 </li>
-                <li>
-                  <strong>
+                <li className="mt-4 mb-4">
+                  <span className="font-bold">
                     BullShit IT Awards : Les absurdités tech qui sabotent vos
                     équipes… mais dont on peut rire !
-                  </strong>{" "}
+                  </span>{" "}
                   par Romain Rozewicz : un moment hilarant et très juste sur les
                   travers de notre quotidien dans la tech. Entre deux fous
                   rires, de vraies pépites de réflexion à ramener dans nos
                   équipes.
                 </li>
-                <li>
-                  <strong>
+                <li className="mt-4 mb-4">
+                  <span className="font-bold">
                     Rock SOLID: using the SOLID principles to write code that
                     stands the test of time
-                  </strong>{" "}
+                  </span>{" "}
                   par Emma Gaubert : un retour aux fondamentaux du clean code,
                   avec des exemples concrets pour appliquer les principes SOLID
                   au quotidien.
                 </li>
-                <li>
-                  <strong>
+                <li className="mt-4 mb-4">
+                  <span className="font-bold">
                     Comment coder dans un vieux langage que personne ne connaît
                     ?
-                  </strong>{" "}
-                  par Nirina Rabeson : une conférence originale, drôle et pleine
-                  de bon sens pour aborder des technos “exotiques” ou “legacy”
-                  sans paniquer.
+                  </span>{" "}
+                  par Nirina Rabeson : une conférence originale et éclairante
+                  sur l’importance stratégique des langages legacy comme le
+                  COBOL, encore omniprésents dans notre quotidien (banques,
+                  assurances, énergie…). Nirina propose une approche moderne et
+                  accessible, basée sur la transpilation et le JavaScript, pour
+                  comprendre, modifier et faire évoluer ces applications
+                  vieillissantes sans tout casser. Une vraie passerelle entre le
+                  passé et le futur du code !
                 </li>
-                <li>
-                  <strong>
+                <li className="mt-4 mb-4">
+                  <span className="font-bold">
                     Diagnostic continu d'une base de données, évitez l'incident
                     !
-                  </strong>{" "}
-                  par Loïc Knuchel : un talk technique très pertinent sur la
-                  prévention des problèmes de performance et de stabilité côté
-                  BDD.
+                  </span>{" "}
+                  par Loïc Knuchel : un talk éclairant sur l’importance
+                  d’anticiper les incidents en base de données grâce à des
+                  signaux faibles souvent ignorés (verrous, requêtes bloquantes,
+                  dead rows…). Loïc partage des retours terrain et des solutions
+                  concrètes pour intervenir avant qu’il ne soit trop tard.
+                  Indispensable pour toute app critique.
                 </li>
-                <li>
-                  <strong>
+                <li className="mt-4 mb-6">
+                  <span className="font-bold">
                     Déconstruisons les frameworks JS pour mieux réinventer le
                     web !
-                  </strong>{" "}
-                  par Nirina Rabeson : une remise en question salutaire des
-                  frameworks modernes pour mieux comprendre le web “à nu” et
-                  renforcer notre esprit critique de développeur·se.
+                  </span>{" "}
+                  par Nirina Rabeson : un talk ludique et pédagogique pour mieux
+                  comprendre ce que cachent nos frameworks préférés (React, Vue,
+                  Svelte…). En partant de zéro, Nirina déconstruit les concepts
+                  clés comme le DOM virtuel ou la réactivité fine, et nous
+                  montre comment reconstruire un framework simple et
+                  compréhensible. Une plongée éclairante dans les coulisses du
+                  web moderne.
                 </li>
               </ul>
             </>
@@ -98,13 +110,14 @@ export default function DevLille() {
           content={
             <>
               <ul className="list-disc list-inside">
-                <li>
+                <li className="mb-4">
                   J’ai eu le plaisir d’aider à tenir le stand de{" "}
-                  <strong>Chtite Dev</strong>, une communauté inclusive et
-                  bienveillante qui promeut la diversité dans la tech. Ce fut
-                  l’occasion de rencontrer plein de personnes curieuses,
-                  passionnées, ou en reconversion, et d’échanger sur nos
-                  parcours respectifs.
+                  <span className="font-bold">Chtite Dev</span>, un collectif
+                  régional qui organise des rencontres en{" "}
+                  <span className="font-bold">non-mixité choisie</span>, dédiées
+                  aux personnes minorisées travaillant dans le secteur des
+                  technologies. Un espace bienveillant pour se soutenir,
+                  partager et avancer ensemble dans la tech.
                 </li>
                 <li>
                   Que l’on soit junior, senior, freelance ou salarié·e, ces
@@ -122,10 +135,11 @@ export default function DevLille() {
           title={"Pourquoi participer à ce genre d’événement ?"}
           content={
             <>
-              <p>
-                Parce que rien ne remplace <strong>le contact humain</strong>,
-                même dans un monde très numérique. Participer à des conférences
-                comme DevLille, c’est :
+              <p className="mb-2">
+                Parce que rien ne remplace{" "}
+                <span className="font-bold">le contact humain</span>, même dans
+                un monde très numérique. Participer à des conférences comme
+                DevLille, c’est :
               </p>
               <ul className="list-disc list-inside">
                 <li>Sortir de sa bulle et voir ce qui se fait ailleurs</li>
@@ -149,7 +163,7 @@ export default function DevLille() {
           Bref, merci à DevLille, ainsi qu’aux organisateurs, aux bénévoles, aux
           conférencier·es et à toutes les personnes croisées ce jour-là.
         </p>
-        <p className="mt-6">Vivement l’édition 2026 ! 🚀</p>
+        <p className="mt-6 font-bold">Vivement l’édition 2026 ! 🚀</p>
       </ArticleHeader>
 
       <Link
