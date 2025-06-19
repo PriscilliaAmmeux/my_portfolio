@@ -235,7 +235,7 @@ export default function ImpostorArticle() {
           }
         />
       </ArticleHeader>
-      <Link className="flex justify-center" href="/nextJSArticle">
+      <Link className="flex justify-center" href="/lessPresent">
         <Button
           type={"button"}
           text={"Article suivant"}

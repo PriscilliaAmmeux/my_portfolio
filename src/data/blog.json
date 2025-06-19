@@ -62,5 +62,13 @@
     "title": "Moins présente, mais toujours passionnée ✨",
     "subtitle": "",
     "date": "07/03/2025"
+  },
+  {
+    "id": 9,
+    "img": "/devlille.svg",
+    "alt": "logo de DevLille",
+    "title": "DevLille 2025 : une troisième édition riche en apprentissages et en rencontres",
+    "subtitle": "",
+    "date": "19/06/2025"
   }
 ]
