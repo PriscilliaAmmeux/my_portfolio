@@ -43,9 +43,7 @@ export default function LessPresent() {
           content="En partageant mon histoire, je veux rappeler ceci : avoir de l’ambition ou vouloir se reconvertir n’est pas un gros mot. C’est un pari risqué, parfois cruel, mais toujours courageux. Merci à ceux qui me suivent et me soutiennent depuis le début. Je reste disponible pour des collaborations inspirantes, mais à mon rythme. À bientôt pour de nouveaux projets passionnants ! 🚀"
         />
       </ArticleHeader>
-      <Link
-        className="flex justify-center"
-        href="/professionalReconversionArticle">
+      <Link className="flex justify-center" href="/devLille">
         <Button
           type={"button"}
           text={"Article suivant"}
