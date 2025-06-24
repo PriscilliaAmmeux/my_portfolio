@@ -26,14 +26,6 @@ export default function LegalNotices() {
               ) : (
                 <p className="mb-2">{notice.content}</p>
               )}
-              {notice.list && (
-                <ul className="list-disc list-inside mb-2">
-                  {notice.list.map((item, index) => (
-                    <li key={index}>{item.text}</li>
-                  ))}
-                </ul>
-              )}
-              {notice.footer && <p className="italic">{notice.footer}</p>}
             </div>
           ))}
         </div>

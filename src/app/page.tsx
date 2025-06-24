@@ -1,6 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
-import Cookies from "./components/cookies/cookies";
 import About from "./ui/about/about";
 
 export const metadata = {
@@ -15,7 +14,6 @@ export default function Home() {
       <About />
       <Analytics />
       <SpeedInsights />
-      <Cookies />
     </main>
   );
 }
