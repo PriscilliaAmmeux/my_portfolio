@@ -2,14 +2,26 @@ import { Metadata } from "next";
 import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Layout from "../ui/layout/layout";
-import Link from "next/link";
-import Button from "../components/button/button";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
-  title: "Blog - L'accessibilité Web : Une Nécessité Incontournable",
+  title:
+    "Accessibilité Web : Pourquoi c’est indispensable en 2025 | Blog Tech & Inclusif",
   description:
-    "Découvrez pourquoi l'accessibilité Web est une nécessité incontournable pour garantir l'égalité d'accès à l'information pour tous.",
+    "En 2025, l’accessibilité numérique devient une obligation légale en Europe. Découvrez les enjeux, chiffres clés et bonnes pratiques pour concevoir des sites web inclusifs et accessibles à tous.",
+  keywords: [
+    "accessibilité web",
+    "accessibilité numérique",
+    "WCAG",
+    "RGAA",
+    "RAAM",
+    "émoticônes",
+    "faux gras",
+    "conception accessible",
+    "réglementation européenne 2025",
+    "inclusivité web",
+    "Priscillia Ammeux",
+  ],
 };
 
 export default function AccessibilityArticle() {

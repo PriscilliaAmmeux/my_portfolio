@@ -3,14 +3,24 @@ import ArticleHeader from "../components/articleHeader/articleHeader";
 import ExternalLink from "../components/ExternalLink/ExternalLink";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Layout from "../ui/layout/layout";
-import Link from "next/link";
-import Button from "../components/button/button";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
   title: "Blog - Pourquoi je travaille avec Next.js - Priscillia Ammeux",
   description:
     "Découvrez pourquoi Priscillia Ammeux utilise Next.js pour maximiser les performances, l'optimisation SEO et l'accessibilité de ses projets web.",
+  keywords: [
+    "Next.js",
+    "développement web",
+    "SEO",
+    "accessibilité",
+    "performances web",
+    "rendu côté serveur",
+    "SSG",
+    "optimisation des images",
+    "accessibilité numérique",
+    "Priscillia Ammeux",
+  ],
 };
 
 export default function NextJSArticle() {

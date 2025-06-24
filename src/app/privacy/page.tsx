@@ -2,6 +2,16 @@ import Layout from "../ui/layout/layout";
 import confidentialite from "../../data/confidentialite.json";
 import Title from "../ui/title/title";
 import { GiPadlock } from "react-icons/gi";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Politique de confidentialité - Priscillia Ammeux",
+  description:
+    "Découvrez la politique de confidentialité de Priscillia Ammeux et comment vos données sont protégées.",
+  keywords:
+    "confidentialité, données personnelles, RGPD, politique, protection",
+  authors: [{ name: "Priscillia Ammeux" }],
+};
 
 export default function Privacy() {
   return (

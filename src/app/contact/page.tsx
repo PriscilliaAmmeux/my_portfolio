@@ -7,7 +7,20 @@ import Form from "../components/form/form";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Me Contacter - Priscillia Ammeux",
+  title: "Contact – Priscillia Ammeux | Développeuse Web & Accessibilité",
+  description:
+    "Besoin d’un site web accessible, éthique et performant ? Contactez Priscillia Ammeux via le formulaire ou réservez un appel gratuit de 30 minutes.",
+  keywords: [
+    "contact",
+    "formulaire de contact",
+    "réservation d'appel",
+    "site web accessible",
+    "développeuse web",
+    "accessibilité numérique",
+    "Priscillia Ammeux",
+    "contact professionnel",
+    "services web",
+  ],
 };
 
 export default function Contact() {

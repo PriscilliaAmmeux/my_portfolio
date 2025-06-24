@@ -1,9 +1,24 @@
-import Link from "next/link";
 import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Layout from "../ui/layout/layout";
-import Button from "../components/button/button";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Blog - Les Développeurs Juniors : Un Atout Sous-Estimé",
+  description:
+    "Découvrez pourquoi les développeurs juniors sont essentiels pour l'innovation et la croissance des entreprises tech.",
+  keywords: [
+    "développeurs juniors",
+    "innovation tech",
+    "formation développeurs",
+    "mentorat",
+    "productivité",
+    "qualité du code",
+    "recrutement tech",
+    "culture d'entreprise",
+  ],
+};
 
 export default function JuniorArticle() {
   return (

@@ -7,6 +7,15 @@ import Layout from "../ui/layout/layout";
 
 export const metadata: Metadata = {
   title: "Mes projets - Priscillia Ammeux",
+  description:
+    "Découvrez les projets réalisés par Priscillia Ammeux, développeuse web passionnée.",
+  keywords: [
+    "projets",
+    "développement web",
+    "Priscillia Ammeux",
+    "portfolio",
+    "web",
+  ],
 };
 
 export default function Project() {

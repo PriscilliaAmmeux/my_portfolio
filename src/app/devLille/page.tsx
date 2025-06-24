@@ -1,9 +1,30 @@
-import Link from "next/link";
 import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Layout from "../ui/layout/layout";
-import Button from "../components/button/button";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "DevLille 2025 – Retour sur une édition riche en apprentissages | Priscillia Ammeux",
+  description:
+    "Conférences inspirantes, rencontres bienveillantes et découvertes techniques : retour d’expérience sur DevLille 2025 par Priscillia Ammeux, développeuse web engagée.",
+  keywords: [
+    "DevLille 2025",
+    "conférences tech",
+    "rencontres développeurs",
+    "communauté tech",
+    "apprentissage continu",
+    "Junit 5",
+    "BullShit IT Awards",
+    "SOLID principles",
+    "legacy languages",
+    "Nirina Rabeson",
+    "Loïc Knuchel",
+    "Emma Gaubert",
+    "Juliette de Rancourt",
+  ],
+};
 
 export default function DevLille() {
   return (

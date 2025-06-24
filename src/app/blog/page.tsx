@@ -6,7 +6,21 @@ import blogData from "@/data/blog.json";
 import ArticleBlog from "../components/articleBlog/articleBlog";
 
 export const metadata: Metadata = {
-  title: "Blog - Mes articles - Priscillia Ammeux",
+  title: "Blog Tech & Accessibilité – Articles de Priscillia Ammeux",
+  description:
+    "Retrouvez les articles de Priscillia Ammeux sur la tech, l’accessibilité numérique, l’éco-conception, et bien plus encore. Un blog engagé pour un web plus inclusif.",
+  keywords: [
+    "blog",
+    "articles",
+    "tech",
+    "accessibilité numérique",
+    "éco-conception",
+    "développement web",
+    "Priscillia Ammeux",
+    "inclusivité web",
+    "accessibilité",
+    "performance web",
+  ],
 };
 
 export default function Blog() {

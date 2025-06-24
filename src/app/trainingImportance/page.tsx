@@ -2,8 +2,6 @@ import { Metadata } from "next";
 import Layout from "../ui/layout/layout";
 import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
-import Link from "next/link";
-import Button from "../components/button/button";
 import ListItemSectionArticle from "../ui/listItemSectionArticle/listItemSectionArticle";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
@@ -11,6 +9,14 @@ export const metadata: Metadata = {
   title: "Blog - L'importance de se former",
   description:
     "Découvrez pourquoi la formation continue est essentielle dans le domaine du développement et du numérique, et explorez différentes méthodes pour rester à jour.",
+  keywords: [
+    "formation continue",
+    "développement web",
+    "numérique",
+    "apprentissage",
+    "compétences",
+    "technologies",
+  ],
 };
 
 export default function TrainingImportance() {

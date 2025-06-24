@@ -2,14 +2,24 @@ import { Metadata } from "next";
 import Layout from "../ui/layout/layout";
 import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
-import Link from "next/link";
-import Button from "../components/button/button";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
   title: "Blog - Moins présente, mais toujours passionnée",
   description:
     "Pourquoi je suis moins présente sur les réseaux et comment ma reconversion a influencé mon choix professionnel.",
+  keywords: [
+    "reconversion professionnelle",
+    "développement web",
+    "projets web",
+    "résilience",
+    "choix professionnels",
+    "santé mentale",
+    "passion",
+    "travail à plein temps",
+    "projets avec du sens",
+    "freelance",
+  ],
 };
 
 export default function LessPresent() {

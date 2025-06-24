@@ -4,6 +4,21 @@ import Layout from "../ui/layout/layout";
 import Button from "../components/button/button";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Tarte Citron - Solution RGPD simplifiée",
+  description:
+    "Présentation de TarteAuCitron.js, la librairie open source pour gérer facilement le consentement RGPD sur ton site web.",
+  keywords: [
+    "TarteAuCitron",
+    "RGPD",
+    "consentement cookies",
+    "protection des données",
+    "librairie JavaScript",
+    "open source",
+  ],
+};
 
 export default function Tartecitron() {
   return (

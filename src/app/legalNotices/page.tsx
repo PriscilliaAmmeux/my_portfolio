@@ -6,6 +6,20 @@ import legalNotices from "../../data/legalNotices.json";
 
 export const metadata: Metadata = {
   title: "Mentions légales - Priscillia Ammeux",
+  description:
+    "Mentions légales de Priscillia Ammeux, incluant les informations légales, la politique de confidentialité et les conditions générales de vente.",
+  keywords: [
+    "mentions légales",
+    "politique de confidentialité",
+    "conditions générales de vente",
+    "Priscillia Ammeux",
+    "informations légales",
+    "protection des données",
+    "RGPD",
+    "droit d'auteur",
+    "responsabilité",
+    "contact",
+  ],
 };
 
 export default function LegalNotices() {

@@ -3,9 +3,6 @@ import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Layout from "../ui/layout/layout";
 import ExternalLink from "../components/ExternalLink/ExternalLink";
-import { Ultra } from "next/font/google";
-import Link from "next/link";
-import Button from "../components/button/button";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
@@ -13,6 +10,17 @@ export const metadata: Metadata = {
     "Blog - Comment lutter contre le syndrome de l'imposteur - Priscillia Ammeux",
   description:
     "Découvrez les stratégies de Priscillia Ammeux pour lutter contre le syndrome de l'imposteur et renforcer la confiance en soi.",
+  keywords: [
+    "syndrome de l'imposteur",
+    "confiance en soi",
+    "stratégies de lutte",
+    "développement personnel",
+    "Priscillia Ammeux",
+    "parler en public",
+    "partage de connaissances",
+    "communauté tech",
+    "reconnaissance professionnelle",
+  ],
 };
 
 export default function ImpostorArticle() {

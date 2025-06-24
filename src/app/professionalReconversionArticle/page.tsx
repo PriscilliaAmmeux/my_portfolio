@@ -3,14 +3,20 @@ import Layout from "../ui/layout/layout";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import ExternalLink from "../components/ExternalLink/ExternalLink";
 import ArticleHeader from "../components/articleHeader/articleHeader";
-import Link from "next/link";
-import Button from "../components/button/button";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
   title: "Blog - Ma reconversion professionnelle",
   description:
     "Découvrez le parcours de Priscillia Ammeux dans sa reconversion professionnelle en tant que développeuse web, ses défis et ses réussites.",
+  keywords: [
+    "reconversion professionnelle",
+    "développement web",
+    "Priscillia Ammeux",
+    "formation",
+    "Wild Code School",
+    "accessibilité web",
+  ],
 };
 
 export default function ProfessionalReconversionArticle() {

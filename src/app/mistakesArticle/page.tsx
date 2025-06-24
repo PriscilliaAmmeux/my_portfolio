@@ -2,14 +2,21 @@ import { Metadata } from "next";
 import Layout from "../ui/layout/layout";
 import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
-import Link from "next/link";
-import Button from "../components/button/button";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
   title: "Blog - Les erreurs que j’ai faites pendant ma reconversion",
   description:
     "Découvrez les erreurs et les leçons apprises par Priscillia Ammeux lors de sa reconversion professionnelle en tant que développeuse web.",
+  keywords: [
+    "erreurs de reconversion",
+    "reconversion professionnelle",
+    "développement web",
+    "leçons apprises",
+    "confiance en soi",
+    "peurs de débutant",
+    "conseils de reconversion",
+  ],
 };
 
 export default function MistakesArticle() {
