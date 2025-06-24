@@ -6,6 +6,7 @@ import ExternalLink from "../components/ExternalLink/ExternalLink";
 import { Ultra } from "next/font/google";
 import Link from "next/link";
 import Button from "../components/button/button";
+import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
   title:
@@ -235,12 +236,10 @@ export default function ImpostorArticle() {
           }
         />
       </ArticleHeader>
-      <Link className="flex justify-center" href="/lessPresent">
-        <Button
-          type={"button"}
-          text={"Article suivant"}
-          ariaLabel={"Article suivant"}></Button>
-      </Link>
+      <ArticleNavigation
+        nextHref="/trainingImportance"
+        prevHref="/nextJSArticle"
+      />
     </Layout>
   );
 }

@@ -4,6 +4,7 @@ import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Link from "next/link";
 import Button from "../components/button/button";
+import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
   title: "Blog - Moins présente, mais toujours passionnée",
@@ -43,12 +44,7 @@ export default function LessPresent() {
           content="En partageant mon histoire, je veux rappeler ceci : avoir de l’ambition ou vouloir se reconvertir n’est pas un gros mot. C’est un pari risqué, parfois cruel, mais toujours courageux. Merci à ceux qui me suivent et me soutiennent depuis le début. Je reste disponible pour des collaborations inspirantes, mais à mon rythme. À bientôt pour de nouveaux projets passionnants ! 🚀"
         />
       </ArticleHeader>
-      <Link className="flex justify-center" href="/devLille">
-        <Button
-          type={"button"}
-          text={"Article suivant"}
-          ariaLabel={"Article suivant"}></Button>
-      </Link>
+      <ArticleNavigation nextHref="/devLille" prevHref="/trainingImportance" />
     </Layout>
   );
 }

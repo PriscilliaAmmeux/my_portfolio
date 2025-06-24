@@ -3,6 +3,7 @@ import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Layout from "../ui/layout/layout";
 import Button from "../components/button/button";
+import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export default function DevLille() {
   return (
@@ -166,15 +167,7 @@ export default function DevLille() {
         <p className="mt-6 font-bold">Vivement l’édition 2026 ! 🚀</p>
       </ArticleHeader>
 
-      <Link
-        className="flex justify-center mt-8"
-        href="/professionalReconversionArticle">
-        <Button
-          type="button"
-          text="Article suivant"
-          ariaLabel="Article suivant"
-        />
-      </Link>
+      <ArticleNavigation nextHref="/tartecitron" prevHref="/lessPresent" />
     </Layout>
   );
 }

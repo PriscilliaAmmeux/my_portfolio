@@ -5,6 +5,7 @@ import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Link from "next/link";
 import Button from "../components/button/button";
 import ListItemSectionArticle from "../ui/listItemSectionArticle/listItemSectionArticle";
+import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
   title: "Blog - L'importance de se former",
@@ -105,12 +106,7 @@ export default function TrainingImportance() {
           content="Envie d’échanger sur ces sujets ? Je suis toujours ouverte à de nouvelles idées !"
         />
       </ArticleHeader>
-      <Link className="flex justify-center" href="/impostorArticle">
-        <Button
-          type={"button"}
-          text={"Article suivant"}
-          ariaLabel={"Article suivant"}></Button>
-      </Link>
+      <ArticleNavigation nextHref="/lessPresent" prevHref="/impostorArticle" />
     </Layout>
   );
 }

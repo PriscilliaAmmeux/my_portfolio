@@ -39,6 +39,8 @@ export default function ArticleBlog({
       return "/lessPresent";
     } else if (id === 9) {
       return "/devLille";
+    } else if (id === 10) {
+      return "/tartecitron";
     } else {
       return "/blog";
     }
