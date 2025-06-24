@@ -70,5 +70,13 @@
     "title": "DevLille 2025 : une troisième édition riche en apprentissages et en rencontres",
     "subtitle": "",
     "date": "19/06/2025"
+  },
+  {
+    "id": 10,
+    "img": "/citron.webp",
+    "alt": "icon de tarteaucitron.js",
+    "title": "TarteAuCitron.js",
+    "subtitle": "L'allié RGPD incontournable pour ton site web",
+    "date": "24/06/2025"
   }
 ]

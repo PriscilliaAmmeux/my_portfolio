@@ -4,6 +4,7 @@ import ArticleHeader from "../components/articleHeader/articleHeader";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
 import Link from "next/link";
 import Button from "../components/button/button";
+import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
   title: "Blog - Les erreurs que j’ai faites pendant ma reconversion",
@@ -71,14 +72,11 @@ export default function MistakesArticle() {
           }
         />
       </ArticleHeader>
-      <Link
-        className="flex justify-center"
-        href="/professionalReconversionArticle">
-        <Button
-          type={"button"}
-          text={"Article suivant"}
-          ariaLabel={"Article suivant"}></Button>
-      </Link>
+
+      <ArticleNavigation
+        nextHref="/juniorArticle"
+        prevHref="/professionalReconversionArticle"
+      />
     </Layout>
   );
 }
