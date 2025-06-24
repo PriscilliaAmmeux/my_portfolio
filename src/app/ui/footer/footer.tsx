@@ -11,11 +11,19 @@ export default function Footer() {
         <p className="text-xs md:text-sm lg:text-base p-1">
           Créée avec amour ❤️ par Priscillia Ammeux
         </p>
-        <a
-          href="/legalNotices"
-          className="hover:text-pink-700 hover:font-bold cursor-pointer">
-          Mentions légales
-        </a>
+        <div className="flex justify-around">
+          <a
+            href="/legalNotices"
+            className="hover:text-pink-700 hover:font-bold cursor-pointer ">
+            Mentions légales
+          </a>
+          <a
+            href="/privacy"
+            className="hover:text-pink-700 hover:font-bold cursor-pointer">
+            Politiques de confidentialité
+          </a>
+        </div>
+
         <SocialNetwork />
       </section>
 

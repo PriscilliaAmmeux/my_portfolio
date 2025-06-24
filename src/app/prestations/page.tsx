@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <Layout>
-      <main className="pt-4 lg:pl-2 lg:pr-2">
+      <section className="pt-4 lg:pl-2 lg:pr-2">
         <Title text="Prestations" icon={BsGearFill} />
         <ListPrestations />
         <HelpNorth />
-      </main>
+      </section>
     </Layout>
   );
 }
