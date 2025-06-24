@@ -16,52 +16,62 @@ export default function Me() {
       />
       <div className="lg:ml-4 mt-4 lg:mt-0 text-justify">
         <h1 className="text-xl font-semibold mb-2">
-          Enchantée, moi c’est Priscillia Ammeux 👋
+          Enchantée, moi c’est Priscillia 👋
         </h1>
-        <p className="mb-2">
-          Je crée des sites internet sur mesure pour les indépendants, artisans,
-          commerçants et petites entreprises qui veulent{" "}
+        <p>
+          Après plusieurs années en banque, j’ai décidé de mettre mes
+          compétences au service des indépendants, artisans, commerçants et
+          petites entreprises qui veulent se rendre visibles en ligne et attirer
+          plus de clients.
+        </p>
+        <p>
+          Je crée des{" "}
           <span className="font-semibold text-pink-700">
-            développer leur présence en ligne
-          </span>{" "}
-          et{" "}
+            sites internet sur mesure
+          </span>
+          , pensés pour
           <span className="font-semibold text-pink-700">
-            gagner en visibilité
+            {" "}
+            mettre en valeur votre activité
+          </span>
+          , faciliter la prise de contact et
+          <span className="font-semibold text-pink-700">
+            {" "}
+            vous aider à développer votre chiffre d’affaires
           </span>
           .
         </p>
-        <p className="mb-2">
-          Site vitrine ou boutique en ligne : je conçois des sites modernes,
-          efficaces, pensés pour{" "}
-          <span className="font-semibold text-pink-700">
-            attirer vos clients
-          </span>
-          ,{" "}
-          <span className="font-semibold text-pink-700">
-            valoriser votre image
-          </span>{" "}
-          et{" "}
-          <span className="font-semibold text-pink-700">
-            faciliter les prises de contact
-          </span>
-          .
-        </p>
-        <p className="mb-2">
-          Je mets un point d’honneur à proposer des solutions{" "}
-          <span className="font-semibold text-pink-700">
-            rapides, accessibles et bien référencées
-          </span>
-          (SEO) pour que votre site travaille pour vous, même quand vous dormez.
-        </p>
-        <p className="mb-4">Vous avez un projet ? Je suis à votre écoute 💬</p>
-        <hr className="my-6" />
-        <p className="italic font-semibold text-pink-700">
-          🎯 Je crée des sites web sur mesure pour les indépendants et petites
-          entreprises qui veulent se démarquer, gagner en visibilité et
-          convertir plus.
-          <br />
-          💡 Sites vitrine, e-commerce, SEO, accessibilité, performance… je
-          construis des solutions qui travaillent pour vous, 24h/24.
+        <ul className="list-disc list-inside space-y-2 mt-4">
+          <li>
+            <span className="font-semibold text-pink-700">
+              Des sites rapides et bien référencés (SEO)
+            </span>{" "}
+            pour apparaître sur Google au bon moment,
+          </li>
+          <li>
+            <span className="font-semibold text-pink-700">
+              Une attention particulière à l’accessibilité
+            </span>{" "}
+            pour que chacun puisse naviguer facilement,
+          </li>
+          <li>
+            <span className="font-semibold text-pink-700">
+              Une conception éthique et responsable
+            </span>{" "}
+            (éco-conception, respect du RGPD) pour un web plus sain, qui inspire
+            confiance,
+          </li>
+          <li>
+            <span className="font-semibold text-pink-700">
+              Et surtout, une écoute attentive
+            </span>{" "}
+            pour vous proposer une solution vraiment adaptée à vos besoins, pas
+            une usine à gaz.
+          </li>
+        </ul>
+        <p className="mt-4">
+          🎯 Vous avez un projet ? Parlons-en, je suis là pour vous accompagner
+          💬
         </p>
       </div>
     </section>
