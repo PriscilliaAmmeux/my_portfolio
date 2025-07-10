@@ -33,6 +33,11 @@ export default function Interests() {
       </section>
 
       <InterestSection
+        Icon={MdOutlineFestival}
+        title="Membre du Comité de Sélection - Cloud Nord 2025"
+        link="https://www.cloudnord.fr/"
+      />
+      <InterestSection
         Icon={RiKakaoTalkLine}
         title="Retour sur le Meet-up : Les Femmes dans la Tech – S’inspirer, se soutenir, réussir !"
         description="J’ai eu le plaisir de donner mon deuxième talk lors de cet événement aux côtés de femmes incroyables dans la tech ! C’était le 21 novembre 2024, en collaboration avec Polarity Association et Chtitedev, organisé par CBTW. Une soirée riche en échanges inspirants et en partages d’expériences sur les défis et les réussites des femmes dans ce secteur !"
