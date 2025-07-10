@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "title": "Site Vitrine Basique",
-    "price": "450 € HT",
+    "title": "Site Vitrine Basique PROMO ÉTÉ 2025 - 11% de réduction",
+    "price": "400 € HT au lieu de 450 € HT (valable jusqu'au 31/08/2025)",
     "description": "Un site vitrine, max 2 pages dont le formulaire de contact.",
     "presentation": [
       {
@@ -16,10 +16,11 @@
       }
     ]
   },
+
   {
     "id": 2,
-    "title": "Site Vitrine Personnalisé",
-    "price": "1050 € HT",
+    "title": "Site Vitrine Personnalisé PROMO ÉTÉ 2025 - 10% de réduction",
+    "price": "945 € HT au lieu de 1050 € HT (valable jusqu'au 31/08/2025)",
     "description": "Un site vitrine sur mesure, max 4 pages dont le formulaire de contact.",
     "presentation": [
       {
@@ -35,8 +36,8 @@
   },
   {
     "id": 3,
-    "title": "Maintenance de Site Web",
-    "price": "50 € HT / mois ou 500 € HT / an",
+    "title": "Maintenance de Site Web PROMO ÉTÉ 2025 - 10% de réduction seulement pour l'abonnement annuel",
+    "price": "50 € HT / mois ou 450 € HT au lieu de 500 € HT / an (valable jusqu'au 31/08/2025)",
     "description": "Maintenez à jour votre site web pour garantir sa sécurité et sa performance.",
     "presentation": [
       {
@@ -52,26 +53,26 @@
   },
   {
     "id": 4,
-    "title": "Ajout de Contenus",
-    "price": "200 € HT / page simple ou 300 € HT / page complexe",
+    "title": "Ajout de Contenus PROMO ÉTÉ 2025 - 20% de réduction",
+    "price": "160 € HT / page simple ou 240 € HT / page complexe (valable jusqu'au 31/08/2025) au lieu de 200 € HT / page simple ou 300 € HT / page complexe",
     "description": "Ajoutez une page supplémentaire à votre site."
   },
   {
     "id": 5,
-    "title": "Grosse modification de contenu",
-    "price": "200 € HT / page ",
+    "title": "Grosse modification de contenu PROMO ÉTÉ 2025 - 20% de réduction",
+    "price": "160 € HT / page (valable jusqu'au 31/08/2025)",
     "description": "Refonte partielle, restructuration du contenu, optimisation SEO."
   },
   {
     "id": 6,
-    "title": "Retouche mineure",
-    "price": "50 € HT / heure",
+    "title": "Retouche mineure PROMO ÉTÉ 2025 - 20% de réduction",
+    "price": "40 € HT / heure (valable jusqu'au 31/08/2025) au lieu de 50 € HT / heure",
     "description": ""
   },
   {
     "id": 7,
-    "title": "Audit accessibilité",
-    "price": "100 € HT",
+    "title": "Audit accessibilité PROMO ÉTÉ 2025 - 30% de réduction",
+    "price": " 70 € HT au lieu de 100 € HT (valable jusqu'au 31/08/2025)",
     "description": "Analyse de l’accessibilité de votre site et recommandations d’amélioration."
   },
   {

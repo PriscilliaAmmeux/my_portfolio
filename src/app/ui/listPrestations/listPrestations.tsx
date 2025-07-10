@@ -1,5 +1,6 @@
 import Card from "@/app/components/card/card";
 import prestations from "../../../data/prestations.json";
+import prestationsSummer2025 from "../../../data/prestationsPromoSummer2025.json";
 import { MdOutlineCleaningServices } from "react-icons/md";
 
 interface PrestationListProps {
@@ -14,10 +15,22 @@ const PrestationList: React.FC<PrestationListProps> = ({ list }) => (
   </ul>
 );
 
+function getCurrentPrestations() {
+  const today = new Date();
+  const start = new Date("2025-07-21");
+  const end = new Date("2025-08-31");
+
+  if (today >= start && today <= end) {
+    return prestationsSummer2025;
+  }
+  return prestations;
+}
+
 export default function ListPrestations() {
+  const currentPrestations = getCurrentPrestations();
   return (
     <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-      {prestations.map((prestation) => (
+      {currentPrestations.map((prestation) => (
         <Card
           key={prestation.id}
           className="w-full lg:w-1/3 px-2 flex flex-col justify-between h-full"
