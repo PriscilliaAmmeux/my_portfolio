@@ -1,84 +1,57 @@
-import { GiLadybug } from "react-icons/gi";
 import Image from "next/image";
 import Title from "../title/title";
 
 export default function Me() {
   return (
-    <section className="flex flex-col items-center justify-center mb-2 pt-4 mx-auto px-4 sm:px-8">
-      <Title text="Qui suis-je ?" icon={GiLadybug} />
-      <Image
-        src="/Visage-noir-blanc.webp"
-        alt="logo d'entreprise (Priscillia AMMEUX - Créatrice Développeuse)"
-        className="block dark:hidden"
-        width={150}
-        height={150}
-      />
-      <Image
-        src="/Visage-rose-blanc.webp"
-        alt="logo d'entreprise (Priscillia AMMEUX - Créatrice Développeuse)"
-        className="hidden dark:block"
-        width={150}
-        height={150}
-      />
-      <div className="lg:ml-4 mt-4 lg:mt-0 text-justify">
-        <h1 className="text-xl font-semibold mb-2">
-          Enchantée, moi c’est Priscillia 👋
-        </h1>
-        <p>
-          Après plusieurs années en banque, j’ai décidé de mettre mes
-          compétences au service des indépendants, artisans, commerçants et
-          petites entreprises qui veulent se rendre visibles en ligne et attirer
-          plus de clients.
-        </p>
-        <p>
-          Je crée des{" "}
-          <span className="font-semibold text-pink-700">
-            sites internet sur mesure
-          </span>
-          , pensés pour
-          <span className="font-semibold text-pink-700">
-            {" "}
-            mettre en valeur votre activité
-          </span>
-          , faciliter la prise de contact et
-          <span className="font-semibold text-pink-700">
-            {" "}
-            vous aider à développer votre chiffre d’affaires
-          </span>
-          .
-        </p>
-        <ul className="list-disc list-inside space-y-2 mt-4">
-          <li>
-            <span className="font-semibold text-pink-700">
-              Des sites rapides et bien référencés (SEO)
-            </span>{" "}
-            pour apparaître sur Google au bon moment,
-          </li>
-          <li>
-            <span className="font-semibold text-pink-700">
-              Une attention particulière à l’accessibilité
-            </span>{" "}
-            pour que chacun puisse naviguer facilement,
-          </li>
-          <li>
-            <span className="font-semibold text-pink-700">
-              Une conception éthique et responsable
-            </span>{" "}
-            (éco-conception, respect du RGPD) pour un web plus sain, qui inspire
-            confiance,
-          </li>
-          <li>
-            <span className="font-semibold text-pink-700">
-              Et surtout, une écoute attentive
-            </span>{" "}
-            pour vous proposer une solution vraiment adaptée à vos besoins, pas
-            une usine à gaz.
-          </li>
-        </ul>
-        <p className="mt-4">
-          🎯 Vous avez un projet ? Parlons-en, je suis là pour vous accompagner
-          💬
-        </p>
+    <section className="flex flex-col items-center justify-center mb-2 mx-auto px-4 sm:px-8">
+      <div className="flex flex-col lg:flex-row lg:items-start gap-8 mt-8">
+        <div className="relative w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] lg:w-[300px] lg:h-[300px] flex-shrink-0 lg:mt-4 mx-auto lg:mx-0">
+          <Image
+            src="/Grille noire.webp"
+            alt="Grille de fond"
+            className="absolute inset-0 block dark:hidden"
+            width={300}
+            height={300}
+          />
+          <Image
+            src="/Grille blanche.webp"
+            alt="Grille de fond"
+            className="absolute inset-0 hidden dark:block"
+            width={300}
+            height={300}
+          />
+          <Image
+            src="/Visage logo et fleche.webp"
+            alt="logo d'entreprise (Priscillia AMMEUX - Créatrice Développeuse)"
+            className="absolute inset-0 z-10"
+            width={300}
+            height={300}
+          />
+        </div>
+
+        <div className="flex-1 text-justify">
+          <Title text="À propos de moi !" />
+          <p className="mb-4">
+            Autodidacte devenue développeuse web indépendante, j'ai rapidement
+            compris qu'un bon site ne se limite pas à sa technique, il doit
+            incarner une vision.
+          </p>
+          <p className="mb-4">
+            Guidée par une obsession de l'harmonie entre esthétique et
+            performance, je crée des expériences digitales sur mesure, où chaque
+            ligne de code entre en résonance avec l'identité de la marque.
+          </p>
+          <p className="mb-4">
+            Mon approche est intuitive, exigeante et profondément humaine. Je ne
+            me contente pas de construire des sites: je donne forme aux idées,
+            avec précision, style et singularité.
+          </p>
+          <p className="mb-4">
+            Mon approche est intuitive, exigeante et profondément humaine. Je ne
+            me contente pas de construire des sites: je donne forme aux idées,
+            avec précision, style et singularité.
+          </p>
+        </div>
       </div>
     </section>
   );
