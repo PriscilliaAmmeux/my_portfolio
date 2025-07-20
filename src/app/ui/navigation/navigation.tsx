@@ -1,11 +1,11 @@
-import Burger from "../burger/burger";
 import Navbar from "../navbar/navbar";
+import NavMobile from "../navMobile/navMobile";
 
 export default function Navigation() {
   return (
     <div>
-      <section className="pt-4 block lg:hidden">
-        <Burger />
+      <section className="block lg:hidden">
+        <NavMobile />
       </section>
       <section className="hidden lg:block w-full">
         <Navbar />
