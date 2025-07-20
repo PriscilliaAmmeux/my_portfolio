@@ -26,22 +26,10 @@ export default function ScrollToTopButton() {
   }, []);
 
   return (
-    <section>
-      <button
-        onClick={scrollToTop}
-        style={{
-          position: "fixed",
-          bottom: "40px",
-          right: "40px",
-          backgroundColor: "#000",
-          color: "#fff",
-          border: "none",
-          padding: "10px 20px",
-          borderRadius: "5px",
-          cursor: "pointer",
-        }}>
-        ↑ Haut de page
-      </button>
-    </section>
+    <button
+      onClick={scrollToTop}
+      className="bg-black dark:bg-white text-white dark:text-black border-none px-5 py-2 rounded cursor-pointer hover:bg-gray-800 dark:hover:bg-gray-200">
+      ↑ Haut de page
+    </button>
   );
 }

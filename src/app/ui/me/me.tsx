@@ -7,12 +7,18 @@ export default function Me() {
     <section className="flex flex-col items-center justify-center mb-2 pt-4 mx-auto px-4 sm:px-8">
       <Title text="Qui suis-je ?" icon={GiLadybug} />
       <Image
-        src="/profil.webp"
-        alt="photo de moi"
+        src="/Visage-noir-blanc.webp"
+        alt="logo d'entreprise (Priscillia AMMEUX - Créatrice Développeuse)"
+        className="block dark:hidden"
         width={150}
         height={150}
-        priority
-        className="mt-4 lg:mt-0"
+      />
+      <Image
+        src="/Visage-rose-blanc.webp"
+        alt="logo d'entreprise (Priscillia AMMEUX - Créatrice Développeuse)"
+        className="hidden dark:block"
+        width={150}
+        height={150}
       />
       <div className="lg:ml-4 mt-4 lg:mt-0 text-justify">
         <h1 className="text-xl font-semibold mb-2">

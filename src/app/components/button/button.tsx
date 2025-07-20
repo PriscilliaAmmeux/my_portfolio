@@ -2,44 +2,59 @@
 
 import styles from "../../styles/button.module.css";
 
+type ButtonVariant = "bgPink" | "bgWhite" | "bgDark";
+
+interface ButtonProps {
+  type: "submit" | "button";
+  text: string;
+  href?: string;
+  onClick?: () => void;
+  disabled?: boolean;
+  ariaLabel: string;
+  title?: string;
+  variant?: ButtonVariant;
+  className?: string;
+}
+
 export default function Button({
   type,
   text,
   href,
   onClick,
-  disabled,
+  disabled = false,
   ariaLabel,
   title,
+  variant = "bgPink",
   className,
-}: {
-  type: "submit" | "button";
-  text: string;
-  href?: string;
-  onClick?: () => void;
-  children?: React.ReactNode;
-  disabled?: boolean;
-  ariaLabel: string;
-  title?: string;
-  className?: string;
-}) {
+}: ButtonProps) {
+  const getVariantClasses = (): string => {
+    const baseClasses = styles["custom-button"];
+
+    const variants = {
+      bgPink: "bg-pink-700 text-white hover:bg-pink-900 text-lg",
+      bgWhite: "bg-white text-pink-700 hover:bg-pink-200 text-lg",
+      bgDark: "bg-black text-white hover:bg-gray-800 text-lg",
+    };
+
+    return `${baseClasses} ${variants[variant]} ${className || ""}`.trim();
+  };
+
+  const commonProps = {
+    type,
+    className: getVariantClasses(),
+    onClick,
+    "aria-label": ariaLabel,
+    disabled,
+    ...(title && { title }),
+  };
+
+  const ButtonElement = () => <button {...commonProps}>{text}</button>;
+
   return href ? (
-    <a href={href}>
-      <button
-        type={type}
-        className={styles["custom-button"] + ` ${className}`}
-        onClick={onClick}
-        aria-label={ariaLabel}>
-        {text}
-      </button>
+    <a href={href} className={disabled ? "pointer-events-none" : ""}>
+      <ButtonElement />
     </a>
   ) : (
-    <button
-      type={type}
-      className={styles["custom-button"] + ` ${className}`}
-      onClick={onClick}
-      aria-label={ariaLabel}
-      title={title}>
-      {text}
-    </button>
+    <ButtonElement />
   );
 }
