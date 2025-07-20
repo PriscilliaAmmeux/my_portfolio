@@ -3,13 +3,22 @@ import Logo from "../logo/logo";
 
 export default function Navbar() {
   return (
-    <section className="bg-pink-100 dark:bg-gray-700 w-full grid lg:max-w-none lg:w-full lg:mb-0 lg:grid-cols-7 lg:text-center items-center">
+    <section className="flex justify-between items-start w-full pt-6 pl-6">
       <Logo width={125} height={125} />
-      <NavLink href="/" title="Accueil" isActive={true} />
-      <NavLink href="/project" title="Mes projets" isActive={true} />
-      <NavLink href="/prestations" title="Prestations" isActive={true} />
-      <NavLink href="/blog" title="Mon blog" isActive={true} />
-      <NavLink href="/contact" title="Contact" isActive={true} />
+
+      <div className="relative transform -rotate-2 border-l border-t border-b border-white rounded-tl-[0rem] rounded-bl-[2.5rem] pl-4 pt-4 pb-4">
+        <div className="absolute inset-0 pointer-events-none z-0"></div>
+
+        {/* Navigation */}
+        <nav className="relative z-10 grid grid-cols-6 gap-6 text-white font-medium text-lg tracking-wide">
+          <NavLink href="/" title="Accueil" isActive={true} />
+          <NavLink href="/about" title="À propos" isActive={true} />
+          <NavLink href="/project" title="Portfolio" isActive={true} />
+          <NavLink href="/prestations" title="Services" isActive={true} />
+          <NavLink href="/blog" title="Blog" isActive={true} />
+          <NavLink href="/contact" title="Contact" isActive={true} />
+        </nav>
+      </div>
     </section>
   );
 }

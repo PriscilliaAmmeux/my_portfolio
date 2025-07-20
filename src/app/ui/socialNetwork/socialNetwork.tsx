@@ -1,9 +1,7 @@
 import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
-import { FaThreads } from "react-icons/fa6";
 import { TbBrandLinktree } from "react-icons/tb";
 import ProfileLink from "../profileLink/profileLink";
 import { BsInstagram } from "react-icons/bs";
-import { SiMalt } from "react-icons/si";
 
 export default function SocialNetwork() {
   return (
@@ -20,12 +18,7 @@ export default function SocialNetwork() {
         Icon={FaLinkedin}
         size={20}
       />
-      <ProfileLink
-        href="https://www.malt.fr/profile/priscilliaammeux1"
-        ariaLabel="Link to malt profile"
-        Icon={SiMalt}
-        size={50}
-      />
+
       <ProfileLink
         href="https://www.facebook.com/priscillia.selva/"
         ariaLabel="Link to Facebook profile"
@@ -34,14 +27,8 @@ export default function SocialNetwork() {
       />
       <ProfileLink
         href="https://www.instagram.com/priscillia_ammeux_web"
-        ariaLabel="Link to Facebook profile"
+        ariaLabel="Link to Instagram profile"
         Icon={BsInstagram}
-        size={20}
-      />
-      <ProfileLink
-        href="https://github.com/PriscilliaAmmeux"
-        ariaLabel="Link to GitHub profile"
-        Icon={FaGithub}
         size={20}
       />
     </section>

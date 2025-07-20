@@ -71,20 +71,26 @@ export default function Burger() {
             isActive={true}
           />
           <NavLink
+            href="/about"
+            title="À propos"
+            onClick={handleCloseMenu}
+            isActive={true}
+          />
+          <NavLink
             href="/project"
-            title="Mes projets"
+            title="Portfolio"
             onClick={handleCloseMenu}
             isActive={true}
           />
           <NavLink
             href="/prestations"
-            title="Prestations"
+            title="Services"
             onClick={handleCloseMenu}
             isActive={true}
           />
           <NavLink
             href="/blog"
-            title="Mon blog"
+            title="Blog"
             onClick={handleCloseMenu}
             isActive={true}
           />
@@ -98,13 +104,6 @@ export default function Burger() {
           <span className="flex items-center mt-5 mb-5">
             <SocialNetwork />
           </span>
-
-          <NavLink
-            href="https://cvdesignr.com/p/65957cf24ea70"
-            title="Télécharger mon CV"
-            onClick={handleCloseMenu}
-            isActive={true}
-          />
         </nav>
       )}
     </section>
