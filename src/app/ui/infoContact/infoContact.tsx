@@ -6,9 +6,7 @@ export default function InfoContact() {
   return (
     <Card
       className="w-full sm:w-1/2"
-      Icon={MdContactPhone}
-      title="Informations de contact"
-      color="bg-blue-100">
+      title="Informations de contact">
       <div className="flex flex-col space-y-2">
         <div className="flex items-center space-x-2">
           <FaUser />
@@ -18,7 +16,7 @@ export default function InfoContact() {
           <FaMapMarkerAlt />
           <p>Hauts-de-France</p>
         </div>
-        <div className="flex items-center space-x-2 cursor hover:text-pink-600">
+        <div className="flex items-center space-x-2 cursor hover:underline">
           <FaEnvelope />
           <a href="mailto:priscillia.ammeux.pro@gmail.com">
             priscillia.ammeux.pro@gmail.com
