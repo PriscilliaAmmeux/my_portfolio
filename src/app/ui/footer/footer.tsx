@@ -42,9 +42,7 @@ export default function Footer() {
           <SocialNetwork />
         </nav>
 
-        {/* Conteneur avec hauteur fixe pour maintenir l'alignement */}
         <div className="w-32 md:w-40 h-32 md:h-40 relative">
-          {/* Grille en arrière-plan */}
           <Image
             src="/Grille blanche.webp"
             alt="Grille de fond"
@@ -52,7 +50,6 @@ export default function Footer() {
             width={150}
             height={150}
           />
-          {/* Avatar par-dessus */}
           <Image
             src="/icon-footer.webp"
             alt="Avatar pixelisé de Priscillia Ammeux"
