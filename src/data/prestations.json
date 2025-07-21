@@ -1,91 +1,73 @@
 [
   {
     "id": 1,
-    "title": "Site Vitrine Basique",
-    "price": "450 € HT",
-    "description": "Un site vitrine, max 2 pages dont le formulaire de contact.",
-    "presentation": [
-      {
-        "content": "Hébergement et nom de domaine inclus 1 an"
-      },
-      {
-        "content": "Formulaire de contact inclus"
-      },
-      {
-        "content": " Site optimisé pour le SEO et l’accessibilité"
-      }
-    ]
+    "title": "Web Design UX/UI",
+    "price": "Sur devis",
+    "description": "Je conçois des interfaces intuitives, esthétiques et centrées utilisateur. haque pixel est pensé pour offrir une expérience fluide et mémorable.",
+    "presentation": {
+      "content": "Idéal pour : sites modernes,  identités fortes ou navigation optimisée."
+    }
   },
   {
     "id": 2,
-    "title": "Site Vitrine Personnalisé",
-    "price": "1050 € HT",
-    "description": "Un site vitrine sur mesure, max 4 pages dont le formulaire de contact.",
-    "presentation": [
-      {
-        "content": "Hébergement et nom de domaine inclus 1 an"
-      },
-      {
-        "content": "Formulaire de contact inclus"
-      },
-      {
-        "content": " Site optimisé pour le SEO et l’accessibilité"
-      }
-    ]
+    "title": "Site Vitrine Astro (offre rentrée)",
+    "price": "À partir de 350 € HT",
+    "description": "Un site léger, rapide et personnalisable, développé avec Astro — un framework moderne.",
+    "presentation": {
+      "content": "Idéal pour : freelances, créatif·ves, événements ou petites entreprises."
+    }
   },
   {
     "id": 3,
-    "title": "Maintenance de Site Web",
-    "price": "50 € HT / mois ou 500 € HT / an",
-    "description": "Maintenez à jour votre site web pour garantir sa sécurité et sa performance.",
+    "title": "Site Vitrine Sur-Mesure",
+    "price": "À partir de 1050 € HT",
+    "description": "Un site entièrement personnalisé, avec identité visuelle forte et structure pensée pour vos objectifs. Jusqu’à 4 pages (ou plus selon devis), formulaire de contact inclus.",
     "presentation": [
       {
-        "content": "Mise à jour régulière de votre site pour garantir sa sécurité et sa performance,"
+        "content": "Design sur-mesure, possibilité de collaboration avec une UX/UI designer"
       },
       {
-        "content": "Support technique pour répondre à vos questions et résoudre d'éventuels problèmes,"
-      },
-      {
-        "content": "Petites modifications et ajustements ponctuels sur votre site,"
+        "content": "Idéal pour : PME, associations, projets à forte valeur ou visibilité."
       }
     ]
   },
   {
     "id": 4,
-    "title": "Ajout de Contenus",
-    "price": "200 € HT / page simple ou 300 € HT / page complexe",
-    "description": "Ajoutez une page supplémentaire à votre site."
+    "title": "Maintenance & Optimisaton",
+    "price": "50 € HT / mois ou 500 € HT / an",
+    "description": "Gardez votre site rapide, sécurisé et toujours à jour. Je m'occupe de la technique pendant que vous vous concentrez sur votre activité.",
+    "presentation": [
+      {
+        "content": "Idéal pour : sites existants, e-commerces, professionnels en activté."
+      }
+    ]
   },
   {
     "id": 5,
-    "title": "Grosse modification de contenu",
-    "price": "200 € HT / page ",
-    "description": "Refonte partielle, restructuration du contenu, optimisation SEO."
+    "title": "Refonte / Responsive / Accessiblité",
+    "price": "Sur devis",
+    "description": "Votre site n'est plus à jour ? Je le repense pour tous les écrans, accessible à tous et aligné avec les standards actuels.",
+    "presentation": [
+      {
+        "content": "Idéal pour: améliorer l'image, la compatibilité mobile, l'expérience utilisateur"
+      }
+    ]
   },
   {
     "id": 6,
-    "title": "Retouche mineure",
-    "price": "50 € HT / heure",
-    "description": ""
-  },
-  {
-    "id": 7,
-    "title": "Audit accessibilité",
-    "price": "100 € HT",
-    "description": "Analyse de l’accessibilité de votre site et recommandations d’amélioration."
-  },
-  {
-    "id": 8,
-    "title": "Freelance ou collectif",
-    "description": "Si votre projet nécessite davantage de ressources, je peux travailler si vous le souhaitez avec KreaWebSolutions:",
+    "title": "Freelance solo, entourée de talents si besoin",
+    "price": "Sur devis",
+    "description": "Je travaille en tant que freelance indépendante, mais je peux m'entourer de profils compétents si le projet le nécessite.",
     "presentation": [
       {
-        "content": "Un collectif de 4 freelances : 2 développeurs web, 1 rédactrice web et 1 coach mindset."
+        "content": "Je suis votre interlocutrice principale tout au long du projet : écoute, accompagnement, développement."
       },
       {
-        "content": "Les tarifs et prestations seront alors définis avec toute l'équipe, afin d'offrir une solution complète et adaptée."
+        "content": "Pour certaines expertises spécifiques (UX/UI, rédaction, etc.), je peux collaborer avec des partenaires en qui j’ai pleinement confiance."
+      },
+      {
+        "content": "Chaque intervention complémentaire est validée avec vous et intégrée de façon fluide dans le déroulement du projet."
       }
-    ],
-    "url": "https://kreawebsolutions.fr/"
+    ]
   }
 ]
