@@ -1,67 +1,53 @@
 [
   {
     "id": 1,
-    "title": "Site Vitrine Basique PROMO ÉTÉ 2025 - 11% de réduction",
+    "title": "Web Design UX/UI",
+    "price": "Sur devis",
+    "description": "Je conçois des interfaces intuitives, esthétiques et centrées utilisateur. haque pixel est pensé pour offrir une expérience fluide et mémorable.",
+    "presentation": {
+      "content": "Idéal pour : sites modernes,  identités fortes ou navigation optimisée."
+    }
+  },
+  {
+    "id": 2,
+    "title": "Site Vitrine Basique - PROMO ÉTÉ 2025 - 11% de réduction",
     "price": "400 € HT au lieu de 450 € HT (valable jusqu'au 31/08/2025)",
     "description": "Un site vitrine, max 2 pages dont le formulaire de contact.",
-    "presentation": [
-      {
-        "content": "Hébergement et nom de domaine inclus 1 an"
-      },
-      {
-        "content": "Formulaire de contact inclus"
-      },
-      {
-        "content": " Site optimisé pour le SEO et l’accessibilité"
-      }
-    ]
+    "presentation": {
+      "content": "Idéal pour les freelances, créatif·ves, événements ou petites entreprises"
+    }
   },
 
   {
-    "id": 2,
-    "title": "Site Vitrine Personnalisé PROMO ÉTÉ 2025 - 10% de réduction",
-    "price": "945 € HT au lieu de 1050 € HT (valable jusqu'au 31/08/2025)",
-    "description": "Un site vitrine sur mesure, max 4 pages dont le formulaire de contact.",
-    "presentation": [
-      {
-        "content": "Hébergement et nom de domaine inclus 1 an"
-      },
-      {
-        "content": "Formulaire de contact inclus"
-      },
-      {
-        "content": " Site optimisé pour le SEO et l’accessibilité"
-      }
-    ]
-  },
-  {
     "id": 3,
-    "title": "Maintenance de Site Web PROMO ÉTÉ 2025 - 10% de réduction seulement pour l'abonnement annuel",
-    "price": "50 € HT / mois ou 450 € HT au lieu de 500 € HT / an (valable jusqu'au 31/08/2025)",
-    "description": "Maintenez à jour votre site web pour garantir sa sécurité et sa performance.",
+    "title": "Site Vitrine Personnalisé - PROMO ÉTÉ 2025 - 10% de réduction",
+    "price": "945 € HT au lieu de 1050 € HT (valable jusqu'au 31/08/2025)",
+    "description": "Un site entièrement personnalisé, avec identité visuelle forte et structure pensée pour vos objectifs. Jusqu’à 4 pages (ou plus selon devis), formulaire de contact inclus.",
     "presentation": [
       {
-        "content": "Mise à jour régulière de votre site pour garantir sa sécurité et sa performance,"
+        "content": "Design sur-mesure, possibilité de collaboration avec une UX/UI designer"
       },
       {
-        "content": "Support technique pour répondre à vos questions et résoudre d'éventuels problèmes,"
-      },
-      {
-        "content": "Petites modifications et ajustements ponctuels sur votre site,"
+        "content": "Idéal pour : PME, associations, projets à forte valeur ou visibilité"
       }
     ]
   },
   {
     "id": 4,
-    "title": "Ajout de Contenus PROMO ÉTÉ 2025 - 20% de réduction",
-    "price": "160 € HT / page simple ou 240 € HT / page complexe (valable jusqu'au 31/08/2025) au lieu de 200 € HT / page simple ou 300 € HT / page complexe",
-    "description": "Ajoutez une page supplémentaire à votre site."
+    "title": "Maintenance & Optimisation - PROMO ÉTÉ 2025 - 10% de réduction uniquement pour l'abonnement annuel",
+    "price": "50 € HT / mois ou 450 € HT au lieu de 500 € HT / an (valable jusqu'au 31/08/2025)",
+    "description": "Gardez votre site rapide, sécurisé et toujours à jour. Je m'occupe de la technique pendant que vous vous concentrez sur votre activité.",
+    "presentation": [
+      {
+        "content": "Idéal pour : sites existants, e-commerces, professionnels en activté."
+      }
+    ]
   },
   {
     "id": 5,
-    "title": "Grosse modification de contenu PROMO ÉTÉ 2025 - 20% de réduction",
-    "price": "160 € HT / page (valable jusqu'au 31/08/2025)",
-    "description": "Refonte partielle, restructuration du contenu, optimisation SEO."
+    "title": "Ajout de Contenus PROMO ÉTÉ 2025 - 20% de réduction",
+    "price": "160 € HT / page simple ou 240 € HT / page complexe (valable jusqu'au 31/08/2025) au lieu de 200 € HT / page simple ou 300 € HT / page complexe",
+    "description": "Ajoutez une page supplémentaire à votre site."
   },
   {
     "id": 6,
@@ -77,16 +63,19 @@
   },
   {
     "id": 8,
-    "title": "Freelance ou collectif",
-    "description": "Si votre projet nécessite davantage de ressources, je peux travailler si vous le souhaitez avec KreaWebSolutions:",
+    "title": "Freelance solo, entourée de talents si besoin",
+    "price": "Sur devis",
+    "description": "Je travaille en tant que freelance indépendante, mais je peux m'entourer de profils compétents si le projet le nécessite.",
     "presentation": [
       {
-        "content": "Un collectif de 4 freelances : 2 développeurs web, 1 rédactrice web et 1 coach mindset."
+        "content": "Je suis votre interlocutrice principale tout au long du projet : écoute, accompagnement, développement."
       },
       {
-        "content": "Les tarifs et prestations seront alors définis avec toute l'équipe, afin d'offrir une solution complète et adaptée."
+        "content": "Pour certaines expertises spécifiques (UX/UI, rédaction, etc.), je peux collaborer avec des partenaires en qui j’ai pleinement confiance."
+      },
+      {
+        "content": "Chaque intervention complémentaire est validée avec vous et intégrée de façon fluide dans le déroulement du projet."
       }
-    ],
-    "url": "https://kreawebsolutions.fr/"
+    ]
   }
 ]
