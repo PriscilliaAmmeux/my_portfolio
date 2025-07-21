@@ -27,13 +27,15 @@ export default function Contact() {
   return (
     <Layout>
       <section className="pt-4 sm:px-24">
-        <Title text="Contact" icon={CiMail} />
+        <div className="flex sm:justify-center ml-4 sm:ml-0">
+          <Title text="Contact" />
+        </div>
         <div className="mb-8 text-justify max-w-3xl mx-auto px-4 text-base text-gray-700">
-          <p className="mb-2">
+          <p className="mb-2 text-white">
             ✉️ Vous pouvez me contacter directement via le formulaire ci-dessous
             en précisant votre besoin (type de site, délai, budget...).
           </p>
-          <p>
+          <p className="mb-2 text-white">
             📅 Ou réservez un créneau gratuit de 30 minutes pour discuter de
             votre projet de vive voix.
           </p>
@@ -44,11 +46,11 @@ export default function Contact() {
           <div className="md:col-span-1"></div>
           <div className="md:col-span-2 flex flex-col items-center justify-center">
             <Image
-              src="/illustration-contact.webp"
+              src="/logo-bulle-rose.webp"
               alt="Illustration contact"
-              className="mb-2"
-              width={275}
-              height={275}
+              className="mb-4"
+              width={300}
+              height={300}
             />
             <InfoContact />
           </div>

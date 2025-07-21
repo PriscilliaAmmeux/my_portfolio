@@ -4,10 +4,10 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <section className="pt-10 pb-10">
+    <section className="pt-6 pb-6 lg:pt-10 lg:pb-10">
       <Me />
       <Link
-        className="flex justify-center items-center mt-4 mb-8"
+        className="flex justify-center items-center mt-4 mb-4 lg:mb-8"
         href="/contact"
         aria-label="Aller à la page contact">
         <Button type="button" text="Me contacter" ariaLabel="Contact" />

@@ -35,7 +35,9 @@ export default function Blog() {
   return (
     <Layout>
       <section className="pt-4 sm:px-24">
-        <Title text="Blog" />
+        <div className="ml-4 sm:ml-2">
+          <Title text="Blog" />
+        </div>
         <div className="w-full container mx-auto px-3">
           <div className="md:grid md:grid-cols-3 gap-4">
             {sortedBlog.map((article) => (

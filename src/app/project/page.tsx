@@ -21,7 +21,9 @@ export default function Project() {
   return (
     <Layout>
       <section className="pt-4 pb-10 sm:px-24">
-        <Title text="Mes projets" />
+        <div className="ml-4 sm:ml-0">
+          <Title text="Mes projets" />
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-4 container mx-auto mx-4 justify-items-stretch">
           {projects.map((project) => (
             <ProjectCard

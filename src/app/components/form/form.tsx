@@ -85,12 +85,11 @@ export default function Form({ className }: FormProps) {
   return (
     <form
       ref={form}
-      className={`p-6 mb-6 gap-4 flex flex-col w-full max-w-2xl p-2 bg-blue-100 rounded-md ${className}`}
+      className={`p-6 mb-6 gap-4 flex flex-col w-full max-w-2xl p-2 bg-pink-700 rounded-md ${className}`}
       onSubmit={sendEmail}
       noValidate>
       <div className="flex items-center justify-center mb-4">
-        <SiMinutemailer size={40} className="text-pink-700" />
-        <h2 className="ml-4 text-blue-800 text-2xl font-semibold">
+        <h2 className="ml-4 text-white text-2xl font-semibold">
           Formulaire de contact
         </h2>
       </div>
@@ -163,13 +162,13 @@ export default function Form({ className }: FormProps) {
           onChange={(e) => setAcceptedPrivacy(e.target.checked)}
           className="mt-1 mr-2"
         />
-        <label htmlFor="privacy" className="text-sm text-gray-800">
+        <label htmlFor="privacy" className="text-sm text-white">
           J’accepte la collecte et le traitement de mes données personnelles
           conformément à la{" "}
           <a
             href="/privacy"
             target="_blank"
-            className="text-pink-700 underline">
+            className=" underline hover:cursor-pointer">
             politique de confidentialité
           </a>
           .
@@ -179,6 +178,7 @@ export default function Form({ className }: FormProps) {
         type="submit"
         text="Envoyer mon message"
         ariaLabel={"Cliquez sur le bouton pour envoyer le message"}
+        variant="bgWhite"
       />
     </form>
   );
