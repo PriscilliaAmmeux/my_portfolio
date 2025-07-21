@@ -23,10 +23,7 @@ export default function ProfileLink({
         target="_blank"
         rel="noopener noreferrer"
         aria-label={ariaLabel}>
-        <Icon
-          className="hover:text-pink-700 transition-colors duration-300"
-          size={size}
-        />
+        <Icon className="transition-colors duration-300" size={size} />
         {children}
       </a>
     </section>
