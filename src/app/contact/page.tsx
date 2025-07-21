@@ -46,8 +46,9 @@ export default function Contact() {
           <div className="md:col-span-1"></div>
           <div className="md:col-span-2 flex flex-col items-center justify-center">
             <Image
-              src="/logo-bulle-rose.webp"
-              alt="Illustration contact"
+              src="/Logo-bulle-rose.webp"
+              alt="Logo bulle rose priscillia ammeux"
+              aria-label="Logo bulle rose priscillia ammeux"
               className="mb-4"
               width={300}
               height={300}
