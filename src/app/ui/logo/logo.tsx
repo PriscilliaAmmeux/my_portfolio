@@ -9,15 +9,17 @@ export default function Logo({ width, height }: LogoProps) {
   return (
     <section>
       <Image
-        src="/logo-rose.webp"
-        alt="logo d'entreprise (Priscillia AMMEUX - Créatrice Développeuse)"
+        src="/Logo-rose.webp"
+        alt="logo d'entreprise (Priscillia AMMEUX)"
+        aria-label="logo d'entreprise (Priscillia AMMEUX)"
         className="block dark:hidden"
         width={width}
         height={height}
       />
       <Image
-        src="/logo-blanc.webp"
-        alt="logo d'entreprise (Priscillia AMMEUX - Créatrice Développeuse)"
+        src="/Logo-blanc.webp"
+        alt="logo d'entreprise (Priscillia AMMEUX)"
+        aria-label="logo d'entreprise (Priscillia AMMEUX)"
         className="hidden dark:block"
         width={width}
         height={height}
