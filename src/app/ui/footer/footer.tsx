@@ -7,7 +7,7 @@ import { ToggleButton } from "@/app/components/toggleButton/toggleButton";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#be185d] text-white w-full px-6 py-10 md:px-16 flex flex-col gap-10">
+    <footer className="bg-[#be185d] text-white w-full px-6 py-10 md:px-16 flex flex-col gap-10 mt-10">
       <div className="flex flex-col md:flex-row justify-between items-center gap-10">
         <div className="w-32 md:w-40">
           <Logo width={150} height={150} />
