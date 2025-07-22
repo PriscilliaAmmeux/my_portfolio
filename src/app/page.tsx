@@ -65,7 +65,7 @@ export default function Home() {
             <Image
               src="/Nuage-web.webp"
               alt="nuage web: un refresh() de créativité web"
-              className="hidden dark:block w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[500px]"
+              className="block w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[500px]"
               width={500}
               height={500}
             />
