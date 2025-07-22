@@ -31,11 +31,11 @@ export default function Contact() {
           <Title text="Contact" />
         </div>
         <div className="mb-8 text-justify max-w-3xl mx-auto px-4 text-base text-gray-700">
-          <p className="mb-2 text-white">
+          <p className="mb-2 text-gray-900 dark:text-white">
             ✉️ Vous pouvez me contacter directement via le formulaire ci-dessous
             en précisant votre besoin (type de site, délai, budget...).
           </p>
-          <p className="mb-2 text-white">
+          <p className="mb-2 text-gray-900 dark:text-white">
             📅 Ou réservez un créneau gratuit de 30 minutes pour discuter de
             votre projet de vive voix.
           </p>

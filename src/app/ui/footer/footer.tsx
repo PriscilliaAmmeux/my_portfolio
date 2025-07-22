@@ -10,7 +10,14 @@ export default function Footer() {
     <footer className="bg-[#be185d] text-white w-full px-6 py-10 md:px-16 flex flex-col gap-10 mt-10">
       <div className="flex flex-col md:flex-row justify-between items-center gap-10">
         <div className="w-32 md:w-40">
-          <Logo width={150} height={150} />
+          <Image
+            src="/Logo-blanc.webp"
+            alt="logo d'entreprise (Priscillia AMMEUX)"
+            aria-label="logo d'entreprise (Priscillia AMMEUX)"
+            className="block"
+            width={150}
+            height={150}
+          />
         </div>
 
         <nav className="flex flex-col md:flex-row text-left gap-6 md:gap-20 text-sm md:text-base">
