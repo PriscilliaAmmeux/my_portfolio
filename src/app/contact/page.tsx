@@ -36,8 +36,8 @@ export default function Contact() {
             en précisant votre besoin (type de site, délai, budget...).
           </p>
           <p className="mb-2 text-gray-900 dark:text-white">
-            📅 Ou réservez un créneau gratuit de 30 minutes pour discuter de
-            votre projet de vive voix.
+            📅 Ou réservez un créneau gratuit pour discuter de votre projet de
+            vive voix.
           </p>
         </div>
 

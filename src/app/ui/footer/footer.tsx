@@ -67,18 +67,21 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-white/30 pt-6 text-center text-xs md:text-sm flex flex-col gap-2 items-center">
-        <p className="font-semibold">
-          © {new Date().getFullYear()} Priscillia Ammeux. Tous droits réservés.
-        </p>
-        <p>Site développé & designé par moi-même</p>
-      </div>
+      <div className="border-t border-white/30 pt-6 text-center text-xs md:text-sm flex flex-col gap-4 items-center">
+        <div className="flex items-center justify-center gap-4 mb-2">
+          <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+            <ToggleButton />
+          </ThemeProvider>
+          <ScrollToTopButton />
+        </div>
 
-      <div className="flex items-center justify-center gap-4 mt-4">
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <ToggleButton />
-        </ThemeProvider>
-        <ScrollToTopButton />
+        <div className="flex flex-col gap-2 items-center">
+          <p className="font-semibold">
+            © {new Date().getFullYear()} Priscillia Ammeux. Tous droits
+            réservés.
+          </p>
+          <p>Site développé & designé par moi-même</p>
+        </div>
       </div>
     </footer>
   );

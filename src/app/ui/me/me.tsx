@@ -46,11 +46,6 @@ export default function Me() {
             me contente pas de construire des sites: je donne forme aux idées,
             avec précision, style et singularité.
           </p>
-          <p className="mb-4">
-            Mon approche est intuitive, exigeante et profondément humaine. Je ne
-            me contente pas de construire des sites: je donne forme aux idées,
-            avec précision, style et singularité.
-          </p>
         </div>
       </div>
     </section>
