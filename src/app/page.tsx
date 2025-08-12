@@ -1,10 +1,11 @@
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { ConditionalAnalytics, ConditionalSpeedInsights } from "./components/ConditionalTracking/ConditionalTracking";
 import Layout from "../app/ui/layout/layout";
 import Button from "./components/button/button";
 import Link from "next/link";
 import Image from "next/image";
+import TarteAuCitron from "./components/TarteAuCitron/TarteAuCitron";
 import { Metadata } from "next";
+
 export const metadata: Metadata = {
   title: "Priscillia Ammeux - Développeuse Web Créative & Engagée",
   description:
@@ -103,8 +104,9 @@ export default function Home() {
         </div>
       </Layout>
 
-      <Analytics />
-      <SpeedInsights />
+      <TarteAuCitron />
+      <ConditionalAnalytics />
+      <ConditionalSpeedInsights />
     </main>
   );
 }
