@@ -1,6 +1,7 @@
 "use client";
 
 import Script from "next/script";
+import { usePathname } from "next/navigation";
 
 declare global {
   interface Window {
@@ -10,7 +11,15 @@ declare global {
 }
 
 export default function TarteAuCitron() {
+  const pathname = usePathname();
+  const isHomePage = pathname === "/";
+
   const initTarteAuCitron = () => {
+    // Ne pas initialiser TarteAuCitron si on n'est pas sur la page d'accueil
+    if (!isHomePage) {
+      return;
+    }
+
     if (typeof window !== "undefined" && window.tarteaucitron) {
       // Définir les services personnalisés avant l'initialisation
 
@@ -172,21 +181,23 @@ export default function TarteAuCitron() {
 
   return (
     <>
-      {/* CSS personnalisé pour TarteAuCitron */}
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/tarteaucitronjs@1.22.0/css/tarteaucitron.css"
-      />
-      <link
-        rel="stylesheet"
-        href="/tarteaucitron-custom.css"
-      />
-      
-      <Script
-        src="https://cdn.jsdelivr.net/npm/tarteaucitronjs@1.22.0/tarteaucitron.min.js"
-        strategy="afterInteractive"
-        onLoad={initTarteAuCitron}
-      />
+      {/* N'afficher TarteAuCitron que sur la page d'accueil */}
+      {isHomePage && (
+        <>
+          {/* CSS personnalisé pour TarteAuCitron */}
+          <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/tarteaucitronjs@1.22.0/css/tarteaucitron.css"
+          />
+          <link rel="stylesheet" href="/tarteaucitron-custom.css" />
+
+          <Script
+            src="https://cdn.jsdelivr.net/npm/tarteaucitronjs@1.22.0/tarteaucitron.min.js"
+            strategy="afterInteractive"
+            onLoad={initTarteAuCitron}
+          />
+        </>
+      )}
     </>
   );
 }
