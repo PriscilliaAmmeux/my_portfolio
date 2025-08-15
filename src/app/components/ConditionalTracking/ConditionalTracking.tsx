@@ -152,6 +152,62 @@ export function ConditionalMetricool() {
       window.removeEventListener("enable-metricool", handleEnableMetricool);
     };
   }, []);
+  useEffect(() => {
+    let metricoolScript: HTMLScriptElement | null = null;
+    const checkConsent = () => {
+      const cookieConsent = localStorage.getItem("cookie-consent");
+      if (cookieConsent) {
+        try {
+          const preferences = JSON.parse(cookieConsent);
+
+          // Check if consent has expired
+          if (preferences.expiry && Date.now() > preferences.expiry) {
+            localStorage.removeItem("cookie-consent");
+            setShowMetricool(false);
+            return;
+          }
+
+          setShowMetricool(preferences.metricool || false);
+        } catch (error) {
+          // Handle corrupted localStorage data
+          localStorage.removeItem("cookie-consent");
+          setShowMetricool(false);
+        }
+      }
+    };
+
+    // Check immediately
+    checkConsent();
+
+    // Listen to activation event
+    const handleEnableMetricool = () => {
+      setShowMetricool(true);
+      // Load Metricool
+      if (typeof window !== "undefined" && !metricoolScript) {
+        const script = document.createElement("script");
+        script.src = "https://tracker.metricool.com/resources/be.js";
+        script.onload = () => {
+          if (window.beTracker) {
+            window.beTracker.t({
+              hash: process.env.NEXT_PUBLIC_METRICOOL_HASH,
+            });
+          }
+        };
+        document.head.appendChild(script);
+        metricoolScript = script;
+      }
+    };
+
+    window.addEventListener("enable-metricool", handleEnableMetricool);
+
+    return () => {
+      window.removeEventListener("enable-metricool", handleEnableMetricool);
+      if (metricoolScript && metricoolScript.parentNode) {
+        metricoolScript.parentNode.removeChild(metricoolScript);
+        metricoolScript = null;
+      }
+    };
+  }, []);
 
   return null; // Metricool has no React component
 }
