@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import Button from "../button/button";
 
 interface CookiePreferences {
@@ -8,6 +8,12 @@ interface CookiePreferences {
   speedInsights: boolean;
   metricool: boolean;
 }
+
+// Constants
+const COOKIE_EXPIRY_DAYS = Math.min(
+  parseInt(process.env.NEXT_PUBLIC_COOKIE_EXPIRY_DAYS || '7'),
+  30 // Maximum 30 days for GDPR compliance
+);
 
 export default function CookieBanner() {
   const [showBanner, setShowBanner] = useState(false);
@@ -18,23 +24,7 @@ export default function CookieBanner() {
     metricool: false,
   });
 
-  useEffect(() => {
-    // Only add escape handler when settings panel is open
-    if (!showSettings) return;
-
-    const handleEscape = (e: KeyboardEvent) => {
-      if (e.key === "Escape") setShowSettings(false);
-    };
-    window.addEventListener("keydown", handleEscape);
-    return () => window.removeEventListener("keydown", handleEscape);
-  }, [showSettings]);
-  const [showSettings, setShowSettings] = useState(false);
   const showSettingsRef = useRef(showSettings);
-  const [preferences, setPreferences] = useState<CookiePreferences>({
-    analytics: false,
-    speedInsights: false,
-    metricool: false,
-  });
 
   // Keep showSettingsRef in sync with showSettings
   useEffect(() => {
@@ -195,9 +185,8 @@ export default function CookieBanner() {
 
     // Save for 7 days
     const expiryDate = new Date();
-    expiryDate.setDate(expiryDate.getDate() + 7);
-    const expiryDate = new Date();
     expiryDate.setDate(expiryDate.getDate() + COOKIE_EXPIRY_DAYS);
+
     const consentData = {
       ...allAccepted,
       timestamp: Date.now(),
@@ -239,7 +228,7 @@ export default function CookieBanner() {
     };
 
     const expiryDate = new Date();
-    expiryDate.setDate(expiryDate.getDate() + 7);
+    expiryDate.setDate(expiryDate.getDate() + COOKIE_EXPIRY_DAYS);
 
     const consentData = {
       ...allRejected,
@@ -271,7 +260,7 @@ export default function CookieBanner() {
     }
 
     const expiryDate = new Date();
-    expiryDate.setDate(expiryDate.getDate() + 7);
+    expiryDate.setDate(expiryDate.getDate() + COOKIE_EXPIRY_DAYS);
 
     const consentData = {
       ...preferences,
