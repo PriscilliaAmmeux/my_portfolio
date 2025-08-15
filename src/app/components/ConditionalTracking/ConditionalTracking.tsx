@@ -109,5 +109,5 @@ export function ConditionalMetricool() {
     };
   }, []);
 
-  return null; // Metricool n'a pas de composant React
+  return null; 
 }

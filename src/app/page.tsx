@@ -2,7 +2,7 @@ import {
   ConditionalAnalytics,
   ConditionalSpeedInsights,
   ConditionalMetricool,
-} from "./components/ConditionalTracking/ConditionalTrackingNew";
+} from "./components/ConditionalTracking/ConditionalTracking";
 import Layout from "../app/ui/layout/layout";
 import Button from "./components/button/button";
 import Link from "next/link";
