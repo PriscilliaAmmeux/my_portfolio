@@ -141,6 +141,17 @@ export function ConditionalMetricool() {
               hash: process.env.NEXT_PUBLIC_METRICOOL_HASH,
             });
           }
+        script.onload = () => {
+          if (window.beTracker) {
+            if (METRICOOL_HASH) {
+              window.beTracker.t({
+                hash: METRICOOL_HASH,
+              });
+            } else {
+              // Optionally log a warning for debugging
+              console.warn("Metricool hash is not defined. Skipping Metricool tracker initialization.");
+            }
+          }
         };
         document.head.appendChild(script);
       }
