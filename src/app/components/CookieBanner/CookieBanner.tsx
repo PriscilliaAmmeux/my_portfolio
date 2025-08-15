@@ -19,34 +19,59 @@ export default function CookieBanner() {
   });
 
   useEffect(() => {
-    // Vérifier si l'utilisateur a déjà fait son choix
+    // Check if user has already made their choice
     const cookieConsent = localStorage.getItem("cookie-consent");
     if (!cookieConsent) {
       setShowBanner(true);
     } else {
-      // Charger les préférences existantes
-      const savedPreferences = JSON.parse(cookieConsent);
-      setPreferences(savedPreferences);
-      // Déclencher les services autorisés
-      triggerServices(savedPreferences);
+      try {
+        // Load existing preferences
+        const savedPreferences = JSON.parse(cookieConsent);
+
+        // Check if consent has expired
+        if (savedPreferences.expiry && Date.now() > savedPreferences.expiry) {
+          localStorage.removeItem("cookie-consent");
+          setShowBanner(true);
+          return;
+        }
+
+        // Validate preferences structure
+        if (savedPreferences && typeof savedPreferences === "object") {
+          setPreferences({
+            analytics: savedPreferences.analytics || false,
+            speedInsights: savedPreferences.speedInsights || false,
+            metricool: savedPreferences.metricool || false,
+          });
+          // Trigger authorized services
+          triggerServices(savedPreferences);
+        } else {
+          // Invalid data structure
+          localStorage.removeItem("cookie-consent");
+          setShowBanner(true);
+        }
+      } catch (error) {
+        // Handle corrupted localStorage data
+        localStorage.removeItem("cookie-consent");
+        setShowBanner(true);
+      }
     }
   }, []);
 
   const triggerServices = (prefs: CookiePreferences) => {
-    // Déclencher les services selon les préférences
-    if (typeof window !== "undefined") {
+    // Trigger services based on preferences
+    if (typeof window !== "undefined" && prefs && typeof prefs === "object") {
       // Analytics
-      if (prefs.analytics) {
+      if (prefs.analytics === true) {
         window.dispatchEvent(new CustomEvent("enable-analytics"));
       }
 
       // Speed Insights
-      if (prefs.speedInsights) {
+      if (prefs.speedInsights === true) {
         window.dispatchEvent(new CustomEvent("enable-speed-insights"));
       }
 
       // Metricool
-      if (prefs.metricool) {
+      if (prefs.metricool === true) {
         window.dispatchEvent(new CustomEvent("enable-metricool"));
       }
     }
@@ -59,7 +84,7 @@ export default function CookieBanner() {
       metricool: true,
     };
 
-    // Sauvegarder pour 7 jours
+    // Save for 7 days
     const expiryDate = new Date();
     expiryDate.setDate(expiryDate.getDate() + 7);
 
@@ -69,10 +94,14 @@ export default function CookieBanner() {
       expiry: expiryDate.getTime(),
     };
 
-    localStorage.setItem("cookie-consent", JSON.stringify(consentData));
-    setPreferences(allAccepted);
-    triggerServices(allAccepted);
-    setShowBanner(false);
+    try {
+      localStorage.setItem("cookie-consent", JSON.stringify(consentData));
+      setPreferences(allAccepted);
+      triggerServices(allAccepted);
+      setShowBanner(false);
+    } catch (error) {
+      console.error("Failed to save cookie preferences:", error);
+    }
   };
 
   const rejectAll = () => {
@@ -91,9 +120,13 @@ export default function CookieBanner() {
       expiry: expiryDate.getTime(),
     };
 
-    localStorage.setItem("cookie-consent", JSON.stringify(consentData));
-    setPreferences(allRejected);
-    setShowBanner(false);
+    try {
+      localStorage.setItem("cookie-consent", JSON.stringify(consentData));
+      setPreferences(allRejected);
+      setShowBanner(false);
+    } catch (error) {
+      console.error("Failed to save cookie preferences:", error);
+    }
   };
 
   const savePreferences = () => {
@@ -106,10 +139,14 @@ export default function CookieBanner() {
       expiry: expiryDate.getTime(),
     };
 
-    localStorage.setItem("cookie-consent", JSON.stringify(consentData));
-    triggerServices(preferences);
-    setShowBanner(false);
-    setShowSettings(false);
+    try {
+      localStorage.setItem("cookie-consent", JSON.stringify(consentData));
+      triggerServices(preferences);
+      setShowBanner(false);
+      setShowSettings(false);
+    } catch (error) {
+      console.error("Failed to save cookie preferences:", error);
+    }
   };
 
   const openSettings = () => {
@@ -123,7 +160,7 @@ export default function CookieBanner() {
       {/* Overlay */}
       <div className="fixed inset-0 bg-black bg-opacity-50 z-50" />
 
-      {/* Bannière principale */}
+      {/* Main banner */}
       {!showSettings ? (
         <div className="fixed bottom-4 left-4 right-4 md:bottom-8 md:left-8 md:right-8 bg-white dark:bg-gray-800 rounded-lg shadow-2xl z-50 p-6 max-w-2xl mx-auto">
           <div className="text-center">
@@ -162,7 +199,7 @@ export default function CookieBanner() {
           </div>
         </div>
       ) : (
-        /* Panneau de personnalisation */
+        /* Customization panel */
         <div className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white dark:bg-gray-800 rounded-lg shadow-2xl z-50 p-6 max-w-md w-full mx-4 max-h-[80vh] overflow-y-auto">
           <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
             Préférences des cookies

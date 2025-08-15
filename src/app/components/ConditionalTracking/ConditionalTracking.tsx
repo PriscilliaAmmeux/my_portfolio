@@ -17,15 +17,29 @@ export function ConditionalAnalytics() {
     const checkConsent = () => {
       const cookieConsent = localStorage.getItem("cookie-consent");
       if (cookieConsent) {
-        const preferences = JSON.parse(cookieConsent);
-        setShowAnalytics(preferences.analytics);
+        try {
+          const preferences = JSON.parse(cookieConsent);
+
+          // Check if consent has expired
+          if (preferences.expiry && Date.now() > preferences.expiry) {
+            localStorage.removeItem("cookie-consent");
+            setShowAnalytics(false);
+            return;
+          }
+
+          setShowAnalytics(preferences.analytics || false);
+        } catch (error) {
+          // Handle corrupted localStorage data
+          localStorage.removeItem("cookie-consent");
+          setShowAnalytics(false);
+        }
       }
     };
 
-    // Vérifier immédiatement
+    // Check immediately
     checkConsent();
 
-    // Écouter l'événement d'activation
+    // Listen to activation event
     const handleEnableAnalytics = () => setShowAnalytics(true);
     window.addEventListener("enable-analytics", handleEnableAnalytics);
 
@@ -46,15 +60,29 @@ export function ConditionalSpeedInsights() {
     const checkConsent = () => {
       const cookieConsent = localStorage.getItem("cookie-consent");
       if (cookieConsent) {
-        const preferences = JSON.parse(cookieConsent);
-        setShowSpeedInsights(preferences.speedInsights);
+        try {
+          const preferences = JSON.parse(cookieConsent);
+
+          // Check if consent has expired
+          if (preferences.expiry && Date.now() > preferences.expiry) {
+            localStorage.removeItem("cookie-consent");
+            setShowSpeedInsights(false);
+            return;
+          }
+
+          setShowSpeedInsights(preferences.speedInsights || false);
+        } catch (error) {
+          // Handle corrupted localStorage data
+          localStorage.removeItem("cookie-consent");
+          setShowSpeedInsights(false);
+        }
       }
     };
 
-    // Vérifier immédiatement
+    // Check immediately
     checkConsent();
 
-    // Écouter l'événement d'activation
+    // Listen to activation event
     const handleEnableSpeedInsights = () => setShowSpeedInsights(true);
     window.addEventListener("enable-speed-insights", handleEnableSpeedInsights);
 
@@ -78,24 +106,40 @@ export function ConditionalMetricool() {
     const checkConsent = () => {
       const cookieConsent = localStorage.getItem("cookie-consent");
       if (cookieConsent) {
-        const preferences = JSON.parse(cookieConsent);
-        setShowMetricool(preferences.metricool);
+        try {
+          const preferences = JSON.parse(cookieConsent);
+
+          // Check if consent has expired
+          if (preferences.expiry && Date.now() > preferences.expiry) {
+            localStorage.removeItem("cookie-consent");
+            setShowMetricool(false);
+            return;
+          }
+
+          setShowMetricool(preferences.metricool || false);
+        } catch (error) {
+          // Handle corrupted localStorage data
+          localStorage.removeItem("cookie-consent");
+          setShowMetricool(false);
+        }
       }
     };
 
-    // Vérifier immédiatement
+    // Check immediately
     checkConsent();
 
-    // Écouter l'événement d'activation
+    // Listen to activation event
     const handleEnableMetricool = () => {
       setShowMetricool(true);
-      // Charger Metricool
+      // Load Metricool
       if (typeof window !== "undefined") {
         const script = document.createElement("script");
         script.src = "https://tracker.metricool.com/resources/be.js";
         script.onload = () => {
           if (window.beTracker) {
-            window.beTracker.t({ hash: process.env.NEXT_PUBLIC_METRICOOL_HASH });
+            window.beTracker.t({
+              hash: process.env.NEXT_PUBLIC_METRICOOL_HASH,
+            });
           }
         };
         document.head.appendChild(script);
@@ -109,5 +153,5 @@ export function ConditionalMetricool() {
     };
   }, []);
 
-  return null; 
+  return null; // Metricool has no React component
 }
