@@ -28,6 +28,28 @@ export default function CookieBanner() {
     window.addEventListener("keydown", handleEscape);
     return () => window.removeEventListener("keydown", handleEscape);
   }, [showSettings]);
+  const [showSettings, setShowSettings] = useState(false);
+  const showSettingsRef = useRef(showSettings);
+  const [preferences, setPreferences] = useState<CookiePreferences>({
+    analytics: false,
+    speedInsights: false,
+    metricool: false,
+  });
+
+  // Keep showSettingsRef in sync with showSettings
+  useEffect(() => {
+    showSettingsRef.current = showSettings;
+  }, [showSettings]);
+
+  useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (showSettingsRef.current && e.key === "Escape") {
+        setShowSettings(false);
+      }
+    };
+    window.addEventListener("keydown", handleEscape);
+    return () => window.removeEventListener("keydown", handleEscape);
+  }, []);
 
   // Helper function to check localStorage availability
   const isLocalStorageAvailable = (): boolean => {
