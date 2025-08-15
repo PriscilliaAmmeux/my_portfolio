@@ -95,7 +95,7 @@ export function ConditionalMetricool() {
         script.src = "https://tracker.metricool.com/resources/be.js";
         script.onload = () => {
           if (window.beTracker) {
-            window.beTracker.t({ hash: "83ba35de68463b9c48c90c73562278f1" });
+            window.beTracker.t({ hash: process.env.NEXT_PUBLIC_METRICOOL_HASH });
           }
         };
         document.head.appendChild(script);
