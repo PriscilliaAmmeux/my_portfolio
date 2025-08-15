@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 declare global {
   interface Window {
-    tarteaucitron: any;
+    beTracker: any;
   }
 }
 
@@ -15,21 +15,37 @@ export function ConditionalAnalytics() {
 
   useEffect(() => {
     const checkConsent = () => {
-      if (typeof window !== "undefined" && window.tarteaucitron) {
-        // Vérifie si le consentement pour Vercel Analytics est donné
-        const analyticsAllowed =
-          window.tarteaucitron.state.vercelanalytics === true;
-        setShowAnalytics(analyticsAllowed);
+      const cookieConsent = localStorage.getItem("cookie-consent");
+      if (cookieConsent) {
+        try {
+          const preferences = JSON.parse(cookieConsent);
+
+          // Check if consent has expired
+          if (preferences.expiry && Date.now() > preferences.expiry) {
+            localStorage.removeItem("cookie-consent");
+            setShowAnalytics(false);
+            return;
+          }
+
+          setShowAnalytics(preferences.analytics || false);
+        } catch (error) {
+          // Handle corrupted localStorage data
+          localStorage.removeItem("cookie-consent");
+          setShowAnalytics(false);
+        }
       }
     };
 
-    // Vérifie immédiatement
+    // Check immediately
     checkConsent();
 
-    // Écoute les changements de consentement
-    const interval = setInterval(checkConsent, 1000);
+    // Listen to activation event
+    const handleEnableAnalytics = () => setShowAnalytics(true);
+    window.addEventListener("enable-analytics", handleEnableAnalytics);
 
-    return () => clearInterval(interval);
+    return () => {
+      window.removeEventListener("enable-analytics", handleEnableAnalytics);
+    };
   }, []);
 
   if (!showAnalytics) return null;
@@ -42,24 +58,100 @@ export function ConditionalSpeedInsights() {
 
   useEffect(() => {
     const checkConsent = () => {
-      if (typeof window !== "undefined" && window.tarteaucitron) {
-        // Vérifie si le consentement pour Speed Insights est donné
-        const speedInsightsAllowed =
-          window.tarteaucitron.state.vercelspeedinsights === true;
-        setShowSpeedInsights(speedInsightsAllowed);
+      const cookieConsent = localStorage.getItem("cookie-consent");
+      if (cookieConsent) {
+        try {
+          const preferences = JSON.parse(cookieConsent);
+
+          // Check if consent has expired
+          if (preferences.expiry && Date.now() > preferences.expiry) {
+            localStorage.removeItem("cookie-consent");
+            setShowSpeedInsights(false);
+            return;
+          }
+
+          setShowSpeedInsights(preferences.speedInsights || false);
+        } catch (error) {
+          // Handle corrupted localStorage data
+          localStorage.removeItem("cookie-consent");
+          setShowSpeedInsights(false);
+        }
       }
     };
 
-    // Vérifie immédiatement
+    // Check immediately
     checkConsent();
 
-    // Écoute les changements de consentement
-    const interval = setInterval(checkConsent, 1000);
+    // Listen to activation event
+    const handleEnableSpeedInsights = () => setShowSpeedInsights(true);
+    window.addEventListener("enable-speed-insights", handleEnableSpeedInsights);
 
-    return () => clearInterval(interval);
+    return () => {
+      window.removeEventListener(
+        "enable-speed-insights",
+        handleEnableSpeedInsights
+      );
+    };
   }, []);
 
   if (!showSpeedInsights) return null;
 
   return <SpeedInsights />;
+}
+
+export function ConditionalMetricool() {
+  const [showMetricool, setShowMetricool] = useState(false);
+
+  useEffect(() => {
+    const checkConsent = () => {
+      const cookieConsent = localStorage.getItem("cookie-consent");
+      if (cookieConsent) {
+        try {
+          const preferences = JSON.parse(cookieConsent);
+
+          // Check if consent has expired
+          if (preferences.expiry && Date.now() > preferences.expiry) {
+            localStorage.removeItem("cookie-consent");
+            setShowMetricool(false);
+            return;
+          }
+
+          setShowMetricool(preferences.metricool || false);
+        } catch (error) {
+          // Handle corrupted localStorage data
+          localStorage.removeItem("cookie-consent");
+          setShowMetricool(false);
+        }
+      }
+    };
+
+    // Check immediately
+    checkConsent();
+
+    // Listen to activation event
+    const handleEnableMetricool = () => {
+      setShowMetricool(true);
+      // Load Metricool
+      if (typeof window !== "undefined") {
+        const script = document.createElement("script");
+        script.src = "https://tracker.metricool.com/resources/be.js";
+        script.onload = () => {
+          if (window.beTracker) {
+            window.beTracker.t({
+              hash: process.env.NEXT_PUBLIC_METRICOOL_HASH,
+            });
+          }
+        };
+        document.head.appendChild(script);
+      }
+    };
+
+    window.addEventListener("enable-metricool", handleEnableMetricool);
+
+    return () => {
+      window.removeEventListener("enable-metricool", handleEnableMetricool);
+    };
+  }, []);
+
+  return null; // Metricool has no React component
 }
