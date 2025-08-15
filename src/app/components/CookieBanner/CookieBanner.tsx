@@ -196,7 +196,8 @@ export default function CookieBanner() {
     // Save for 7 days
     const expiryDate = new Date();
     expiryDate.setDate(expiryDate.getDate() + 7);
-
+    const expiryDate = new Date();
+    expiryDate.setDate(expiryDate.getDate() + COOKIE_EXPIRY_DAYS);
     const consentData = {
       ...allAccepted,
       timestamp: Date.now(),
