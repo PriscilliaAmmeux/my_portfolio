@@ -19,12 +19,91 @@ export default function CookieBanner() {
   });
 
   useEffect(() => {
+    // Only add escape handler when settings panel is open
+    if (!showSettings) return;
+
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setShowSettings(false);
+    };
+    window.addEventListener("keydown", handleEscape);
+    return () => window.removeEventListener("keydown", handleEscape);
+  }, [showSettings]);
+
+  // Helper function to check localStorage availability
+  const isLocalStorageAvailable = (): boolean => {
+    try {
+      if (typeof window === "undefined") return false;
+      const test = "__localStorage_test__";
+      localStorage.setItem(test, "test");
+      localStorage.removeItem(test);
+      return true;
+    } catch {
+      return false;
+    }
+  };
+
+  // Helper function to detect operating system
+  const getOperatingSystem = (): string => {
+    if (typeof window === "undefined") return "unknown";
+
+    const userAgent = window.navigator.userAgent.toLowerCase();
+    const platform = window.navigator.platform?.toLowerCase() || "";
+
+    if (userAgent.includes("mac") || platform.includes("mac")) {
+      return "macOS";
+    } else if (userAgent.includes("win") || platform.includes("win")) {
+      return "Windows";
+    } else if (userAgent.includes("linux") || platform.includes("linux")) {
+      return "Linux";
+    } else if (userAgent.includes("android")) {
+      return "Android";
+    } else if (userAgent.includes("iphone") || userAgent.includes("ipad")) {
+      return "iOS";
+    }
+
+    return "unknown";
+  };
+
+  // Get OS-specific storage behavior
+  const getStorageBehavior = () => {
+    const os = getOperatingSystem();
+
+    // Different OS have different localStorage behaviors in private mode
+    switch (os) {
+      case "iOS":
+      case "macOS":
+        // Safari private mode allows localStorage but with 0 quota
+        return { hasQuotaLimits: true, privateModeBehavior: "zero_quota" };
+      case "Windows":
+      case "Linux":
+        // Chrome/Firefox private mode usually blocks localStorage entirely
+        return { hasQuotaLimits: false, privateModeBehavior: "blocked" };
+      case "Android":
+        // Android browsers vary, but usually similar to desktop
+        return { hasQuotaLimits: false, privateModeBehavior: "blocked" };
+      default:
+        return { hasQuotaLimits: false, privateModeBehavior: "unknown" };
+    }
+  };
+
+  useEffect(() => {
     // Check if user has already made their choice
-    const cookieConsent = localStorage.getItem("cookie-consent");
-    if (!cookieConsent) {
+    if (!isLocalStorageAvailable()) {
+      const storageBehavior = getStorageBehavior();
+      console.info(
+        `Operating System: ${getOperatingSystem()}, Storage behavior: ${
+          storageBehavior.privateModeBehavior
+        }`
+      );
       setShowBanner(true);
-    } else {
-      try {
+      return;
+    }
+
+    try {
+      const cookieConsent = localStorage.getItem("cookie-consent");
+      if (!cookieConsent) {
+        setShowBanner(true);
+      } else {
         // Load existing preferences
         const savedPreferences = JSON.parse(cookieConsent);
 
@@ -49,11 +128,12 @@ export default function CookieBanner() {
           localStorage.removeItem("cookie-consent");
           setShowBanner(true);
         }
-      } catch (error) {
-        // Handle corrupted localStorage data
-        localStorage.removeItem("cookie-consent");
-        setShowBanner(true);
       }
+    } catch (error) {
+      // Handle any localStorage errors (private browsing, quota exceeded, etc.)
+      const os = getOperatingSystem();
+      console.warn(`Cookie consent localStorage error on ${os}:`, error);
+      setShowBanner(true);
     }
   }, []);
 
@@ -78,6 +158,13 @@ export default function CookieBanner() {
   };
 
   const acceptAll = () => {
+    if (!isLocalStorageAvailable()) {
+      console.warn(
+        "localStorage not available, cannot save cookie preferences"
+      );
+      return;
+    }
+
     const allAccepted = {
       analytics: true,
       speedInsights: true,
@@ -101,10 +188,27 @@ export default function CookieBanner() {
       setShowBanner(false);
     } catch (error) {
       console.error("Failed to save cookie preferences:", error);
+      // Still trigger services even if we can't save preferences
+      setPreferences(allAccepted);
+      triggerServices(allAccepted);
+      setShowBanner(false);
     }
   };
 
   const rejectAll = () => {
+    if (!isLocalStorageAvailable()) {
+      console.warn(
+        "localStorage not available, cannot save cookie preferences"
+      );
+      setPreferences({
+        analytics: false,
+        speedInsights: false,
+        metricool: false,
+      });
+      setShowBanner(false);
+      return;
+    }
+
     const allRejected = {
       analytics: false,
       speedInsights: false,
@@ -126,10 +230,23 @@ export default function CookieBanner() {
       setShowBanner(false);
     } catch (error) {
       console.error("Failed to save cookie preferences:", error);
+      // Still update UI even if we can't save preferences
+      setPreferences(allRejected);
+      setShowBanner(false);
     }
   };
 
   const savePreferences = () => {
+    if (!isLocalStorageAvailable()) {
+      console.warn(
+        "localStorage not available, cannot save cookie preferences"
+      );
+      triggerServices(preferences);
+      setShowBanner(false);
+      setShowSettings(false);
+      return;
+    }
+
     const expiryDate = new Date();
     expiryDate.setDate(expiryDate.getDate() + 7);
 
@@ -146,6 +263,10 @@ export default function CookieBanner() {
       setShowSettings(false);
     } catch (error) {
       console.error("Failed to save cookie preferences:", error);
+      // Still trigger services and update UI even if we can't save preferences
+      triggerServices(preferences);
+      setShowBanner(false);
+      setShowSettings(false);
     }
   };
 
