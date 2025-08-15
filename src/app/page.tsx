@@ -1,9 +1,13 @@
-import { ConditionalAnalytics, ConditionalSpeedInsights } from "./components/ConditionalTracking/ConditionalTracking";
+import {
+  ConditionalAnalytics,
+  ConditionalSpeedInsights,
+  ConditionalMetricool,
+} from "./components/ConditionalTracking/ConditionalTrackingNew";
 import Layout from "../app/ui/layout/layout";
 import Button from "./components/button/button";
 import Link from "next/link";
 import Image from "next/image";
-import TarteAuCitron from "./components/TarteAuCitron/TarteAuCitron";
+import CookieBanner from "./components/CookieBanner/CookieBanner";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -104,9 +108,10 @@ export default function Home() {
         </div>
       </Layout>
 
-      <TarteAuCitron />
+      <CookieBanner />
       <ConditionalAnalytics />
       <ConditionalSpeedInsights />
+      <ConditionalMetricool />
     </main>
   );
 }
