@@ -10,8 +10,8 @@
   },
   {
     "id": 2,
-    "title": "Site Vitrine Astro (offre rentrée)",
-    "price": "À partir de 350 € HT",
+    "title": "Site Vitrine Astro (offre rentrée valable jusqu'au 30/09)",
+    "price": "À partir de 350 € TTC",
     "description": "Un site léger, rapide et personnalisable, développé avec Astro — un framework moderne.",
     "presentation": {
       "content": "Idéal pour : freelances, créatif·ves, événements ou petites entreprises."
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "title": "Site Vitrine Sur-Mesure",
-    "price": "À partir de 1050 € HT",
+    "price": "À partir de 1050 € TTC",
     "description": "Un site entièrement personnalisé, avec identité visuelle forte et structure pensée pour vos objectifs. Jusqu’à 4 pages (ou plus selon devis), formulaire de contact inclus.",
     "presentation": [
       {
@@ -34,7 +34,7 @@
   {
     "id": 4,
     "title": "Maintenance & Optimisaton",
-    "price": "50 € HT / mois ou 500 € HT / an",
+    "price": "50 € TTC / mois ou 500 € TTC / an",
     "description": "Gardez votre site rapide, sécurisé et toujours à jour. Je m'occupe de la technique pendant que vous vous concentrez sur votre activité.",
     "presentation": [
       {
