@@ -22,6 +22,7 @@ export default function ListPrestations() {
     "Hébergement et nom de domaine inclus 1 an",
     "Formulaire de contact inclus",
     "Site optimisé pour le SEO et l'accessibilité",
+    "Design responsive (adapté aux mobiles et tablettes)",
   ];
 
   const getPresentationContent = (presentation: any) => {
