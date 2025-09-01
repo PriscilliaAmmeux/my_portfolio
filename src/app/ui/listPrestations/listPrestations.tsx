@@ -24,11 +24,11 @@ export default function ListPrestations() {
 
   const shouldShowInclusions = (id: string | number): boolean => {
     // Example: show inclusions for all prestations
-    return true;
+    return ![4, 5, 6].includes(Number(id));
   };
 
   return (
-    <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
+    <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
       {prestations.map((prestation) => {
         const presentationContent = getPresentationContent(
           prestation.presentation
