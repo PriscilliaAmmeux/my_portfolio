@@ -35,7 +35,7 @@ export default function Form({ className }: FormProps) {
     const regex = /^(06|07)\d{8}$/;
     if (!regex.test(phone)) {
       alert(
-        "Veuillez entrer un numéro de téléphone valide exemple 06 XX XX XX XX."
+        "Veuillez entrer un numéro de téléphone valide exemple 0612345678."
       );
       return;
     }

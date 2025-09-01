@@ -1,23 +1,20 @@
 import Card from "@/app/components/card/card";
 import prestations from "../../../data/prestations.json";
-import prestationsSummer2025 from "../../../data/prestationsPromoSummer2025.json";
-import { MdOutlineCleaningServices } from "react-icons/md";
 
-function getCurrentPrestations() {
-  const today = new Date();
-  const start = new Date("2025-07-21");
-  const end = new Date("2025-08-31");
-
-  if (today >= start && today <= end) {
-    return prestationsSummer2025;
+function getPresentationContent(
+  presentation: { content: string } | { content: string }[]
+) {
+  if (!presentation) return [];
+  if (Array.isArray(presentation)) {
+    return presentation.map((item) => item.content);
   }
-  return prestations;
+  if (typeof presentation === "object" && presentation.content) {
+    return [presentation.content];
+  }
+  return [];
 }
 
 export default function ListPrestations() {
-  const currentPrestations = getCurrentPrestations();
-  const isPromoSummer = currentPrestations === prestationsSummer2025;
-
   const inclusions = [
     "Hébergement et nom de domaine inclus 1 an",
     "Formulaire de contact inclus",
@@ -25,27 +22,14 @@ export default function ListPrestations() {
     "Design responsive (adapté aux mobiles et tablettes)",
   ];
 
-  const getPresentationContent = (presentation: any) => {
-    if (!presentation) return [];
-
-    if (presentation.content && typeof presentation.content === "string") {
-      return [presentation.content];
-    }
-
-    if (Array.isArray(presentation)) {
-      return presentation.map((item) => item.content);
-    }
-
-    return [];
-  };
-
-  const shouldShowInclusions = (id: number) => {
-    return id === 2 || id === 3;
+  const shouldShowInclusions = (id: string | number): boolean => {
+    // Example: show inclusions for all prestations
+    return true;
   };
 
   return (
     <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
-      {currentPrestations.map((prestation) => {
+      {prestations.map((prestation) => {
         const presentationContent = getPresentationContent(
           prestation.presentation
         );
