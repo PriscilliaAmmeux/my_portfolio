@@ -1,5 +1,5 @@
 import Card from "@/app/components/card/card";
-import prestations from "../../../data/prestations.json";
+import prestationsData from "../../../data/prestations.json";
 
 function getPresentationContent(
   presentation: { content: string } | { content: string }[]
@@ -23,9 +23,14 @@ export default function ListPrestations() {
   ];
 
   const shouldShowInclusions = (id: string | number): boolean => {
-    // Example: show inclusions for all prestations
     return ![4, 5, 6].includes(Number(id));
   };
+
+  // Fusionne les deux tableaux du JSON
+  const prestations = [
+    ...prestationsData.offres_principales,
+    ...prestationsData.services_complementaires,
+  ];
 
   return (
     <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
