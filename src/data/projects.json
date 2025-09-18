@@ -1,5 +1,19 @@
 [
   {
+    "id": 12,
+    "title": "Hyperacousie Solidatité",
+    "description": "Site vitrine réalisé pour l'association Hyperacousie Solidarité, situé en Région Parisienne, qui a pour but d'informer et de soutenir les personnes souffrant d'hyperacousie.",
+    "image": "/logo-hyperacousie-solidatité.webp",
+    "demoLink": ""
+  },
+  {
+    "id": 11,
+    "title": "Le chantier d'à côté",
+    "description": "Site vitrine réalisé pour l'assocation Le chantier d'à côté, situé à Cognac, structure d insertion par l activité économique.  ",
+    "image": "/logo-le-chantier-d'à-côté.webp",
+    "demoLink": ""
+  },
+  {
     "id": 10,
     "title": "Frédéric Deparis – Auteur",
     "description": "Site vitrine réalisé pour Frédéric Deparis, auteur indépendant. Le site présente ses ouvrages, permet la commande en ligne et offre un moyen de le contacter. ",
