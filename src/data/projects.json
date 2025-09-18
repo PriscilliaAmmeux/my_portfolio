@@ -1,72 +1,71 @@
 [
   {
     "id": 12,
-    "title": "Hyperacousie Solidatité",
-    "description": "Site vitrine réalisé pour l'association Hyperacousie Solidarité, situé en Région Parisienne, qui a pour but d'informer et de soutenir les personnes souffrant d'hyperacousie.",
+    "title": "Hyperacousie Solidarité",
+    "description": "Conception d’un site informatif pour l’association Hyperacousie Solidarité, en région parisienne, afin d’accompagner et sensibiliser les personnes concernées par l’hyperacousie.",
     "image": "/logo-hyperacousie-solidatité.webp",
     "demoLink": ""
   },
   {
     "id": 11,
-    "title": "Le chantier d'à côté",
-    "description": "Site vitrine réalisé pour l'assocation Le chantier d'à côté, situé à Cognac, structure d insertion par l activité économique.  ",
+    "title": "Le Chantier d’à Côté",
+    "description": "Réalisation d’une plateforme en ligne pour l’association Le Chantier d’à Côté à Cognac, dédiée à l’insertion professionnelle par l’activité économique.",
     "image": "/logo-le-chantier-d'à-côté.webp",
     "demoLink": ""
   },
   {
     "id": 10,
     "title": "Frédéric Deparis – Auteur",
-    "description": "Site vitrine réalisé pour Frédéric Deparis, auteur indépendant. Le site présente ses ouvrages, permet la commande en ligne et offre un moyen de le contacter. ",
+    "description": "Développement d’un site de présentation pour l’auteur indépendant Frédéric Deparis, avec mise en avant de ses ouvrages, vente en ligne et formulaire de contact.",
     "image": "/fred.webp",
     "demoLink": "https://www.nepomucene.fr/"
   },
   {
     "id": 9,
     "title": "Adrien Demarle – Ostéopathe D.O.",
-    "description": "Développé pour présenter l’activité d’Adrien Demarle, ostéopathe.",
+    "description": "Mise en place d’un espace en ligne pour présenter l’activité et les services d’Adrien Demarle, ostéopathe D.O.",
     "image": "/adrien.webp",
     "demoLink": "https://www.adrien-demarle-osteopathe.fr/"
   },
   {
     "id": 8,
-    "title": "Stéphanie HEUDRE – Praticienne bien-être",
-    "description": "Site vitrine pour une praticienne certifiée, centré sur la présentation de ses services et la prise de contact.",
+    "title": "Stéphanie Heudre – Praticienne bien-être",
+    "description": "Création d’un site professionnel pour valoriser les prestations bien-être de Stéphanie Heudre et faciliter la prise de rendez-vous.",
     "image": "/stephanie.webp",
     "demoLink": "https://www.massage-stephanie-heudre.fr/"
   },
   {
     "id": 7,
     "title": "Yaki",
-    "description": "Application web sur mesure pour optimiser la gestion du personnel réparti sur plusieurs sites. Déclaration des lieux de travail, visualisation des disponibilités et suivi d’équipe en temps réel.",
+    "description": "Application web sur mesure pour optimiser la gestion du personnel multi-sites : déclaration des lieux de travail, suivi des disponibilités et coordination des équipes en temps réel.",
     "image": "/yaki.webp",
     "demoLink": "https://yaki.xpeho.fr/"
   },
-
   {
     "id": 5,
-    "title": "Mon portfolio",
-    "description": "",
+    "title": "Portfolio",
+    "description": "Mon portfolio en ligne regroupant mes projets et compétences en développement web.",
     "image": "/portfolio.webp",
     "demoLink": "https://www.priscillia-ammeux-portfolio.fr/"
   },
   {
     "id": 4,
     "title": "Origins Digital",
-    "description": "Application mobile first et desktop de streaming (projet école).",
+    "description": "Application de streaming, mobile first et desktop, développée en équipe dans le cadre d’un projet scolaire en Agile Scrum. (Projet scolaire)",
     "image": "/origins.webp",
     "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_react-node-express-activity-7030500056227008512-k9fn/?utm_source=share&utm_medium=member_desktop"
   },
   {
     "id": 3,
-    "title": "Se salir les doigts",
-    "description": "Projet personnel d'idéés d'activités manuelles à faire avec des enfants (projet école).",
+    "title": "Se Salir les Doigts",
+    "description": "Projet personnel proposant des idées d’activités créatives et manuelles à réaliser avec des enfants. (Projet scolaire)",
     "image": "/sesalirlesdoigts.webp",
     "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_se-salir-les-doigts-activity-7027019180411375616-H4xe/?utm_source=share&utm_medium=member_desktop"
   },
   {
     "id": 2,
     "title": "Siloc",
-    "description": "Application de gestion de flotte de véhicules pour Amazon (projet école).",
+    "description": "Application de gestion de flotte de véhicules conçue pour Amazon dans le cadre d’un projet scolaire. (Projet scolaire)",
     "image": "/siloc.webp",
     "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_siloc-activity-7019661451359342592-VM1d/?utm_source=share&utm_medium=member_desktop"
   }

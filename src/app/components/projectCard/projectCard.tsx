@@ -49,16 +49,8 @@ export default function ProjectCard({
       </a>
 
       <section className="px-6 py-6 flex justify-center absolute bottom-0 w-full">
-        {["11", "12"].includes(
-          String(
-            title === "Hyperacousie Solidatité"
-              ? 12
-              : title === "Le chantier d'à côté"
-              ? 11
-              : ""
-          )
-        ) ? (
-          <span className="text-white font-bold text-lg">Projet en cours</span>
+        {[11, 12].includes(id) ? (
+          <p className="text-white font-bold text-lg">Projet en cours</p>
         ) : (
           <Button
             type="button"
