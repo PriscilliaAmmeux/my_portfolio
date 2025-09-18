@@ -23,7 +23,7 @@ export default function ListPrestations() {
   ];
 
   const shouldShowInclusions = (id: string | number): boolean => {
-    return ![4, 5, 6].includes(Number(id));
+    return ![3, 4, 5, 6].includes(Number(id));
   };
 
   // Fusionne les deux tableaux du JSON
