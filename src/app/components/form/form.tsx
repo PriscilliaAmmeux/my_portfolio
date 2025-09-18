@@ -1,7 +1,6 @@
 "use client";
 
 import Button from "../button/button";
-import { SiMinutemailer } from "react-icons/si";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
