@@ -17,7 +17,7 @@ export default function Card({ title, children }: ArticleProps) {
         <div className="flex items-center justify-center mb-4">
           <h2 className="text-white text-xl font-semibold">{title}</h2>
         </div>
-        <div className="text-white text-justify">{children}</div>
+        <div className="text-white">{children}</div>
       </div>
     </section>
   );

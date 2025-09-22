@@ -26,7 +26,6 @@ export default function ListPrestations() {
     return ![3, 4, 5, 6].includes(Number(id));
   };
 
-  // Fusionne les deux tableaux du JSON
   const prestations = [
     ...prestationsData.offres_principales,
     ...prestationsData.services_complementaires,
@@ -48,7 +47,6 @@ export default function ListPrestations() {
               <ul className="text-white list-disc mt-2 mb-2 list-none text-sm">
                 <li className="mt-2 mb-4 font-bold">{prestation.price}</li>
                 <li className="mt-2 mb-2">{prestation.description}</li>
-
                 {shouldShowInclusions(prestation.id) && (
                   <>
                     <li className="mt-4 mb-2 font-bold">

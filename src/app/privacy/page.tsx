@@ -40,13 +40,13 @@ export default function Privacy() {
                         {notice.content.map((item, itemIndex) => (
                           <p
                             key={itemIndex}
-                            className="text-gray-700 leading-relaxed text-justify">
+                            className="text-gray-700 leading-relaxed">
                             {item.text}
                           </p>
                         ))}
                       </div>
                     ) : (
-                      <p className="text-gray-700 leading-relaxed text-justify">
+                      <p className="text-gray-700 leading-relaxed">
                         {notice.content}
                       </p>
                     )}
