@@ -30,7 +30,7 @@ export default function Contact() {
         <div className="flex sm:justify-center ml-4 sm:ml-0">
           <Title text="Contact" />
         </div>
-        <div className="mb-8 text-justify max-w-3xl mx-auto px-4 text-base text-gray-700">
+        <div className="mb-8 max-w-3xl mx-auto px-4 text-base text-gray-700">
           <p className="mb-2 text-gray-900 dark:text-white">
             ✉️ Vous pouvez me contacter directement via le formulaire ci-dessous
             en précisant votre besoin (type de site, délai, budget...).

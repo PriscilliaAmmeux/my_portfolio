@@ -35,7 +35,7 @@ export default function Tartecitron() {
         <SectionArticle
           title="❓ KESAKO ?"
           content={
-            <p className="text-justify">
+            <p>
               TarteAuCitron.js, c’est une librairie JavaScript open source,
               créée par Amauri Cleuziou, un développeur français, qui simplifie
               la vie des développeurs, des freelances et des entreprises
@@ -48,7 +48,7 @@ export default function Tartecitron() {
         <SectionArticle
           title="✅ Pourquoi c’est LA solution idéale ?"
           content={
-            <ul className="list-disc list-inside space-y-2 text-justify">
+            <ul className="list-disc list-inside space-y-2">
               <li>Conforme au RGPD et à la CNIL</li>
               <li>
                 TarteAuCitron bloque automatiquement les scripts tiers (YouTube,
@@ -85,7 +85,7 @@ export default function Tartecitron() {
         <SectionArticle
           title="En résumé, TarteAuCitron.js, c’est gratuit, opensource, léger, fiable et RGPD compliant."
           content={
-            <p className="text-justify">
+            <p>
               C’est LA solution que j’utilise et recommande à tous mes clients.
             </p>
           }
@@ -94,7 +94,7 @@ export default function Tartecitron() {
         <SectionArticle
           title="➡️ Tu veux le voir en action ?"
           content={
-            <div className="flex flex-col items-start gap-4 text-justify">
+            <div className="flex flex-col items-start gap-4">
               <p>
                 Rends-toi sur le site de mon client pour tester la bannière :{" "}
                 <a

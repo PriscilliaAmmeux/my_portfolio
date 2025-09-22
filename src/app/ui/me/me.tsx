@@ -29,7 +29,7 @@ export default function Me() {
           />
         </div>
 
-        <div className="flex-1 text-justify">
+        <div className="flex-1">
           <Title text="À propos de moi !" />
           <p className="mb-4">
             Autodidacte devenue développeuse web indépendante, j'ai rapidement

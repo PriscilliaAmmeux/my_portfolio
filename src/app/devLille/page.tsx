@@ -37,7 +37,7 @@ export default function DevLille() {
         }
         subtitle={""}
         date={"19/06/2025"}>
-        <p className="mb-6 text-justify">
+        <p className="mb-6">
           Jeudi et vendredi dernier, j’ai eu la chance de participer pour la
           troisième fois à l’événement tech incontournable de la région :
           DevLille (anciennement DevFest Lille). Et comme chaque année, je
