@@ -1,18 +1,19 @@
 [
   {
-    "id": 12,
-    "title": "Hyperacousie Solidarité",
-    "description": "Conception d’un site informatif pour l’association Hyperacousie Solidarité, en région parisienne, afin d’accompagner et sensibiliser les personnes concernées par l’hyperacousie.",
-    "image": "/logo-hyperacousie-solidatité.webp",
-    "demoLink": ""
-  },
-  {
     "id": 11,
     "title": "Le Chantier d’à Côté",
     "description": "Réalisation d’une plateforme en ligne pour l’association Le Chantier d’à Côté à Cognac, dédiée à l’insertion professionnelle par l’activité économique.",
     "image": "/logo-le-chantier-d'à-côté.webp",
     "demoLink": ""
   },
+  {
+    "id": 12,
+    "title": "Hyperacousie Solidarité",
+    "description": "Conception d’un site informatif pour l’association Hyperacousie Solidarité, située en région parisienne, afin d’accompagner et sensibiliser les personnes concernées par l’hyperacousie.",
+    "image": "/hyperacousie.webp",
+    "demoLink": "https://www.hyperacousie-solidarite.com/"
+  },
+
   {
     "id": 10,
     "title": "Frédéric Deparis – Auteur",
