@@ -16,7 +16,7 @@ export default function ProjectCard({
   image,
   demoLink,
 }: ProjectCardProps) {
-  const imageClass = [11, 12].includes(id)
+  const imageClass = [11].includes(id)
     ? "w-full h-[80px] object-contain mx-auto my-6"
     : "w-full hover:scale-105 transition-transform duration-300";
   return (
@@ -49,7 +49,7 @@ export default function ProjectCard({
       </a>
 
       <section className="px-6 py-6 flex justify-center absolute bottom-0 w-full">
-        {[11, 12].includes(id) ? (
+        {[11].includes(id) ? (
           <p className="text-white font-bold text-lg">Projet en cours</p>
         ) : (
           <Button
