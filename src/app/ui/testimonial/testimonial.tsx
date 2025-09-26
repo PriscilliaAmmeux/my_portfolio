@@ -3,10 +3,10 @@ import Title from "../title/title";
 export default function Testimonial() {
   const testimonials = [
     {
-      id: 1,
-      text: "Je suis arrivée à notre premier RDV avec ma propre idée en tête. Priscillia m'a orientée pour remodeler le site avec plus de simplicité, plus adapté afin de répondre plus justement aux attentes de chacun. Ma pratique et la manière dont je vois les choses par rapport aux prestations proposées évoluent, il m'a suffi d'envoyer un message à Priscillia et nous retravaillons déjà dessus !",
-      author: "Stéphanie HEUDRE",
-      role: "Praticienne bien-être",
+      id: 3,
+      text: "Un énorme merci à Priscillia qui a su écouter, comprendre et donner forme à ce que je voulais. Je ne peux que recommander sa qualité de travail et son perfectionnisme. Encore merci Priscillia !",
+      author: "Barbara B.",
+      role: "Présidente de l'association Hyperacousie Solidarité",
       stars: 5,
     },
     {
@@ -14,6 +14,13 @@ export default function Testimonial() {
       text: "Priscillia a réalisé le site internet pour faire connaitre mes ouvrages de science-fiction, deux trilogies écrites entre les années 2000 et 2025. Elle a imaginé et réalisé l'ensemble du site, ainsi que la présentation des ouvrages, faisant preuve d'initiative et de force de proposition, proposant idées et solutions. Très disponible et réactive, notre collaboration a été fructueuse et continuera je l'espère dans le temps pour accueillir mes nouveaux livres et les réactions des futurs lecteurs !",
       author: "Frédéric DEPAPRIS",
       role: "Auteur de livres",
+      stars: 5,
+    },
+    {
+      id: 1,
+      text: "Je suis arrivée à notre premier RDV avec ma propre idée en tête. Priscillia m'a orientée pour remodeler le site avec plus de simplicité, plus adapté afin de répondre plus justement aux attentes de chacun. Ma pratique et la manière dont je vois les choses par rapport aux prestations proposées évoluent, il m'a suffi d'envoyer un message à Priscillia et nous retravaillons déjà dessus !",
+      author: "Stéphanie HEUDRE",
+      role: "Praticienne bien-être",
       stars: 5,
     },
   ];
@@ -24,11 +31,11 @@ export default function Testimonial() {
         <Title text="Témoignages" />
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {testimonials.map((testimonial) => (
           <blockquote
             key={testimonial.id}
-            className="bg-pink-700 p-6 shadow-lg text-center rounded-lg">
+            className="bg-pink-700 p-6 shadow-lg text-center rounded-lg flex flex-col h-full">
             <div className="text-4xl text-pink-300 font-serif leading-none mb-3">
               "
             </div>
@@ -37,7 +44,8 @@ export default function Testimonial() {
               {testimonial.text}
             </p>
 
-            <section className="flex justify-center mb-3">
+            <div className="flex-grow" />
+            <section className="flex justify-center mb-3 mt-auto">
               {[...Array(testimonial.stars)].map((_, i) => (
                 <span key={i} className="text-yellow-400 text-lg">
                   ⭐
@@ -45,7 +53,7 @@ export default function Testimonial() {
               ))}
             </section>
 
-            <footer className="border-t border-pink-500 pt-3">
+            <footer className="border-t border-pink-500 pt-3 mt-auto">
               <cite className="not-italic">
                 <span className="block text-white font-semibold text-base">
                   {testimonial.author}
