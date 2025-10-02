@@ -8,7 +8,7 @@ import ArticleBlog from "../components/articleBlog/articleBlog";
 export const metadata: Metadata = {
   title: "Blog Tech & Accessibilité – Articles de Priscillia Ammeux",
   description:
-    "Retrouvez les articles de Priscillia Ammeux sur la tech, l’accessibilité numérique, l’éco-conception, et bien plus encore. Un blog engagé pour un web plus inclusif.",
+    "Retrouvez les articles de Priscillia Ammeux de chez Pixelia&Co sur la tech, l’accessibilité numérique, l’éco-conception, et bien plus encore. Un blog engagé pour un web plus inclusif.",
   keywords: [
     "blog",
     "articles",
@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     "éco-conception",
     "développement web",
     "Priscillia Ammeux",
+    "Pixelia&Co",
+    "freelance",
+    "web inclusif",
     "inclusivité web",
     "accessibilité",
     "performance web",

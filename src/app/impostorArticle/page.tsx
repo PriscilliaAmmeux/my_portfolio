@@ -7,15 +7,18 @@ import ArticleNavigation from "../components/articleNavigation/articleNagivation
 
 export const metadata: Metadata = {
   title:
-    "Blog - Comment lutter contre le syndrome de l'imposteur - Priscillia Ammeux",
+    "Blog - Comment lutter contre le syndrome de l'imposteur - Priscillia Ammeux de chez Pixelia&Co",
   description:
-    "Découvrez les stratégies de Priscillia Ammeux pour lutter contre le syndrome de l'imposteur et renforcer la confiance en soi.",
+    "Découvrez les stratégies de Priscillia Ammeux de chez Pixelia&Co pour lutter contre le syndrome de l'imposteur et renforcer la confiance en soi.",
   keywords: [
     "syndrome de l'imposteur",
     "confiance en soi",
     "stratégies de lutte",
     "développement personnel",
     "Priscillia Ammeux",
+    "Pixelia&Co",
+    "développeuse web",
+    "témoignage",
     "parler en public",
     "partage de connaissances",
     "communauté tech",

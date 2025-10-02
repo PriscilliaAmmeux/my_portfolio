@@ -6,10 +6,12 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "DevLille 2025 – Retour sur une édition riche en apprentissages | Priscillia Ammeux",
+    "DevLille 2025 – Retour sur une édition riche en apprentissages | Priscillia Ammeux de chez Pixelia&Co",
   description:
     "Conférences inspirantes, rencontres bienveillantes et découvertes techniques : retour d’expérience sur DevLille 2025 par Priscillia Ammeux, développeuse web engagée.",
   keywords: [
+    "Pixelia&Co",
+    "Priscillia Ammeux",
     "DevLille 2025",
     "conférences tech",
     "rencontres développeurs",

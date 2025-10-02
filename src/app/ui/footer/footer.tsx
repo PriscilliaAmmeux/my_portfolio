@@ -12,8 +12,8 @@ export default function Footer() {
         <div className="w-32 md:w-40">
           <Image
             src="/Logo-blanc.webp"
-            alt="logo d'entreprise (Priscillia AMMEUX)"
-            aria-label="logo d'entreprise (Priscillia AMMEUX)"
+            alt="logo d'entreprise (Pixelia&Co)"
+            aria-label="logo d'entreprise (Pixelia&Co)"
             className="block"
             width={150}
             height={150}
@@ -66,7 +66,7 @@ export default function Footer() {
           />
           <Image
             src="/icon-footer.webp"
-            alt="Avatar pixelisé de Priscillia Ammeux"
+            alt="Avatar pixelisé de Priscillia Ammeux de chez Pixelia&Co"
             className="absolute inset-0 z-10"
             width={150}
             height={150}
@@ -84,10 +84,11 @@ export default function Footer() {
 
         <div className="flex flex-col gap-2 items-center">
           <p className="font-semibold">
-            © {new Date().getFullYear()} Priscillia Ammeux. Tous droits
-            réservés.
+            © {new Date().getFullYear()} Pixelia&Co - Tous droits réservés
           </p>
-          <p>Site développé & designé par moi-même</p>
+          <p>
+            Site développé & designé par Pixelia&Co
+          </p>
         </div>
       </div>
     </footer>
