@@ -66,6 +66,28 @@ export default function Testimonial() {
           </blockquote>
         ))}
       </div>
+      <div className="flex flex-col items-center mb-8 space-y-2 mt-10">
+        <a
+          href="https://www.google.com/maps/place//data=!4m3!3m2!1s0x65814fd3bf149c95:0x380d3d112ad07d97!12e1?source=g.page.m._&laa=merchant-review-solicitation"
+          target="_blank"
+          rel="noopener noreferrer"
+          className=" font-bold hover:underline flex items-center gap-2 text-xl">
+          <span role="img" aria-label="Google">
+            👉
+          </span>{" "}
+          Laisser un avis sur Google
+        </a>
+        <a
+          href="https://www.linkedin.com/in/priscillia-ammeux/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className=" font-bold hover:underline flex items-center gap-2 text-xl">
+          <span role="img" aria-label="LinkedIn">
+            👉
+          </span>{" "}
+          Me recommander sur LinkedIn (section Recommandations en bas de page)
+        </a>
+      </div>
     </section>
   );
 }
