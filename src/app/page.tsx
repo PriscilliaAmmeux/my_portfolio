@@ -11,10 +11,12 @@ import CookieBanner from "./components/CookieBanner/CookieBanner";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Priscillia Ammeux - Développeuse Web Créative & Engagée",
+  title:
+    "Priscillia Ammeux de chez Pixelia&Co - Développeuse Web Créative & Engagée",
   description:
-    "Quand la créativité rencontre le code ! Priscillia Ammeux conçoit des expériences web sur mesure, entre exigence technique, éco-conception et design singulier.",
+    "Quand la créativité rencontre le code ! Pixelia&Co conçoit des expériences web sur mesure, entre exigence technique, éco-conception et design singulier.",
   keywords: [
+    "Pixelia&Co",
     "développeuse web",
     "freelance",
     "création site web sur mesure",
@@ -28,9 +30,10 @@ export const metadata: Metadata = {
     "développeuse indépendante",
   ],
   openGraph: {
-    title: "Priscillia Ammeux - Développeuse Web Créative & Engagée",
+    title:
+      "Priscillia Ammeux de chez Pixelia&Co - Développeuse Web Créative & Engagée",
     description:
-      "Autodidacte devenue freelance, Priscillia Ammeux crée des sites web alliant esthétique, performance et identité de marque. Une vision singulière du développement web.",
+      "Autodidacte devenue freelance, Priscillia Ammeux de chez Pixelia&Co crée des sites web alliant esthétique, performance et identité de marque. Une vision singulière du développement web.",
     type: "website",
     locale: "fr_FR",
     url: "https://www.priscillia-ammeux-portfolio.fr/",
@@ -40,7 +43,7 @@ export const metadata: Metadata = {
         url: "/Sticker-visage.webp",
         width: 1200,
         height: 630,
-        alt: "Priscillia Ammeux - Développeuse Web Créative & Engagée",
+        alt: "Priscillia Ammeux de chez Pixelia&Co - Développeuse Web Créative & Engagée",
       },
     ],
   },
@@ -54,7 +57,7 @@ export default function Home() {
   return (
     <main>
       <Layout>
-        <h1 className="sr-only">Priscillia Ammeux</h1>
+        <h1 className="sr-only">Pixelia&Co</h1>
 
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between p-4 lg:p-10 gap-6 lg:gap-8 mt-8 lg:mt-16">
           <section className="flex-1 text-center lg:text-left">

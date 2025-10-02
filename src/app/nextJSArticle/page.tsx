@@ -6,9 +6,9 @@ import Layout from "../ui/layout/layout";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
-  title: "Blog - Pourquoi je travaille avec Next.js - Priscillia Ammeux",
+  title: "Blog - Pourquoi je travaille avec Next.js - Priscillia Ammeux - Pixelia&Co",
   description:
-    "Découvrez pourquoi Priscillia Ammeux utilise Next.js pour maximiser les performances, l'optimisation SEO et l'accessibilité de ses projets web.",
+    "Découvrez pourquoi Pixelia&Co utilise Next.js pour maximiser les performances, l'optimisation SEO et l'accessibilité de ses projets web.",
   keywords: [
     "Next.js",
     "développement web",
@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     "optimisation des images",
     "accessibilité numérique",
     "Priscillia Ammeux",
+    "Pixelia&Co",
   ],
 };
 

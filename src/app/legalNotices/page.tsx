@@ -4,14 +4,15 @@ import Layout from "../ui/layout/layout";
 import legalNotices from "../../data/legalNotices.json";
 
 export const metadata: Metadata = {
-  title: "Mentions légales - Priscillia Ammeux",
+  title: "Mentions légales - Pixelia&Co",
   description:
-    "Mentions légales de Priscillia Ammeux, incluant les informations légales, la politique de confidentialité et les conditions générales de vente.",
+    "Mentions légales de Pixelia&Co, incluant les informations légales, la politique de confidentialité et les conditions générales de vente.",
   keywords: [
     "mentions légales",
     "politique de confidentialité",
     "conditions générales de vente",
     "Priscillia Ammeux",
+    "Pixelia&Co",
     "informations légales",
     "protection des données",
     "RGPD",

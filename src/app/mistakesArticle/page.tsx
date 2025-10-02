@@ -7,8 +7,11 @@ import ArticleNavigation from "../components/articleNavigation/articleNagivation
 export const metadata: Metadata = {
   title: "Blog - Les erreurs que j’ai faites pendant ma reconversion",
   description:
-    "Découvrez les erreurs et les leçons apprises par Priscillia Ammeux lors de sa reconversion professionnelle en tant que développeuse web.",
+    "Découvrez les erreurs et les leçons apprises par Priscillia Ammeux de chez Pixelia&Co lors de sa reconversion professionnelle en tant que développeuse web.",
   keywords: [
+    "blog reconversion",
+    "Priscillia Ammeux",
+    "Pixelia&Co",
     "erreurs de reconversion",
     "reconversion professionnelle",
     "développement web",

@@ -4,11 +4,12 @@ import Testimonial from "../ui/testimonial/testimonial";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "À propos – Priscillia Ammeux | Développeuse Web & UX/UI Designer",
+  title: "À propos – Priscillia Ammeux de chez Pixelia&Co | Développeuse Web & UX/UI Designer",
   description:
-    "Découvrez le parcours de Priscillia Ammeux, développeuse web passionnée par l'accessibilité et le design. Reconversion, valeurs et approche créative du développement.",
+    "Découvrez le parcours de Priscillia Ammeux de chez Pixelia&Co, développeuse web passionnée par l'accessibilité et le design. Reconversion, valeurs et approche créative du développement.",
   keywords: [
     "à propos",
+    "Pixelia&Co",
     "Priscillia Ammeux",
     "développeuse web",
     "UX/UI designer",
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
     "expérience utilisateur",
   ],
   openGraph: {
-    title: "À propos – Priscillia Ammeux | Développeuse Web Autodidacte",
+    title: "À propos – Priscillia Ammeux de chez Pixelia&Co | Développeuse Web Autodidacte",
     description:
       "Autodidacte devenue développeuse web indépendante, je crée des expériences digitales sur mesure avec une approche intuitive et profondément humaine.",
     type: "website",

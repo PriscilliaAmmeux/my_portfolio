@@ -4,9 +4,7 @@ import { MdContactPhone } from "react-icons/md";
 
 export default function InfoContact() {
   return (
-    <Card
-      className="w-full sm:w-1/2"
-      title="Informations de contact">
+    <Card className="w-full sm:w-1/2" title="Informations de contact">
       <div className="flex flex-col space-y-2">
         <div className="flex items-center space-x-2">
           <FaUser />
@@ -18,9 +16,7 @@ export default function InfoContact() {
         </div>
         <div className="flex items-center space-x-2 cursor hover:underline">
           <FaEnvelope />
-          <a href="mailto:priscillia.ammeux.pro@gmail.com">
-            priscillia.ammeux.pro@gmail.com
-          </a>
+          <a href="mailto:pixelia.and.co@gmail.com">pixelia.and.co@gmail.com</a>
         </div>
       </div>
     </Card>

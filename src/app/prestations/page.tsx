@@ -4,15 +4,18 @@ import { Metadata } from "next";
 import ListPrestations from "../ui/listPrestations/listPrestations";
 
 export const metadata: Metadata = {
-  title: "Mes prestations - Priscillia Ammeux",
+  title: "Mes prestations - Pixelia&Co",
   description:
-    "Découvrez les prestations web proposées par Priscillia Ammeux : développement web, accessibilité, éco-conception et bien plus.",
+    "Découvrez les prestations web proposées par Pixelia&Co : développement web, accessibilité, éco-conception et bien plus.",
   keywords: [
     "prestations web",
     "développement web",
     "accessibilité web",
     "éco-conception",
     "Priscillia Ammeux",
+    "Pixelia&Co",
+    "création de site web",
+    "création de sites web",
     "services web",
     "SEO",
     "référencement naturel",

@@ -5,11 +5,11 @@ import Title from "../ui/title/title";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Politique de confidentialité - Priscillia Ammeux",
+  title: "Politique de confidentialité - Pixelia&Co ",
   description:
-    "Découvrez la politique de confidentialité de Priscillia Ammeux et comment vos données sont protégées.",
+    "Découvrez la politique de confidentialité de Pixelia&Co et comment vos données sont protégées.",
   keywords:
-    "confidentialité, données personnelles, RGPD, politique, protection",
+    "confidentialité, données personnelles, RGPD, politique, protection, sécurité, pixelia&co, priscillia ammeux",
   authors: [{ name: "Priscillia Ammeux" }],
 };
 

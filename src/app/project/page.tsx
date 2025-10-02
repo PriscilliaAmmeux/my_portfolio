@@ -5,15 +5,16 @@ import { Metadata } from "next";
 import Layout from "../ui/layout/layout";
 
 export const metadata: Metadata = {
-  title: "Mes projets - Priscillia Ammeux",
+  title: "Mes projets - Priscillia Ammeux de chez Pixelia&Co",
   description:
-    "Découvrez les projets réalisés par Priscillia Ammeux, développeuse web passionnée.",
+    "Découvrez les projets réalisés par Pixelia&Co, développeuse web passionnée.",
   keywords: [
     "projets",
     "développement web",
     "Priscillia Ammeux",
     "portfolio",
     "web",
+    "Pixelia&Co",
   ],
 };
 

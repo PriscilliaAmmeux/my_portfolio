@@ -21,6 +21,10 @@ export const metadata: Metadata = {
     "réglementation européenne 2025",
     "inclusivité web",
     "Priscillia Ammeux",
+    "Pixelia&Co",
+    "développeuse web",
+    "blog tech",
+    "bonnes pratiques accessibilité",
   ],
 };
 

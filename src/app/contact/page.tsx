@@ -7,9 +7,9 @@ import Form from "../components/form/form";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Contact – Priscillia Ammeux | Développeuse Web & Accessibilité",
+  title: "Contact – Priscillia Ammeux de chez Pixelia&Co | Développeuse Web & Accessibilité",
   description:
-    "Besoin d’un site web accessible, éthique et performant ? Contactez Priscillia Ammeux via le formulaire ou réservez un appel gratuit de 30 minutes.",
+    "Besoin d’un site web accessible, éthique et performant ? Contactez Pixelia&Co via le formulaire ou réservez un appel gratuit de 30 minutes.",
   keywords: [
     "contact",
     "formulaire de contact",
@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     "développeuse web",
     "accessibilité numérique",
     "Priscillia Ammeux",
+    "Pixelia&Co",
     "contact professionnel",
     "services web",
   ],
@@ -47,8 +48,8 @@ export default function Contact() {
           <div className="md:col-span-2 flex flex-col items-center justify-center">
             <Image
               src="/Logo-bulle-rose.webp"
-              alt="Logo bulle rose priscillia ammeux"
-              aria-label="Logo bulle rose priscillia ammeux"
+              alt="Logo bulle rose pixelia&co"
+              aria-label="Logo bulle rose pixelia&co"
               className="mb-4"
               width={300}
               height={300}
