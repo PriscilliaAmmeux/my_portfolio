@@ -1,6 +1,5 @@
 import { Metadata } from "next";
 import Title from "../ui/title/title";
-import { GiInjustice } from "react-icons/gi";
 import Layout from "../ui/layout/layout";
 import legalNotices from "../../data/legalNotices.json";
 

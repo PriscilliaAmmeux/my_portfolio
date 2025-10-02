@@ -55,19 +55,5 @@
     "description": "Application de streaming, mobile first et desktop, développée en équipe dans le cadre d’un projet scolaire en Agile Scrum. (Projet scolaire)",
     "image": "/origins.webp",
     "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_react-node-express-activity-7030500056227008512-k9fn/?utm_source=share&utm_medium=member_desktop"
-  },
-  {
-    "id": 3,
-    "title": "Se Salir les Doigts",
-    "description": "Projet personnel proposant des idées d’activités créatives et manuelles à réaliser avec des enfants. (Projet scolaire)",
-    "image": "/sesalirlesdoigts.webp",
-    "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_se-salir-les-doigts-activity-7027019180411375616-H4xe/?utm_source=share&utm_medium=member_desktop"
-  },
-  {
-    "id": 2,
-    "title": "Siloc",
-    "description": "Application de gestion de flotte de véhicules conçue pour Amazon dans le cadre d’un projet scolaire. (Projet scolaire)",
-    "image": "/siloc.webp",
-    "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_siloc-activity-7019661451359342592-VM1d/?utm_source=share&utm_medium=member_desktop"
   }
 ]
