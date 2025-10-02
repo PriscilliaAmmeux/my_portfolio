@@ -42,6 +42,13 @@ export default function Footer() {
             <a href="/privacy" className="hover:underline">
               Politiques de confidentialité
             </a>
+            <a
+              href="/CGV_Priscillia_Ammeux.pdf"
+              download
+              aria-label="Cliquez ici pour télécharger les conditions générales de ventes"
+              className="hover:underline">
+              Conditions générales de vente
+            </a>
             <a href="/contact" className="hover:underline">
               Contact
             </a>
