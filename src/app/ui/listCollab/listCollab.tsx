@@ -28,7 +28,7 @@ const collabs = [
           "Besoin d’un contenu commercial ou informatif, ou un peu des deux ? Elles vous écrivent des Mots Sur Mesure !",
       },
     ],
-    link: "https://www.instagram.com/motssurmesure/",
+    link: "https://linktr.ee/motssurmesure?fbclid=PAZXh0bgNhZW0CMTEAAafWoXm46fiXuAOIk6NB_SeRjebumAxhMYhubu7mpEORxHCukkaQhQCkky0Adw_aem_jpC3xJvl-yXSY_DIsPoTQg",
     linkText: "👉 Les contacter",
   },
   {
