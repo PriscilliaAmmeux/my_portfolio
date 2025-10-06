@@ -2,6 +2,7 @@ import Layout from "../ui/layout/layout";
 import Title from "../ui/title/title";
 import { Metadata } from "next";
 import ListPrestations from "../ui/listPrestations/listPrestations";
+import ListCollab from "../ui/listCollab/listCollab";
 
 export const metadata: Metadata = {
   title: "Mes prestations - Pixelia&Co",
@@ -61,6 +62,7 @@ export default function Page() {
           <Title text="Mes services" />
         </div>
         <ListPrestations />
+        <ListCollab />
       </section>
     </Layout>
   );
