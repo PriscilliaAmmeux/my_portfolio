@@ -3,6 +3,8 @@ import Title from "../ui/title/title";
 import { Metadata } from "next";
 import ListPrestations from "../ui/listPrestations/listPrestations";
 import ListCollab from "../ui/listCollab/listCollab";
+import Link from "next/link";
+import Button from "../components/button/button";
 
 export const metadata: Metadata = {
   title: "Mes prestations - Pixelia&Co",
@@ -63,6 +65,17 @@ export default function Page() {
         </div>
         <ListPrestations />
         <ListCollab />
+        <div className="flex justify-center mt-8">
+          <Link href="/contact">
+            <Button
+              type="button"
+              text="Me contacter"
+              ariaLabel="Me contacter"
+              variant="bgPink"
+              className="w-full sm:w-auto"
+            />
+          </Link>
+        </div>
       </section>
     </Layout>
   );
