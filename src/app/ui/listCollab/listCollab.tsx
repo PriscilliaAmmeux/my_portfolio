@@ -13,9 +13,9 @@ const collabs = [
         intro:
           "Qui se cache derrière “Mots Sur Mesure” ? Deux plumes fusionnées !",
         presentation:
-          "Christelle et Nesrine, toutes deux spécialisées en rédaction web. Elle propose aussi des services de copywriting, community management, correction et traduction de textes.",
+          "Christelle et Nesrine, toutes deux spécialisées en rédaction web. Elles proposent aussi des services de copywriting, community management, correction et traduction de textes.",
         contain:
-          "Ensemble, elle ont mis leurs talents côte à côte pour donner vie à vos contenus :",
+          "Ensemble, elles ont mis leurs talents côte à côte pour donner vie à vos contenus :",
         list: [
           "Pages d’accueil & pages “À propos”",
           "Articles de blog",
@@ -35,7 +35,7 @@ const collabs = [
     img: "/1111studio.webp",
     alt: "11.11 Studio",
     name: "Béatrice – 11.11 Studio",
-    role: "Graphiste, Directrice Artistique, branding & identités visuelles.",
+    role: "Graphiste, Directrice Artistique, branding & identités visuelles",
     desc: [
       {
         intro:
