@@ -5,27 +5,40 @@ import Layout from "../ui/layout/layout";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
-  title:
-    "Accessibilité Web : Pourquoi c’est indispensable en 2025 | Blog Tech & Inclusif",
-  description:
-    "En 2025, l’accessibilité numérique devient une obligation légale en Europe. Découvrez les enjeux, chiffres clés et bonnes pratiques pour concevoir des sites web inclusifs et accessibles à tous.",
+  title: "accessibilite-web-2025-guide-pratiques-legislation-pixeliaandco",
+  description: "Découvrez pourquoi l'accessibilité web est indispensable en 2025 et comment Pixelia&Co crée des sites inclusifs et accessibles à tous.",
   keywords: [
-    "accessibilité web",
-    "accessibilité numérique",
-    "WCAG",
-    "RGAA",
-    "RAAM",
-    "émoticônes",
-    "faux gras",
-    "conception accessible",
-    "réglementation européenne 2025",
-    "inclusivité web",
-    "Priscillia Ammeux",
-    "Pixelia&Co",
-    "développeuse web",
-    "blog tech",
-    "bonnes pratiques accessibilité",
+    "accessibilite-web",
+    "accessibilite-numerique",
+    "normes-wcag",
+    "rgaa-france",
+    "raam",
+    "conception-accessible",
+    "inclusivite-web",
+    "bonnes-pratiques-accessibilite",
+    "obligation-legale-2025",
+    "pixeliaandco",
+    "priscillia-ammeux-pixeliaandco",
+    "developpeuse-web-pixeliaandco",
+    "blog-tech-pixeliaandco",
+    "article-accessibilite-pixeliaandco",
+    "site-web-inclusif-pixeliaandco",
+    "ergonomie-web-pixeliaandco",
+    "design-accessible-pixeliaandco",
+    "experience-utilisateur-accessible-pixeliaandco",
+    "freelance-web-france-pixeliaandco",
+    "creation-site-web-accessible-pixeliaandco",
+    "accessibilite-numerique-france-pixeliaandco",
   ],
+  openGraph: {
+    title: "accessibilite-web-2025-guide-pratiques-legislation-pixeliaandco",
+    description:
+      "guide-pratiques-accessibilite-web-2025-normes-wcag-rgaa-france-pixeliaandco",
+    type: "article",
+    locale: "fr_FR",
+    url: "https://www.pixeliaandco.fr/blog/accessibilite-web-2025",
+    siteName: "pixeliaandco-blog-accessibilite-web",
+  },
 };
 
 export default function AccessibilityArticle() {

@@ -6,25 +6,25 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title:
-    "DevLille 2025 – Retour sur une édition riche en apprentissages | Priscillia Ammeux de chez Pixelia&Co",
+    "DevLille 2025 – Retour sur une édition inspirante | Priscillia Ammeux de Pixelia&Co",
   description:
-    "Conférences inspirantes, rencontres bienveillantes et découvertes techniques : retour d’expérience sur DevLille 2025 par Priscillia Ammeux, développeuse web engagée.",
+    "Retour sur DevLille 2025 avec Priscillia Ammeux de Pixelia&Co : conférences tech, rencontres de développeurs et découvertes enrichissantes pour progresser dans le web.",
   keywords: [
-    "Pixelia&Co",
-    "Priscillia Ammeux",
-    "DevLille 2025",
-    "conférences tech",
-    "rencontres développeurs",
-    "communauté tech",
-    "apprentissage continu",
-    "Junit 5",
-    "BullShit IT Awards",
-    "SOLID principles",
-    "legacy languages",
-    "Nirina Rabeson",
-    "Loïc Knuchel",
-    "Emma Gaubert",
-    "Juliette de Rancourt",
+    "pixeliaandco",
+    "priscillia-ammeux",
+    "devlille-2025",
+    "conferences-tech",
+    "rencontres-developpeurs",
+    "communauté-tech",
+    "apprentissage-continu",
+    "junit-5",
+    "bullshit-it-awards",
+    "solid-principles",
+    "legacy-languages",
+    "nirina-rabeson",
+    "loic-knuchel",
+    "emma-gaubert",
+    "juliette-de-rancourt",
   ],
 };
 

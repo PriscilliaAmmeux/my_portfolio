@@ -4,21 +4,22 @@ import Layout from "../ui/layout/layout";
 import legalNotices from "../../data/legalNotices.json";
 
 export const metadata: Metadata = {
-  title: "Mentions légales - Pixelia&Co",
+  title: "Mentions légales Pixelia&Co | Informations légales, RGPD et CGV",
   description:
-    "Mentions légales de Pixelia&Co, incluant les informations légales, la politique de confidentialité et les conditions générales de vente.",
+    "Retrouvez toutes les informations légales de Pixelia&Co, y compris l'identité de l'entreprise, les informations de contact, la politique de confidentialité conforme au RGPD et les conditions générales de vente. Assurez-vous de connaître vos droits et responsabilités lors de l'utilisation des services de Pixelia&Co, afin de garantir une navigation sécurisée et transparente sur le site.",
   keywords: [
-    "mentions légales",
-    "politique de confidentialité",
-    "conditions générales de vente",
-    "Priscillia Ammeux",
-    "Pixelia&Co",
-    "informations légales",
-    "protection des données",
-    "RGPD",
-    "droit d'auteur",
-    "responsabilité",
-    "contact",
+    "mentions-legales",
+    "pixelia-and-co",
+    "priscillia-ammeux",
+    "politique-de-confidentialite",
+    "conditions-generales-de-vente",
+    "informations-legales",
+    "protection-des-donnees",
+    "rgpd",
+    "droit-d-auteur",
+    "responsabilite",
+    "contact-professionnel",
+    "transparence",
   ],
 };
 

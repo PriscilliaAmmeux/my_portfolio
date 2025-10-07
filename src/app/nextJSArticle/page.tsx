@@ -6,21 +6,22 @@ import Layout from "../ui/layout/layout";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
-  title: "Blog - Pourquoi je travaille avec Next.js - Priscillia Ammeux - Pixelia&Co",
+  title:
+    "Blog - Pourquoi je travaille avec Next.js | Priscillia Ammeux - Pixelia&Co",
   description:
-    "Découvrez pourquoi Pixelia&Co utilise Next.js pour maximiser les performances, l'optimisation SEO et l'accessibilité de ses projets web.",
+    "Découvrez pourquoi Pixelia&Co privilégie Next.js pour le développement web, en mettant l'accent sur les performances optimisées, l'accessibilité numérique et l'optimisation SEO, afin de créer des expériences web inclusives et efficaces pour tous les utilisateurs.",
   keywords: [
-    "Next.js",
-    "développement web",
-    "SEO",
-    "accessibilité",
-    "performances web",
-    "rendu côté serveur",
-    "SSG",
-    "optimisation des images",
-    "accessibilité numérique",
-    "Priscillia Ammeux",
-    "Pixelia&Co",
+    "next-js",
+    "developpement-web",
+    "seo",
+    "accessibilite",
+    "performances-web",
+    "rendu-cote-serveur",
+    "ssg",
+    "optimisation-images",
+    "accessibilite-numerique",
+    "priscillia-ammeux",
+    "pixelia-and-co",
   ],
 };
 

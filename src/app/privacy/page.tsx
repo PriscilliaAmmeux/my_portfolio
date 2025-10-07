@@ -5,11 +5,22 @@ import Title from "../ui/title/title";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Politique de confidentialité - Pixelia&Co ",
+  title: "Politique de confidentialité - Pixelia&Co",
   description:
-    "Découvrez la politique de confidentialité de Pixelia&Co et comment vos données sont protégées.",
-  keywords:
-    "confidentialité, données personnelles, RGPD, politique, protection, sécurité, pixelia&co, priscillia ammeux",
+    "Découvrez la politique de confidentialité complète de Pixelia&Co, incluant la collecte, le traitement et la protection de vos données personnelles conformément au RGPD, afin de garantir votre sécurité et votre confiance lors de l'utilisation de nos services web.",
+  keywords: [
+    "confidentialite",
+    "donnees-personnelles",
+    "rgpd",
+    "politique",
+    "protection",
+    "securite",
+    "pixelia-and-co",
+    "priscillia-ammeux",
+    "politique-de-confidentialite",
+    "respect-de-la-vie-privee",
+    "gestion-des-donnees",
+  ],
   authors: [{ name: "Priscillia Ammeux" }],
 };
 

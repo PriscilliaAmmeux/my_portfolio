@@ -5,20 +5,21 @@ import SectionArticle from "../components/sectionArticle/sectionArticle";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
-  title: "Blog - Les erreurs que j’ai faites pendant ma reconversion",
+  title:
+    "Blog - Les erreurs que j’ai faites pendant ma reconversion | Pixelia&Co",
   description:
-    "Découvrez les erreurs et les leçons apprises par Priscillia Ammeux de chez Pixelia&Co lors de sa reconversion professionnelle en tant que développeuse web.",
+    "Priscillia Ammeux de chez Pixelia&Co partage les erreurs qu'elle a commises lors de sa reconversion professionnelle en tant que développeuse web, les leçons qu'elle en a tirées, et comment surmonter la peur et le doute pour réussir sa transition professionnelle.",
   keywords: [
-    "blog reconversion",
-    "Priscillia Ammeux",
-    "Pixelia&Co",
-    "erreurs de reconversion",
-    "reconversion professionnelle",
-    "développement web",
-    "leçons apprises",
-    "confiance en soi",
-    "peurs de débutant",
-    "conseils de reconversion",
+    "blog-reconversion",
+    "priscillia-ammeux",
+    "pixelia-and-co",
+    "erreurs-de-reconversion",
+    "reconversion-professionnelle",
+    "developpement-web",
+    "lecons-apprises",
+    "confiance-en-soi",
+    "peurs-de-debutant",
+    "conseils-de-reconversion",
   ],
 };
 

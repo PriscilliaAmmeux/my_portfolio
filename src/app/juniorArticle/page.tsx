@@ -5,18 +5,22 @@ import ArticleNavigation from "../components/articleNavigation/articleNagivation
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog - Les Développeurs Juniors : Un Atout Sous-Estimé",
+  title: "Blog - Les Développeurs Juniors : Un Atout Sous-Estimé | Pixelia&Co",
   description:
-    "Découvrez pourquoi les développeurs juniors sont essentiels pour l'innovation et la croissance des entreprises tech.",
+    "Dans cet article, Priscillia Ammeux de Pixelia&Co explique pourquoi les développeurs juniors représentent un véritable atout pour les entreprises tech, en apportant innovation, créativité et nouvelles compétences. Découvrez comment investir dans leur formation, instaurer du mentorat efficace et créer une culture d'apprentissage continu peut améliorer la productivité, la qualité du code et stimuler l'engagement des équipes.",
   keywords: [
-    "développeurs juniors",
-    "innovation tech",
-    "formation développeurs",
+    "developpeurs-juniors",
+    "innovation-tech",
+    "formation-developpeurs",
     "mentorat",
-    "productivité",
-    "qualité du code",
-    "recrutement tech",
-    "culture d'entreprise",
+    "productivite",
+    "qualite-du-code",
+    "recrutement-tech",
+    "culture-d-entreprise",
+    "apprentissage-continu",
+    "pixelia-and-co",
+    "priscillia-ammeux",
+    "reconversion-professionnelle",
   ],
 };
 
