@@ -13,10 +13,10 @@ export const metadata: Metadata = {
   keywords: [
     "TarteAuCitron",
     "RGPD",
-    "consentement cookies",
-    "protection des données",
-    "librairie JavaScript",
-    "open source",
+    "consentement-cookies",
+    "protection-des-donnees",
+    "librairie-JavaScript",
+    "open-source",
   ],
 };
 

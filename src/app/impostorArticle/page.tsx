@@ -7,22 +7,22 @@ import ArticleNavigation from "../components/articleNavigation/articleNagivation
 
 export const metadata: Metadata = {
   title:
-    "Blog - Comment lutter contre le syndrome de l'imposteur - Priscillia Ammeux de chez Pixelia&Co",
+    "Comment lutter contre le syndrome de l’imposteur | Priscillia Ammeux de Pixelia&Co",
   description:
-    "Découvrez les stratégies de Priscillia Ammeux de chez Pixelia&Co pour lutter contre le syndrome de l'imposteur et renforcer la confiance en soi.",
+    "Dans cet article, Priscillia Ammeux de Pixelia&Co explique en détail comment reconnaître et surmonter le syndrome de l’imposteur, partager ses réussites et développer une confiance en soi durable, avec des stratégies concrètes et des exemples issus de son expérience de développeuse web et intervenante lors de conférences.",
   keywords: [
-    "syndrome de l'imposteur",
-    "confiance en soi",
-    "stratégies de lutte",
-    "développement personnel",
-    "Priscillia Ammeux",
-    "Pixelia&Co",
-    "développeuse web",
-    "témoignage",
-    "parler en public",
-    "partage de connaissances",
-    "communauté tech",
-    "reconnaissance professionnelle",
+    "syndrome-de-l-imposteur",
+    "confiance-en-soi",
+    "developpement-personnel",
+    "strategies-de-lutte",
+    "priscillia-ammeux",
+    "pixelia-and-co",
+    "talk-conference",
+    "partage-d-experience",
+    "communaute-tech",
+    "reconnaissance-professionnelle",
+    "parler-en-public",
+    "temoignage-inspirant",
   ],
 };
 

@@ -6,16 +6,24 @@ import ArticleHeader from "../components/articleHeader/articleHeader";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
-  title: "Blog - Ma reconversion professionnelle",
+  title: "Blog - Ma reconversion professionnelle - Pixelia&Co",
   description:
-    "Découvrez le parcours de Priscillia Ammeux dans sa reconversion professionnelle en tant que développeuse web, ses défis et ses réussites.",
+    "Découvrez le parcours complet de Priscillia Ammeux dans sa reconversion professionnelle en tant que développeuse web, incluant ses défis, ses réussites, son équilibre personnel et ses apprentissages précieux sur le développement web, l'accessibilité et la gestion de projets.",
   keywords: [
-    "reconversion professionnelle",
-    "développement web",
-    "Priscillia Ammeux",
-    "formation",
-    "Wild Code School",
-    "accessibilité web",
+    "reconversion-professionnelle",
+    "developpement-web",
+    "priscillia-ammeux",
+    "wild-code-school",
+    "formation-developpeur",
+    "accessibilite-web",
+    "experience-professionnelle",
+    "parcours-reconversion",
+    "gestion-de-projets",
+    "equilibre-vie-personnelle",
+    "freelance",
+    "apprentissage-tech",
+    "projets-web",
+    "confiance-en-soi",
   ],
 };
 

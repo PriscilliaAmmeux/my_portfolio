@@ -6,23 +6,23 @@ import blogData from "@/data/blog.json";
 import ArticleBlog from "../components/articleBlog/articleBlog";
 
 export const metadata: Metadata = {
-  title: "Blog Tech & Accessibilité – Articles de Priscillia Ammeux",
+  title: "Blog Tech et Accessibilite – Articles de Priscillia Ammeux",
   description:
-    "Retrouvez les articles de Priscillia Ammeux de chez Pixelia&Co sur la tech, l’accessibilité numérique, l’éco-conception, et bien plus encore. Un blog engagé pour un web plus inclusif.",
+    "Découvrez le blog de Priscillia Ammeux de Pixelia&Co avec des articles sur la tech, l'accessibilité numérique, l'éco-conception et un web plus inclusif.",
   keywords: [
     "blog",
     "articles",
     "tech",
-    "accessibilité numérique",
-    "éco-conception",
-    "développement web",
-    "Priscillia Ammeux",
-    "Pixelia&Co",
-    "freelance",
-    "web inclusif",
-    "inclusivité web",
-    "accessibilité",
-    "performance web",
+    "accessibilite-numerique",
+    "eco-conception",
+    "developpement-web",
+    "priscillia-ammeux",
+    "pixeliaandco",
+    "freelance-web",
+    "web-inclusif",
+    "inclusivite-web",
+    "accessibilite",
+    "performance-web",
   ],
 };
 

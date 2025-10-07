@@ -5,19 +5,19 @@ import SectionArticle from "../components/sectionArticle/sectionArticle";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 
 export const metadata: Metadata = {
-  title: "Blog - Moins présente, mais toujours passionnée",
+  title: "Blog - Moins présente mais toujours passionnée | Pixelia&Co",
   description:
-    "Pourquoi je suis moins présente sur les réseaux et comment ma reconversion a influencé mon choix professionnel.",
+    "Priscillia Ammeux de Pixelia&Co explique pourquoi elle est moins active sur les réseaux sociaux, comment sa reconversion professionnelle en développement web a influencé ses choix, et pourquoi elle privilégie désormais les projets avec du sens, tout en partageant sa résilience et sa passion pour le web.",
   keywords: [
-    "reconversion professionnelle",
-    "développement web",
-    "projets web",
-    "résilience",
-    "choix professionnels",
-    "santé mentale",
+    "reconversion-professionnelle",
+    "developpement-web",
+    "projets-web",
+    "resilience",
+    "choix-professionnels",
+    "sante-mentale",
     "passion",
-    "travail à plein temps",
-    "projets avec du sens",
+    "travail-a-plein-temps",
+    "projets-avec-du-sens",
     "freelance",
   ],
 };

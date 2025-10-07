@@ -5,16 +5,25 @@ import { Metadata } from "next";
 import Layout from "../ui/layout/layout";
 
 export const metadata: Metadata = {
-  title: "Mes projets - Priscillia Ammeux de chez Pixelia&Co",
+  title: "Mes projets - Pixelia&Co",
   description:
-    "Découvrez les projets réalisés par Pixelia&Co, développeuse web passionnée.",
+    "Découvrez les projets réalisés par Priscillia Ammeux de chez Pixelia&Co, développeuse web passionnée, mettant en avant ses compétences en développement front-end et back-end, accessibilité et web design.",
   keywords: [
-    "projets",
-    "développement web",
-    "Priscillia Ammeux",
+    "projets-web",
+    "developpement-web",
+    "priscillia-ammeux",
     "portfolio",
-    "web",
-    "Pixelia&Co",
+    "web-design",
+    "pixelia&co",
+    "accessibilite-web",
+    "creation-site-internet",
+    "creation-site-web-sur-mesure",
+    "creation-site-vitrine",
+    "creation-e-commerce",
+    "site-web-responsive",
+    "frontend",
+    "backend",
+    "ui-ux",
   ],
 };
 

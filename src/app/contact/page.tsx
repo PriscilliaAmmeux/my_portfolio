@@ -1,5 +1,4 @@
 import { Metadata } from "next";
-import { CiMail } from "react-icons/ci";
 import Title from "../ui/title/title";
 import Layout from "../ui/layout/layout";
 import InfoContact from "../ui/infoContact/infoContact";
@@ -7,20 +6,21 @@ import Form from "../components/form/form";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Contact – Priscillia Ammeux de chez Pixelia&Co | Développeuse Web & Accessibilité",
+  title:
+    "Contact – Priscillia Ammeux de Pixelia&Co | Développeuse Web et Accessibilité",
   description:
-    "Besoin d’un site web accessible, éthique et performant ? Contactez Pixelia&Co via le formulaire ou réservez un appel gratuit de 30 minutes.",
+    "Contactez Pixelia&Co avec Priscillia Ammeux pour un site web accessible, éthique et performant. Formulaire en ligne ou rendez-vous gratuit.",
   keywords: [
     "contact",
-    "formulaire de contact",
-    "réservation d'appel",
-    "site web accessible",
-    "développeuse web",
-    "accessibilité numérique",
-    "Priscillia Ammeux",
-    "Pixelia&Co",
-    "contact professionnel",
-    "services web",
+    "formulaire-de-contact",
+    "reservation-appel",
+    "site-web-accessible",
+    "developpeuse-web",
+    "accessibilite-numerique",
+    "priscillia-ammeux",
+    "pixeliaandco",
+    "contact-professionnel",
+    "services-web",
   ],
 };
 
