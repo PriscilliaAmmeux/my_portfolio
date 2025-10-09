@@ -57,30 +57,64 @@ const collabs = [
     link: "https://linktr.ee/11.11_std?fbclid=PAZXh0bgNhZW0CMTEAAacZHYlrNOXWlv9MuomaJFT_quSCvmfI1QugLBfumeQvl5pL116YbkcyjsmYyQ_aem_lNEB_tRc0RK4S6i1zXJReA ",
     linkText: "👉 La contacter",
   },
+  {
+    img: "/haw.webp",
+    alt: "Haw's fait ta com'",
+    name: "Haw's fait ta com'",
+    role: "Community Manager & Formatrice | Stratégie Réseaux Sociaux",
+    desc: [
+      {
+        intro:
+          "Hawa est la fondatrice de Haw’s fait ta com’, une experte passionnée de communication digitale.",
+        presentation:
+          "Community Manager & Créatrice de contenu, elle accompagne les entrepreneurs dans la gestion et le développement de leur visibilité sur les réseaux sociaux grâce à une stratégie claire, authentique et adaptée à leurs besoins.",
+        contain:
+          "Son accompagnement repose sur l’écoute, la pédagogie et des conseils concrets pour vous aider à prendre confiance et à maîtriser votre communication.",
+        list: [
+          "Stratégie et gestion des réseaux sociaux",
+          "Coaching & mentorat individuel",
+          "Formations sur mesure (Instagram, Canva, etc.)",
+          "Audits & optimisation de comptes",
+        ],
+        conclusion:
+          "Avec Hawa, vous apprenez à communiquer efficacement tout en restant fidèle à votre identité.",
+      },
+    ],
+    link: "https://hawsfaitacom.com/",
+    linkText: "👉 La contacter",
+  },
 ];
 
 export default function ListCollab() {
   return (
-    <section className="max-w-4xl mx-auto px-4 py-12">
+    <section className="max-w-7xl mx-auto px-4 py-12">
       <h2 className="text-3xl font-extrabold text-center tracking-wide mb-8">
         Mes collaboratrices
       </h2>
       <div className="bg-gradient-to-br from-pink-100 via-pink-200 to-pink-300 rounded-2xl shadow-xl p-8 mb-10">
-        <p className="text-lg text-pink-900 font-medium leading-relaxed">
-          Chez <span className="font-bold text-pink-700">Pixelia&Co</span>, le
-          “&Co” prend tout son sens.
-          <br />
-          Je collabore avec des freelances passionnés et complémentaires pour
-          offrir à mes clients un accompagnement global, du design au
-          développement, en passant par la rédaction et la stratégie digitale.
-          <br />
-          <span className="font-semibold text-pink-700">
+        <div className="space-y-5">
+          <p className="text-lg text-pink-900 font-medium leading-relaxed">
+            Chez <span className="font-bold text-pink-700">Pixelia&Co</span>, le
+            “&Co” prend tout son sens.
+          </p>
+          <p className="text-lg text-pink-900 font-medium leading-relaxed">
+            Je collabore avec des freelances passionnés et complémentaires pour
+            offrir à mes clients un accompagnement global, du design au
+            développement, en passant par la rédaction et la communication
+            digitale.
+          </p>
+          <p className="text-lg text-pink-900 font-medium leading-relaxed">
+            Avec Béatrice, Christelle & Nesrine, et Hawa, nous unissons nos
+            expertises pour créer des projets cohérents, percutants et alignés
+            avec les valeurs de chaque marque.
+          </p>
+          <p className="text-lg font-semibold text-pink-700 leading-relaxed">
             Ensemble, nous partageons les mêmes valeurs : écoute, qualité et
             bienveillance.
-          </span>
-        </p>
+          </p>
+        </div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {collabs.map((collab, idx) => (
           <div
             key={collab.name}

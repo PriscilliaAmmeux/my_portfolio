@@ -13,13 +13,13 @@ export default function SocialNetwork() {
         size={20}
       />
       <ProfileLink
-        href="https://www.instagram.com/priscillia_ammeux_web"
+        href="https://www.instagram.com/pixeliaandco/"
         ariaLabel="Link to Instagram profile"
         Icon={BsInstagram}
         size={20}
       />
       <ProfileLink
-        href="https://www.facebook.com/priscillia.selva/"
+        href="https://www.facebook.com/PixeliaAndCo"
         ariaLabel="Link to Facebook profile"
         Icon={FaFacebook}
         size={20}
