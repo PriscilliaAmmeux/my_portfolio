@@ -7,7 +7,15 @@
       "description": "Un site léger, rapide et personnalisable, développé avec Astro — un framework moderne.",
       "presentation": {
         "content": "Idéal pour : freelances, créatif·ves, événements ou petites entreprises."
-      }
+      },
+      "examples": [
+        "Header (logo, titre, image principale)",
+        "Barre de navigation (ancre vers les sections)",
+        "Section À propos",
+        "Section Services ou Prestations",
+        "Section Contact (formulaire et coordonnées)",
+        "Footer (liens légaux (PDF), réseaux sociaux, copyright)"
+      ]
     },
     {
       "id": 2,
@@ -61,23 +69,6 @@
       "presentation": [
         {
           "content": "Idéal pour : améliorer l'image, la compatibilité mobile, l'expérience utilisateur."
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Freelance solo, entourée de talents si besoin",
-      "price": "Sur devis",
-      "description": "Je travaille en tant que freelance indépendante, mais je peux m'entourer de profils compétents si le projet le nécessite.",
-      "presentation": [
-        {
-          "content": "Je suis votre interlocutrice principale tout au long du projet : écoute, accompagnement, développement."
-        },
-        {
-          "content": "Pour certaines expertises spécifiques (UX/UI, rédaction, etc.), je peux collaborer avec des partenaires en qui j’ai pleinement confiance."
-        },
-        {
-          "content": "Chaque intervention complémentaire est validée avec vous et intégrée de façon fluide dans le déroulement du projet."
         }
       ]
     }
