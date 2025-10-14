@@ -1,15 +1,17 @@
 import { Metadata } from "next";
-import { FaPenFancy } from "react-icons/fa";
 import Title from "../ui/title/title";
 import Layout from "../ui/layout/layout";
 import blogData from "@/data/blog.json";
 import ArticleBlog from "../components/articleBlog/articleBlog";
+import NewsletterForm from "../components/newsLetterForm/newsLetterForm";
 
 export const metadata: Metadata = {
-  title: "Blog Tech et Accessibilite – Articles de Priscillia Ammeux",
+  title: "Inspiration & Actus Web – Articles de Priscillia Ammeux",
   description:
-    "Découvrez le blog de Priscillia Ammeux de Pixelia&Co avec des articles sur la tech, l'accessibilité numérique, l'éco-conception et un web plus inclusif.",
+    "Découvrez les inspirations, actualités web et articles de Priscillia Ammeux de Pixelia&Co : tech, accessibilité numérique, éco-conception et web inclusif.",
   keywords: [
+    "inspiration",
+    "actus web",
     "blog",
     "articles",
     "tech",
@@ -39,8 +41,9 @@ export default function Blog() {
     <Layout>
       <section className="pt-4 sm:px-24">
         <div className="ml-4 sm:ml-2">
-          <Title text="Blog" />
+          <Title text="Inspiration & Actus Web" />
         </div>
+        <NewsletterForm />
         <div className="w-full container mx-auto px-3">
           <div className="md:grid md:grid-cols-3 gap-4">
             {sortedBlog.map((article) => (

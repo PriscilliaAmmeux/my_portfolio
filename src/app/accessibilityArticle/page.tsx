@@ -6,7 +6,8 @@ import ArticleNavigation from "../components/articleNavigation/articleNagivation
 
 export const metadata: Metadata = {
   title: "accessibilite-web-2025-guide-pratiques-legislation-pixeliaandco",
-  description: "Découvrez pourquoi l'accessibilité web est indispensable en 2025 et comment Pixelia&Co crée des sites inclusifs et accessibles à tous.",
+  description:
+    "Découvrez pourquoi l'accessibilité web est indispensable en 2025 et comment Pixelia&Co crée des sites inclusifs et accessibles à tous.",
   keywords: [
     "accessibilite-web",
     "accessibilite-numerique",
@@ -126,7 +127,7 @@ export default function AccessibilityArticle() {
           }
         />
       </ArticleHeader>
-      <ArticleNavigation nextHref="/nextJSArticle" prevHref="/juniorArticle" />
+      <ArticleNavigation nextHref="/nextJSArticle" prevHref="/tartecitron" />
     </Layout>
   );
 }

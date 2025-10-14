@@ -10,12 +10,16 @@ export default function Navbar() {
         <div className="absolute inset-0 pointer-events-none z-0"></div>
 
         {/* Navigation */}
-        <nav className="relative z-10 grid grid-cols-6 gap-6 text-white font-medium text-lg tracking-wide">
+        <nav className="relative z-10 flex flex-row text-white font-medium text-lg tracking-wide gap-x-4">
           <NavLink href="/" title="Accueil" isActive={true} />
           <NavLink href="/about" title="À propos" isActive={true} />
           <NavLink href="/project" title="Portfolio" isActive={true} />
           <NavLink href="/prestations" title="Services" isActive={true} />
-          <NavLink href="/blog" title="Blog" isActive={true} />
+          <NavLink
+            href="/blog"
+            title="Inspiration & Actus Web"
+            isActive={true}
+          />
           <NavLink href="/contact" title="Contact" isActive={true} />
         </nav>
       </div>

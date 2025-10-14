@@ -75,7 +75,7 @@ export default function TrainingImportance() {
               <ul className="list-disc list-inside ">
                 <ListItemSectionArticle
                   title="Accessibilité avec Emmanuel Demey"
-                  description=": Un domaine essentiel pour rendre le web accessible à tous (formation prévue le 4 décembre)"
+                  description=": Un domaine essentiel pour rendre le web accessible à tous (formation prévue le 4 décembre 2024)."
                 />
                 <ListItemSectionArticle
                   title="SEO grâce à des experts"
@@ -125,7 +125,7 @@ export default function TrainingImportance() {
           content="Envie d’échanger sur ces sujets ? Je suis toujours ouverte à de nouvelles idées !"
         />
       </ArticleHeader>
-      <ArticleNavigation nextHref="/lessPresent" prevHref="/impostorArticle" />
+      <ArticleNavigation nextHref="/devLille" prevHref="/nextJSArticle" />
     </Layout>
   );
 }

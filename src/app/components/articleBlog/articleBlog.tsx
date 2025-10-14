@@ -21,28 +21,19 @@ export default function ArticleBlog({
   date,
 }: ArticleProps) {
   const getHref = (id: number) => {
-    if (id === 1) {
-      return "/professionalReconversionArticle";
-    } else if (id === 2) {
-      return "/mistakesArticle";
-    } else if (id === 3) {
-      return "/juniorArticle";
-    } else if (id === 4) {
-      return "/accessibilityArticle";
-    } else if (id === 5) {
-      return "/nextJSArticle";
-    } else if (id === 6) {
-      return "/impostorArticle";
-    } else if (id === 7) {
-      return "/trainingImportance";
-    } else if (id === 8) {
-      return "/lessPresent";
-    } else if (id === 9) {
-      return "/devLille";
-    } else if (id === 10) {
-      return "/tartecitron";
-    } else {
-      return "/blog";
+    switch (id) {
+      case 1:
+        return "/accessibilityArticle";
+      case 2:
+        return "/nextJSArticle";
+      case 3:
+        return "/trainingImportance";
+      case 4:
+        return "/devLille";
+      case 5:
+        return "/tartecitron";
+      default:
+        return "/blog";
     }
   };
 

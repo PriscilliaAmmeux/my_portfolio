@@ -103,7 +103,7 @@ export default function NextJSArticle() {
         />
       </ArticleHeader>
       <ArticleNavigation
-        nextHref="/impostorArticle"
+        nextHref="/trainingImportance"
         prevHref="/accessibilityArticle"
       />
     </Layout>
