@@ -190,7 +190,10 @@ export default function DevLille() {
         <p className="mt-6 font-bold">Vivement l’édition 2026 ! 🚀</p>
       </ArticleHeader>
 
-      <ArticleNavigation nextHref="/tartecitron" prevHref="/lessPresent" />
+      <ArticleNavigation
+        nextHref="/tartecitron"
+        prevHref="/trainingImportance"
+      />
     </Layout>
   );
 }

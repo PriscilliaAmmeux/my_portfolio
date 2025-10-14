@@ -7,7 +7,7 @@ import {
   FaUser,
   FaBriefcase,
   FaCogs,
-  FaBlog,
+  FaRegNewspaper,
   FaEnvelope,
 } from "react-icons/fa";
 
@@ -16,7 +16,7 @@ const navigationItems = [
   { href: "/about", label: "À propos", icon: FaUser },
   { href: "/project", label: "Portfolio", icon: FaBriefcase },
   { href: "/prestations", label: "Services", icon: FaCogs },
-  { href: "/blog", label: "Blog", icon: FaBlog },
+  { href: "/blog", label: "Actus", icon: FaRegNewspaper },
   { href: "/contact", label: "Contact", icon: FaEnvelope },
 ];
 
