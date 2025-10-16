@@ -47,7 +47,7 @@ export default function NewsletterForm() {
         <input
           type="text"
           placeholder="Votre prénom"
-          className="px-4 py-2 rounded border border-pink-300 focus:outline-none"
+          className="px-4 py-2 rounded border border-pink-300 focus:outline-none w-full sm:w-auto"
           value={firstname}
           onChange={(e) => setFirstname(e.target.value)}
           aria-label="Votre prénom"
@@ -55,7 +55,7 @@ export default function NewsletterForm() {
         <input
           type="email"
           placeholder="Votre email"
-          className="px-4 py-2 rounded border border-pink-300 focus:outline-none"
+          className="px-4 py-2 rounded border border-pink-300 focus:outline-none w-full sm:w-auto"
           required
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -65,7 +65,7 @@ export default function NewsletterForm() {
           type="submit"
           text={status === "loading" ? "Envoi..." : "Je m’inscris"}
           ariaLabel="Je m’inscris à la newsletter"
-          className="px-4 py-2 bg-pink-700 text-white rounded-r font-bold hover:bg-pink-800 w-full sm:w-auto whitespace-nowrap"
+          className="px-4 py-2 bg-pink-700 text-white rounded font-bold hover:bg-pink-800 w-full sm:w-auto whitespace-nowrap"
           disabled={status === "loading"}
         />
       </form>
