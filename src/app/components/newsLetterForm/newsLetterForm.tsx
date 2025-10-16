@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Button from "../button/button";
 
 export default function NewsletterForm() {
   const [email, setEmail] = useState("");
@@ -31,7 +32,7 @@ export default function NewsletterForm() {
   };
 
   return (
-    <div className="w-full max-w-xl mx-auto my-8 bg-pink-100 rounded-xl shadow p-6 text-center">
+    <section className="w-full max-w-2xl mx-auto my-8 bg-pink-100 rounded-xl shadow p-6 text-center">
       <h2 className="text-xl font-bold mb-2 text-pink-700">
         1 email par mois. Zéro spam. 100 % web & humain. 💻❤️
       </h2>
@@ -46,7 +47,7 @@ export default function NewsletterForm() {
         <input
           type="text"
           placeholder="Votre prénom"
-          className="px-4 py-2 rounded-l border border-pink-300 focus:outline-none"
+          className="px-4 py-2 rounded border border-pink-300 focus:outline-none"
           value={firstname}
           onChange={(e) => setFirstname(e.target.value)}
           aria-label="Votre prénom"
@@ -54,18 +55,19 @@ export default function NewsletterForm() {
         <input
           type="email"
           placeholder="Votre email"
-          className="px-4 py-2 rounded-l border border-pink-300 focus:outline-none"
+          className="px-4 py-2 rounded border border-pink-300 focus:outline-none"
           required
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           aria-label="Votre email"
         />
-        <button
+        <Button
           type="submit"
-          className="px-4 py-2 bg-pink-700 text-white rounded-r font-bold hover:bg-pink-800 w-full sm:w-auto"
-          disabled={status === "loading"}>
-          {status === "loading" ? "Envoi..." : "Je m’inscris"}
-        </button>
+          text={status === "loading" ? "Envoi..." : "Je m’inscris"}
+          ariaLabel="Je m’inscris à la newsletter"
+          className="px-4 py-2 bg-pink-700 text-white rounded-r font-bold hover:bg-pink-800 w-full sm:w-auto whitespace-nowrap"
+          disabled={status === "loading"}
+        />
       </form>
       {status === "success" && (
         <p className="text-green-700 mt-2" role="status" aria-live="polite">
@@ -80,6 +82,6 @@ export default function NewsletterForm() {
       <p className="text-xs text-pink-700 mt-2">
         Désinscription possible à tout moment.
       </p>
-    </div>
+    </section>
   );
 }
