@@ -4,6 +4,7 @@ import { useState } from "react";
 
 export default function NewsletterForm() {
   const [email, setEmail] = useState("");
+  const [firstname, setFirstname] = useState("");
   const [status, setStatus] = useState<
     "idle" | "loading" | "success" | "error"
   >("idle");
@@ -42,6 +43,14 @@ export default function NewsletterForm() {
       <form
         onSubmit={handleSubmit}
         className="flex flex-col sm:flex-row gap-2 justify-center items-center">
+        <input
+          type="text"
+          placeholder="Votre prénom"
+          className="px-4 py-2 rounded-l border border-pink-300 focus:outline-none"
+          value={firstname}
+          onChange={(e) => setFirstname(e.target.value)}
+          aria-label="Votre prénom"
+        />
         <input
           type="email"
           placeholder="Votre email"
