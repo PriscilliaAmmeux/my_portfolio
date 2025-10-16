@@ -8,7 +8,7 @@ export async function POST(req: NextRequest) {
   }
 
   const API_KEY = process.env.BREVO_API_KEY;
-  const LIST_ID = process.env.BREVO_LIST_ID; 
+  const LIST_ID = process.env.BREVO_LIST_ID;
 
   const res = await fetch("https://api.brevo.com/v3/contacts", {
     method: "POST",
@@ -28,6 +28,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ success: true });
   } else {
     const error = await res.json();
+    console.error("Brevo API error:", error);
     return NextResponse.json({ error }, { status: 500 });
   }
 }
