@@ -1,146 +1,73 @@
 import Card from "@/app/components/card/card";
 import prestationsData from "../../../data/prestations.json";
+import PromoHalloween from "../promoHalloween/promoHalloween";
 
 function getPresentationContent(
-  presentation: { content: string } | { content: string }[]
+  presentation: { content: string } | { content: string }[] | undefined
 ) {
   if (!presentation) return [];
   if (Array.isArray(presentation)) {
     return presentation.map((item) => item.content);
   }
-  if (typeof presentation === "object" && presentation.content) {
+  if (typeof presentation === "object" && "content" in presentation) {
     return [presentation.content];
   }
   return [];
 }
 
 export default function ListPrestations() {
-  const inclusions = [
-    "Hébergement et nom de domaine inclus 1 an",
-    "Formulaire de contact inclus",
-    "Site optimisé pour le SEO et l'accessibilité",
-    "Design responsive (adapté aux mobiles et tablettes)",
-  ];
-
-  const shouldShowInclusions = (id: string | number): boolean => {
-    return ![3, 4, 5].includes(Number(id));
-  };
-
-  const prestations = [
-    ...prestationsData.offres_principales,
-    ...prestationsData.services_complementaires,
-  ];
+  const prestations = [...prestationsData.offres_principales];
 
   return (
     <>
-      <section className="mb-8">
-        <div className="bg-gradient-to-br from-orange-900 via-orange-500 to-purple-900 rounded-2xl shadow-xl p-6 md:p-10 text-gray-900 text-center border-4 border-orange-900 relative overflow-hidden">
-          <div className="absolute top-0 left-0 m-4 mb-8 md:mb-0 text-5xl md:text-8xl animate-bounce select-none pointer-events-none">
-            🎃
-          </div>
-          <h3 className="text-2xl md:text-3xl font-extrabold mb-3 mt-10 md:mt-0 tracking-wide drop-shadow-lg">
-            Offre spéciale Halloween&nbsp;: -5% sur les packs vitrines&nbsp;!
-          </h3>
-          <div className="absolute top-0 right-0 m-4 text-5xl md:text-8xl animate-bounce select-none pointer-events-none">
-            🎃
-          </div>
-          <p className="mb-3 text-lg font-semibold">
-            Du 9 au 31 octobre 2025, profitez d’une offre ensorcelante&nbsp;:
-          </p>
-          <ul className="mb-4 text-base md:text-lg space-y-1">
-            <li>
-              <span className="font-bold">-5 %</span> sur mes deux packs
-              vitrines&nbsp;:
-            </li>
-            <li>
-              Pack Starter – Site Vitrine (1 page){" "}
-              <span className="ml-2 t font-bold block sm:inline">
-                → 380&nbsp;€ TTC
-              </span>{" "}
-              <span className="ml-2 line-through font-semibold">
-                (au lieu de 400&nbsp;€)
-              </span>
-            </li>
-            <li>
-              Pack Sur-Mesure – Site Vitrine{" "}
-              <span className="ml-2  font-bold block sm:inline">
-                → 1140&nbsp;€ TTC
-              </span>
-              <span className="ml-2 line-through font-semibold">
-                (au lieu de 1200&nbsp;€)
-              </span>
-            </li>
-          </ul>
-          <p className="mb-2 text-base md:text-lg">
-            Et ce n’est pas tout...{" "}
-            <span role="img" aria-label="sorcière">
-              🧙‍♀️
-            </span>
-          </p>
-          <p className="mb-2 text-base md:text-lg">
-            Pour tout achat d’un{" "}
-            <span className="font-bold">Pack Sur-Mesure – Site Vitrine</span>,
-            <br className="hidden md:block" />
-            <span className="font-bold">
-              je vous offre 3 mois de maintenance !
-            </span>{" "}
-          </p>
-          <p className="mb-2 text-base md:text-lg">
-            Gardez votre site rapide, sécurisé et toujours à jour.
-            <br />
-            Je m’occupe de la technique pendant que vous vous concentrez sur
-            votre activité.
-            <br />
-            <span className="font-semibold">
-              Les optimisations, modifications et petits ajouts sont inclus !
-            </span>
-          </p>
-          <p className="mt-4 font-bold text-lg">
-            Offre valable jusqu’au 31 octobre 2025 – après, la magie s’évapore
-            dans la brume…{" "}
-          </p>
-        </div>
-      </section>
-      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-        {prestations.map((prestation) => {
+      <PromoHalloween />
+
+      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
+        {prestations.map((prestation: any) => {
           const presentationContent = getPresentationContent(
             prestation.presentation
           );
 
+          const hasExamples =
+            "examples" in prestation && Array.isArray(prestation.examples);
+          const hasInclus =
+            "inclus" in prestation && Array.isArray(prestation.inclus);
+
           return (
             <Card
-              key={prestation.id}
+              key={prestation.id ?? Math.random()}
               className="w-full lg:w-1/3 px-2 flex flex-col justify-between h-full"
               title={prestation.title}>
               <div className="flex-grow">
-                <ul className="text-white list-disc mt-2 mb-2 list-none text-sm">
-                  <li className="mt-2 mb-4 font-bold">{prestation.price}</li>
-                  <li className="mt-2 mb-2">{prestation.description}</li>
-                  {/* examples for Starter Pack only */}
-                  {prestation.id === 1 &&
-                    "examples" in prestation &&
-                    Array.isArray(prestation.examples) && (
-                      <>
-                        <li className="mt-4 mb-2 font-bold">Exemples :</li>
-                        {prestation.examples.map(
-                          (exemple: string, index: number) => (
-                            <li key={index} className="mt-1 mb-1 ml-4">
-                              • {exemple}
-                            </li>
-                          )
-                        )}
-                      </>
-                    )}
+                <ul className="text-white list-none mt-2 mb-2 text-sm">
+                  {prestation.price && (
+                    <li className="mt-2 mb-4 font-bold">{prestation.price}</li>
+                  )}
+                  {prestation.description && (
+                    <li className="mt-2 mb-2">{prestation.description}</li>
+                  )}
 
-                  {/* Inclus dans l'offre pour tous sauf id 3, 4, 5 */}
-                  {shouldShowInclusions(prestation.id) && (
+                  {hasExamples && (
+                    <>
+                      <li className="mt-4 mb-2 font-bold">Exemples :</li>
+                      {prestation.examples.map(
+                        (exemple: string, index: number) => (
+                          <li key={index} className="mt-1 mb-1 ml-4">
+                            • {exemple}
+                          </li>
+                        )
+                      )}
+                    </>
+                  )}
+
+                  {hasInclus && (
                     <>
                       <li className="mt-4 mb-2 font-bold">
                         Inclus dans l'offre :
                       </li>
-                      {inclusions.map((inclusion, index) => (
+                      {prestation.inclus.map((inc: string, index: number) => (
                         <li key={index} className="mt-1 mb-1 ml-4">
-                          • {inclusion}
+                          • {inc}
                         </li>
                       ))}
                     </>
@@ -163,6 +90,58 @@ export default function ListPrestations() {
             </Card>
           );
         })}
+      </section>
+
+      {/* Prestations supplémentaires */}
+      <section className="mt-8">
+        <h3 className="text-xl font-bold mb-4 ml-4">
+          Prestations supplémentaires
+        </h3>
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4">
+          {prestationsData.services_complementaires.map((service: any) => (
+            <Card
+              key={service.id ?? Math.random()}
+              title={service.title}
+              className="w-full px-2 flex flex-col justify-between h-full">
+              <div className="flex-grow">
+                <ul className="text-white list-none mt-2 mb-2 text-sm">
+                  {service.price && (
+                    <li className="mt-2 mb-2 font-bold">{service.price}</li>
+                  )}
+                  {service.description && (
+                    <li className="mt-2 mb-2">{service.description}</li>
+                  )}
+
+                  {"inclus" in service && Array.isArray(service.inclus) && (
+                    <>
+                      <li className="mt-4 mb-2 font-bold">
+                        Inclus dans l'offre :
+                      </li>
+                      {service.inclus.map((inc: string, i: number) => (
+                        <li key={i} className="mt-1 mb-1 ml-4">
+                          • {inc}
+                        </li>
+                      ))}
+                    </>
+                  )}
+
+                  {service.presentation &&
+                    (Array.isArray(service.presentation) ? (
+                      service.presentation.map((p: any, i: number) => (
+                        <li key={i} className="mt-1 mb-1 ml-0 text-sm">
+                          → {p.content}
+                        </li>
+                      ))
+                    ) : (
+                      <li className="mt-1 mb-1 text-sm text-gray-800">
+                        → {service.presentation.content}
+                      </li>
+                    ))}
+                </ul>
+              </div>
+            </Card>
+          ))}
+        </div>
       </section>
     </>
   );

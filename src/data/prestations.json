@@ -2,26 +2,80 @@
   "offres_principales": [
     {
       "id": 1,
-      "title": "Pack Starter – Site Vitrine (1 page)",
-      "price": "À partir de 400 € TTC",
-      "description": "Un site léger, rapide et personnalisable, développé avec Astro — un framework moderne.",
+      "title": "Pack Express – Landing Page WordPress",
+      "price": "À partir de 250 € TTC",
+      "description": "Une landing page légère et personnalisable pour mettre rapidement votre activité ou événement en ligne. Simple mais efficace pour vos premiers clients.",
       "presentation": {
-        "content": "Idéal pour : freelances, créatif·ves, événements ou petites entreprises."
+        "content": "Idéal pour : freelances, petits projets ou événements ponctuels qui veulent se lancer vite à moindre coût."
       },
-      "examples": [
-        "Header (logo, titre, image principale)",
-        "Barre de navigation (ancre vers les sections)",
-        "Section À propos",
-        "Section Services ou Prestations",
-        "Section Contact (formulaire et coordonnées)",
-        "Footer (liens légaux (PDF), réseaux sociaux, copyright)"
+      "inclus": [
+        "Hébergement et nom de domaine inclus 1 an",
+        "Landing page responsive avec WordPress et template moderne",
+        "SEO de base",
+        "Liens PDF pour mentions légales et politique de confidentialité",
+        "Pied de page avec réseaux sociaux et copyright",
+        "Pas de barre de navigation ni formulaire de contact"
+      ],
+      "options_supplementaires": [
+        {
+          "title": "Paiement en ligne",
+          "price": "100 € TTC",
+          "description": "Permettez à vos visiteurs de régler directement sur votre page via un module sécurisé."
+        },
+        {
+          "title": "Newsletter avec Brevo",
+          "price": "70 € TTC",
+          "description": "Mise en place d'une newsletter via Brevo (compte gratuit suffisant). Formulaire d’inscription et connexion au site inclus."
+        }
       ]
     },
     {
       "id": 2,
+      "title": "Pack Starter – Site Vitrine WordPress (1 page)",
+      "price": "À partir de 400 € TTC",
+      "description": "Un site simple mais complet pour présenter votre activité en ligne de manière professionnelle.",
+      "presentation": {
+        "content": "Idéal pour : freelances, créatif·ves ou petites entreprises qui veulent un site structuré et facile à gérer."
+      },
+      "inclus": [
+        "Hébergement et nom de domaine inclus 1 an",
+        "Design responsive et personnalisation légère",
+        "Header avec logo et barre de navigation avec ancrage",
+        "Section À propos et une autre sections au choix (Services, Portfolio, Témoignages, etc.)",
+        "Formulaire de contact simple",
+        "Pied de page avec réseaux sociaux et copyright",
+        "Optimisation de base pour SEO et performance"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Pack WordPress – Site Vitrine 4 pages",
+      "price": "À partir de 800 € TTC",
+      "description": "Un site complet avec toutes les pages essentielles pour présenter vos services et accueillir vos clients.",
+      "presentation": [
+        {
+          "content": "Design entièrement personnalisé ou basé sur un template."
+        },
+        {
+          "content": "Idéal pour : PME, associations ou indépendants souhaitant un site professionnel et prêt pour la prospection."
+        }
+      ],
+      "inclus": [
+        "Hébergement et nom de domaine inclus 1 an",
+        "Jusqu'à 4 pages personnalisables (dont la page Contact)",
+        "Intégration complète des contenus (textes, images, médias)",
+        "Formulaire de contact et réseaux sociaux intégrés",
+        "Optimisation SEO et design responsive",
+        "Formation rapide à la gestion WordPress",
+        "Tests et livraison prêts à accueillir vos clients"
+      ]
+    },
+
+    {
+      "id": 4,
       "title": "Pack Sur-Mesure – Site Vitrine",
       "price": "À partir de 1200 € TTC",
-      "description": "Un site entièrement personnalisé, avec identité visuelle forte et structure pensée pour vos objectifs. Jusqu’à 4 pages (ou plus selon devis).",
+      "description": "Un site entièrement personnalisé, conçu avec Next.js pour des performances optimales et une identité visuelle unique. Jusqu’à 4 pages (ou plus selon devis).",
       "presentation": [
         {
           "content": "Design sur-mesure, possibilité de collaboration avec une UX/UI designer."
@@ -29,10 +83,34 @@
         {
           "content": "Idéal pour : PME, associations, projets à forte valeur ou visibilité."
         }
+      ],
+      "inclus": [
+        "Hébergement et nom de domaine inclus 1 an",
+        "Design sur-mesure (maquette et intégration)",
+        "Développement Next.js performant",
+        "Optimisations performance et SEO avancées",
+        "Accessibilité et responsive avancés",
+        "Intégration outils (analytics, formulaires, etc.)",
+        "Déploiement et configuration d'hébergement",
+        "3 mois de maintenance offerts"
+      ],
+      "options_supplementaires": [
+        {
+          "title": "Paiement en ligne",
+          "price": "100 € TTC",
+          "description": "Module de paiement sécurisé pour vos visiteurs."
+        },
+        {
+          "title": "Newsletter avec Brevo",
+          "price": "70 € TTC",
+          "description": "Mise en place d'une newsletter via Brevo (compte gratuit suffisant). Formulaire d’inscription et connexion au site inclus."
+        }
       ]
-    },
+    }
+  ],
+  "services_complementaires": [
     {
-      "id": 3,
+      "id": 5,
       "title": "Pack Évolution – Modification & Ajout de Pages",
       "price": "200 € TTC / page simple – 300 € TTC / page complexe",
       "description": "Besoin d’enrichir ou de mettre à jour votre site ? J’assure la modification de contenu existant ainsi que la création de nouvelles pages, simples ou complexes, adaptées à vos besoins.",
@@ -47,11 +125,9 @@
           "content": "Idéal pour : faire évoluer votre site au rythme de votre activité."
         }
       ]
-    }
-  ],
-  "services_complementaires": [
+    },
     {
-      "id": 4,
+      "id": 6,
       "title": "Maintenance & Optimisation",
       "price": "50 € TTC / mois ou 500 € TTC / an",
       "description": "Gardez votre site rapide, sécurisé et toujours à jour. Je m'occupe de la technique pendant que vous vous concentrez sur votre activité.",
@@ -62,7 +138,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": 7,
       "title": "Refonte / Responsive / Accessibilité",
       "price": "Sur devis",
       "description": "Votre site n'est plus à jour ? Je le repense pour tous les écrans, accessible à tous et aligné avec les standards actuels.",
@@ -70,6 +146,26 @@
         {
           "content": "Idéal pour : améliorer l'image, la compatibilité mobile, l'expérience utilisateur."
         }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Paiement en ligne",
+      "price": "100 € TTC",
+      "description": "Module de paiement sécurisé pour vos visiteurs avec Paypal ou Stripe."
+    },
+    {
+      "id": 9,
+      "title": "Newsletter avec Brevo",
+      "price": "70 € TTC",
+      "description": "Mise en place complète d'une newsletter via Brevo (compte gratuit suffisant). Inclut la formation à l'utilisation, le respect du RGPD et une intégration harmonieuse à votre site.",
+      "inclus": [
+        "Création et configuration de votre compte Brevo (ou connexion à un compte existant)",
+        "Formulaire d’inscription intégré à votre site web",
+        "Personnalisation avec votre branding (logo, couleurs, typographie)",
+        "Respect du RGPD (mentions et consentement intégrés, captcha anti-spam)",
+        "3 templates d’e-mails d’inspiration à votre image",
+        "Formation rapide pour gérer vos envois et vos contacts en autonomie"
       ]
     }
   ]
