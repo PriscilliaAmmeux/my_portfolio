@@ -59,10 +59,8 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <Layout>
-      <section className="pt-4 lg:pl-2 lg:pr-2">
-        <div className="ml-4">
-          <Title text="Mes services" />
-        </div>
+      <section className="pt-4 px-4 sm:px-6 lg:px-20">
+        <Title text="Mes services" />
         <ListPrestations />
         <ListCollab />
         <div className="flex justify-center mt-8">
