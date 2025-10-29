@@ -1,14 +1,13 @@
 import Button from "../button/button";
 import Image from "next/image";
 import Link from "next/link";
-import { slugify } from "../../../lib/slugify"; // <- nouvel import
+import { slugify } from "../../../lib/slugify";
 
 type ProjectCardProps = {
   id: number;
   title: string;
   description: string;
   image: string;
-  demoLink: string;
   slug?: string;
 };
 
@@ -17,7 +16,6 @@ export default function ProjectCard({
   title,
   description,
   image,
-  demoLink,
   slug,
 }: ProjectCardProps) {
   const imageClass = [11].includes(id)
@@ -52,18 +50,18 @@ export default function ProjectCard({
       </Link>
 
       <section className="px-6 py-6 flex justify-center absolute bottom-0 w-full">
-        {[11].includes(id) ? (
-          <p className="text-white font-bold text-lg">Projet en cours</p>
-        ) : (
-          <Button
-            type="button"
-            text="Visiter le site web"
-            href={demoLink}
-            ariaLabel={`Visiter le site web du projet ${title}`}
-            className="min-h-[44px] min-w-[44px] px-6 py-3 text-base"
-            variant="bgWhite"
-          />
-        )}
+          <div className="flex gap-3">
+            <Link href={`/project/${projectSlug}`}>
+              <Button
+                type="button"
+                text="Voir la fiche"
+                ariaLabel={`Voir la fiche du projet ${title}`}
+                className="min-h-[44px] px-5 py-2 text-sm"
+                variant="bgWhite"
+              />
+            </Link>
+          </div>
+      
       </section>
     </section>
   );
