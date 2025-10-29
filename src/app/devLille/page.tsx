@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     "emma-gaubert",
     "juliette-de-rancourt",
   ],
+  alternates: {
+    canonical: "https://www.pixelia-and-co.fr/devlille",
+  },
 };
 
 export default function DevLille() {

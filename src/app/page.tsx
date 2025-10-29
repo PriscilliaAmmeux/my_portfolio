@@ -65,15 +65,8 @@ export const metadata: Metadata = {
     "developpeuse-web-lille",
     "creation-site-internet-professionnel",
   ],
-  openGraph: {
-    title:
-      "priscillia-ammeux-pixeliaandco-developpeuse-web-freelance-quesnoy-sur-deule",
-    description:
-      "Découvrez Pixelia&Co avec Priscillia Ammeux, créatrice de sites internet sur mesure, éco-conçus et au design créatif à Quesnoy-sur-Deule dans le Nord.",
-    type: "website",
-    locale: "fr_FR",
-    url: "https://www.pixeliaandco.fr",
-    siteName: "priscillia-ammeux-pixeliaandco-developpeuse-web",
+  alternates: {
+    canonical: "https://www.pixelia-and-co.fr",
   },
 };
 

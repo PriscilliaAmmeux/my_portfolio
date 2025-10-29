@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     "contact-professionnel",
     "transparence",
   ],
+  alternates: {
+    canonical: "https://www.pixelia-and-co.fr/legal-notices",
+  },
 };
 
 export default function LegalNotices() {

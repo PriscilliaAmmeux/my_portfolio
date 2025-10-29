@@ -17,7 +17,10 @@ export const metadata: Metadata = {
     "protection-des-donnees",
     "librairie-JavaScript",
     "open-source",
-  ],
+  ],   
+  alternates: {
+    canonical: "https://www.pixelia-and-co.fr/tartecitron",
+  },
 };
 
 export default function Tartecitron() {

@@ -54,6 +54,9 @@ export const metadata: Metadata = {
     "web-marketing",
     "reseaux-sociaux",
   ],
+  alternates: {
+    canonical: "https://www.pixelia-and-co.fr/prestations",
+  },  
 };
 
 export default function Page() {
