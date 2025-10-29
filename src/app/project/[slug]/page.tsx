@@ -5,15 +5,6 @@ import { notFound } from "next/navigation";
 import Layout from "../../ui/layout/layout";
 import { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Mes projets - Pixelia&Co",
-  description:
-    "Découvrez les projets réalisés par Priscillia Ammeux de chez Pixelia&Co, développeuse web passionnée, mettant en avant ses compétences en développement front-end et back-end, accessibilité et web design.",
-  alternates: {
-    canonical: "https://www.pixelia-and-co.fr/project",
-  },
-};
-
 type Project = {
   id: number;
   title: string;
@@ -45,7 +36,11 @@ export async function generateMetadata({
   params: { slug: string };
 }): Promise<Metadata> {
   const project = (projects as Project[]).find((p) => p.slug === params.slug);
-  if (!project) return { title: "Projet — Pixelia&Co" };
+  if (!project)
+    return {
+      title: "Projet — Pixelia&Co",
+      alternates: { canonical: "https://www.pixeliaandco.fr/project" },
+    };
 
   return {
     title: `${project.title} — Pixelia&Co`,
