@@ -1,5 +1,7 @@
 import Button from "../button/button";
 import Image from "next/image";
+import Link from "next/link";
+import { slugify } from "../../../lib/slugify"; // <- nouvel import
 
 type ProjectCardProps = {
   id: number;
@@ -7,6 +9,7 @@ type ProjectCardProps = {
   description: string;
   image: string;
   demoLink: string;
+  slug?: string;
 };
 
 export default function ProjectCard({
@@ -15,18 +18,20 @@ export default function ProjectCard({
   description,
   image,
   demoLink,
+  slug,
 }: ProjectCardProps) {
   const imageClass = [11].includes(id)
     ? "w-full h-[80px] object-contain mx-auto my-6"
     : "w-full hover:scale-105 transition-transform duration-300";
+
+  const projectSlug = slug ?? slugify(title);
+
   return (
     <section className="relative overflow-hidden shadow-lg bg-pink-700 mt-4 rounded-lg">
-      <a
-        href={demoLink}
-        target="_blank"
-        rel="noopener noreferrer"
+      <Link
+        href={`/project/${projectSlug}`}
         className="block focus:outline-none focus:ring-2 focus:ring-pink-300"
-        aria-label={`Voir le projet ${title}`}>
+        aria-label={`Voir la page du projet ${title}`}>
         <Image
           className={imageClass}
           src={image}
@@ -34,19 +39,17 @@ export default function ProjectCard({
           height={200}
           alt={`Aperçu du projet ${title}`}
         />
-      </a>
+      </Link>
 
-      <a
-        href={demoLink}
-        target="_blank"
-        rel="noopener noreferrer"
+      <Link
+        href={`/project/${projectSlug}`}
         className="block focus:outline-none focus:ring-2 focus:ring-pink-300 rounded"
         aria-label={`Voir le projet ${title} - ${description}`}>
         <section className="mb-24 px-6 py-6 text-white">
           <h2 className="text-white font-bold text-xl mb-4">{title}</h2>
           <p className="text-base leading-relaxed">{description}</p>
         </section>
-      </a>
+      </Link>
 
       <section className="px-6 py-6 flex justify-center absolute bottom-0 w-full">
         {[11].includes(id) ? (

@@ -32,19 +32,75 @@ export default function Me() {
         <div className="flex-1">
           <Title text="À propos de moi !" />
           <p className="mb-4">
-            Autodidacte devenue développeuse web indépendante, j'ai rapidement
-            compris qu'un bon site ne se limite pas à sa technique, il doit
-            incarner une vision.
+            Moi, c’est{" "}
+            <span className="font-semibold text-pink-700">
+              Priscillia Ammeux
+            </span>
+            ,
+            <span className="font-medium text-white">
+              {" "}
+              développeuse web freelance
+            </span>{" "}
+            basée à{" "}
+            <span className="text-pink-600 font-medium">
+              Quesnoy-sur-Deûle, près de Lille
+            </span>
+            .
           </p>
+
           <p className="mb-4">
-            Guidée par une obsession de l'harmonie entre esthétique et
-            performance, je crée des expériences digitales sur mesure, où chaque
-            ligne de code entre en résonance avec l'identité de la marque.
+            Avant de me lancer dans le développement web, j’ai travaillé pendant
+            <span className="font-semibold text-white">
+              {" "}
+              plus de 10 ans dans le secteur bancaire
+            </span>
+            , notamment au sein des équipes{" "}
+            <span className="font-semibold text-white">IT</span>. Cette
+            expérience m’a appris la rigueur, l’organisation et le sens du
+            service client.
           </p>
+
+          <p className="mb-4">
+            En <span className="text-pink-600 font-medium">novembre 2021</span>,
+            j’ai décidé d’entamer une
+            <span className="font-semibold text-white">
+              {" "}
+              reconversion professionnelle
+            </span>{" "}
+            vers le métier qui me passionne : la{" "}
+            <span className="font-semibold text-pink-700">
+              création de sites web
+            </span>
+            . Depuis, j’accompagne les entreprises, indépendants et associations
+            des
+            <span className="font-semibold text-white">
+              {" "}
+              Hauts-de-France
+            </span>{" "}
+            dans leurs projets digitaux.
+          </p>
+
+          <p className="mb-4">
+            Guidée par une obsession de l’harmonie entre
+            <span className="font-semibold text-pink-600">
+              {" "}
+              esthétique et performance
+            </span>
+            , je conçois des{" "}
+            <span className="font-semibold text-white">
+              sites WordPress et sur mesure{" "}
+            </span>
+            pensés pour être à la fois beaux, rapides et accessibles.
+          </p>
+
           <p className="mb-4">
             Mon approche est intuitive, exigeante et profondément humaine. Je ne
-            me contente pas de construire des sites: je donne forme aux idées,
-            avec précision, style et singularité.
+            me contente pas de construire des sites :
+            <span className="font-semibold text-pink-700">
+              {" "}
+              je donne forme aux idées
+            </span>
+            , avec précision, style et singularité.
           </p>
         </div>
       </div>

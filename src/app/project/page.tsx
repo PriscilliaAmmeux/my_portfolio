@@ -34,7 +34,7 @@ export default function Project() {
         <div className="ml-4 sm:ml-0">
           <Title text="Mes projets" />
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-4 container mx-auto mx-4 justify-items-stretch">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 container mx-auto mx-4 justify-items-stretch">
           {projects.map((project) => (
             <ProjectCard
               key={project.id}

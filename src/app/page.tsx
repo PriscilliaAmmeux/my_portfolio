@@ -9,6 +9,7 @@ import Link from "next/link";
 import Image from "next/image";
 import CookieBanner from "./components/CookieBanner/CookieBanner";
 import { Metadata } from "next";
+import Hero from "./ui/hero/hero";
 
 export const metadata: Metadata = {
   title:
@@ -80,26 +81,16 @@ export default function Home() {
   return (
     <main>
       <Layout>
-        <h1 className="sr-only">Pixelia&Co</h1>
+        <h1 className="sr-only">
+          Pixelia&Co – Création de sites web à Lille et Quesnoy-sur-Deûle
+        </h1>
 
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between p-4 lg:p-10 gap-6 lg:gap-8 mt-8 lg:mt-16">
           <section className="flex-1 text-center lg:text-left">
-            <div className="max-w-fit mx-auto lg:mx-0">
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold">
-                Quand la créativité
-              </p>
-              <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold pb-4">
-                rencontre <span className="text-pink-700">le code !</span>
-              </p>
+            <div className="max-w-xl mx-auto lg:mx-0">
+              <Hero />
 
-              <p className="text-sm sm:text-base lg:text-lg">
-                Faire dialoguer design
-              </p>
-              <p className="text-sm sm:text-base lg:text-lg pb-6 lg:pb-10">
-                et code avec exigence et singularité.
-              </p>
-
-              <div className="flex flex-col sm:flex-row sm:justify-between gap-4 sm:gap-2 w-full">
+              <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-6 sm:gap-4 w-full">
                 <Link href="/contact">
                   <Button
                     type="button"
