@@ -6,7 +6,7 @@
     "client": "Le Chantier d’à Côté",
     "location": "Cognac (Nouvelle-Aquitaine)",
     "intro": "Conception d’un site web moderne pour présenter les actions de l’association Le Chantier d’à Côté, dédiée à l’insertion professionnelle par l’activité économique.",
-    "description": "Réalisation d’une plateforme en ligne pour l’association Le Chantier d’à Côté à Cognac, dédiée à l’insertion professionnelle par l’activité économique. De l'expression du besoin à la maquette jusqu’au développement, en collaboration avec Christelle Debrabant (Mots sur Mesure) pour la rédaction web.",
+    "description": "Site web moderne développé pour l’association Le Chantier d’à Côté à Cognac, valorisant ses actions d’insertion professionnelle. Design interactif sur Figma et développement React pour une navigation fluide. SEO local et accessibilité optimisés pour toucher le public et les partenaires. Découvrez comment ce projet met en lumière l’impact social de l’association.",
     "context": "L’association souhaitait renforcer sa présence en ligne et améliorer la compréhension de ses missions auprès du public, des prescripteurs emploi et des partenaires. Le site précédent était peu clair et ne reflétait pas l’impact social du chantier d’insertion.",
     "objectives": [
       "Valoriser les actions et l’impact de l’association auprès du public",
@@ -15,6 +15,7 @@
       "Transmettre les valeurs humaines et sociales de l’association"
     ],
     "solutions": [
+      "Maquette interactive réalisée sur Figma pour valider l'ergonomie, les parcours et la hiérarchie de l'information",
       "Développement d’un site vitrine moderne avec React pour une navigation fluide et performante",
       "Structure de contenu claire : parcours d’insertion, activités, partenaires, recrutement",
       "Optimisation SEO locale pour les recherches autour de Cognac et de l’insertion professionnelle",
@@ -22,6 +23,7 @@
       "Design responsive pour une expérience optimale sur mobile et ordinateur"
     ],
     "technologies": [
+      "Figma",
       "React",
       "CSS",
       "GitHub",
@@ -31,11 +33,18 @@
       "Accessibilité"
     ],
     "result": "Un site web clair, moderne et humain, renforçant la visibilité de l’association sur le territoire. Les informations sont mieux structurées, permettant une meilleure compréhension des missions du chantier d’insertion et une hausse des demandes de contact.",
+    "accompagnement": "Projet en cours — accompagnement et maintenance continue : suivi des retours utilisateurs, priorisation des évolutions et mises à jour régulières pour améliorer l'accessibilité et la navigation.",
+    "services": [
+      "Maintenance évolutive & hébergement",
+      "Mises à jour de contenu et optimisation SEO locale",
+      "Ajustements UX/accessibilité suite aux retours utilisateurs",
+      "Assistance technique et support"
+    ],
     "testimonial": {
       "author": "L'équipe du Chantier d’à Côté",
       "content": "Nous sommes ravis de notre nouveau site ! Il met parfaitement en valeur notre activité et notre mission sociale. Un grand merci pour la qualité du travail et l’écoute."
     },
-    "image": "/logo-le-chantier-d-a-cote.webp",
+    "image": "/le-chantier.webp",
     "demoLink": "https://www.lechantierdacote.com/",
     "seoDescription": "Site web développé avec React pour l’association Le Chantier d’à Côté à Cognac : mise en valeur de l’insertion professionnelle, SEO local, design moderne et accessible.",
     "keywords": [
@@ -55,8 +64,8 @@
     "client": "Hyperacousie Solidarité",
     "location": "Île-de-France",
     "intro": "Création d’un site informatif dédié à l’hyperacousie afin de soutenir, informer et sensibiliser les personnes concernées ainsi que leurs proches.",
-    "description": "Hyperacousie Solidarité est une association située en région parisienne. Elle accompagne les personnes souffrant d’hyperacousie, sensibilise le grand public et met à disposition des ressources essentielles. Le site a été conçu avec Astro et CSS pour être rapide, accessible et agréable à consulter, tout en assurant une navigation fluide. Le projet a été réalisé en étroite collaboration avec Barbara, la présidente de l’association, et versionné sur GitHub avant déploiement via Vercel et OVH.",
-    "context": "L’association ne disposait pas d’un site clair permettant de centraliser l’information autour de l’hyperacousie. Les ressources existantes étaient dispersées et peu accessibles pour les personnes hypersensibles au bruit ou non familières du sujet. J’ai travaillé directement avec Barbara, la présidente, pour organiser les contenus et prioriser les informations essentielles pour les utilisateurs.",
+    "description": "Création d’un site clair et apaisant pour Hyperacousie Solidarité, association dédiée à l’information et l’accompagnement des personnes concernées. Maquette Figma et développement Astro/CSS pour performance et accessibilité. SEO optimisé pour une visibilité maximale. Découvrez un projet pensé pour sensibiliser et soutenir efficacement le public.",
+    "context": "L’association ne disposait pas d’un site clair permettant de centraliser l’information autour de l’hyperacousie. Les ressources existantes étaient dispersées et peu accessibles pour les personnes hypersensibles au bruit ou non familières du sujet. J’ai travaillé directement avec Barbara, la présidente, pour organiser les contenus et prioriser les informations essentielles ; sa participation active au développement a permis des rétroactions rapides et des ajustements orientés utilisateur.",
     "objectives": [
       "Offrir un espace d’information fiable et accessible sur l’hyperacousie",
       "Accompagner les personnes touchées et leurs proches grâce à des ressources adaptées",
@@ -64,22 +73,31 @@
       "Faciliter la prise de contact et l’adhésion à l’association"
     ],
     "solutions": [
+      "Maquette interactive réalisée sur Figma pour valider l'ergonomie et le parcours utilisateur",
       "Développement d’un site performant avec Astro et CSS pour assurer rapidité et accessibilité",
+      "Méthodologie Agile (sprints courts) avec implication régulière de la cliente pour valider les livrables",
       "Structuration de contenus informatifs : symptômes, ressources, conseils, accompagnement",
       "Mise en place d’un design doux visuellement pour respecter la sensibilité sonore et visuelle des utilisateurs",
       "Optimisation SEO pour un meilleur référencement sur les termes liés à l’hyperacousie",
       "Formulaire de contact clair pour faciliter la prise de contact avec l’association"
     ],
     "technologies": [
+      "Figma",
       "Astro",
       "CSS",
       "GitHub",
       "Vercel",
-      "OVH (nom de domaine et DNS)",
-      "SEO",
+      "OVH",
+      "SEO de base",
       "Accessibilité"
     ],
     "result": "Un site informatif, apaisant et accessible, qui permet aux utilisateurs de mieux comprendre l’hyperacousie et de trouver des ressources pertinentes. Le site contribue à la visibilité de l’association et facilite l’accès à l’accompagnement.",
+    "accompagnement": "Accompagnement client en cours — évolution du site, suivi des retours utilisateurs et priorisation des améliorations.",
+    "services": [
+      "Accompagnement continu / maintenance évolutive",
+      "Brevo — configuration et accompagnement pour la newsletter destinée aux adhérents",
+      "Google Search Console — configuration, suivi et optimisations SEO"
+    ],
     "testimonial": {
       "author": "Barbara B., Présidente d’Hyperacousie Solidarité",
       "content": "Un énorme merci à Priscillia qui a su écouter, comprendre et donner forme à ce que je voulais. Je ne peux que recommander sa qualité de travail et son perfectionnisme. Encore merci Priscillia !"
@@ -105,8 +123,8 @@
     "client": "Frédéric Deparis",
     "location": "France",
     "intro": "Création d’un site de présentation pour l’auteur indépendant Frédéric Deparis, avec mise en avant de ses ouvrages et possibilité de vente en ligne.",
-    "description": "Développement d’un site web sur mesure pour Frédéric Deparis, auteur indépendant. Le site met en valeur ses ouvrages, facilite les commandes en ligne et permet de le contacter directement. Le projet a été réalisé avec React et CSS, versionné sur GitHub et déployé via Vercel et OVH.",
-    "context": "Frédéric Deparis souhaitait un site simple mais élégant, qui reflète son univers d’auteur et permette aux lecteurs de découvrir ses livres et de les acheter facilement. Il n’existait pas de site centralisé pour présenter l’ensemble de son œuvre.",
+    "description": "Site web sur mesure pour Frédéric Deparis, auteur indépendant, mettant en valeur ses ouvrages et facilitant la vente en ligne. Design élégant, navigation fluide et référencement optimisé pour atteindre les lecteurs. Explorez un projet pensé pour combiner storytelling et expérience utilisateur exceptionnelle.",
+    "context": "Frédéric Deparis souhaitait un site simple mais élégant, qui reflète son univers d’auteur et permette aux lecteurs de découvrir ses livres et de les acheter facilement. Il n’existait pas de site centralisé pour présenter l’ensemble de ses œuvres.",
     "objectives": [
       "Valoriser l’univers et les ouvrages de l’auteur",
       "Permettre la vente directe et sécurisée de ses livres",
@@ -114,22 +132,30 @@
       "Créer une expérience utilisateur simple, fluide et agréable"
     ],
     "solutions": [
-      "Développement front-end en React pour un site rapide et moderne",
+      "Maquette et prototype réalisés sur Figma pour définir l'ergonomie et valider le parcours utilisateur",
+      "Développement front-end en Next pour un site rapide et moderne",
       "Design responsive et visuellement en accord avec l’univers de l’auteur",
       "Intégration d’un module de vente en ligne simple et accessible",
       "SEO local et général pour que le site soit trouvé par les lecteurs",
       "Gestion du site via GitHub, déploiement sur Vercel et configuration OVH pour le nom de domaine"
     ],
     "technologies": [
+      "Figma",
       "Next",
-      "CSS",
+      "TailwindCSS",
       "GitHub",
       "Vercel",
-      "OVH (nom de domaine et DNS)",
-      "SEO",
-      "Accessibilité"
+      "Viaduc",
+      "SEO de base"
     ],
     "result": "Un site web élégant et fonctionnel qui valorise les livres de Frédéric Deparis, facilite les ventes en ligne et offre une navigation claire et agréable pour les lecteurs.",
+    "accompagnement": "Maintenance et accompagnement en cours — gestion technique, mises à jour régulières, sauvegardes et suivi des retours utilisateurs. Une nouvelle page présentant le personnage principal des romans sera publiée prochainement (création de contenu, intégration et optimisation SEO).",
+    "services": [
+      "Maintenance technique & hébergement",
+      "Mises à jour de contenu et ajout de pages (ex. nouvelle page personnage principal)",
+      "Optimisations SEO et suivi via Google Search Console en cours",
+      "Support et petites évolutions (corrections, améliorations UX)"
+    ],
     "testimonial": {
       "author": "Frédéric Deparis",
       "content": "Priscillia a réalisé le site internet pour faire connaitre mes ouvrages de science-fiction, deux trilogies écrites entre les années 2000 et 2025. Elle a imaginé et réalisé l'ensemble du site, ainsi que la présentation des ouvrages, faisant preuve d'initiative et de force de proposition, proposant idées et solutions. Très disponible et réactive, notre collaboration a été fructueuse et continuera je l'espère dans le temps pour accueillir mes nouveaux livres et les réactions des futurs lecteurs !"
@@ -153,245 +179,286 @@
     "title": "Adrien Demarle – Ostéopathe D.O.",
     "slug": "adrien-demarle-osteopathe",
     "client": "Adrien Demarle",
-    "location": "Comines, France",
-    "intro": "Création d’un site web pour présenter l’activité et les services d’Adrien Demarle, ostéopathe D.O., avec informations pratiques et prise de contact.",
-    "description": "Développement d’un site vitrine pour Adrien Demarle afin de présenter son activité d’ostéopathe D.O., ses services et ses coordonnées. Le site a été réalisé avec Next.js et CSS, versionné sur GitHub et déployé via Vercel et OVH pour une navigation rapide et fluide.",
-    "context": "Adrien Demarle souhaitait un site simple, professionnel et accessible pour que ses patients puissent trouver rapidement ses services et prendre rendez-vous. L’objectif était de refléter la confiance et le sérieux de son activité tout en proposant une expérience utilisateur agréable.",
+    "location": "France",
+    "intro": "Mise en place d’un site en ligne pour présenter l’activité et les services d’Adrien Demarle, ostéopathe D.O., avec un design moderne et un contenu clair.",
+    "description": "Création d’un site web élégant et intuitif pour l’ostéopathe Adrien Demarle, mettant en avant ses services, son parcours et la prise de rendez-vous en ligne. Site développé avec Next.js et TailwindCSS, optimisé SEO et mobile-friendly. Objectif : rassurer les patients, faciliter la prise de contact et valoriser l’expertise d’Adrien.",
+    "context": "Adrien souhaitait un site qui reflète sa pratique professionnelle tout en permettant aux patients de trouver facilement les informations sur les soins et de prendre rendez-vous en ligne.",
     "objectives": [
-      "Présenter clairement les services proposés et l’activité d’ostéopathie",
-      "Faciliter la prise de contact et la localisation du cabinet",
-      "Optimiser la visibilité en ligne pour les recherches locales",
-      "Créer un site moderne, rapide et accessible sur tous les supports"
+      "Valoriser les services et l’expertise d’Adrien Demarle",
+      "Faciliter la prise de rendez-vous et le contact",
+      "Améliorer la visibilité SEO locale",
+      "Offrir un site moderne, ergonomique et accessible"
     ],
     "solutions": [
-      "Développement front-end avec Next.js et CSS pour performance et modernité",
-      "Design responsive adapté aux ordinateurs, tablettes et smartphones",
-      "Optimisation SEO locale pour améliorer le référencement sur Google",
-      "Intégration de formulaire de contact simple et accessible",
-      "Versioning sur GitHub et déploiement sur Vercel, gestion du nom de domaine via OVH"
+      "Maquette Figma pour valider l’ergonomie et le design",
+      "Développement Next.js et TailwindCSS pour un site rapide et responsive",
+      "Optimisation SEO locale et accessibilité pour un meilleur référencement",
+      "Intégration de la prise de rendez-vous en ligne",
+      "Design professionnel reflétant l’univers médical et rassurant"
     ],
     "technologies": [
+      "Figma",
       "Next.js",
       "TailwindCSS",
       "GitHub",
       "Vercel",
-      "OVH (nom de domaine et DNS)",
       "SEO local",
       "Accessibilité"
     ],
-    "result": "Un site professionnel, clair et accessible, permettant aux patients de trouver facilement les services d’Adrien Demarle et de le contacter. La visibilité en ligne de son cabinet a été améliorée.",
+    "result": "Un site clair et professionnel qui rassure les patients et facilite les prises de contact, tout en améliorant la visibilité en ligne du cabinet d’Adrien Demarle.",
+    "accompagnement": "Maintenance et suivi SEO pour garantir une expérience utilisateur optimale et adapter le site aux besoins évolutifs du cabinet.",
+    "services": [
+      "Maintenance évolutive & mise à jour du contenu",
+      "Optimisation SEO locale",
+      "Support technique et assistance à la prise de rendez-vous"
+    ],
+    "testimonial": {
+      "author": "Adrien Demarle",
+      "content": "Le site reflète parfaitement mon activité et mes valeurs. Il est moderne, clair et très facile à utiliser pour mes patients."
+    },
     "image": "/adrien.webp",
-    "demoLink": "https://www.adrien-demarle-osteopathe.fr/",
-    "seoDescription": "Site vitrine développé avec Next.js et CSS pour Adrien Demarle, ostéopathe D.O. à Comines, versionné sur GitHub et déployé via Vercel et OVH, SEO local optimisé pour les patients.",
+    "demoLink": "https://adrien-demarle-osteopathe.fr",
+    "seoDescription": "Site web pour l’ostéopathe Adrien Demarle : présentation des services, prise de rendez-vous en ligne, design moderne et SEO local optimisé.",
     "keywords": [
-      "adrien-demarle",
-      "osteopathe-do",
-      "site-next-js-osteopathe",
-      "site-cabinet-osteopathie",
+      "adrien-demarle-osteopathe",
+      "site-osteopathe",
+      "osteopathie-france",
+      "prise-rendez-vous-en-ligne",
       "pixelia-and-co",
-      "creation-site-web-professionnel",
-      "seo-local-osteopathie",
-      "site-internet-sante"
+      "site-web-sante",
+      "NextJS-TailwindCSS"
     ]
   },
   {
     "id": 8,
-    "title": "Stéphanie Heudre – Praticienne bien-être",
-    "slug": "stephanie-heudre-praticienne-bien-etre",
+    "title": "Stéphanie Heudre – Praticienne Bien-Être",
+    "slug": "stephanie-heudre-bien-etre",
     "client": "Stéphanie Heudre",
     "location": "France",
-    "intro": "Création d’un site web professionnel pour valoriser les prestations bien-être de Stéphanie Heudre et faciliter la prise de rendez-vous en ligne.",
-    "description": "Développement d’un site vitrine sur mesure pour Stéphanie Heudre, praticienne bien-être, permettant de présenter ses prestations, ses tarifs et de gérer la prise de rendez-vous. Le site a été réalisé avec React et CSS, versionné sur GitHub et déployé via Vercel et OVH.",
-    "context": "Stéphanie souhaitait un site clair et accessible pour présenter ses services et permettre aux clients de réserver facilement. L’objectif était de créer une présence en ligne professionnelle reflétant son univers et ses valeurs.",
+    "intro": "Création d’un site web pour Stéphanie Heudre, praticienne bien-être, afin de présenter ses services et faciliter la prise de contact avec ses clients.",
+    "description": "Site web moderne et apaisant pour Stéphanie Heudre, mettant en avant ses prestations de bien-être. Développement avec Next.js et TailwindCSS, design responsive et SEO optimisé. Objectif : valoriser les services, rassurer les clients et faciliter la prise de rendez-vous.",
+    "context": "Stéphanie avait besoin d’un site qui reflète son univers apaisant et professionnel, tout en permettant aux clients de trouver facilement les informations sur ses prestations et de la contacter.",
     "objectives": [
-      "Valoriser les prestations et l’image professionnelle de Stéphanie",
-      "Faciliter la prise de rendez-vous en ligne",
-      "Améliorer la visibilité locale pour les recherches bien-être",
-      "Créer un site moderne, fluide et accessible sur mobile et desktop"
+      "Présenter les prestations de manière claire et attractive",
+      "Rassurer et engager les clients potentiels",
+      "Faciliter la prise de rendez-vous et le contact",
+      "Optimiser la visibilité SEO locale"
     ],
     "solutions": [
-      "Développement front-end avec React et CSS pour une navigation rapide",
-      "Design responsive et visuellement apaisant",
-      "Optimisation SEO locale pour attirer de nouveaux clients",
-      "Formulaire de contact et réservation simple et accessible",
-      "Gestion via GitHub et déploiement sur Vercel, domaine OVH"
+      "Maquette Figma validée avec la cliente pour le design et l’ergonomie",
+      "Développement Next.js avec TailwindCSS pour un site rapide et responsive",
+      "Optimisation SEO et accessibilité pour un meilleur référencement",
+      "Intégration d’un formulaire de contact facile à utiliser",
+      "Design visuel apaisant reflétant l’univers bien-être de Stéphanie"
     ],
     "technologies": [
-      "Nest.js",
-      "TalwindCSS",
-      "GitHub",
-      "Vercel",
-      "OVH (nom de domaine et DNS)",
-      "SEO local",
-      "Accessibilité"
-    ],
-    "result": "Un site web professionnel et accessible, reflétant l’univers de Stéphanie Heudre et facilitant la prise de rendez-vous. La visibilité de ses prestations a été améliorée en ligne.",
-    "testimonial": {
-      "author": "Stéphanie Heudre",
-      "content": "Je suis arrivée à notre premier RDV avec ma propre idée en tête. Priscillia m'a orientée pour remodeler le site avec plus de simplicité, plus adapté afin de répondre plus justement aux attentes de chacun. Ma pratique et la manière dont je vois les choses par rapport aux prestations proposées évoluent, il m'a suffi d'envoyer un message à Priscillia et nous retravaillons déjà dessus !"
-    },
-    "image": "/stephanie.webp",
-    "demoLink": "https://www.massage-stephanie-heudre.fr/",
-    "seoDescription": "Site vitrine développé avec React et CSS pour Stéphanie Heudre, praticienne bien-être, versionné sur GitHub et déployé via Vercel et OVH, SEO local optimisé pour la prise de rendez-vous.",
-    "keywords": [
-      "stephanie-heudre",
-      "praticienne-bien-etre",
-      "site-react-bien-etre",
-      "reservation-en-ligne-bien-etre",
-      "pixelia-and-co",
-      "creation-site-web-professionnel",
-      "seo-local-bien-etre",
-      "site-internet-sante"
-    ]
-  },
-  {
-    "id": 7,
-    "title": "Yaki",
-    "slug": "yaki",
-    "client": "XPEHO / Projet interne",
-    "location": "France",
-    "intro": "Application web sur mesure pour optimiser la gestion du personnel multi-sites : déclarations, disponibilités et coordination des équipes.",
-    "description": "Développement d’une application web fullstack pour gérer les équipes de plusieurs sites en temps réel. Projet réalisé avec Java 17 (backend Spring Boot), Vue 3 + TypeScript (frontend), Docker et PostgreSQL, versionné sur GitHub et déployé sur serveur interne et Vercel.",
-    "context": "Le client avait besoin d’un outil pour centraliser les informations des équipes et simplifier la gestion des disponibilités et déclarations de lieu de travail. L’objectif était d’optimiser la coordination et la communication interne.",
-    "objectives": [
-      "Centraliser les informations du personnel multi-sites",
-      "Permettre un suivi en temps réel des disponibilités et lieux de travail",
-      "Améliorer la coordination et la communication entre les équipes",
-      "Créer une application sécurisée et facile à utiliser"
-    ],
-    "solutions": [
-      "Backend en Java 17 avec Spring Boot",
-      "Frontend en Vue 3 + TypeScript pour une interface moderne et réactive",
-      "Base de données PostgreSQL et versioning sur GitHub",
-      "Déploiement sur Vercel et serveur interne avec Docker",
-      "Tableaux de bord pour la gestion administrative et suivi des disponibilités"
-    ],
-    "technologies": [
-      "Java 17",
-      "Spring Boot",
-      "Vue 3",
-      "TypeScript",
-      "PostgreSQL",
-      "Docker",
-      "GitHub",
-      "Vercel"
-    ],
-    "result": "Une application web complète permettant de gérer efficacement les équipes multi-sites, avec un suivi en temps réel et une interface intuitive pour les administrateurs et les collaborateurs.",
-    "testimonial": {
-      "author": "XPEHO",
-      "content": "L’outil Yaki a transformé notre gestion du personnel. Tout est centralisé, simple à utiliser et efficace. Merci pour le développement précis et l’accompagnement."
-    },
-    "image": "/yaki.webp",
-    "demoLink": "https://yaki.xpeho.fr/",
-    "seoDescription": "Application web fullstack développée pour la gestion du personnel multi-sites avec Java, Spring Boot, Vue 3 et TypeScript. Versionnée sur GitHub et déployée sur Vercel et serveur interne.",
-    "keywords": [
-      "yaki",
-      "gestion-personnel-multi-sites",
-      "application-vue-3",
-      "java-spring-boot",
-      "pixelia-and-co",
-      "outil-rh-web",
-      "application-gestion-equipes",
-      "flutter-node-js-postgresql-docker-java-spring-boot-vue-3-typescript-github"
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Portfolio",
-    "slug": "portfolio",
-    "client": "Priscillia Ammeux",
-    "location": "France",
-    "intro": "Mon portfolio en ligne regroupant mes projets et compétences en développement web.",
-    "description": "Portfolio développé avec Next.js et TailwindCSS, regroupant mes projets, compétences et expériences professionnelles. Déployé sur Vercel et versionné sur GitHub, ce site est également optimisé pour le SEO et l’accessibilité.",
-    "context": "J’avais besoin d’un site personnel pour présenter mes compétences de développeuse web fullstack et mes réalisations, afin de renforcer ma visibilité en ligne auprès des clients et recruteurs.",
-    "objectives": [
-      "Présenter mes projets web et compétences techniques",
-      "Optimiser la visibilité en ligne pour des clients et recruteurs potentiels",
-      "Créer un site rapide, moderne et responsive",
-      "Mettre en avant l’accessibilité et le design"
-    ],
-    "solutions": [
-      "Développement front-end avec Next.js et TailwindCSS",
-      "Design responsive et ergonomique",
-      "SEO et accessibilité optimisés",
-      "Versionning sur GitHub et déploiement sur Vercel",
-      "Intégration d’un portfolio dynamique avec fiches projets"
-    ],
-    "technologies": [
+      "Figma",
       "Next.js",
       "TailwindCSS",
       "GitHub",
       "Vercel",
-      "SEO",
+      "SEO local",
       "Accessibilité"
     ],
-    "result": "Un portfolio moderne et clair qui présente efficacement mes compétences, projets et expériences, accessible sur tous les supports.",
+    "result": "Un site clair et professionnel, qui valorise les services de Stéphanie Heudre et facilite la prise de contact des clients, tout en augmentant sa visibilité en ligne.",
+    "accompagnement": "Suivi régulier pour l’ajout de nouvelles prestations et l’optimisation SEO continue.",
+    "services": [
+      "Maintenance et mise à jour du site",
+      "Optimisation SEO locale",
+      "Support et assistance à la prise de contact"
+    ],
     "testimonial": {
-      "author": "Priscillia Ammeux",
-      "content": "Mon portfolio reflète mon univers et mes compétences, et permet aux visiteurs de découvrir facilement mes projets et services."
+      "author": "Stéphanie Heudre",
+      "content": "Priscillia a créé un site qui reflète parfaitement mon univers et mes services. Très satisfaite de la collaboration !"
     },
-    "image": "/portfolio.webp",
-    "demoLink": "https://www.priscillia-ammeux-portfolio.fr/",
-    "seoDescription": "Portfolio personnel développé avec Next.js et TailwindCSS par Priscillia Ammeux, optimisé SEO et accessibilité, versionné sur GitHub et déployé sur Vercel.",
+    "image": "/stephanie.webp",
+    "demoLink": "https://www.massage-stephanie-heudre.fr",
+    "seoDescription": "Site web pour Stéphanie Heudre, praticienne bien-être : présentation des prestations, contact facile, design apaisant, SEO local optimisé.",
     "keywords": [
-      "portfolio-priscillia-ammeux",
-      "site-developpeuse-web",
-      "next-js-tailwindcss",
+      "massage-stephanie-heudre",
+      "site-bien-etre",
+      "praticienne-bien-etre",
+      "prise-rendez-vous-en-ligne",
       "pixelia-and-co",
-      "portfolio-web",
-      "seo-et-accessibilite",
-      "site-personnel",
-      "developpement-web-fullstack"
+      "site-web-france",
+      "NextJS-TailwindCSS"
     ]
   },
   {
-    "id": 4,
-    "title": "Origins Digital",
+    "id": 7,
+    "title": "Yaki – Application Gestion Personnel",
+    "slug": "yaki-application-gestion-personnel",
+    "client": "XPEHO",
+    "location": "France",
+    "intro": "Développement d’une application de gestion du personnel pour le client XPEHO, avec tableau de bord administratif et gestion des disponibilités.",
+    "description": "Application web et mobile complète pour la gestion du personnel : déclaration du lieu de travail, visualisation des disponibilités et tableau de bord administrateur. Développée en Node.js, Java et Flutter, avec suivi Agile Scrum et intégration de tests automatisés. Objectif : simplifier la gestion administrative et améliorer la productivité.",
+    "context": "Le client avait besoin d’une application pour centraliser les informations sur les membres de l’équipe et automatiser la gestion administrative, afin de gagner du temps et réduire les erreurs.",
+    "objectives": [
+      "Automatiser la gestion du personnel et des déclarations",
+      "Faciliter la visualisation des disponibilités et informations des collaborateurs",
+      "Permettre aux administrateurs de gérer efficacement les données",
+      "Assurer un suivi fiable et sécurisé des informations"
+    ],
+    "solutions": [
+      "Maquettes et prototypes Figma pour valider UX/UI",
+      "Développement Node.js/Flutter pour mobile et Java/Spring Boot pour desktop administrateur",
+      "Tableau de bord complet pour les administrateurs avec gestion des données",
+      "Tests automatisés (Jest, Karaté) pour assurer la qualité",
+      "Méthodologie Agile Scrum pour livraisons rapides et suivi collaboratif",
+      "Intégration monitoring avec Matomo, Prometheus et Grafana",
+      "Déploiement avec Docker et gestion des versions via GitHub"
+    ],
+    "technologies": [
+      "Figma",
+      "Node.js",
+      "Java17",
+      "Spring Boot",
+      "Flutter",
+      "Vue3",
+      "TypeScript",
+      "PostgreSQL",
+      "Docker",
+      "GitHub",
+      "Jest",
+      "Karaté",
+      "Matomo",
+      "Prometheus",
+      "Grafana"
+    ],
+    "result": "Application complète et sécurisée pour la gestion du personnel, réduisant le temps administratif et offrant un tableau de bord clair pour les administrateurs.",
+    "accompagnement": "Suivi et maintenance continue avec améliorations fonctionnelles et évolutions selon les retours utilisateurs.",
+    "services": [
+      "Maintenance technique et évolutive",
+      "Support utilisateur et formation",
+      "Ajout de fonctionnalités et tests automatisés"
+    ],
+    "testimonial": {
+      "author": "XPEHO",
+      "content": "Priscillia a su comprendre nos besoins complexes et livrer une application fiable et intuitive. Son implication dans le projet a été remarquable."
+    },
+    "image": "/yaki.webp",
+    "demoLink": "https://yaki.xpeho.fr",
+    "seoDescription": "Application web et mobile Yaki pour gestion du personnel, développement Node.js, Java, Flutter, Vue3, Agile Scrum, tests automatisés, tableau de bord administrateur.",
+    "keywords": [
+      "yaki-gestion-personnel",
+      "application-gestion-personnel",
+      "NodeJS-Flutter-Java",
+      "tableau-de-bord-administrateur",
+      "pixelia-and-co",
+      "application-entreprise",
+      "gestion-personnel-france"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Portfolio Priscillia Ammeux",
+    "slug": "portfolio-priscillia-ammeux",
+    "client": "Personnel",
+    "location": "France",
+    "intro": "Mon portfolio personnel pour présenter mes compétences, projets et services en développement web et administration de sites.",
+    "description": "Portfolio complet réalisé avec Next.js et TailwindCSS, présentant mes projets professionnels et freelance. Optimisé SEO et responsive design pour un rendu optimal sur tous les supports. Objectif : montrer mes compétences et faciliter la prise de contact pour de futurs clients et recruteurs.",
+    "context": "Besoin de centraliser et présenter mes projets de manière claire, attractive et professionnelle, tout en mettant en avant mes deux facettes : développeuse web et assistante administrative.",
+    "objectives": [
+      "Mettre en valeur mes compétences en développement web et administration",
+      "Présenter mes projets de manière professionnelle et SEO-friendly",
+      "Faciliter le contact et les opportunités de collaboration",
+      "Offrir une navigation fluide et moderne"
+    ],
+    "solutions": [
+      "Développement Next.js avec TailwindCSS pour performance et design moderne",
+      "Structuration des projets avec descriptions détaillées et SEO optimisé",
+      "Intégration responsive et mobile-first",
+      "Mise en avant des services, projets et témoignages clients"
+    ],
+    "technologies": [
+      "Next.js",
+      "TailwindCSS",
+      "React",
+      "GitHub",
+      "Vercel",
+      "SEO de base",
+      "Responsive design"
+    ],
+    "result": "Un portfolio clair, moderne et engageant, qui valorise mes compétences et mes projets pour attirer clients et recruteurs.",
+    "accompagnement": "Mises à jour régulières avec ajout de projets et optimisation SEO.",
+    "services": [
+      "Maintenance technique",
+      "Optimisation SEO",
+      "Mises à jour du contenu et ajout de projets"
+    ],
+    "testimonial": {
+      "author": "Personnel",
+      "content": "Portfolio complet et professionnel, reflétant parfaitement mes compétences et mes réalisations."
+    },
+    "image": "/portfolio.webp",
+    "demoLink": "https://www.priscillia-ammeux.fr",
+    "seoDescription": "Portfolio professionnel de Priscillia Ammeux : présentation de projets web, compétences en développement et administration, responsive design et SEO optimisé.",
+    "keywords": [
+      "portfolio-priscillia-ammeux",
+      "site-developpeuse-web",
+      "NextJS-TailwindCSS",
+      "pixelia-and-co",
+      "portfolio-france",
+      "site-web-personnel",
+      "SEO-responsive"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Origins Digital – Projet Wild Code School",
     "slug": "origins-digital",
     "client": "Projet scolaire",
     "location": "France",
-    "intro": "Application de streaming mobile first et desktop développée en équipe dans le cadre d’un projet scolaire en Agile Scrum.",
-    "description": "Origins Digital est une application web et mobile de streaming réalisée dans le cadre d’un projet scolaire. Développée avec React, Node.js et Express pour le back-end, MySQL pour la base de données, et Sass pour le style. Déployée sur Vercel et versionnée sur GitHub.",
-    "context": "Dans le cadre de mon bootcamp à la Wild Code School, nous devions créer une application fonctionnelle en équipe, respectant les principes Agile Scrum. L’objectif était de mettre en pratique nos compétences fullstack dans un projet complet.",
+    "intro": "Application mobile et desktop pour le streaming musical réalisée en équipe lors du bootcamp de la Wild Code School.",
+    "description": "Projet fullstack réalisé avec React, Node.js, Express et MySQL, proposant une expérience mobile-first pour le streaming musical. Développement collaboratif en Agile Scrum, design sur Figma, optimisation SEO et accessibilité. Objectif : créer une plateforme intuitive et performante pour écouter et gérer du contenu musical.",
+    "context": "Projet P3 du bootcamp, réalisé en équipe, visant à concevoir une application de streaming ergonomique et accessible, respectant les bonnes pratiques de développement et l’accessibilité.",
     "objectives": [
-      "Créer une application web et mobile de streaming fonctionnelle",
-      "Mettre en pratique les compétences fullstack et le travail en équipe Agile",
-      "Optimiser la navigation et le design pour mobile et desktop",
-      "Appliquer les bonnes pratiques en matière de code, versioning et déploiement"
+      "Créer une application mobile et desktop intuitive pour le streaming musical",
+      "Assurer accessibilité et expérience utilisateur optimale",
+      "Travailler en équipe avec méthodologie Agile Scrum",
+      "Mettre en pratique les compétences fullstack acquises pendant le bootcamp"
     ],
     "solutions": [
-      "Front-end en React pour une interface dynamique",
-      "Back-end en Node.js + Express avec base MySQL",
-      "Styles réalisés avec Sass pour une UI cohérente",
-      "Gestion de projet en Agile Scrum",
-      "Versioning sur GitHub et déploiement sur Vercel"
+      "Design Figma pour mobile et desktop, validation UX/UI",
+      "Développement React front-end, Node.js/Express back-end, MySQL pour la base de données",
+      "Intégration responsive et mobile-first",
+      "Tests et validation des fonctionnalités",
+      "Optimisation SEO et respect des bonnes pratiques d’accessibilité"
     ],
     "technologies": [
+      "Figma",
       "React",
       "Node.js",
       "Express",
       "MySQL",
       "Sass",
       "GitHub",
-      "Agile Scrum"
+      "Trello",
+      "Vercel"
     ],
-    "result": "Une application web et mobile complète, démontrant nos compétences en développement fullstack, gestion de projet Agile et déploiement de site fonctionnel.",
+    "result": "Une application de streaming complète, ergonomique et accessible, permettant aux utilisateurs d’explorer, écouter et gérer leur contenu musical facilement.",
+    "accompagnement": "Projet académique — feedback et améliorations continues avec l’équipe pour perfectionner l’expérience utilisateur et le code.",
+    "services": [
+      "Développement fullstack",
+      "UX/UI design",
+      "Tests et validation",
+      "Optimisation responsive et SEO"
+    ],
     "testimonial": {
-      "author": "Equipe projet Origins Digital",
-      "content": "Ce projet nous a permis de travailler en équipe, de développer une application complète et d’appliquer nos compétences techniques et organisationnelles."
+      "author": "Equipe Origins Digital",
+      "content": "Ce projet nous a permis de mettre en pratique toutes nos compétences fullstack et de livrer une application performante et agréable à utiliser."
     },
     "image": "/origins.webp",
-    "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_react-node-express-activity-7030500056227008512-k9fn/?utm_source=share&utm_medium=member_desktop",
-    "seoDescription": "Application de streaming développée dans le cadre d’un projet scolaire avec React, Node.js, Express et MySQL. Déploiement sur Vercel et versioning sur GitHub, responsive et optimisée.",
+    "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_react-node-express-activity-7030500056227008512-k9fn/",
+    "seoDescription": "Projet Origins Digital réalisé en équipe, application de streaming musical fullstack React, Node.js, Express, MySQL, design responsive et accessibilité optimisée.",
     "keywords": [
       "origins-digital",
-      "application-streaming-react",
-      "node-js-express-mysql",
-      "projet-scolaire-wild-code-school",
+      "application-streaming",
+      "React-Node-Express",
+      "MySQL",
       "pixelia-and-co",
-      "developpement-web-fullstack",
-      "agile-scrum",
-      "application-mobile-et-desktop"
+      "projet-wild-code-school",
+      "application-web-mobile"
     ]
   }
 ]

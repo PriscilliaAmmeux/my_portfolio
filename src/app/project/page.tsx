@@ -3,6 +3,7 @@ import projects from "../../data/projects.json";
 import Title from "../ui/title/title";
 import { Metadata } from "next";
 import Layout from "../ui/layout/layout";
+import { slugify } from "../../lib/slugify";
 
 export const metadata: Metadata = {
   title: "Mes projets - Pixelia&Co",
@@ -42,7 +43,7 @@ export default function Project() {
               title={project.title}
               description={project.description}
               image={project.image}
-              demoLink={project.demoLink}
+              slug={project.slug ?? slugify(project.title)}
             />
           ))}
         </div>
