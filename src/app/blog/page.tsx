@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     "accessibilite",
     "performance-web",
   ],
+  alternates: {
+    canonical: "https://www.pixelia-and-co.fr/blog",
+  },
 };
 
 export default function Blog() {

@@ -31,14 +31,8 @@ export const metadata: Metadata = {
     "creation-site-web-accessible-pixeliaandco",
     "accessibilite-numerique-france-pixeliaandco",
   ],
-  openGraph: {
-    title: "accessibilite-web-2025-guide-pratiques-legislation-pixeliaandco",
-    description:
-      "guide-pratiques-accessibilite-web-2025-normes-wcag-rgaa-france-pixeliaandco",
-    type: "article",
-    locale: "fr_FR",
-    url: "https://www.pixeliaandco.fr/blog/accessibilite-web-2025",
-    siteName: "pixeliaandco-blog-accessibilite-web",
+  alternates: {
+    canonical: "https://www.pixelia-and-co.fr/accessibilityArticle",
   },
 };
 

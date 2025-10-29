@@ -31,15 +31,8 @@ export const metadata: Metadata = {
     "metropole-lilloise-web",
     "nord-web",
   ],
-  openGraph: {
-    title:
-      "priscillia-ammeux-pixeliaandco-a-propos-developpeuse-web-ux-ui-designer-quesnoy-sur-deule",
-    description:
-      "priscillia-ammeux-pixeliaandco-autodidacte-developpeuse-web-creation-sites-web-sur-mesure-approche-intuitive-humaine-quesnoy-sur-deule",
-    type: "website",
-    locale: "fr_FR",
-    url: "https://www.pixeliaandco.fr/about",
-    siteName: "priscillia-ammeux-pixeliaandco-developpeuse-web",
+  alternates: {
+    canonical: "https://www.pixelia-and-co.fr/about",
   },
 };
 

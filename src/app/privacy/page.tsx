@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     "gestion-des-donnees",
   ],
   authors: [{ name: "Priscillia Ammeux" }],
+  alternates: {
+    canonical: "https://www.pixelia-and-co.fr/privacy",
+  },
 };
 
 export default function Privacy() {

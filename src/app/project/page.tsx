@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     "backend",
     "ui-ux",
   ],
+  alternates: {
+    canonical: "https://www.pixelia-and-co.fr/project",
+  },
 };
 
 export default function Project() {

@@ -30,6 +30,9 @@ export const metadata: Metadata = {
     "échange",
     "idées",
   ],
+  alternates: {
+    canonical: "https://www.pixelia-and-co.fr/trainingImportance",
+  },
 };
 
 export default function TrainingImportance() {

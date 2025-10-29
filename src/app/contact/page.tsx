@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     "contact-professionnel",
     "services-web",
   ],
+  alternates: {
+    canonical: "https://www.pixelia-and-co.fr/contact",
+  },
 };
 
 export default function Contact() {

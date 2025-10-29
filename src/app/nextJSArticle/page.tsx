@@ -23,7 +23,11 @@ export const metadata: Metadata = {
     "priscillia-ammeux",
     "pixelia-and-co",
   ],
+  alternates: {
+    canonical: "https://www.pixelia-and-co.fr/nextJSArticle",
+  },
 };
+
 
 export default function NextJSArticle() {
   return (
