@@ -35,8 +35,8 @@ export default function NavMobile() {
               href={href}
               className={`flex flex-col items-center py-2 px-3 transition-colors duration-200 ${
                 isActive
-                  ? "text-pink-700 dark:text-pink-400"
-                  : "text-gray-600 dark:text-gray-400 hover:text-pink-700 dark:hover:text-pink-400"
+                  ? "text-pink-600 dark:text-pink-400"
+                  : "text-gray-600 dark:text-gray-400 hover:text-pink-600 dark:hover:text-pink-400"
               }`}>
               <Icon className="text-lg mb-1" />
               <span className="text-xs font-medium text-center">{label}</span>

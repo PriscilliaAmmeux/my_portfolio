@@ -80,7 +80,7 @@ export default function Home() {
 
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between p-4 lg:p-10 gap-6 lg:gap-8 mt-8 lg:mt-16">
           <section className="flex-1 text-center lg:text-left">
-            <div className="max-w-xl mx-auto lg:mx-0">
+            <div className="max-w-xl mx-auto lg:mx-0 ">
               <Hero />
 
               <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-6 sm:gap-4 w-full">

@@ -4,7 +4,7 @@ export default function NewsletterForm() {
   return (
     <div className="mx-auto my-4" style={{ maxWidth: 1000 }}>
       <div className="bg-pink-100 rounded-xl shadow p-4 text-center space-y-6">
-        <h2 className="text-3xl font-bold mb-2 text-pink-700">Newsletter</h2>
+        <h2 className="text-3xl font-bold mb-2 text-pink-600">Newsletter</h2>
         <p className="text-pink-900">
           1 email par mois. Zéro spam. 100 % web & humain. 💻❤️
         </p>
@@ -17,7 +17,7 @@ export default function NewsletterForm() {
         <div
           id="sib-container"
           className="mx-auto rounded-lg"
-          style={{ borderStyle: "dotted", borderColor: "#be185d" }}>
+          style={{ borderStyle: "dotted", borderColor: "#D81B60" }}>
           <div
             style={{
               position: "relative",
@@ -41,7 +41,7 @@ export default function NewsletterForm() {
           </div>
 
           <noscript
-            style={{ display: "block", marginTop: 12, color: "#be185d" }}>
+            style={{ display: "block", marginTop: 12, color: "#D81B60" }}>
             JavaScript désactivé — ouvrez le formulaire directement :{" "}
             <a
               href="https://a0a6fe2a.sibforms.com/serve/MUIFAKJj4fwd6VSX-mvBmjqGnVVXd4m-oDxHwQb2AZQmKM7mtGceh1Iw84kQW-tRyzGQV7WpMC89AD6sVAdXHhxhAcEUk35YCAR_Peb6LPfseJPxhYsAV2Npyx8kGE1zfHakPADVV6rFx7Sn-t6gzhex7uonfdWg1J7EgL6LrLwepgSx2gMu96wFbQ7kC67yqaoAxA-lfW8HQj-m"

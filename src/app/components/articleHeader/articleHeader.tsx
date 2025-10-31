@@ -29,7 +29,7 @@ export default function ArticleHeader({
         />
       </section>
 
-      <h2 className="text-pink-700 font-bold text-xl mt-4 text-center">
+      <h2 className="text-pink-600 font-bold text-xl mt-4 text-center">
         {title}
       </h2>
       <h3 className="text-blue-900 font-bold text-center">{subtitle}</h3>

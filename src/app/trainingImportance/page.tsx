@@ -89,7 +89,7 @@ export default function TrainingImportance() {
                   description=": Apprendre de spécialistes, c’est se nourrir de leur expertise et gagner du temps."
                 />
               </ul>
-              <p className="text-pink-700 italic pt-4 pb-2">
+              <p className="text-pink-600 italic pt-4 pb-2">
                 Toujours un objectif en tête !
               </p>
             </section>
@@ -116,7 +116,7 @@ export default function TrainingImportance() {
                   description="Chaque jour est une opportunité d’apprendre quelque chose de nouveau"
                 />
               </ul>
-              <p className="text-pink-700 italic pt-4 pb-2">
+              <p className="text-pink-600 italic pt-4 pb-2">
                 "L’apprentissage ne s’arrête jamais. Même un petit tip peut
                 faire toute la différence."
               </p>

@@ -50,18 +50,17 @@ export default function ProjectCard({
       </Link>
 
       <section className="px-6 py-6 flex justify-center absolute bottom-0 w-full">
-          <div className="flex gap-3">
-            <Link href={`/project/${projectSlug}`}>
-              <Button
-                type="button"
-                text="Voir la fiche"
-                ariaLabel={`Voir la fiche du projet ${title}`}
-                className="min-h-[44px] px-5 py-2 text-sm"
-                variant="bgWhite"
-              />
-            </Link>
-          </div>
-      
+        <div className="flex gap-3">
+          <Link href={`/project/${projectSlug}`}>
+            <Button
+              type="button"
+              text="Voir la fiche"
+              ariaLabel={`Voir la fiche du projet ${title}`}
+              className="min-h-[44px] px-5 py-2 text-sm"
+              variant="bgWhite"
+            />
+          </Link>
+        </div>
       </section>
     </section>
   );
