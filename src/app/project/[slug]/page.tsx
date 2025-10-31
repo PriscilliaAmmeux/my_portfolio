@@ -76,7 +76,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
           <article className="bg-white rounded-xl shadow-lg p-8 text-gray-800">
             <header className="mb-8">
-              <h2 className="text-3xl sm:text-4xl font-extrabold text-pink-700 mb-3">
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-pink-600 mb-3">
                 {project!.title}
               </h2>
 
@@ -114,21 +114,21 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                       href={project!.demoLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-block w-full text-center bg-pink-700 text-white px-4 py-2 rounded-lg font-semibold shadow hover:bg-pink-800 hover:scale-105 transition">
+                      className="inline-block w-full text-center bg-pink-600 text-white px-4 py-2 rounded-lg font-semibold shadow hover:bg-pink-800 hover:scale-105 transition">
                       Voir le site
                     </a>
                   )}
 
                   <Link
                     href="/contact"
-                    className="block w-full text-center border border-pink-700 text-pink-700 px-4 py-2 rounded-lg hover:bg-pink-700 hover:text-white hover:scale-105 transition">
+                    className="block w-full text-center border border-pink-600 text-pink-600 px-4 py-2 rounded-lg hover:bg-pink-600 hover:text-white hover:scale-105 transition">
                     Me contacter
                   </Link>
                 </div>
 
                 {project!.technologies && project!.technologies.length > 0 && (
                   <div>
-                    <h3 className="text-sm font-semibold text-pink-700 mb-2">
+                    <h3 className="text-sm font-semibold text-pink-600 mb-2">
                       Technologies
                     </h3>
                     <div className="flex flex-wrap gap-2">
@@ -147,7 +147,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
               <div className="lg:col-span-2 space-y-6">
                 {project!.context && (
                   <section>
-                    <h3 className="text-lg font-semibold text-pink-700 mb-2">
+                    <h3 className="text-lg font-semibold text-pink-600 mb-2">
                       Contexte
                     </h3>
                     <p className="leading-relaxed">{project!.context}</p>
@@ -156,7 +156,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
                 {project!.objectives?.length && (
                   <section>
-                    <h3 className="text-lg font-semibold text-pink-700 mb-2">
+                    <h3 className="text-lg font-semibold text-pink-600 mb-2">
                       Objectifs
                     </h3>
                     <ul className="list-disc list-inside">
@@ -169,7 +169,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
                 {project!.solutions?.length && (
                   <section>
-                    <h3 className="text-lg font-semibold text-pink-700 mb-2">
+                    <h3 className="text-lg font-semibold text-pink-600 mb-2">
                       Solutions apportées
                     </h3>
                     <ul className="list-disc list-inside">
@@ -182,7 +182,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
                 {project!.result && (
                   <section>
-                    <h3 className="text-lg font-semibold text-pink-700 mb-2">
+                    <h3 className="text-lg font-semibold text-pink-600 mb-2">
                       Résultats
                     </h3>
                     <p>{project!.result}</p>
@@ -192,7 +192,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                 {project!.testimonial && (
                   <section>
                     <div className="bg-pink-50 border-l-4 border-pink-200 p-4 rounded-lg">
-                      <h3 className="text-sm font-semibold text-pink-700 mb-2">
+                      <h3 className="text-sm font-semibold text-pink-600 mb-2">
                         Témoignage
                       </h3>
                       <blockquote className="italic text-gray-700">
@@ -209,7 +209,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
                 {project!.accompagnement && (
                   <section>
-                    <h3 className="text-sm font-semibold text-pink-700 mb-2">
+                    <h3 className="text-sm font-semibold text-pink-600 mb-2">
                       Accompagnement
                     </h3>
                     <p className="text-sm leading-relaxed">
@@ -220,7 +220,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
                 {project!.services?.length && (
                   <section>
-                    <h3 className="text-sm font-semibold text-pink-700 mb-2">
+                    <h3 className="text-sm font-semibold text-pink-600 mb-2">
                       Services
                     </h3>
                     <ul className="list-disc list-inside text-sm">

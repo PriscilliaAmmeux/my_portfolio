@@ -6,7 +6,7 @@ export default function Navbar() {
     <section className="flex justify-between items-start w-full pt-6 pl-6">
       <Logo width={125} height={125} />
 
-      <div className="relative transform -rotate-2 border-l border-t border-b border-white rounded-tl-[0rem] rounded-bl-[2.5rem] pl-4 pt-4 pb-4">
+      <div className="relative transform -rotate-2 border-l border-t border-b rounded-tl-[0rem] rounded-bl-[2.5rem] pl-4 pt-4 pb-4">
         <div className="absolute inset-0 pointer-events-none z-0"></div>
 
         {/* Navigation */}

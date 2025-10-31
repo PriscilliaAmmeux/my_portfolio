@@ -2,9 +2,9 @@
 
 /* Bouton "Tout accepter" */
 #tarteaucitronRoot #tarteaucitronAllAllowed {
-  background: #be185d !important;
+  background: #D81B60 !important;
   color: white !important;
-  border: 2px solid #be185d !important;
+  border: 2px solid #D81B60 !important;
 }
 
 #tarteaucitronRoot #tarteaucitronAllAllowed:hover {
@@ -14,9 +14,9 @@
 
 /* Bouton "Tout refuser" */
 #tarteaucitronRoot #tarteaucitronAllDenied {
-  background: #be185d !important;
+  background: #D81B60 !important;
   color: white !important;
-  border: 2px solid #be185d !important;
+  border: 2px solid #D81B60 !important;
 }
 
 #tarteaucitronRoot #tarteaucitronAllDenied:hover {
@@ -26,9 +26,9 @@
 
 /* Bouton "Personnaliser" */
 #tarteaucitronRoot #tarteaucitronPersonalize {
-  background: #be185d !important;
+  background: #D81B60 !important;
   color: white !important;
-  border: 2px solid #be185d !important;
+  border: 2px solid #D81B60 !important;
 }
 
 #tarteaucitronRoot #tarteaucitronPersonalize:hover {
@@ -38,7 +38,7 @@
 
 /* Boutons dans le panneau de gestion des services */
 #tarteaucitronRoot .tarteaucitronAllow {
-  background: #be185d !important;
+  background: #D81B60 !important;
   color: white !important;
 }
 
@@ -47,7 +47,7 @@
 }
 
 #tarteaucitronRoot .tarteaucitronDeny {
-  background: #be185d !important;
+  background: #D81B60 !important;
   color: white !important;
 }
 

@@ -33,14 +33,10 @@ export default function Me() {
           <Title text="À propos de moi !" />
           <p className="mb-4">
             Moi, c’est{" "}
-            <span className="font-semibold text-pink-700">
-              Priscillia Ammeux
+            <span className="font-semibold text-pink-600">
+              Priscillia Ammeux{" "}
             </span>
-            ,
-            <span className="font-medium text-white">
-              {" "}
-              développeuse web freelance
-            </span>{" "}
+            ,<span className="font-medium"> développeuse web freelance</span>{" "}
             basée à{" "}
             <span className="text-pink-600 font-medium">
               Quesnoy-sur-Deûle, près de Lille
@@ -50,34 +46,30 @@ export default function Me() {
 
           <p className="mb-4">
             Avant de me lancer dans le développement web, j’ai travaillé pendant
-            <span className="font-semibold text-white">
+            <span className="font-semibold ">
               {" "}
               plus de 10 ans dans le secteur bancaire
             </span>
             , notamment au sein des équipes{" "}
-            <span className="font-semibold text-white">IT</span>. Cette
-            expérience m’a appris la rigueur, l’organisation et le sens du
-            service client.
+            <span className="font-semibold ">IT</span>. Cette expérience m’a
+            appris la rigueur, l’organisation et le sens du service client.
           </p>
 
           <p className="mb-4">
             En <span className="text-pink-600 font-medium">novembre 2021</span>,
             j’ai décidé d’entamer une
-            <span className="font-semibold text-white">
+            <span className="font-semibold">
               {" "}
               reconversion professionnelle
             </span>{" "}
             vers le métier qui me passionne : la{" "}
-            <span className="font-semibold text-pink-700">
+            <span className="font-semibold text-pink-600">
               création de sites web
             </span>
             . Depuis, j’accompagne les entreprises, indépendants et associations
             des
-            <span className="font-semibold text-white">
-              {" "}
-              Hauts-de-France
-            </span>{" "}
-            dans leurs projets digitaux.
+            <span className="font-semibold"> Hauts-de-France</span> dans leurs
+            projets digitaux.
           </p>
 
           <p className="mb-4">
@@ -87,7 +79,7 @@ export default function Me() {
               esthétique et performance
             </span>
             , je conçois des{" "}
-            <span className="font-semibold text-white">
+            <span className="font-semibold">
               sites WordPress et sur mesure{" "}
             </span>
             pensés pour être à la fois beaux, rapides et accessibles.
@@ -96,7 +88,7 @@ export default function Me() {
           <p className="mb-4">
             Mon approche est intuitive, exigeante et profondément humaine. Je ne
             me contente pas de construire des sites :
-            <span className="font-semibold text-pink-700">
+            <span className="font-semibold text-pink-600">
               {" "}
               je donne forme aux idées
             </span>

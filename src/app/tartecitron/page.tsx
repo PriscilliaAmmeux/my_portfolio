@@ -104,7 +104,7 @@ export default function Tartecitron() {
                   href="https://www.adrien-demarle-osteopathe.fr/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-pink-700 font-bold underline hover:text-pink-800">
+                  className="text-pink-600 font-bold underline hover:text-pink-800">
                   adrien-demarle-osteopathe.fr
                 </a>
                 .
@@ -115,7 +115,7 @@ export default function Tartecitron() {
                   href="https://www.npmjs.com/package/tarteaucitronjs"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-pink-700 font-bold underline hover:text-pink-800">
+                  className="text-pink-600 font-bold underline hover:text-pink-800">
                   tarteaucitron.io
                 </a>
               </p>

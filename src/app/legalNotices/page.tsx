@@ -81,7 +81,7 @@ export default function LegalNotices() {
             href="/CGV_Priscillia_Ammeux.pdf"
             download
             aria-label="Cliquez ici pour télécharger les conditions générales de ventes"
-            className="inline-flex items-center px-6 py-3 bg-pink-600 text-white font-medium rounded-lg hover:bg-pink-700 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2">
+            className="inline-flex items-center px-6 py-3 bg-pink-600 text-white font-medium rounded-lg hover:bg-pink-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2">
             <svg
               className="w-4 h-4 mr-2"
               fill="none"

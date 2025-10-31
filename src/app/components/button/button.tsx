@@ -32,7 +32,8 @@ export default function Button({
 
     const variants = {
       bgPink: "bg-pink-700 text-white hover:bg-pink-900 text-lg",
-      bgWhite: "bg-white text-pink-700 hover:bg-pink-200 text-lg",
+      bgWhite:
+        "bg-white text-pink-700 border border-pink-700 hover:bg-pink-100 text-lg",
       bgDark: "bg-black text-white hover:bg-gray-800 text-lg",
     };
 

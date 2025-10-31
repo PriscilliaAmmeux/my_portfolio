@@ -40,11 +40,11 @@ export default function ArticleBlog({
   return (
     <article className="relative overflow-hidden shadow-lg bg-white mt-4 pb-16 mb-5">
       <img className="w-full" src={img} alt={alt} />
-      <h2 className="text-pink-700 font-bold text-xl mt-4 text-center">
+      <h2 className="text-pink-600 font-bold text-xl mt-4 text-center">
         {title}
       </h2>
-      <h3 className="text-pink-700 text-base text-center">{subtitle}</h3>
-      <p className="text-pink-700 text-base ml-2 text-center mr-2">{date}</p>
+      <h3 className="text-pink-600 text-base text-center">{subtitle}</h3>
+      <p className="text-pink-600 text-base ml-2 text-center mr-2">{date}</p>
       <span className="flex justify-center absolute bottom-0 w-full py-2 ">
         <Link className="flex justify-center" href={getHref(id)}>
           <Button

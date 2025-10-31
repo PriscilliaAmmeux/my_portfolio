@@ -86,9 +86,7 @@ export default function Footer() {
           <p className="font-semibold">
             © {new Date().getFullYear()} Pixelia&Co - Tous droits réservés
           </p>
-          <p>
-            Site développé & designé par Pixelia&Co
-          </p>
+          <p>Site développé & designé par Pixelia&Co</p>
         </div>
       </div>
     </footer>

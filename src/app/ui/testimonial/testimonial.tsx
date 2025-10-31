@@ -36,7 +36,7 @@ export default function Testimonial() {
           <blockquote
             key={testimonial.id}
             className="bg-pink-700 p-6 shadow-lg text-center rounded-lg flex flex-col h-full">
-            <div className="text-4xl text-pink-300 font-serif leading-none mb-3">
+            <div className="text-4xl text-pink-100 font-serif leading-none mb-3">
               "
             </div>
 
