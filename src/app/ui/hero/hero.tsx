@@ -4,7 +4,7 @@ export default function Hero() {
       <p className="text-base sm:text-base md:text-lg leading-relaxed mb-3">
         Bienvenue chez{" "}
         <span className="font-semibold text-pink-600">Pixelia&Co</span>, studio
-        web fondé par <span className="font-semibold">Priscillia Ammeux</span>,
+        web fondé par <span className="font-semibold">Priscillia Ammeux, </span>
         <span className="text-pink-600 font-medium">
           développeuse web freelance à Quesnoy-sur-Deûle, près de Lille
         </span>
@@ -13,8 +13,8 @@ export default function Hero() {
 
       <p className="text-base sm:text-base md:text-lg leading-relaxed mb-3">
         J’aide les <span className="font-semibold ">entreprises</span>,
-        <span className="font-semibold ">indépendants</span> et
-        <span className="font-semibold ">associations</span> à booster leur
+        <span className="font-semibold ">indépendants </span> et
+        <span className="font-semibold "> associations</span> à booster leur
         visibilité grâce à des{" "}
         <span className="text-pink-600 font-medium">
           sites web modernes, rapides et faciles à gérer
