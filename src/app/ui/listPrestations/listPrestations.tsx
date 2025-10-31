@@ -1,6 +1,5 @@
 import Card from "@/app/components/card/card";
 import prestationsData from "../../../data/prestations.json";
-import PromoHalloween from "../promoHalloween/promoHalloween";
 
 function getPresentationContent(
   presentation: { content: string } | { content: string }[] | undefined
@@ -20,8 +19,6 @@ export default function ListPrestations() {
 
   return (
     <>
-      <PromoHalloween />
-
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
         {prestations.map((prestation: any) => {
           const presentationContent = getPresentationContent(
