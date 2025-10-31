@@ -1,24 +1,29 @@
 import ScrollToTopButton from "@/app/components/scrollToTopButton/scrollToTopButton";
 import SocialNetwork from "../socialNetwork/socialNetwork";
-import Logo from "../logo/logo";
 import Image from "next/image";
 import { ThemeProvider } from "../themeProvider/themeProvider";
 import { ToggleButton } from "@/app/components/toggleButton/toggleButton";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <footer className="bg-[#be185d] text-white w-full px-6 py-10 md:px-16 flex flex-col gap-10 mt-10">
       <div className="flex flex-col md:flex-row justify-between items-center gap-10">
-        <div className="w-32 md:w-40">
-          <Image
-            src="/Logo-blanc.webp"
-            alt="logo d'entreprise (Pixelia&Co)"
-            aria-label="logo d'entreprise (Pixelia&Co)"
-            className="block"
-            width={150}
-            height={150}
-          />
-        </div>
+        <Link
+          href="/"
+          aria-label="Accueil"
+          className="inline-block cursor-pointer">
+          <div className="w-32 md:w-40">
+            <Image
+              src="/Logo-blanc.webp"
+              alt="logo d'entreprise (Pixelia&Co)"
+              aria-label="logo d'entreprise (Pixelia&Co)"
+              className="block"
+              width={150}
+              height={150}
+            />
+          </div>
+        </Link>
 
         <nav className="flex flex-col md:flex-row text-left gap-6 md:gap-20 text-sm md:text-base">
           <div className="flex flex-col gap-2">
