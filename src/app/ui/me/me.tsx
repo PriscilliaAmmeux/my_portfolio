@@ -36,29 +36,32 @@ export default function Me() {
             <span className="font-semibold text-pink-600">
               Priscillia Ammeux{" "}
             </span>
-            ,<span className="font-medium"> développeuse web freelance</span>{" "}
-            basée à{" "}
-            <span className="text-pink-600 font-medium">
-              Quesnoy-sur-Deûle, près de Lille
-            </span>
-            .
+            ,
+            <span className="font-medium">
+              {" "}
+              développeuse web freelance et fondatrice de Pixelia&Co,{" "}
+            </span>{" "}
+            un studio créatif basé à Quesnoy-sur-Deûle, près de Lille.
           </p>
 
           <p className="mb-4">
             Avant de me lancer dans le développement web, j’ai travaillé pendant
-            <span className="font-semibold ">
-              {" "}
-              plus de 10 ans dans le secteur bancaire
-            </span>
-            , notamment au sein des équipes{" "}
-            <span className="font-semibold ">IT</span>. Cette expérience m’a
-            appris la rigueur, l’organisation et le sens du service client.
+            plus de 10 ans dans le secteur bancaire, au sein d’équipes IT. Cette
+            expérience m’a appris la rigueur, l’organisation et le sens du
+            service client.
           </p>
 
           <p className="mb-4">
-            En <span className="text-pink-600 font-medium">novembre 2021</span>,
-            j’ai décidé d’entamer une
-            <span className="font-semibold">
+            En novembre 2021, j’ai choisi de me reconvertir vers un métier qui
+            fait profondément sens pour moi :{" "}
+            <span className="font-semibold text-pink-600">
+              la création de sites web
+            </span>
+            . Depuis, avec Pixelia&Co, j’accompagne des entreprises,
+            indépendants et associations dans leurs projets digitaux, en alliant
+            esthétique, performance et humanité. En novembre 2021, j’ai décidé
+            d’entamer une
+            <span className="font-semibold text-pink-600">
               {" "}
               reconversion professionnelle
             </span>{" "}
@@ -73,26 +76,28 @@ export default function Me() {
           </p>
 
           <p className="mb-4">
-            Guidée par une obsession de l’harmonie entre
+            Guidée par une recherche d’équilibre entre{" "}
             <span className="font-semibold text-pink-600">
-              {" "}
-              esthétique et performance
+              design, accessibilité et fonctionnalité
             </span>
-            , je conçois des{" "}
-            <span className="font-semibold">
-              sites WordPress et sur mesure{" "}
-            </span>
-            pensés pour être à la fois beaux, rapides et accessibles.
+            , je conçois des sites WordPress ou sur mesure, pensés pour être
+            beaux, rapides et durables. Mon approche est à la fois{" "}
+            <span className="font-semibold text-pink-600">
+              artisanale et professionnelle
+            </span>{" "}
+            : je ne me contente pas de construire des sites, je façonne des
+            expériences digitales qui révèlent l’identité de mes clients.
           </p>
 
           <p className="mb-4">
-            Mon approche est intuitive, exigeante et profondément humaine. Je ne
-            me contente pas de construire des sites :
+            Au fil des projets, j’ai compris qu’un site web ne pouvait pas être
+            un simple produit technique. Pour moi, il doit{" "}
             <span className="font-semibold text-pink-600">
-              {" "}
-              je donne forme aux idées
+              refléter une identité
             </span>
-            , avec précision, style et singularité.
+            , porter une énergie, créer un lien naturel entre toi et ton public.
+            C’est de cette conviction qu’est né le manifeste de{" "}
+            <span className="font-semibold text-pink-600"> Pixelia&Co</span>.
           </p>
         </div>
       </div>
