@@ -39,5 +39,13 @@
     "title": "TarteAuCitron.js",
     "subtitle": "L'allié RGPD incontournable pour ton site web",
     "date": "24/06/2025"
+  },
+  {
+    "id": 6,
+    "img": "/dev-web-vs-seo.webp",
+    "alt": "illustration d'un ordinateur portable, un bloc note et un crayon représentant le développement web et le SEO",
+    "title": "Développeuse web ≠ rédactrice SEO",
+    "subtitle": "Beaucoup pensent que créer un site inclut automatiquement la rédaction des textes et le SEO… mais non !",
+    "date": "13/11/2025"
   }
 ]

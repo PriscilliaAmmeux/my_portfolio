@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "protection-des-donnees",
     "librairie-JavaScript",
     "open-source",
-  ],   
+  ],
   alternates: {
     canonical: "https://www.pixelia-and-co.fr/tartecitron",
   },
@@ -30,11 +30,8 @@ export default function Tartecitron() {
         imgSrc="/citron.webp"
         imgAlt="logo de Tarte Citron"
         title="Tarte Citron"
-        subtitle=""
+        subtitle="L'allié RGPD incontournable pour ton site web"
         date="24/06/2025">
-        <p className="mb-6 text-center">
-          L'allié RGPD incontournable pour ton site web
-        </p>
         <SectionArticle
           title="❓ KESAKO ?"
           content={
@@ -132,7 +129,7 @@ export default function Tartecitron() {
         />
       </ArticleHeader>
 
-      <ArticleNavigation nextHref="/blog" prevHref="/devLille" />
+      <ArticleNavigation nextHref="/devWebVsSeo" prevHref="/devLille" />
     </Layout>
   );
 }
