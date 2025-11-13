@@ -84,7 +84,7 @@ export default function Footer() {
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <ToggleButton />
           </ThemeProvider>
-          <ScrollToTopButton />
+         
         </div>
 
         <div className="flex flex-col gap-2 items-center">
