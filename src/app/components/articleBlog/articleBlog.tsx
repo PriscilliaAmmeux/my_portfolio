@@ -32,6 +32,8 @@ export default function ArticleBlog({
         return "/devLille";
       case 5:
         return "/tartecitron";
+      case 6:
+        return "/devWebVsSeo";
       default:
         return "/blog";
     }
