@@ -3,6 +3,7 @@ import Footer from "@/app/ui/footer/footer";
 import Navigation from "@/app/ui/navigation/navigation";
 import { ppNeueMachina } from "../fonts";
 import Logo from "../logo/logo";
+import ScrollToTopButton from "@/app/components/scrollToTopButton/scrollToTopButton";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -15,6 +16,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <Navigation />
       {children}
       <Footer />
+      <ScrollToTopButton />
     </section>
   );
 }
