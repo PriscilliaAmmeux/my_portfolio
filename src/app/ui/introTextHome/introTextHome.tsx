@@ -65,11 +65,13 @@ const highlightPixelia = (text: string) => {
 
 // Composant bouton vers prestations
 const PrestationsButton = () => (
-  <Link
-    href="/prestations"
-    className="inline-flex items-center justify-center w-full px-4 py-2 text-sm font-semibold text-pink-700 bg-pink-100 border border-pink-200 rounded-lg hover:bg-pink-200 hover:text-pink-800 transition-colors duration-200">
-    Voir mes prestations détaillées →
-  </Link>
+  <div className="flex justify-center">
+    <Link
+      href="/prestations"
+      className="inline-flex items-center justify-center px-4 py-2 text-sm font-semibold text-pink-700 bg-pink-100 border border-pink-200 rounded-lg hover:bg-pink-200 hover:text-pink-800 transition-colors duration-200">
+      Voir mes prestations détaillées →
+    </Link>
+  </div>
 );
 
 export default function IntroTextHome() {

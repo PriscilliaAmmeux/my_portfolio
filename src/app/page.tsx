@@ -19,48 +19,27 @@ export const metadata: Metadata = {
     "priscillia-ammeux-pixeliaandco-creation-site-internet-sur-mesure-eco-concu-design-creatif-quesnoy-sur-deule-nord",
   keywords: [
     "developpeuse-web-freelance",
-    "creation-site-internet-quesnoy-sur-deule",
-    "site-internet-sur-mesure-quesnoy-sur-deule",
-    "site-internet-sur-mesure-quesnoy-sur-deule",
+    "creation-site-internet-lille",
+    "site-internet-sur-mesure-lille",
     "site-vitrine-web-hauts-de-france",
     "eco-conception-web-nord",
     "web-design-creatif",
     "responsive-design-web",
     "experience-utilisateur-web",
     "identite-de-marque-digitale",
-    "optimisation-performance-web",
     "freelance-web-nord",
     "metropole-lilloise-web",
     "site-internet-professionnel",
-    "accessibilite-web",
-    "seo-site-internet",
-    "maintenance-site-web",
-    "experience-utilisateur-web",
     "strategie-digitale-pme",
     "transformation-numerique",
-    "integration-html-css",
-    "javascript-web",
-    "react-js",
-    "next-js",
     "wordpress-freelance",
-    "prestashop-ecommerce",
-    "site-ecommerce-nord",
     "refonte-site-internet",
-    "optimisation-seo-site-web",
-    "audit-seo-site-internet",
     "marketing-digital-pme",
     "gestion-projet-web-agile",
     "developpement-web-sur-mesure",
     "creation-blog-professionnel",
-    "strategie-contenu-web",
-    "redaction-web-seo",
-    "developpement-front-end",
-    "developpement-back-end",
     "design-interface-utilisateur",
-    "e-commerce-nord",
     "creation-boutique-en-ligne",
-    "branding-numerique",
-    "charte-graphique-web",
     "site-web-rapide",
     "freelance-web-hauts-de-france",
     "developpeuse-web-lille",
@@ -75,16 +54,15 @@ export default function Home() {
   return (
     <main>
       <Layout>
-        <h1 className="sr-only">
+        <h1 className="text-3xl lg:text-4xl font-bold text-center mt-16 mb-8 px-4 bg-gradient-to-r from-pink-600 via-pink-700 to-pink-800 bg-clip-text text-transparent leading-tight">
           Pixelia&Co – Création de site internet à Lille – Studio web &
           freelance WordPress
         </h1>
 
-        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between p-4 lg:p-10 gap-6 lg:gap-8 mt-8 lg:mt-16">
+        <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between p-4 lg:p-10 mt-8 lg:mt-16">
           <section className="flex-1 text-center lg:text-left">
             <div className="max-w-xl mx-auto lg:mx-0 ">
               <Hero />
-
               <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-6 sm:gap-4 w-full">
                 <Link href="/contact">
                   <Button
@@ -112,14 +90,13 @@ export default function Home() {
             <Image
               src="/Nuage-web.webp"
               alt="nuage web: un refresh() de créativité web"
-              className="block w-[250px] h-[250px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] xl:w-[500px] xl:h-[500px]"
+              className="block w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px]"
               width={500}
               height={500}
             />
           </section>
         </div>
         <section>
-          {" "}
           <IntroTextHome />
         </section>
       </Layout>
