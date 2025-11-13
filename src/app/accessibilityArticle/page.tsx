@@ -121,7 +121,7 @@ export default function AccessibilityArticle() {
           }
         />
       </ArticleHeader>
-      <ArticleNavigation nextHref="/nextJSArticle" prevHref="/tartecitron" />
+      <ArticleNavigation nextHref="/nextJSArticle" prevHref="/blog" />
     </Layout>
   );
 }

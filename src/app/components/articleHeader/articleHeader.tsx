@@ -24,8 +24,8 @@ export default function ArticleHeader({
           className="h-auto max-w-full"
           src={imgSrc}
           alt={imgAlt}
-          width={600}
-          height={400}
+          width={400}
+          height={200}
         />
       </section>
 
