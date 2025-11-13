@@ -2,6 +2,28 @@ import Link from "next/link";
 import ArticleHeader from "../components/articleHeader/articleHeader";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 import Layout from "../ui/layout/layout";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Développeuse web ≠ rédactrice SEO",
+  description:
+    "Découvrez pourquoi le développement web et la rédaction SEO sont deux métiers distincts mais complémentaires pour la création de sites performants et bien référencés.",
+  keywords: [
+    "developpement-web",
+    "redaction-seo",
+    "referencement-naturel",
+    "complementarite-metiers",
+    "pixeliaandco",
+    "priscillia-ammeux",
+    "creation-site-internet",
+    "performance-web",
+    "experience-utilisateur",
+    "strategie-contenu",
+  ],
+  alternates: {
+    canonical: "https://www.pixelia-and-co.fr/devWebVsSeo",
+  },
+};
 
 export default function DevWebVsSeo() {
   return (
