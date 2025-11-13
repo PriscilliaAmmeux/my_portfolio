@@ -10,6 +10,7 @@ import Image from "next/image";
 import CookieBanner from "./components/CookieBanner/CookieBanner";
 import { Metadata } from "next";
 import Hero from "./ui/hero/hero";
+import IntroTextHome from "./ui/introTextHome/introTextHome";
 
 export const metadata: Metadata = {
   title:
@@ -75,7 +76,8 @@ export default function Home() {
     <main>
       <Layout>
         <h1 className="sr-only">
-          Pixelia&Co – Création de sites web à Lille et Quesnoy-sur-Deûle
+          Pixelia&Co – Création de site internet à Lille – Studio web &
+          freelance WordPress
         </h1>
 
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between p-4 lg:p-10 gap-6 lg:gap-8 mt-8 lg:mt-16">
@@ -116,6 +118,10 @@ export default function Home() {
             />
           </section>
         </div>
+        <section>
+          {" "}
+          <IntroTextHome />
+        </section>
       </Layout>
 
       <CookieBanner />
