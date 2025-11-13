@@ -1,7 +1,7 @@
 import React from "react";
 
 interface CardPinkBorderProps {
-  title: string;
+  title: string | React.ReactNode;
   icon?: string | React.ReactNode;
   image?: {
     src: string;
@@ -39,7 +39,7 @@ export default function CardPinkBorder({
           </div>
         ) : null}
 
-        <h3 className="text-xl font-bold text-pink-700 mb-2">{title}</h3>
+        <h3 className="text-xl font-bold text-pink-600 mb-2">{title}</h3>
 
         {subtitle && (
           <p className="text-pink-900 font-medium mb-4">{subtitle}</p>

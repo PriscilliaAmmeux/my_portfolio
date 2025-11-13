@@ -1,5 +1,6 @@
 import CardPinkBorder from "@/app/components/cardPinkBorder/cardPinkBorder";
 import Link from "next/link";
+import { FaArrowAltCircleRight } from "react-icons/fa";
 
 const SERVICES_LIST = [
   "Landing page wordpress simple (sans barre de navigation ni formulaire de contact): ici peu de personnalisation, j'utilise un template moderne.",
@@ -43,6 +44,34 @@ const SECTIONS_CONTENT = {
   },
 };
 
+// Styles unifiés pour tous les textes
+const TEXT_STYLE = "leading-relaxed text-pink-900";
+const LIST_STYLE = "list-disc list-inside text-pink-900 space-y-2";
+const PARAGRAPH_STYLE = "leading-relaxed text-pink-900 mb-3";
+
+// Fonction utilitaire pour styliser "Pixelia&Co" dans les paragraphes uniquement
+const highlightPixelia = (text: string) => {
+  const parts = text.split(/(Pixelia&Co)/g);
+  return parts.map((part, index) =>
+    part === "Pixelia&Co" ? (
+      <span key={index} className="text-pink-600 font-semibold">
+        {part}
+      </span>
+    ) : (
+      part
+    )
+  );
+};
+
+// Composant bouton vers prestations
+const PrestationsButton = () => (
+  <Link
+    href="/prestations"
+    className="inline-flex items-center justify-center w-full px-4 py-2 text-sm font-semibold text-pink-700 bg-pink-100 border border-pink-200 rounded-lg hover:bg-pink-200 hover:text-pink-800 transition-colors duration-200">
+    Voir mes prestations détaillées →
+  </Link>
+);
+
 export default function IntroTextHome() {
   return (
     <section className="max-w-7xl mx-auto px-4 py-12">
@@ -50,14 +79,15 @@ export default function IntroTextHome() {
         {/* Card Création de sites */}
         <CardPinkBorder
           title={SECTIONS_CONTENT.intro.title}
-          icon={SECTIONS_CONTENT.intro.icon}>
-          <p className="mb-4 leading-relaxed">
-            {SECTIONS_CONTENT.intro.description}
+          icon={SECTIONS_CONTENT.intro.icon}
+          footer={<PrestationsButton />}>
+          <p className={PARAGRAPH_STYLE}>
+            {highlightPixelia(SECTIONS_CONTENT.intro.description)}
           </p>
-          <ul className="list-disc list-inside text-pink-700 space-y-2">
+          <ul className={LIST_STYLE}>
             {SERVICES_LIST.map((service, index) => (
-              <li key={index} className="text-sm leading-relaxed">
-                {service}
+              <li key={index} className={TEXT_STYLE}>
+                {highlightPixelia(service)}
               </li>
             ))}
           </ul>
@@ -66,11 +96,12 @@ export default function IntroTextHome() {
         {/* Card Gestion facile */}
         <CardPinkBorder
           title={SECTIONS_CONTENT.management.title}
-          icon={SECTIONS_CONTENT.management.icon}>
+          icon={SECTIONS_CONTENT.management.icon}
+          footer={<PrestationsButton />}>
           <div className="space-y-3">
             {SECTIONS_CONTENT.management.paragraphs.map((paragraph, index) => (
-              <p key={index} className="text-sm leading-relaxed">
-                {paragraph}
+              <p key={index} className={PARAGRAPH_STYLE}>
+                {highlightPixelia(paragraph)}
               </p>
             ))}
           </div>
@@ -80,8 +111,8 @@ export default function IntroTextHome() {
         <CardPinkBorder
           title={SECTIONS_CONTENT.seo.title}
           icon={SECTIONS_CONTENT.seo.icon}>
-          <p className="text-sm leading-relaxed">
-            {SECTIONS_CONTENT.seo.content}
+          <p className={PARAGRAPH_STYLE}>
+            {highlightPixelia(SECTIONS_CONTENT.seo.content)}
           </p>
         </CardPinkBorder>
 
@@ -91,15 +122,17 @@ export default function IntroTextHome() {
           icon={SECTIONS_CONTENT.why.icon}>
           <div className="space-y-3">
             {SECTIONS_CONTENT.why.paragraphs.map((paragraph, index) => (
-              <p key={index} className="text-sm leading-relaxed">
-                {paragraph}
+              <p key={index} className={PARAGRAPH_STYLE}>
+                {highlightPixelia(paragraph)}
               </p>
             ))}
-            <p className="text-sm leading-relaxed">
+            <p className={PARAGRAPH_STYLE}>
               Venez découvrir{" "}
               <Link
                 href="/project"
-                className="text-pink-600 font-semibold hover:text-pink-700 hover:underline transition-colors duration-200">
+                className="inline-flex items-center gap-1 text-pink-600 font-semibold hover:text-pink-700 hover:underline transition-colors duration-200">
+                {" "}
+                <FaArrowAltCircleRight />
                 mes réalisations
               </Link>{" "}
               pour vous faire une idée !

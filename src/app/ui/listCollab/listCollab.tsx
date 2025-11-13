@@ -143,7 +143,7 @@ export default function ListCollab() {
                 <p className="font-semibold mb-2">{block.intro}</p>
                 <p className="mb-2">{block.presentation}</p>
                 <p className="mb-2">{block.contain}</p>
-                <ul className="mb-2 ml-4 list-disc text-pink-700">
+                <ul className="mb-2 ml-4 list-disc text-pink-900">
                   {block.list.map((item, idx) => (
                     <li key={idx} className="mb-1">
                       {item}
