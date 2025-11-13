@@ -1,6 +1,7 @@
 "use client";
 
 import Button from "@/app/components/button/button";
+import CardPinkBorder from "@/app/components/cardPinkBorder/cardPinkBorder";
 
 const collabs = [
   {
@@ -11,13 +12,13 @@ const collabs = [
     desc: [
       {
         intro:
-          "Qui se cache derrière “Mots Sur Mesure” ? Deux plumes fusionnées !",
+          'Qui se cache derrière "Mots Sur Mesure" ? Deux plumes fusionnées !',
         presentation:
           "Christelle et Nesrine, toutes deux spécialisées en rédaction web. Elles proposent aussi des services de copywriting, community management, correction et traduction de textes.",
         contain:
           "Ensemble, elles ont mis leurs talents côte à côte pour donner vie à vos contenus :",
         list: [
-          "Pages d’accueil & pages “À propos”",
+          'Pages d\'accueil & pages "À propos"',
           "Articles de blog",
           "Pages de vente",
           "Newsletters",
@@ -25,7 +26,7 @@ const collabs = [
           "Séquences e-mailing",
         ],
         conclusion:
-          "Besoin d’un contenu commercial ou informatif, ou un peu des deux ? Elles vous écrivent des Mots Sur Mesure !",
+          "Besoin d'un contenu commercial ou informatif, ou un peu des deux ? Elles vous écrivent des Mots Sur Mesure !",
       },
     ],
     link: "https://linktr.ee/motssurmesure?fbclid=PAZXh0bgNhZW0CMTEAAafWoXm46fiXuAOIk6NB_SeRjebumAxhMYhubu7mpEORxHCukkaQhQCkky0Adw_aem_jpC3xJvl-yXSY_DIsPoTQg",
@@ -41,17 +42,17 @@ const collabs = [
         intro:
           "Béatrice est la Fondatrice de 11.11 Studio, un atelier de design graphique qui secoue (gentiment, mais sûrement) les marques !",
         presentation:
-          "Son credo ? Transformer les identités visuelles en véritables déclarations d’amour à l’audace. Parce qu’une marque qui assume son style, c’est une marque qu’on n’oublie pas.",
+          "Son credo ? Transformer les identités visuelles en véritables déclarations d'amour à l'audace. Parce qu'une marque qui assume son style, c'est une marque qu'on n'oublie pas.",
         contain:
-          "Avec 8 ans en comm’ et 3 ans en tant que DA, elle a apprit une chose: le design, c’est fait pour impressionner, pas pour passer inaperçu !",
+          "Avec 8 ans en comm' et 3 ans en tant que DA, elle a apprit une chose: le design, c'est fait pour impressionner, pas pour passer inaperçu !",
         list: [
           "Branding & Identités visuelles (logos, chartes graphiques, univers visuels)",
           "Design Systems & Direction artistique (cohérence digitale et print)",
           "Contenus impactants (print, digital, réseaux sociaux)",
-          "Stratégie visuelle (mettre en scène l’histoire de la marque pour séduire son audience)",
+          "Stratégie visuelle (mettre en scène l'histoire de la marque pour séduire son audience)",
         ],
         conclusion:
-          "Béatrice façonne des univers graphiques uniques, à l’image de chaque marque, pour une communication cohérente et mémorable.",
+          "Béatrice façonne des univers graphiques uniques, à l'image de chaque marque, pour une communication cohérente et mémorable.",
       },
     ],
     link: "https://linktr.ee/11.11_std?fbclid=PAZXh0bgNhZW0CMTEAAacZHYlrNOXWlv9MuomaJFT_quSCvmfI1QugLBfumeQvl5pL116YbkcyjsmYyQ_aem_lNEB_tRc0RK4S6i1zXJReA ",
@@ -65,11 +66,11 @@ const collabs = [
     desc: [
       {
         intro:
-          "Hawa est la fondatrice de Haw’s fait ta com’, une experte passionnée de communication digitale.",
+          "Hawa est la fondatrice de Haw's fait ta com', une experte passionnée de communication digitale.",
         presentation:
           "Community Manager & Créatrice de contenu, elle accompagne les entrepreneurs dans la gestion et le développement de leur visibilité sur les réseaux sociaux grâce à une stratégie claire, authentique et adaptée à leurs besoins.",
         contain:
-          "Son accompagnement repose sur l’écoute, la pédagogie et des conseils concrets pour vous aider à prendre confiance et à maîtriser votre communication.",
+          "Son accompagnement repose sur l'écoute, la pédagogie et des conseils concrets pour vous aider à prendre confiance et à maîtriser votre communication.",
         list: [
           "Stratégie et gestion des réseaux sociaux",
           "Coaching & mentorat individuel",
@@ -95,7 +96,7 @@ export default function ListCollab() {
         <div className="space-y-5">
           <p className="text-lg text-pink-900 font-medium leading-relaxed">
             Chez <span className="font-bold text-pink-700">Pixelia&Co</span>, le
-            “&Co” prend tout son sens.
+            "&Co" prend tout son sens.
           </p>
           <p className="text-lg text-pink-900 font-medium leading-relaxed">
             Je collabore avec des freelances passionnés et complémentaires pour
@@ -114,24 +115,31 @@ export default function ListCollab() {
           </p>
         </div>
       </div>
+
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {collabs.map((collab, idx) => (
-          <div
+        {collabs.map((collab) => (
+          <CardPinkBorder
             key={collab.name}
-            className="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center border-2 border-pink-200 hover:scale-105 transition-transform duration-300 h-full w-full max-w-2xl mx-auto">
-            <img
-              src={collab.img}
-              alt={collab.alt}
-              className="w-24 h-24 rounded-full mb-4 border-4 object-cover"
-            />
-            <h3 className="text-xl font-bold text-pink-700 mb-2">
-              {collab.name}
-            </h3>
-            <p className="text-pink-900 font-medium mb-4">{collab.role}</p>
+            title={collab.name}
+            subtitle={collab.role}
+            image={{ src: collab.img, alt: collab.alt }}
+            className="max-w-2xl mx-auto"
+            footer={
+              <a
+                href={collab.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex justify-center">
+                <Button
+                  text={collab.linkText}
+                  className="w-full bg-pink-100 text-pink-700 hover:bg-pink-200"
+                  type="button"
+                  ariaLabel={"Contacter " + collab.name}
+                />
+              </a>
+            }>
             {collab.desc.map((block, i) => (
-              <div
-                key={i}
-                className="text-sm text-pink-700 mb-4 text-left w-full">
+              <div key={i} className="text-sm text-left w-full">
                 <p className="font-semibold mb-2">{block.intro}</p>
                 <p className="mb-2">{block.presentation}</p>
                 <p className="mb-2">{block.contain}</p>
@@ -145,20 +153,7 @@ export default function ListCollab() {
                 <p className="font-semibold">{block.conclusion}</p>
               </div>
             ))}
-            <div className="flex-grow" />
-            <a
-              href={collab.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex justify-center mt-3">
-              <Button
-                text={collab.linkText}
-                className="w-full bg-pink-100 text-pink-700 hover:bg-pink-200"
-                type="button"
-                ariaLabel={"Contacter " + collab.name}
-              />
-            </a>
-          </div>
+          </CardPinkBorder>
         ))}
       </div>
     </section>

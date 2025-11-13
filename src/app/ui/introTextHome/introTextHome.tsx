@@ -1,3 +1,4 @@
+import CardPinkBorder from "@/app/components/cardPinkBorder/cardPinkBorder";
 import Link from "next/link";
 
 const SERVICES_LIST = [
@@ -13,6 +14,7 @@ const SECTIONS_CONTENT = {
     title: "Création de sites web professionnels",
     description:
       "Je vous propose des pages de site internet claires, efficaces et orientées conversion, en vous accompagnant sur tous types de projets :",
+    icon: "💻",
   },
   management: {
     title: "Avoir un site internet facile à gérer avec Pixelia&Co",
@@ -23,11 +25,13 @@ const SECTIONS_CONTENT = {
       "Pas besoin de connaissances techniques ou de notions de code : interface intuitive, éditeur de texte moderne et construction par glisser-déposer.",
       "Et sachez que je suis toujours là après la mise en ligne, en cas de besoin.",
     ],
+    icon: "⚙️",
   },
   seo: {
     title: "Référencement & performance",
     content:
       "Un bon site internet est inutile s'il n'est pas visible. Grâce au référencement naturel (SEO / intégration de mots-clés) et à la structure technique (CSS, HTML propres, extensions utiles, performance), tout est fait pour aider votre site à apparaître sur les premières pages des moteurs de recherche.",
+    icon: "🚀",
   },
   why: {
     title: "Pourquoi choisir Pixelia&Co ?",
@@ -35,66 +39,74 @@ const SECTIONS_CONTENT = {
       "Parce que vous aurez droit à une conception sur mesure, des explications claires, de la pédagogie, et une autonomie garantie. Je vous accompagne sur votre projet de la conception à la mise en ligne, et même après.",
       "Avec Pixelia&Co, créer un site n'est pas si compliqué. Mon rôle est de faire de ce projet, un jeu d'enfant pour vous.",
     ],
+    icon: "✨",
   },
 };
 
-// Style commun pour tous les paragraphes
-const PARAGRAPH_STYLE =
-  "text-base sm:text-base md:text-lg leading-relaxed mb-4";
-const HEADING_STYLE = "text-pink-600 font-bold text-xl mt-4 text-center mb-4";
-
 export default function IntroTextHome() {
   return (
-    <div className="w-full px-4 py-12 prose prose-pink prose-lg prose-headings:text-pink-700 dark:prose-headings:text-pink-400 max-w-none">
-      {/* Section services */}
-      <section>
-        <h2 className={HEADING_STYLE}>{SECTIONS_CONTENT.intro.title}</h2>
-        <p className={PARAGRAPH_STYLE}>{SECTIONS_CONTENT.intro.description}</p>
-        <ul className="list-disc list-inside mb-8 mt-4 ml-5">
-          {SERVICES_LIST.map((service, index) => (
-            <li
-              key={index}
-              className="text-base sm:text-base md:text-lg leading-relaxed">
-              {service}
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      {/* Section gestion */}
-      <section>
-        <h3 className={HEADING_STYLE}>{SECTIONS_CONTENT.management.title}</h3>
-        {SECTIONS_CONTENT.management.paragraphs.map((paragraph, index) => (
-          <p key={index} className={PARAGRAPH_STYLE}>
-            {paragraph}
+    <section className="max-w-7xl mx-auto px-4 py-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        {/* Card Création de sites */}
+        <CardPinkBorder
+          title={SECTIONS_CONTENT.intro.title}
+          icon={SECTIONS_CONTENT.intro.icon}>
+          <p className="mb-4 leading-relaxed">
+            {SECTIONS_CONTENT.intro.description}
           </p>
-        ))}
-      </section>
+          <ul className="list-disc list-inside text-pink-700 space-y-2">
+            {SERVICES_LIST.map((service, index) => (
+              <li key={index} className="text-sm leading-relaxed">
+                {service}
+              </li>
+            ))}
+          </ul>
+        </CardPinkBorder>
 
-      {/* Section SEO */}
-      <section>
-        <h4 className={HEADING_STYLE}>{SECTIONS_CONTENT.seo.title}</h4>
-        <p className={PARAGRAPH_STYLE}>{SECTIONS_CONTENT.seo.content}</p>
-      </section>
+        {/* Card Gestion facile */}
+        <CardPinkBorder
+          title={SECTIONS_CONTENT.management.title}
+          icon={SECTIONS_CONTENT.management.icon}>
+          <div className="space-y-3">
+            {SECTIONS_CONTENT.management.paragraphs.map((paragraph, index) => (
+              <p key={index} className="text-sm leading-relaxed">
+                {paragraph}
+              </p>
+            ))}
+          </div>
+        </CardPinkBorder>
 
-      {/* Section pourquoi */}
-      <section>
-        <h4 className={HEADING_STYLE}>{SECTIONS_CONTENT.why.title}</h4>
-        {SECTIONS_CONTENT.why.paragraphs.map((paragraph, index) => (
-          <p key={index} className={PARAGRAPH_STYLE}>
-            {paragraph}
+        {/* Card SEO & Performance */}
+        <CardPinkBorder
+          title={SECTIONS_CONTENT.seo.title}
+          icon={SECTIONS_CONTENT.seo.icon}>
+          <p className="text-sm leading-relaxed">
+            {SECTIONS_CONTENT.seo.content}
           </p>
-        ))}
-        <p className={PARAGRAPH_STYLE}>
-          Venez découvrir{" "}
-          <Link
-            href="/project"
-            className="text-pink-600 font-semibold hover:text-pink-700 hover:underline transition-colors duration-200">
-            mes réalisations
-          </Link>{" "}
-          pour vous faire une idée !
-        </p>
-      </section>
-    </div>
+        </CardPinkBorder>
+
+        {/* Card Pourquoi choisir */}
+        <CardPinkBorder
+          title={SECTIONS_CONTENT.why.title}
+          icon={SECTIONS_CONTENT.why.icon}>
+          <div className="space-y-3">
+            {SECTIONS_CONTENT.why.paragraphs.map((paragraph, index) => (
+              <p key={index} className="text-sm leading-relaxed">
+                {paragraph}
+              </p>
+            ))}
+            <p className="text-sm leading-relaxed">
+              Venez découvrir{" "}
+              <Link
+                href="/project"
+                className="text-pink-600 font-semibold hover:text-pink-700 hover:underline transition-colors duration-200">
+                mes réalisations
+              </Link>{" "}
+              pour vous faire une idée !
+            </p>
+          </div>
+        </CardPinkBorder>
+      </div>
+    </section>
   );
 }
