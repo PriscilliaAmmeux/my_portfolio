@@ -1,112 +1,103 @@
-import Image from "next/image";
-import Title from "../title/title";
+import CardPinkBorder from "../../components/cardPinkBorder/cardPinkBorder";
+import IntroMe from "../introMe/introMe";
+
+const SECTIONS = [
+  {
+    title: "De la banque à la création de sites web",
+    icon: "🏦",
+    paragraphs: [
+      "Avant de me lancer dans le développement web, j'ai travaillé plus de dix ans dans le secteur bancaire, au sein d'équipes IT exigeantes et rigoureuses. Cette expérience m'a appris la précision, l'organisation, la méthode, mais surtout, le service client.",
+      "En 2021, j'ai choisi de me reconvertir pour exercer un métier plus créatif, à la croisée du code, du design et de la communication digitale. Aujourd'hui, je mets cette double compétence (technique et humaine) au service de mes clients pour concevoir des sites internet clairs, efficaces et durables.",
+    ],
+  },
+  {
+    title: "Mon métier, créer et développer des sites WordPress sur mesure",
+    icon: "💻",
+    paragraphs: [
+      "Je crée des sites 100% codés et des sites WordPress personnalisés :",
+    ],
+    list: [
+      "Sites vitrines, blogs, portfolios, ou landing pages orientées conversion,",
+      "Refontes de sites existants, pour améliorer le design, le référencement naturel (SEO) ou la performance,",
+      "Intégration d'outils essentiels : hébergement web, nom de domaine, sécurité SSL, Google Analytics, système de gestion de contenu (CMS), responsive design pour mobiles et tablettes, etc.",
+    ],
+    additionalParagraphs: [
+      "Je fais de votre projet une solution clé en main, adaptée à votre activité, à votre secteur et à votre image de marque.",
+      "Je vous accompagne à chaque étape : de la structure du contenu, en passant par la personnalisation graphique, l'optimisation SEO, jusqu'à la mise en ligne.",
+      "Je me forme aussi régulièrement sur d'autres outils, comme WooCommerce par exemple, pour vous accompagner dans la création de votre boutique en ligne.",
+    ],
+  },
+  {
+    title: "Ma philosophie de travail",
+    icon: "✨",
+    paragraphs: [
+      "On pourrait croire que créer un site internet, c'est juste écrire du code HTML ou installer un thème WordPress.",
+      "Eh bien non ! C'est avant tout concevoir un outil vivant, fidèle à votre identité, qui soutient votre stratégie et facile à gérer pour votre communication en ligne au quotidien.",
+      "Mon approche est :",
+    ],
+    list: [
+      "Humaine : écoute, accompagnement et pédagogie tout au long du projet.",
+      "Structurée : un process clair, des étapes définies et des échanges réguliers.",
+      "Créative : un webdesign sur mesure, sans templates génériques.",
+      "Orientée résultats : performance, accessibilité et référencement naturel durable.",
+    ],
+    additionalParagraphs: [
+      "Je construis des sites au joli design, responsifs, et simples à administrer. Mon but est que vous puissiez gérer votre contenu en toute autonomie, même sans connaissances techniques, même après sa mise en ligne.",
+      "De plus, pour moi, chaque projet est une collaboration, pas une simple commande. Je prends le temps d'écouter, de comprendre, de traduire votre énergie en pixels.",
+    ],
+  },
+  {
+    title: "Une créatrice digitale avec le sens du détail",
+    icon: "🎨",
+    paragraphs: [
+      "Je transforme vos idées en un site web unique, moderne et performant, imaginé et créé pour vos utilisateurs comme pour les moteurs de recherche. Une ligne de code, une couleur, un espace, j'organise tout pour mettre en valeur votre activité et renforcer votre notoriété en ligne.",
+      "Vous méritez un site internet professionnel à votre image : clair et intuitif. On le construit ensemble ?",
+    ],
+  },
+];
 
 export default function Me() {
   return (
-    <section className="flex flex-col items-center justify-center mb-2 mx-auto px-4 sm:px-8">
-      <div className="flex flex-col lg:flex-row lg:items-start gap-8 mt-8">
-        <div className="relative w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] lg:w-[300px] lg:h-[300px] flex-shrink-0 lg:mt-4 mx-auto lg:mx-0">
-          <Image
-            src="/Grille noire.webp"
-            alt="Grille de fond"
-            className="absolute inset-0 block dark:hidden"
-            width={300}
-            height={300}
-          />
-          <Image
-            src="/Grille blanche.webp"
-            alt="Grille de fond"
-            className="absolute inset-0 hidden dark:block"
-            width={300}
-            height={300}
-          />
-          <Image
-            src="/Logo-et-visage-rose-noir.webp"
-            alt="logo d'entreprise (Priscillia AMMEUX - Créatrice Développeuse)"
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 block dark:hidden"
-            width={300}
-            height={300}
-          />
-          <Image
-            src="/Logo-et-visage-blanc-noir.webp"
-            alt="logo d'entreprise (Priscillia AMMEUX - Créatrice Développeuse)"
-            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 hidden dark:block"
-            width={300}
-            height={300}
-          />
-        </div>
+    <section className="w-full max-w-7xl flex flex-col items-center justify-center mb-2 mx-auto px-4 sm:px-8">
+      <IntroMe />
+      {/* Dynamic Sections using CardPinkBorder */}
+      <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
+        {SECTIONS.map((section, index) => (
+          <CardPinkBorder
+            key={index}
+            title={section.title}
+            icon={section.icon}
+            className="h-full">
+            <div className="space-y-4">
+              {section.paragraphs.map((paragraph, pIndex) => (
+                <p key={pIndex} className="text-sm leading-relaxed break-words">
+                  {paragraph}
+                </p>
+              ))}
 
-        <div className="flex-1">
-          <Title text="À propos de moi !" />
-          <p className="mb-4">
-            Moi, c’est{" "}
-            <span className="font-semibold text-pink-600">
-              Priscillia Ammeux{" "}
-            </span>
-            ,
-            <span className="font-medium">
-              {" "}
-              développeuse web freelance et fondatrice de Pixelia&Co,{" "}
-            </span>{" "}
-            un studio créatif basé à Quesnoy-sur-Deûle, près de Lille.
-          </p>
+              {section.list && (
+                <ul className="list-disc list-inside space-y-2 pl-2">
+                  {section.list.map((item, lIndex) => (
+                    <li
+                      key={lIndex}
+                      className="text-sm leading-relaxed break-words">
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              )}
 
-          <p className="mb-4">
-            Avant de me lancer dans le développement web, j’ai travaillé pendant
-            plus de 10 ans dans le secteur bancaire, au sein d’équipes IT. Cette
-            expérience m’a appris la rigueur, l’organisation et le sens du
-            service client.
-          </p>
-
-          <p className="mb-4">
-            En novembre 2021, j’ai choisi de me reconvertir vers un métier qui
-            fait profondément sens pour moi :{" "}
-            <span className="font-semibold text-pink-600">
-              la création de sites web
-            </span>
-            . Depuis, avec Pixelia&Co, j’accompagne des entreprises,
-            indépendants et associations dans leurs projets digitaux, en alliant
-            esthétique, performance et humanité. En novembre 2021, j’ai décidé
-            d’entamer une
-            <span className="font-semibold text-pink-600">
-              {" "}
-              reconversion professionnelle
-            </span>{" "}
-            vers le métier qui me passionne : la{" "}
-            <span className="font-semibold text-pink-600">
-              création de sites web
-            </span>
-            . Depuis, j’accompagne les entreprises, indépendants et associations
-            des
-            <span className="font-semibold"> Hauts-de-France</span> dans leurs
-            projets digitaux.
-          </p>
-
-          <p className="mb-4">
-            Guidée par une recherche d’équilibre entre{" "}
-            <span className="font-semibold text-pink-600">
-              design, accessibilité et fonctionnalité
-            </span>
-            , je conçois des sites WordPress ou sur mesure, pensés pour être
-            beaux, rapides et durables. Mon approche est à la fois{" "}
-            <span className="font-semibold text-pink-600">
-              artisanale et professionnelle
-            </span>{" "}
-            : je ne me contente pas de construire des sites, je façonne des
-            expériences digitales qui révèlent l’identité de mes clients.
-          </p>
-
-          <p className="mb-4">
-            Au fil des projets, j’ai compris qu’un site web ne pouvait pas être
-            un simple produit technique. Pour moi, il doit{" "}
-            <span className="font-semibold text-pink-600">
-              refléter une identité
-            </span>
-            , porter une énergie, créer un lien naturel entre toi et ton public.
-            C’est de cette conviction qu’est né le manifeste de{" "}
-            <span className="font-semibold text-pink-600"> Pixelia&Co</span>.
-          </p>
-        </div>
+              {section.additionalParagraphs &&
+                section.additionalParagraphs.map((paragraph, apIndex) => (
+                  <p
+                    key={apIndex}
+                    className="text-sm leading-relaxed break-words">
+                    {paragraph}
+                  </p>
+                ))}
+            </div>
+          </CardPinkBorder>
+        ))}
       </div>
     </section>
   );
