@@ -1,4 +1,4 @@
-import YoutubeVideo from "../components/youtubeVideo/youTubeVideo";
+import YoutubeVideo from "../components/youtubeVideo/youtubeVideo";
 import About from "../ui/about/about";
 import Layout from "../ui/layout/layout";
 import Testimonial from "../ui/testimonial/testimonial";

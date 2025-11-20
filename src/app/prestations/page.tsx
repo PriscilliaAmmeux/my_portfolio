@@ -6,6 +6,9 @@ import ListCollab from "../ui/listCollab/listCollab";
 import Link from "next/link";
 import Button from "../components/button/button";
 import Image from "next/image";
+import IntroPrestations from "../ui/introPrestations/introPrestations";
+import Faq from "../components/faq/faq";
+import CtaFinal from "../ui/ctaFinal/ctaFinal";
 
 export const metadata: Metadata = {
   title: "Mes prestations - Pixelia&Co",
@@ -65,6 +68,7 @@ export default function Page() {
     <Layout>
       <section className="pt-4 px-4 sm:px-6 lg:px-20">
         <Title text="Mes services" />
+        <IntroPrestations />
         <ListPrestations />
         <Image
           src="/Stickers.webp"
@@ -74,17 +78,8 @@ export default function Page() {
           height={500}
         />
         <ListCollab />
-        <div className="flex justify-center mt-8">
-          <Link href="/contact">
-            <Button
-              type="button"
-              text="Me contacter"
-              ariaLabel="Me contacter"
-              variant="bgPink"
-              className="w-full sm:w-auto"
-            />
-          </Link>
-        </div>
+        <Faq />
+        <CtaFinal />
       </section>
     </Layout>
   );
