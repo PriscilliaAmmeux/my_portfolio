@@ -5,6 +5,7 @@ import ListPrestations from "../ui/listPrestations/listPrestations";
 import ListCollab from "../ui/listCollab/listCollab";
 import Link from "next/link";
 import Button from "../components/button/button";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Mes prestations - Pixelia&Co",
@@ -56,7 +57,7 @@ export const metadata: Metadata = {
   ],
   alternates: {
     canonical: "https://www.pixelia-and-co.fr/prestations",
-  },  
+  },
 };
 
 export default function Page() {
@@ -65,6 +66,13 @@ export default function Page() {
       <section className="pt-4 px-4 sm:px-6 lg:px-20">
         <Title text="Mes services" />
         <ListPrestations />
+        <Image
+          src="/Stickers.webp"
+          alt="Ensemble de stickers Pixelia&Co"
+          className="mx-auto mt-10 animate-wave-gentle"
+          width={500}
+          height={500}
+        />
         <ListCollab />
         <div className="flex justify-center mt-8">
           <Link href="/contact">
