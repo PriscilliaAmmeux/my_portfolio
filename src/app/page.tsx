@@ -86,7 +86,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="flex-shrink-0 flex justify-center lg:justify-end">
+          <section className="flex-shrink-0 flex justify-center lg:justify-end mt-8 lg:mt-0">
             <Image
               src="/Nuage-web.webp"
               alt="nuage web: un refresh() de créativité web"
