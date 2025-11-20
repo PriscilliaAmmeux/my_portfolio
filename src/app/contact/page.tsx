@@ -53,7 +53,15 @@ export default function Contact() {
               src="/Logo-bulle-rose.webp"
               alt="Logo bulle rose pixelia&co"
               aria-label="Logo bulle rose pixelia&co"
-              className="mb-4"
+              className="mb-4 hidden dark:block"
+              width={300}
+              height={300}
+            />
+            <Image
+              src="/Logo-bulle-noir-blanc.webp"
+              alt="Logo bulle noir et blanc pixelia&co"
+              aria-label="Logo bulle noir et blanc pixelia&co"
+              className="mb-4 block dark:hidden"
               width={300}
               height={300}
             />
