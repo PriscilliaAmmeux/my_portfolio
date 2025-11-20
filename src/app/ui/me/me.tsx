@@ -21,9 +21,16 @@ export default function Me() {
             height={300}
           />
           <Image
-            src="/Visage logo et fleche.webp"
+            src="/Logo-et-visage-rose-noir.webp"
             alt="logo d'entreprise (Priscillia AMMEUX - Créatrice Développeuse)"
-            className="absolute inset-0 z-10"
+            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 block dark:hidden"
+            width={300}
+            height={300}
+          />
+          <Image
+            src="/Logo-et-visage-blanc-noir.webp"
+            alt="logo d'entreprise (Priscillia AMMEUX - Créatrice Développeuse)"
+            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 hidden dark:block"
             width={300}
             height={300}
           />
