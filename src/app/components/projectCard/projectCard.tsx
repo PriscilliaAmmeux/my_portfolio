@@ -18,10 +18,6 @@ export default function ProjectCard({
   image,
   slug,
 }: ProjectCardProps) {
-  const imageClass = [11].includes(id)
-    ? "w-full h-[80px] object-contain mx-auto my-6"
-    : "w-full hover:scale-105 transition-transform duration-300";
-
   const projectSlug = slug ?? slugify(title);
 
   return (
@@ -31,7 +27,6 @@ export default function ProjectCard({
         className="block focus:outline-none focus:ring-2 focus:ring-pink-300"
         aria-label={`Voir la page du projet ${title}`}>
         <Image
-          className={imageClass}
           src={image}
           width={400}
           height={200}
