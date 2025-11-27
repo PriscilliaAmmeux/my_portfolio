@@ -4,6 +4,7 @@ import Title from "../ui/title/title";
 import { Metadata } from "next";
 import Layout from "../ui/layout/layout";
 import { slugify } from "../../lib/slugify";
+import MockupsGallery from "../ui/mockupsGallery/mockupsGallery";
 
 export const metadata: Metadata = {
   title: "Mes projets - Pixelia&Co",
@@ -36,7 +37,7 @@ export default function Project() {
     <Layout>
       <section className="pt-4 pb-10 sm:px-24">
         <div className="ml-4 sm:ml-0">
-          <Title text="Mes projets" />
+          <Title text="Mon portfolio" />
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 container mx-auto mx-4 justify-items-stretch">
           {projects.map((project) => (
@@ -50,6 +51,8 @@ export default function Project() {
             />
           ))}
         </div>
+
+        <MockupsGallery />
       </section>
     </Layout>
   );
