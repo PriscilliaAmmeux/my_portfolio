@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Maquette site restaurant bistronomique",
+    "description": "Design moderne pour un site de restaurant bistronomique avec menu interactif, réservation en ligne et mise en avant des plats signature",
+    "image": "/Mockup-Bistronomie-du-Nord-Restaurant-Gastronomique-Lille-Cuisine-du-Nord.webp",
+    "category": "Maquette Figma",
+    "tags": [
+      "Restaurant",
+      "Figma",
+      "UX/UI",
+      "Réservation en ligne",
+      "Menu interactif"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Maquette site pour rédactrices web",
+    "description": "Design élégant et professionnel pour un duo de rédactrices web, avec mise en avant des services, portfolio d’articles et espace dédié aux offres sur mesure",
+    "image": "/mockup-rédactrice-web.webp",
+    "category": "Maquette Figma",
+    "tags": ["Rédaction web", "Figma", "UX/UI", "Portfolio", "Copywriting"]
+  }
+]
