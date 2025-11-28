@@ -11,6 +11,7 @@ import CookieBanner from "./components/CookieBanner/CookieBanner";
 import { Metadata } from "next";
 import Hero from "./ui/hero/hero";
 import IntroTextHome from "./ui/introTextHome/introTextHome";
+import YoutubeVideo from "./components/youtubeVideo/youtubeVideo";
 
 export const metadata: Metadata = {
   title:
@@ -58,11 +59,17 @@ export default function Home() {
           Pixelia&Co – Création de site internet à Lille – Studio web &
           freelance WordPress
         </h1>
-
+        <YoutubeVideo
+          videoId="-PV0D3Dl0mY"
+          title="Découvrez Pixelia&Co"
+          description=""
+          customThumbnail="/bienvenue-dans-l_univers-de-Pixelia-and-Co.webp" // Votre image personnalisée
+        />
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between p-4 lg:p-10 mt-8 lg:mt-16">
           <section className="flex-1 text-center lg:text-left">
             <div className="max-w-xl mx-auto lg:mx-0 ">
               <Hero />
+
               <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-6 sm:gap-4 w-full">
                 <Link href="/contact">
                   <Button
