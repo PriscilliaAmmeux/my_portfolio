@@ -45,7 +45,7 @@ export default function AboutPage() {
       <YoutubeVideo
         videoId="t6xY4uxQoLw"
         title="Pixelia&Co en images"
-        description="Découvrez l'univers visuel de Pixelia&Co et l'ambiance de travail qui inspire mes créations."
+        description="Découvrez l'univers visuel de Pixelia&Co"
       />
       <Testimonial />
     </Layout>
