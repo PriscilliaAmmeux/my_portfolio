@@ -12,6 +12,7 @@ import { Metadata } from "next";
 import Hero from "./ui/hero/hero";
 import IntroTextHome from "./ui/introTextHome/introTextHome";
 import YoutubeVideo from "./components/youtubeVideo/youtubeVideo";
+import HeaderHome from "./ui/headerHome/headerHome";
 
 export const metadata: Metadata = {
   title:
@@ -54,17 +55,9 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
-      <Layout>
-        <h1 className="text-3xl lg:text-4xl font-bold text-center mt-16 mb-8 px-4 bg-gradient-to-r from-pink-600 via-pink-700 to-pink-800 bg-clip-text text-transparent leading-tight">
-          Pixelia&Co – Création de site internet à Lille – Studio web &
-          freelance WordPress
-        </h1>
-        <YoutubeVideo
-          videoId="-PV0D3Dl0mY"
-          title="Découvrez Pixelia&Co"
-          description=""
-          customThumbnail="/bienvenue-dans-l_univers-de-Pixelia-and-Co.webp" // Votre image personnalisée
-        />
+      <Layout hideNavigation={true}>
+        <HeaderHome />
+
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between p-4 lg:p-10 mt-8 lg:mt-16">
           <section className="flex-1 text-center lg:text-left">
             <div className="max-w-xl mx-auto lg:mx-0 ">
@@ -105,6 +98,12 @@ export default function Home() {
         </div>
         <section>
           <IntroTextHome />
+          <YoutubeVideo
+            videoId="-PV0D3Dl0mY"
+            title="Découvrez Pixelia&Co"
+            description=""
+            customThumbnail="/bienvenue-dans-l_univers-de-Pixelia-and-Co.webp" // Votre image personnalisée
+          />
         </section>
       </Layout>
 

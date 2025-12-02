@@ -31,10 +31,12 @@ export default function Button({
     const baseClasses = styles["custom-button"];
 
     const variants = {
-      bgPink: "bg-pink-700 text-white hover:bg-pink-900 text-lg",
+      bgPink:
+        "bg-pink-700 text-white hover:bg-pink-900 text-lg py-4 flex items-center justify-center",
       bgWhite:
-        "bg-white text-pink-700 border border-pink-700 hover:bg-pink-100 text-lg",
-      bgDark: "bg-black text-white hover:bg-gray-800 text-lg",
+        "bg-white text-pink-700 border border-pink-700 hover:bg-pink-100 text-lg py-4 flex items-center justify-center",
+      bgDark:
+        "bg-black text-white hover:bg-gray-800 text-lg py-4 flex items-center justify-center",
     };
 
     return `${baseClasses} ${variants[variant]} ${className || ""}`.trim();

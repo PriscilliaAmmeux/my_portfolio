@@ -24,6 +24,12 @@ const config: Config = {
         wiggle: "wiggle 2s ease-in-out infinite",
         wave: "wave 4s ease-in-out infinite",
         "wave-gentle": "wave-gentle 6s ease-in-out infinite",
+        "fade-in": "fadeIn 1s ease-out forwards",
+        "fade-in-up": "fadeInUp 1s ease-out forwards",
+        "fade-in-scale": "fadeInScale 0.8s ease-out forwards",
+        typing: "typing 3.5s steps(60, end) forwards",
+        "blink-caret": "blink-caret 0.75s step-end infinite",
+        "remove-caret": "remove-caret 0s 3.5s forwards",
       },
       keyframes: {
         float: {
@@ -71,6 +77,58 @@ const config: Config = {
           },
           "100%": {
             transform: "translateY(0px) translateX(0px)",
+          },
+        },
+        fadeIn: {
+          "0%": {
+            opacity: "0",
+          },
+          "100%": {
+            opacity: "1",
+          },
+        },
+        fadeInUp: {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(30px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
+        fadeInScale: {
+          "0%": {
+            opacity: "0",
+            transform: "scale(0.9)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "scale(1)",
+          },
+        },
+        typing: {
+          "0%": {
+            width: "0",
+          },
+          "100%": {
+            width: "100%",
+          },
+        },
+        "blink-caret": {
+          "0%, 100%": {
+            borderColor: "transparent",
+          },
+          "50%": {
+            borderColor: "rgb(219, 39, 119)",
+          },
+        },
+        "remove-caret": {
+          "0%": {
+            borderRightWidth: "4px",
+          },
+          "100%": {
+            borderRightWidth: "0px",
           },
         },
       },
