@@ -11,6 +11,7 @@ interface NavLinkProps {
   className?: string;
   onClick?: () => void;
   isActive: boolean;
+  
 }
 
 export default function NavLink({

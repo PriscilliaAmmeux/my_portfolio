@@ -1,5 +1,7 @@
+import Button from "@/app/components/button/button";
 import NavLink from "../../components/navlink/navlink";
 import Logo from "../logo/logo";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -10,7 +12,7 @@ export default function Navbar() {
         <div className="absolute inset-0 pointer-events-none z-0"></div>
 
         {/* Navigation */}
-        <nav className="relative z-10 flex flex-row text-white font-medium text-lg tracking-wide gap-x-4">
+        <nav className=" relative z-10 flex flex-row text-white font-medium text-lg tracking-wide gap-x-4">
           <NavLink href="/" title="Accueil" isActive={true} />
           <NavLink href="/about" title="À propos" isActive={true} />
           <NavLink href="/project" title="Portfolio" isActive={true} />
@@ -20,7 +22,15 @@ export default function Navbar() {
             title="Inspiration & Actus Web"
             isActive={true}
           />
-          <NavLink href="/contact" title="Contact" isActive={true} />
+          <Link href="/contact">
+            <Button
+              type="button"
+              text="Contact"
+              ariaLabel="Aller à la page contact"
+              variant="bgPink"
+              className="px-4 py-2"
+            />
+          </Link>
         </nav>
       </div>
     </section>
