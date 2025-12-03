@@ -3,7 +3,11 @@ import NavLink from "../../components/navlink/navlink";
 import Logo from "../logo/logo";
 import Link from "next/link";
 
-export default function Navbar() {
+interface NavbarProps {
+  forceWhiteText?: boolean;
+}
+
+export default function Navbar({ forceWhiteText = false }: NavbarProps) {
   return (
     <section className="flex justify-between items-start w-full pt-6 pl-6">
       <Logo width={125} height={125} />
@@ -12,15 +16,36 @@ export default function Navbar() {
         <div className="absolute inset-0 pointer-events-none z-0"></div>
 
         {/* Navigation */}
-        <nav className=" relative z-10 flex flex-row text-white font-medium text-lg tracking-wide gap-x-4">
-          <NavLink href="/" title="Accueil" isActive={true} />
-          <NavLink href="/about" title="À propos" isActive={true} />
-          <NavLink href="/project" title="Portfolio" isActive={true} />
-          <NavLink href="/prestations" title="Services" isActive={true} />
+        <nav className="relative z-10 flex flex-row items-center text-white font-medium text-lg tracking-wide gap-x-4">
+          <NavLink
+            href="/"
+            title="Accueil"
+            isActive={true}
+            forceWhiteText={forceWhiteText}
+          />
+          <NavLink
+            href="/about"
+            title="À propos"
+            isActive={true}
+            forceWhiteText={forceWhiteText}
+          />
+          <NavLink
+            href="/project"
+            title="Portfolio"
+            isActive={true}
+            forceWhiteText={forceWhiteText}
+          />
+          <NavLink
+            href="/prestations"
+            title="Services"
+            isActive={true}
+            forceWhiteText={forceWhiteText}
+          />
           <NavLink
             href="/blog"
             title="Inspiration & Actus Web"
             isActive={true}
+            forceWhiteText={forceWhiteText}
           />
           <Link href="/contact">
             <Button
