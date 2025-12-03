@@ -51,7 +51,7 @@ export default function HeaderHome() {
           accessibles et performants
         </p>
         <div
-          className="flex flex-col items-center gap-4 w-full max-w-md px-4 animate-fade-in-up"
+          className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto max-w-md sm:max-w-none px-4 animate-fade-in-up"
           style={{
             animationDelay: "0.4s",
             opacity: 0,
