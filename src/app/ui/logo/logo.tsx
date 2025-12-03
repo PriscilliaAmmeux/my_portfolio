@@ -11,7 +11,7 @@ export default function Logo({ width, height }: LogoProps) {
     <Link href="/" aria-label="Accueil" className="inline-block cursor-pointer">
       <section>
         <Image
-          src="/Logo.webp"
+          src="/logo.webp"
           alt="logo d'entreprise (Pixelia&Co)"
           aria-label="logo d'entreprise (Pixelia&Co)"
           className="block"
