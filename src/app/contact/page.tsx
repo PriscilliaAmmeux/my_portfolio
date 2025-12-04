@@ -4,6 +4,8 @@ import Layout from "../ui/layout/layout";
 import InfoContact from "../ui/infoContact/infoContact";
 import Form from "../components/form/form";
 import Image from "next/image";
+import Script from "next/script";
+import CalendlyWidget from "../ui/calendlyWidget/calendlyWidget";
 
 export const metadata: Metadata = {
   title:
@@ -66,18 +68,9 @@ export default function Contact() {
               height={300}
             />
             <InfoContact />
+            <CalendlyWidget />
           </div>
         </div>
-      </section>
-
-      <section className="flex justify-center items-center mt-10">
-        <a
-          href="https://calendly.com/priscillia-ammeux-pro/30min"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex w-64 justify-center items-center px-4 py-2 bg-pink-700 text-white rounded-lg hover:bg-pink-800 transition">
-          📅 Prendre un RDV gratuit
-        </a>
       </section>
     </Layout>
   );
