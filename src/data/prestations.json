@@ -9,13 +9,13 @@
         "content": "Idéal pour : freelances, petits projets ou événements ponctuels qui veulent se lancer vite à moindre coût."
       },
       "inclus": [
-        "Hébergement et nom de domaine inclus 1 an",
         "Landing page responsive avec WordPress et template moderne",
         "SEO de base",
         "Liens PDF pour mentions légales et politique de confidentialité",
         "Pied de page avec réseaux sociaux et copyright",
         "Pas de barre de navigation ni formulaire de contact"
       ],
+      "a_prevoir": "À prévoir par le client : Hébergement et nom de domaine afin d'être 100 % propriétaire de votre site web (je peux conseiller les meilleures options selon votre budget)",
       "options_supplementaires": [
         {
           "title": "Paiement en ligne",
@@ -38,14 +38,14 @@
         "content": "Idéal pour : freelances, créatif·ves ou petites entreprises qui veulent un site structuré et facile à gérer."
       },
       "inclus": [
-        "Hébergement et nom de domaine inclus 1 an",
         "Design responsive et personnalisation légère",
         "Header avec logo et barre de navigation avec ancrage",
         "Section À propos et une autre section au choix (Services, Portfolio, Témoignages, etc.)",
         "Formulaire de contact simple",
         "Pied de page avec réseaux sociaux et copyright",
         "Optimisation de base pour SEO et performance"
-      ]
+      ],
+      "a_prevoir": "À prévoir par le client : Hébergement et nom de domaine afin d'être 100 % propriétaire de votre site web (je peux conseiller les meilleures options selon votre budget)"
     },
     {
       "id": 3,
@@ -61,14 +61,14 @@
         }
       ],
       "inclus": [
-        "Hébergement et nom de domaine inclus 1 an",
         "Jusqu'à 4 pages personnalisables (dont la page Contact)",
         "Intégration complète des contenus (textes, images, médias)",
         "Formulaire de contact et réseaux sociaux intégrés",
         "Optimisation SEO et design responsive",
         "Formation rapide à la gestion WordPress",
         "Tests et livraison prêts à accueillir vos clients"
-      ]
+      ],
+      "a_prevoir": "À prévoir par le client : Hébergement et nom de domaine afin d'être 100 % propriétaire de votre site web (je peux conseiller les meilleures options selon votre budget)"
     },
 
     {
@@ -85,7 +85,6 @@
         }
       ],
       "inclus": [
-        "Hébergement et nom de domaine inclus 1 an",
         "Design sur-mesure (maquette et intégration)",
         "Développement Next.js performant",
         "Optimisations performance et SEO avancées",
@@ -94,6 +93,7 @@
         "Déploiement et configuration d'hébergement",
         "3 mois de maintenance offerts"
       ],
+      "a_prevoir": "À prévoir par le client : Hébergement et nom de domaine afin d'être 100 % propriétaire de votre site web (je peux conseiller les meilleures options selon votre budget)",
       "options_supplementaires": [
         {
           "title": "Paiement en ligne",

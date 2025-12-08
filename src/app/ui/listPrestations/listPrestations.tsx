@@ -29,6 +29,10 @@ export default function ListPrestations() {
             "examples" in prestation && Array.isArray(prestation.examples);
           const hasInclus =
             "inclus" in prestation && Array.isArray(prestation.inclus);
+          const hasAPrevoir = "a_prevoir" in prestation && prestation.a_prevoir;
+          const hasOptionsSupplementaires =
+            "options_supplementaires" in prestation &&
+            Array.isArray(prestation.options_supplementaires);
 
           return (
             <Card
@@ -76,10 +80,38 @@ export default function ListPrestations() {
                         <li
                           key={index}
                           className="mt-3 mb-1 font-bold flex items-start">
-                          <span className="mr-2 text-pink-300">→</span>
+                          <span className="mr-2 ">→</span>
                           <span>{content}</span>
                         </li>
                       ))}
+                    </>
+                  )}
+
+                  {hasAPrevoir && (
+                    <li className="mt-4 mb-2  italic">
+                      {prestation.a_prevoir}
+                    </li>
+                  )}
+
+                  {hasOptionsSupplementaires && (
+                    <>
+                      <li className="mt-4 mb-2 font-bold">
+                        Options supplémentaires :
+                      </li>
+                      {prestation.options_supplementaires.map(
+                        (option: any, index: number) => (
+                          <li key={index} className="mt-2 mb-2 ml-4">
+                            <span className="font-semibold">
+                              • {option.title}
+                            </span>{" "}
+                            - {option.price}
+                            <br />
+                            <span className="text-xs ml-4">
+                              {option.description}
+                            </span>
+                          </li>
+                        )
+                      )}
                     </>
                   )}
                 </ul>
@@ -130,7 +162,7 @@ export default function ListPrestations() {
                         </li>
                       ))
                     ) : (
-                      <li className="mt-1 mb-1 text-sm text-gray-800">
+                      <li className="mt-1 mb-1 text-sm">
                         → {service.presentation.content}
                       </li>
                     ))}
