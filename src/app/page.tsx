@@ -13,6 +13,7 @@ import Hero from "./ui/hero/hero";
 import IntroTextHome from "./ui/introTextHome/introTextHome";
 import YoutubeVideo from "./components/youtubeVideo/youtubeVideo";
 import HeaderHome from "./ui/headerHome/headerHome";
+import ChristmasBanner from "./components/christmasBanner/christmasBanner";
 
 export const metadata: Metadata = {
   title:
@@ -55,6 +56,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
+      <ChristmasBanner />
       <Layout hideNavigation={true}>
         <HeaderHome />
 
