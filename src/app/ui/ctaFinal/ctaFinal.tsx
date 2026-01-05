@@ -24,7 +24,11 @@ export default function CtaFinal({ className = "" }: CtaFinalProps) {
           Un site joli, clair, rapide, fait pour vendre. Point.
         </p>
       </div>
-      <Link href="/contact" target="_blank" rel="noopener noreferrer">
+      <Link
+        href="/contact"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block">
         <Button
           type="button"
           text="Discutons de votre projet"

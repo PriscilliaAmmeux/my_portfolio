@@ -11,12 +11,12 @@ const FAQ_DATA: FaqItem[] = [
   {
     question: "Combien coûte la création d'un site internet professionnel ?",
     answer:
-      "Le tarif d'un site web dépend de l'ampleur du projet. Mes packs commencent à partir de 250 € pour une landing page et de 400 € pour un site vitrine 1 page. Chaque formule inclut l'hébergement, la configuration technique, un design soigné et un accompagnement personnalisé.",
+      "Le tarif d'un site web dépend de l'ampleur du projet. Mes packs commencent à partir de 300 € pour une landing page et de 400 € pour un site vitrine 1 page. Chaque formule inclut la configuration technique, un design soigné et un accompagnement personnalisé.",
   },
   {
     question: "Quel est le délai pour créer un site vitrine ?",
     answer:
-      "Selon la formule choisie et votre disponibilité pour fournir les contenus, le délai moyen varie entre 1 et 4 semaines. Un besoin urgent ? Optez pour le Pack Express, ça permet de mettre votre activité en ligne rapidement.",
+      "Selon la formule choisie et votre disponibilité pour fournir les contenus, le délai moyen varie entre 3 et 12 semaines. Un besoin urgent ? Optez pour le Pack Express, ça permet de mettre votre activité en ligne rapidement.",
   },
   {
     question: "Votre prestation inclut-elle le référencement naturel ?",
@@ -29,9 +29,9 @@ const FAQ_DATA: FaqItem[] = [
       "Bien sûr. Je vous forme à l'utilisation de votre site et vous serez totalement autonome. Et si vous préférez déléguer, mes offres de maintenance sont là pour vous simplifier la vie.",
   },
   {
-    question: "Créez-vous aussi des sites e-commerce ?",
+    question: "Créez-vous aussi des sites e‑commerce ?",
     answer:
-      "Je peux vous orienter vers des partenaires spécialisés. Mon expertise principale : les sites vitrines efficaces, élégants et orientés conversion pour entrepreneurs, artisans et PME.",
+      "Oui ! Je peux réaliser des sites e‑commerce adaptés à vos besoins, ou mobiliser le collectif <a href='https://feelingandcreate.com/' target='_blank' rel='noopener noreferrer' class='text-pink-600 hover:text-pink-700 underline font-semibold'>Feeling & Create</a>, dont je fais partie, pour des projets plus ambitieux. Le collectif réunit des freelances experts en digital (marketing, développement, design, conformité, community management) pour créer des sites performants et sur‑mesure.",
   },
 ];
 
@@ -100,7 +100,10 @@ export default function Faq() {
                     : "max-h-0 opacity-0"
                 }`}>
                 <div className="px-6 pb-6">
-                  <p className="text-gray-700 leading-relaxed">{item.answer}</p>
+                  <p
+                    className="text-gray-700 leading-relaxed"
+                    dangerouslySetInnerHTML={{ __html: item.answer }}
+                  />
                 </div>
               </div>
             </article>

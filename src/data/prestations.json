@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Pack Express – Landing Page WordPress",
-      "price": "À partir de 250 € TTC",
+      "price": "À partir de 300 € TTC",
       "description": "Une landing page légère et personnalisable pour mettre rapidement votre activité ou événement en ligne. Simple mais efficace pour vos premiers clients.",
       "presentation": {
         "content": "Idéal pour : freelances, petits projets ou événements ponctuels qui veulent se lancer vite à moindre coût."
@@ -15,7 +15,7 @@
         "Pied de page avec réseaux sociaux et copyright",
         "Pas de barre de navigation ni formulaire de contact"
       ],
-      "a_prevoir": "À prévoir par le client : Hébergement et nom de domaine afin d'être 100 % propriétaire de votre site web (je peux conseiller les meilleures options selon votre budget)",
+      "a_prevoir": "À prévoir par le client : Hébergement et nom de domaine afin d'être 100 % propriétaire de votre site web (je peux conseiller les meilleures options selon votre budget). C'est à vous de me fournir les mentions légales et politiques de confidentialités (si vous ne savez pas les rédiger, je peux vous orienter vers une juriste dont c'est le métier).",
       "options_supplementaires": [
         {
           "title": "Paiement en ligne",
@@ -30,51 +30,9 @@
       ]
     },
     {
-      "id": 2,
-      "title": "Pack Starter – Site Vitrine WordPress (1 page)",
-      "price": "À partir de 400 € TTC",
-      "description": "Un site simple mais complet pour présenter votre activité en ligne de manière professionnelle.",
-      "presentation": {
-        "content": "Idéal pour : freelances, créatif·ves ou petites entreprises qui veulent un site structuré et facile à gérer."
-      },
-      "inclus": [
-        "Design responsive et personnalisation légère",
-        "Header avec logo et barre de navigation avec ancrage",
-        "Section À propos et une autre section au choix (Services, Portfolio, Témoignages, etc.)",
-        "Formulaire de contact simple",
-        "Pied de page avec réseaux sociaux et copyright",
-        "Optimisation de base pour SEO et performance"
-      ],
-      "a_prevoir": "À prévoir par le client : Hébergement et nom de domaine afin d'être 100 % propriétaire de votre site web (je peux conseiller les meilleures options selon votre budget)"
-    },
-    {
-      "id": 3,
-      "title": "Pack WordPress – Site Vitrine 4 pages",
-      "price": "À partir de 800 € TTC",
-      "description": "Un site complet avec toutes les pages essentielles pour présenter vos services et accueillir vos clients.",
-      "presentation": [
-        {
-          "content": "Design entièrement personnalisé ou basé sur un template."
-        },
-        {
-          "content": "Idéal pour : PME, associations ou indépendants souhaitant un site professionnel et prêt pour la prospection."
-        }
-      ],
-      "inclus": [
-        "Jusqu'à 4 pages personnalisables (dont la page Contact)",
-        "Intégration complète des contenus (textes, images, médias)",
-        "Formulaire de contact et réseaux sociaux intégrés",
-        "Optimisation SEO et design responsive",
-        "Formation rapide à la gestion WordPress",
-        "Tests et livraison prêts à accueillir vos clients"
-      ],
-      "a_prevoir": "À prévoir par le client : Hébergement et nom de domaine afin d'être 100 % propriétaire de votre site web (je peux conseiller les meilleures options selon votre budget)"
-    },
-
-    {
       "id": 4,
       "title": "Pack Sur-Mesure – Site Vitrine",
-      "price": "À partir de 1200 € TTC",
+      "price": "À partir de 1500 € TTC",
       "description": "Un site entièrement personnalisé, conçu avec Next.js pour des performances optimales et une identité visuelle unique. Jusqu’à 4 pages (ou plus selon devis).",
       "presentation": [
         {
@@ -91,20 +49,7 @@
         "Accessibilité et responsive avancés",
         "Intégration outils (analytics, formulaires, etc.)",
         "Déploiement et configuration d'hébergement",
-        "3 mois de maintenance offerts"
-      ],
-      "a_prevoir": "À prévoir par le client : Hébergement et nom de domaine afin d'être 100 % propriétaire de votre site web (je peux conseiller les meilleures options selon votre budget)",
-      "options_supplementaires": [
-        {
-          "title": "Paiement en ligne",
-          "price": "100 € TTC",
-          "description": "Module de paiement sécurisé pour vos visiteurs."
-        },
-        {
-          "title": "Newsletter avec Brevo",
-          "price": "70 € TTC",
-          "description": "Mise en place d'une newsletter via Brevo (compte gratuit suffisant). Formulaire d’inscription et connexion au site inclus."
-        }
+        "6 mois de maintenance inclus"
       ]
     }
   ],
@@ -129,7 +74,7 @@
     {
       "id": 6,
       "title": "Maintenance & Optimisation",
-      "price": "50 € TTC / mois ou 500 € TTC / an",
+      "price": "70 € TTC / mois ou 700 € TTC / an",
       "description": "Gardez votre site rapide, sécurisé et toujours à jour. Je m'occupe de la technique pendant que vous vous concentrez sur votre activité.",
       "presentation": [
         {

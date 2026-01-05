@@ -29,15 +29,11 @@ export default function ListPrestations() {
             "examples" in prestation && Array.isArray(prestation.examples);
           const hasInclus =
             "inclus" in prestation && Array.isArray(prestation.inclus);
-          const hasAPrevoir = "a_prevoir" in prestation && prestation.a_prevoir;
-          const hasOptionsSupplementaires =
-            "options_supplementaires" in prestation &&
-            Array.isArray(prestation.options_supplementaires);
 
           return (
             <Card
               key={prestation.id ?? Math.random()}
-              className="w-full lg:w-1/3 px-2 flex flex-col justify-between h-full"
+              className="w-full lg:w-1/3 flex flex-col justify-between h-full"
               title={prestation.title}>
               <div className="flex-grow">
                 <ul className="text-white list-none mt-2 mb-2 text-sm">
@@ -86,39 +82,29 @@ export default function ListPrestations() {
                       ))}
                     </>
                   )}
-
-                  {hasAPrevoir && (
-                    <li className="mt-4 mb-2  italic">
-                      {prestation.a_prevoir}
-                    </li>
-                  )}
-
-                  {hasOptionsSupplementaires && (
-                    <>
-                      <li className="mt-4 mb-2 font-bold">
-                        Options supplémentaires :
-                      </li>
-                      {prestation.options_supplementaires.map(
-                        (option: any, index: number) => (
-                          <li key={index} className="mt-2 mb-2 ml-4">
-                            <span className="font-semibold">
-                              • {option.title}
-                            </span>{" "}
-                            - {option.price}
-                            <br />
-                            <span className="text-xs ml-4">
-                              {option.description}
-                            </span>
-                          </li>
-                        )
-                      )}
-                    </>
-                  )}
                 </ul>
               </div>
             </Card>
           );
         })}
+      </section>
+
+      <section className="mt-8 mb-8 p-6 bg-gradient-to-br from-pink-100 via-pink-200 to-pink-300 rounded-lg shadow-lg">
+        <h3 className="text-lg font-bold mb-4 flex items-center text-pink-900">
+          <span className="mr-2 text-2xl">⚠️</span>À prévoir par le client
+        </h3>
+        <ul className="space-y-3 text-pink-900 text-sm list-disc list-inside ml-2">
+          <li className="pl-2">
+            <strong>Hébergement et nom de domaine :</strong> pour être 100 %
+            propriétaire de votre site web (je peux vous conseiller les
+            meilleures options selon votre budget).
+          </li>
+          <li className="pl-2">
+            <strong>Mentions légales et politique de confidentialité :</strong>{" "}
+            à me fournir. Si vous n'en disposez pas, je peux vous mettre en
+            relation avec une juriste spécialisée pour les rédiger.
+          </li>
+        </ul>
       </section>
 
       {/* Prestations supplémentaires */}
