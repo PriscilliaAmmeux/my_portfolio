@@ -48,7 +48,7 @@ export default function Blog() {
         </div>
         <NewsletterForm />
         <div className="w-full container mx-auto px-3">
-          <div className="md:grid md:grid-cols-3 gap-4">
+          <div className="md:grid md:grid-cols-2 gap-4">
             {sortedBlog.map((article) => (
               <ArticleBlog
                 key={article.id}
