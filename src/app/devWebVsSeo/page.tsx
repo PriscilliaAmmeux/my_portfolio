@@ -3,6 +3,7 @@ import ArticleHeader from "../components/articleHeader/articleHeader";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 import Layout from "../ui/layout/layout";
 import { Metadata } from "next";
+import SectionArticle from "../components/sectionArticle/sectionArticle";
 
 export const metadata: Metadata = {
   title: "Développeuse web ≠ rédactrice SEO",
@@ -34,7 +35,7 @@ export default function DevWebVsSeo() {
         title="Développeuse web ≠ rédactrice SEO"
         subtitle="Beaucoup pensent que créer un site inclut automatiquement la rédaction des textes et le SEO… mais non !"
         date="13/11/2025">
-        <p className="mb-6">
+        <p className="mb-6 text-black">
           Lorsqu’on parle de <strong>création de site internet</strong>, une
           confusion revient souvent : on imagine que le ou la{" "}
           <strong>développeuse web</strong> s’occupe de tout — du code jusqu’aux
@@ -44,26 +45,32 @@ export default function DevWebVsSeo() {
           <strong>positionnement</strong> d’un site sur les{" "}
           <strong>moteurs de recherche</strong>.
         </p>
-
-        <h3 className="font-semibold mb-2">Voici la différence :</h3>
-        <ul className="list-disc ml-6 mb-6">
-          <li>
-            <strong>💻 Développeuse web :</strong> structure le site, assure sa
-            performance, son accessibilité et une{" "}
-            <strong>expérience utilisateur</strong> fluide (UX/UI). Elle gère le
-            code, le <strong>CMS</strong> (comme <strong>WordPress</strong>), et
-            veille à ce que le site soit rapide, responsive et optimisé pour le
-            <strong> référencement</strong> technique.
-          </li>
-          <li>
-            <strong>✍️ Rédactrice SEO :</strong> conçoit et{" "}
-            <strong>rédige du contenu éditorial</strong> pertinent, pensé pour
-            ton audience et les moteurs de recherche. Elle choisit les{" "}
-            <strong>mots-clés</strong> pertinents, structure les{" "}
-            <strong>balises</strong>, et met en place une{" "}
-            <strong>stratégie de contenu</strong> cohérente et durable.
-          </li>
-        </ul>
+        <SectionArticle
+          title="Voici la différence :"
+          content={
+            <>
+              <ul className="list-disc ml-6 mb-6">
+                <li>
+                  <strong>💻 Développeuse web :</strong> structure le site,
+                  assure sa performance, son accessibilité et une{" "}
+                  <strong>expérience utilisateur</strong> fluide (UX/UI). Elle
+                  gère le code, le <strong>CMS</strong> (comme{" "}
+                  <strong>WordPress</strong>), et veille à ce que le site soit
+                  rapide, responsive et optimisé pour le
+                  <strong> référencement</strong> technique.
+                </li>
+                <li>
+                  <strong>✍️ Rédactrice SEO :</strong> conçoit et{" "}
+                  <strong>rédige du contenu éditorial</strong> pertinent, pensé
+                  pour ton audience et les moteurs de recherche. Elle choisit
+                  les <strong>mots-clés</strong> pertinents, structure les{" "}
+                  <strong>balises</strong>, et met en place une{" "}
+                  <strong>stratégie de contenu</strong> cohérente et durable.
+                </li>
+              </ul>
+            </>
+          }
+        />
 
         <section className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6 mb-6">
           <img
@@ -83,7 +90,7 @@ export default function DevWebVsSeo() {
           />
         </section>
 
-        <p className="mb-6">
+        <p className="mb-6 text-black">
           L’une ne remplace pas l’autre : un site peut être magnifique et
           rapide, mais invisible sur Google sans{" "}
           <strong>contenu optimisé</strong>. À l’inverse, un excellent{" "}
@@ -94,7 +101,7 @@ export default function DevWebVsSeo() {
           <strong>développement web</strong>.
         </p>
 
-        <p className="mb-6">
+        <p className="mb-6 text-black">
           C’est pourquoi, chez <strong>Pixelia&Co</strong>, je conçois des{" "}
           <strong>sites internet</strong> performants, durables et pensés pour
           l’humain. Mon rôle : la structure, la performance et l’
@@ -107,18 +114,24 @@ export default function DevWebVsSeo() {
           la forme : un site clair, vivant, bien référencé et crédible.
         </p>
 
-        <h3 className="font-semibold mb-2">💡 Le bon réflexe :</h3>
-        <p className="mb-6">
-          Ne mélange pas les rôles : mise sur la{" "}
-          <strong>
-            complémentarité entre développeuse web et rédactrice SEO
-          </strong>
-          . Ce duo est essentiel pour toute entreprise, association ou{" "}
-          <strong>site e-commerce</strong> qui souhaite améliorer sa{" "}
-          <strong>visibilité digitale</strong>. Ensemble, on crée un{" "}
-          <strong>contenu de qualité</strong> qui attire, engage et fidélise tes
-          visiteurs.
-        </p>
+        <SectionArticle
+          title="💡 Le bon réflexe :"
+          content={
+            <>
+              <p className="mb-6">
+                Ne mélange pas les rôles : mise sur la{" "}
+                <strong>
+                  complémentarité entre développeuse web et rédactrice SEO
+                </strong>
+                . Ce duo est essentiel pour toute entreprise, association ou{" "}
+                <strong>site e-commerce</strong> qui souhaite améliorer sa{" "}
+                <strong>visibilité digitale</strong>. Ensemble, on crée un{" "}
+                <strong>contenu de qualité</strong> qui attire, engage et
+                fidélise tes visiteurs.
+              </p>
+            </>
+          }
+        />
 
         <div className="flex justify-center mb-6">
           <img
@@ -128,7 +141,7 @@ export default function DevWebVsSeo() {
           />
         </div>
 
-        <p className="italic mb-6">
+        <p className="italic mb-6 text-black">
           En résumé : ton site est la maison, ton{" "}
           <strong>contenu éditorial</strong> en est la voix. Ensemble, ils
           racontent ton histoire et t’aident à <strong>référencer</strong> ton
@@ -136,7 +149,7 @@ export default function DevWebVsSeo() {
           et une <strong>expérience utilisateur</strong> soignée.
         </p>
 
-        <p className="mt-4 font-semibold">
+        <p className="mt-4 font-semibold text-black">
           📩 Envie de lancer ton projet web ?{" "}
           <Link
             href="/contact"
@@ -145,7 +158,10 @@ export default function DevWebVsSeo() {
           </Link>
         </p>
 
-        <ArticleNavigation nextHref="/blog" prevHref="/tartecitron" />
+        <ArticleNavigation
+          nextHref="/freelanceQuesnoySurDeule"
+          prevHref="/tartecitron"
+        />
       </ArticleHeader>
     </Layout>
   );
