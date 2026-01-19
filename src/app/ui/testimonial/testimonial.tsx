@@ -4,6 +4,20 @@ import Title from "../title/title";
 export default function Testimonial() {
   const testimonials = [
     {
+      id: 5,
+      text: "Travailler avec Priscillia est un vrai bonheur. Développeuse full stack agile, elle allie une expertise technique solide à une soif d’apprendre constante – une combinaison rare et précieuse. Ce qui la rend exceptionnelle ? Sa capacité à s’adapter, son approche proactive et son esprit toujours positif. Peu importe les défis, elle les relève avec bonne humeur et détermination, ce qui rend chaque collaboration agréable et stimulante. Pour moi, Priscilla est le summum : compétente, polyvalente et ultra motivée. Une vraie pépite que je suis ravie d’avoir dans mon équipe. Si vous cherchez une développeuse talentueuse, réactive et rayonnante, ne cherchez plus !",
+      author: "Céline Gana",
+      role: "Cheffe de projet chez Feeling and Create",
+      stars: 5,
+    },
+    {
+      id: 4,
+      text: "J’ai eu le plaisir de collaborer avec Priscillia,une développeuse web aussi compétente que réactive. Ce que j’ai particulièrement apprécié chez elle, c’est sa capacité à comprendre rapidement les besoins et à proposer des solutions simples, efficaces et bien pensées. Elle ne se contente pas de “faire le site” — elle pense expérience utilisateur, performance et évolutivité. Le résultat : un travail propre, fluide et livré dans les temps. Si vous cherchez une développeuse fiable, pédagogue et impliquée, je ne peux que la recommander les yeux fermés.",
+      author: "Alexandra Payet",
+      role: "Fondatrice de Formeazy.fr & Digital-study.fr",
+      stars: 5,
+    },
+    {
       id: 3,
       text: "Un énorme merci à Priscillia qui a su écouter, comprendre et donner forme à ce que je voulais. Je ne peux que recommander sa qualité de travail et son perfectionnisme. Encore merci Priscillia !",
       author: "Barbara B.",
@@ -27,12 +41,12 @@ export default function Testimonial() {
   ];
 
   return (
-    <section className="mt-4 max-w-6xl mx-auto px-4">
+    <section className="mt-4 ml-2 mr-2">
       <div className="flex justify-center mb-8">
         <Title text="Témoignages" />
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
         {testimonials.map((testimonial) => (
           <blockquote
             key={testimonial.id}
