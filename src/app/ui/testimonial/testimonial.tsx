@@ -4,6 +4,13 @@ import Title from "../title/title";
 export default function Testimonial() {
   const testimonials = [
     {
+      id: 6,
+      text: "Travailler avec Priscillia a été un vrai bonheur ! Toujours à l’écoute, ultra réactive et capable de transformer n’importe quelle idée floue en un site web clair, moderne et super bien pensé. Son sens du détail et sa maîtrise technique font vraiment la différence. Si tu cherches une développeuse web fiable, créative et qui sait simplifier la tech (même pour les allergiques au code 😄), fonce les yeux fermés. Une vraie pépite du web",
+      author: "Wendev",
+      role: "Développeuse web freelance chez Wendev & Feeling and Create",
+      stars: 5,
+    },
+    {
       id: 5,
       text: "Travailler avec Priscillia est un vrai bonheur. Développeuse full stack agile, elle allie une expertise technique solide à une soif d’apprendre constante – une combinaison rare et précieuse. Ce qui la rend exceptionnelle ? Sa capacité à s’adapter, son approche proactive et son esprit toujours positif. Peu importe les défis, elle les relève avec bonne humeur et détermination, ce qui rend chaque collaboration agréable et stimulante. Pour moi, Priscilla est le summum : compétente, polyvalente et ultra motivée. Une vraie pépite que je suis ravie d’avoir dans mon équipe. Si vous cherchez une développeuse talentueuse, réactive et rayonnante, ne cherchez plus !",
       author: "Céline Gana",
@@ -30,14 +37,7 @@ export default function Testimonial() {
       author: "Frédéric DEPAPRIS",
       role: "Auteur de livres",
       stars: 5,
-    },
-    {
-      id: 1,
-      text: "Je suis arrivée à notre premier RDV avec ma propre idée en tête. Priscillia m'a orientée pour remodeler le site avec plus de simplicité, plus adapté afin de répondre plus justement aux attentes de chacun. Ma pratique et la manière dont je vois les choses par rapport aux prestations proposées évoluent, il m'a suffi d'envoyer un message à Priscillia et nous retravaillons déjà dessus !",
-      author: "Stéphanie HEUDRE",
-      role: "Praticienne bien-être",
-      stars: 5,
-    },
+    }
   ];
 
   return (

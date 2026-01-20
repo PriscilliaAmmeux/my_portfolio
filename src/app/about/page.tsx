@@ -1,8 +1,10 @@
 import YoutubeVideo from "../components/youtubeVideo/youtubeVideo";
 import About from "../ui/about/about";
+import ContactMe from "../ui/contactMe/contactMe";
 import Layout from "../ui/layout/layout";
-import Testimonial from "../ui/testimonial/testimonial";
 import { Metadata } from "next";
+import Logo from "../ui/logo/logo";
+import Stickers from "../ui/stickers/stickers";
 
 export const metadata: Metadata = {
   title: "pixeliaandco",
@@ -47,7 +49,10 @@ export default function AboutPage() {
         title="Pixelia&Co en images"
         description="Découvrez l'univers visuel de Pixelia&Co"
       />
-      <Testimonial />
+      <Stickers />
+      <section className="ml-2 mr-2">
+        <ContactMe />
+      </section>
     </Layout>
   );
 }

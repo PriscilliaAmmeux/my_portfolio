@@ -39,19 +39,22 @@ export async function generateMetadata({
   if (!project)
     return {
       title: "Projet — Pixelia&Co",
-      alternates: { canonical: "https://www.pixeliaandco.fr/project" },
+      alternates: { canonical: "https://www.pixelia-and-co.fr/project" },
     };
 
   return {
     title: `${project.title} — Pixelia&Co`,
     description: project.seoDescription ?? project.description,
     keywords: project.keywords ?? undefined,
+    alternates: {
+      canonical: `https://www.pixelia-and-co.fr/project/${project.slug}`,
+    },
     openGraph: {
       title: `${project.title} — Pixelia&Co`,
       description: project.seoDescription ?? project.description,
-      url: `https://www.pixeliaandco.fr/project/${project.slug}`,
+      url: `https://www.pixelia-and-co.fr/project/${project.slug}`,
       images: project.image
-        ? [{ url: `https://www.pixeliaandco.fr${project.image}` }]
+        ? [{ url: `https://www.pixelia-and-co.fr${project.image}` }]
         : undefined,
     },
   };

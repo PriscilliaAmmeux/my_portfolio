@@ -14,6 +14,8 @@ import IntroTextHome from "./ui/introTextHome/introTextHome";
 import YoutubeVideo from "./components/youtubeVideo/youtubeVideo";
 import HeaderHome from "./ui/headerHome/headerHome";
 import ChristmasBanner from "./components/christmasBanner/christmasBanner";
+import Testimonial from "./ui/testimonial/testimonial";
+import ContactMe from "./ui/contactMe/contactMe";
 
 export const metadata: Metadata = {
   title:
@@ -107,6 +109,11 @@ export default function Home() {
             customThumbnail="/bienvenue-dans-l_univers-de-Pixelia-and-Co.webp" // Votre image personnalisée
           />
         </section>
+        <section className="ml-2 mr-2">
+          <ContactMe />
+        </section>
+
+        <Testimonial />
       </Layout>
 
       <CookieBanner />
