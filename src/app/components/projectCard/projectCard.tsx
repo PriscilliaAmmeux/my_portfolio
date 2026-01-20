@@ -40,7 +40,7 @@ export default function ProjectCard({
         aria-label={`Voir le projet ${title} - ${description}`}>
         <section className="mb-24 px-6 py-6 text-white">
           <h2 className="text-white font-bold text-xl mb-4">{title}</h2>
-          <p className="text-base leading-relaxed">{description}</p>
+          <p className="text-lg leading-relaxed">{description}</p>
         </section>
       </Link>
 
@@ -51,7 +51,7 @@ export default function ProjectCard({
               type="button"
               text="Voir la fiche"
               ariaLabel={`Voir la fiche du projet ${title}`}
-              className="min-h-[44px] px-5 py-2 text-sm"
+              className="min-h-[44px] px-5 py-2 text-lg"
               variant="bgWhite"
             />
           </Link>

@@ -66,7 +66,11 @@ export default function HeaderHome() {
               className="w-full sm:w-auto px-8 py-4 text-lg sm:text-xl shadow-lg hover:shadow-xl transition-shadow"
             />
           </Link>
-          <Link href="/contact" className="w-full sm:w-auto">
+          <Link
+            href="https://calendly.com/priscillia-ammeux-pro/rdv-web-audit-noel"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full sm:w-auto">
             <Button
               type="button"
               text="Me contacter"

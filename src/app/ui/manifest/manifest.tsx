@@ -26,9 +26,7 @@ export default function Manifest({
         <CardPinkBorder title={title} icon={emoji}>
           <div className="prose prose-neutral max-w-none space-y-4">
             {PARAGRAPHS.map((paragraph, index) => (
-              <p
-                key={index}
-                className="leading-relaxed text-sm sm:text-base break-words">
+              <p key={index} className="leading-relaxed text-lg  break-words">
                 {paragraph}
               </p>
             ))}

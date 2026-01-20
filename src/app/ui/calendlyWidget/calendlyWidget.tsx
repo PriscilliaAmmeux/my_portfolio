@@ -2,7 +2,17 @@
 
 import Script from "next/script";
 
-export default function CalendlyWidget() {
+type CalendlyVariant = "bgPink" | "bgWhite";
+
+interface CalendlyWidgetProps {
+  variant?: CalendlyVariant;
+  text?: string;
+}
+
+export default function CalendlyWidget({
+  variant = "bgPink",
+  text = "Me contacter",
+}: CalendlyWidgetProps) {
   const openCalendlyPopup = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
     if (typeof window !== "undefined" && (window as any).Calendly) {
@@ -13,8 +23,19 @@ export default function CalendlyWidget() {
     return false;
   };
 
+  const getVariantClasses = (): string => {
+    const variants = {
+      bgPink:
+        "bg-pink-700 text-white hover:bg-pink-800 transition-colors shadow-lg hover:shadow-xl",
+      bgWhite:
+        "bg-white text-pink-700 border border-pink-700 hover:bg-pink-100 transition-colors",
+    };
+
+    return `inline-flex items-center justify-center px-8 py-3 rounded-lg font-medium text-lg cursor-pointer whitespace-nowrap ${variants[variant]}`;
+  };
+
   return (
-    <section className="flex justify-center items-center mt-10">
+    <button className="flex justify-center items-center">
       {/* Calendly link widget */}
       <link
         href="https://assets.calendly.com/assets/external/widget.css"
@@ -27,9 +48,9 @@ export default function CalendlyWidget() {
       <a
         href="https://calendly.com/priscillia-ammeux-pro/rdv-web-audit-noel"
         onClick={openCalendlyPopup}
-        className="inline-flex items-center justify-center px-8 py-3 bg-pink-700 text-white rounded-lg hover:bg-pink-800 transition-colors shadow-lg hover:shadow-xl font-medium text-base cursor-pointer whitespace-nowrap">
-        📅 Réserver un RDV gratuit
+        className={getVariantClasses()}>
+        {text}
       </a>
-    </section>
+    </button>
   );
 }

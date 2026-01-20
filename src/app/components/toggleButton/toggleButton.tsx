@@ -21,7 +21,7 @@ export const ToggleButton = () => {
     <div className="flex items-center justify-center">
       {/* Version avec icônes et labels */}
       <div className="flex items-center gap-3 p-3 bg-white dark:bg-gray-800 rounded-xl shadow-lg border border-gray-200 dark:border-gray-700">
-        <div className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400">
+        <div className="flex items-center gap-2 text-lg text-gray-600 dark:text-gray-400">
           <MdLightMode
             className={`w-4 h-4 ${
               !isDark ? "text-yellow-500" : "text-gray-400"
@@ -56,7 +56,7 @@ export const ToggleButton = () => {
             } ${isDark ? "opacity-100" : "opacity-0"}`}></div>
         </button>
 
-        <div className="flex items-center gap-2 text-sm text-gray-600 dark:text-gray-400">
+        <div className="flex items-center gap-2 text-lg text-gray-600 dark:text-gray-400">
           <MdDarkMode
             className={`w-4 h-4 ${
               isDark ? "text-purple-500" : "text-gray-400"

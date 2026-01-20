@@ -7,7 +7,7 @@ export default function MockupsGallery() {
     <section className="mt-16 mb-10">
       <div className="ml-4 sm:ml-0">
         <Title text="Maquettes & Créations" />
-        <p className="mb-8 text-sm sm:text-base leading-relaxed">
+        <p className="mb-8 text-lg leading-relaxed">
           Explorez mes créations graphiques, maquettes de sites web et designs
           réalisés pour divers projets. Chaque création reflète mon approche
           centrée sur l'expérience utilisateur et le design moderne.

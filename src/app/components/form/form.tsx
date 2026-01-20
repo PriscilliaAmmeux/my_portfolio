@@ -23,7 +23,7 @@ export default function Form({ className }: FormProps) {
     e.preventDefault();
 
     if (form.current && !form.current.checkValidity()) {
-      return alert("Veuillez remplir tous les champs du formulaire."), false;
+      return (alert("Veuillez remplir tous les champs du formulaire."), false);
     }
 
     if (honeypot !== "") {
@@ -34,7 +34,7 @@ export default function Form({ className }: FormProps) {
     const regex = /^(06|07)\d{8}$/;
     if (!regex.test(phone)) {
       alert(
-        "Veuillez entrer un numéro de téléphone valide exemple 0612345678."
+        "Veuillez entrer un numéro de téléphone valide exemple 0612345678.",
       );
       return;
     }
@@ -53,7 +53,7 @@ export default function Form({ className }: FormProps) {
 
     if (!acceptedPrivacy) {
       alert(
-        "Veuillez accepter la politique de confidentialité pour envoyer le formulaire."
+        "Veuillez accepter la politique de confidentialité pour envoyer le formulaire.",
       );
       return;
     }
@@ -74,7 +74,7 @@ export default function Form({ className }: FormProps) {
             text: "Une erreur est survenue lors de l'envoi du message. Veillez réessayer plus tard.",
             icon: "error",
           });
-        }
+        },
       )
       .catch((error) => {
         console.error("Error sending email: ", error);
@@ -161,7 +161,7 @@ export default function Form({ className }: FormProps) {
           onChange={(e) => setAcceptedPrivacy(e.target.checked)}
           className="mt-1 mr-2"
         />
-        <label htmlFor="privacy" className="text-sm text-white">
+        <label htmlFor="privacy" className="text-lg text-white">
           J’accepte la collecte et le traitement de mes données personnelles
           conformément à la{" "}
           <a

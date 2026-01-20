@@ -74,7 +74,7 @@ export default function LegalNotices() {
           <h3 className="text-lg font-semibold text-gray-900 mb-3">
             Conditions Générales de Vente
           </h3>
-          <p className="text-gray-600 mb-4 text-sm">
+          <p className="text-gray-600 mb-4 text-lg">
             Pour consulter les conditions générales de vente détaillées
           </p>
           <a

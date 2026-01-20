@@ -16,6 +16,7 @@ import HeaderHome from "./ui/headerHome/headerHome";
 import ChristmasBanner from "./components/christmasBanner/christmasBanner";
 import Testimonial from "./ui/testimonial/testimonial";
 import ContactMe from "./ui/contactMe/contactMe";
+import CalendlyWidget from "./ui/calendlyWidget/calendlyWidget";
 
 export const metadata: Metadata = {
   title:
@@ -68,15 +69,8 @@ export default function Home() {
               <Hero />
 
               <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-6 sm:gap-4 w-full">
-                <Link href="/contact">
-                  <Button
-                    type="button"
-                    text="Me contacter"
-                    ariaLabel="Me contacter"
-                    variant="bgPink"
-                    className="w-full sm:w-auto"
-                  />
-                </Link>
+                <CalendlyWidget variant="bgWhite" text="Me contacter" />
+                
                 <Link href="/project">
                   <Button
                     type="button"

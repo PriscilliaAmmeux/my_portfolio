@@ -32,11 +32,11 @@ export default function Button({
 
     const variants = {
       bgPink:
-        "bg-pink-700 text-white hover:bg-pink-900 text-lg py-4 flex items-center justify-center",
+        "bg-pink-700 text-white hover:bg-pink-900 text-lg px-8 py-3 rounded-lg font-medium flex items-center justify-center",
       bgWhite:
-        "bg-white text-pink-700 border border-pink-700 hover:bg-pink-100 text-lg py-4 flex items-center justify-center",
+        "bg-white text-pink-700 border border-pink-700 hover:bg-pink-100 text-lg px-8 py-3 rounded-lg font-medium flex items-center justify-center",
       bgDark:
-        "bg-black text-white hover:bg-gray-800 text-lg py-4 flex items-center justify-center",
+        "bg-black text-white hover:bg-gray-800 text-lg px-8 py-3 rounded-lg font-medium flex items-center justify-center",
     };
 
     return `${baseClasses} ${variants[variant]} ${className || ""}`.trim();
@@ -54,7 +54,9 @@ export default function Button({
   const ButtonElement = () => <button {...commonProps}>{text}</button>;
 
   return href ? (
-    <a href={href} className={disabled ? "pointer-events-none" : ""}>
+    <a
+      href={href}
+      className={`px-8 py-3 ${disabled ? "pointer-events-none" : ""}`}>
       <ButtonElement />
     </a>
   ) : (
