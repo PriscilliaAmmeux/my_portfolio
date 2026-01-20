@@ -8,7 +8,6 @@ export function middleware(request: NextRequest) {
     "/about",
     "/accessibilityArticle",
     "/blog",
-    "/contact",
     "/devLille",
     "/devWebVsSeo",
     "/freelanceQuesnoySurDeule",

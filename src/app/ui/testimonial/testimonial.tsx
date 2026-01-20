@@ -37,7 +37,7 @@ export default function Testimonial() {
       author: "Frédéric DEPAPRIS",
       role: "Auteur de livres",
       stars: 5,
-    }
+    },
   ];
 
   return (
@@ -46,7 +46,7 @@ export default function Testimonial() {
         <Title text="Témoignages" />
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-5 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 ">
         {testimonials.map((testimonial) => (
           <blockquote
             key={testimonial.id}
@@ -55,7 +55,7 @@ export default function Testimonial() {
               "
             </div>
 
-            <p className="text-white text-base leading-relaxed italic mb-4">
+            <p className="text-white text-xl leading-relaxed italic mb-4">
               {testimonial.text}
             </p>
 
@@ -73,7 +73,7 @@ export default function Testimonial() {
                 <span className="block text-white font-semibold text-base">
                   {testimonial.author}
                 </span>
-                <span className="text-pink-200 text-xs">
+                <span className="text-pink-200 text-lg">
                   {testimonial.role}
                 </span>
               </cite>

@@ -11,8 +11,8 @@ interface CookiePreferences {
 
 // Constants
 const COOKIE_EXPIRY_DAYS = Math.min(
-  parseInt(process.env.NEXT_PUBLIC_COOKIE_EXPIRY_DAYS || '7'),
-  30 // Maximum 30 days for GDPR compliance
+  parseInt(process.env.NEXT_PUBLIC_COOKIE_EXPIRY_DAYS || "7"),
+  30, // Maximum 30 days for GDPR compliance
 );
 
 export default function CookieBanner() {
@@ -105,7 +105,7 @@ export default function CookieBanner() {
       console.info(
         `Operating System: ${getOperatingSystem()}, Storage behavior: ${
           storageBehavior.privateModeBehavior
-        }`
+        }`,
       );
       setShowBanner(true);
       return;
@@ -172,7 +172,7 @@ export default function CookieBanner() {
   const acceptAll = () => {
     if (!isLocalStorageAvailable()) {
       console.warn(
-        "localStorage not available, cannot save cookie preferences"
+        "localStorage not available, cannot save cookie preferences",
       );
       return;
     }
@@ -210,7 +210,7 @@ export default function CookieBanner() {
   const rejectAll = () => {
     if (!isLocalStorageAvailable()) {
       console.warn(
-        "localStorage not available, cannot save cookie preferences"
+        "localStorage not available, cannot save cookie preferences",
       );
       setPreferences({
         analytics: false,
@@ -251,7 +251,7 @@ export default function CookieBanner() {
   const savePreferences = () => {
     if (!isLocalStorageAvailable()) {
       console.warn(
-        "localStorage not available, cannot save cookie preferences"
+        "localStorage not available, cannot save cookie preferences",
       );
       triggerServices(preferences);
       setShowBanner(false);
@@ -300,7 +300,7 @@ export default function CookieBanner() {
             <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-4">
               🍪 Gestion des cookies
             </h2>
-            <p className="text-gray-700 dark:text-gray-300 mb-6 text-sm">
+            <p className="text-gray-700 dark:text-gray-300 mb-6 text-lg">
               Ce site utilise des cookies pour améliorer votre expérience et
               analyser le trafic. Vous pouvez choisir d'accepter ou de refuser
               ces services.
@@ -344,7 +344,7 @@ export default function CookieBanner() {
                 <label className="font-medium text-gray-900 dark:text-white">
                   Vercel Analytics
                 </label>
-                <p className="text-xs text-gray-600 dark:text-gray-400">
+                <p className="text-lg text-gray-600 dark:text-gray-400">
                   Statistiques de visite du site
                 </p>
               </div>
@@ -369,7 +369,7 @@ export default function CookieBanner() {
                 <label className="font-medium text-gray-900 dark:text-white">
                   Speed Insights
                 </label>
-                <p className="text-xs text-gray-600 dark:text-gray-400">
+                <p className="text-lg text-gray-600 dark:text-gray-400">
                   Performance du site web
                 </p>
               </div>
@@ -394,7 +394,7 @@ export default function CookieBanner() {
                 <label className="font-medium text-gray-900 dark:text-white">
                   Metricool
                 </label>
-                <p className="text-xs text-gray-600 dark:text-gray-400">
+                <p className="text-lg text-gray-600 dark:text-gray-400">
                   Analyse des réseaux sociaux
                 </p>
               </div>

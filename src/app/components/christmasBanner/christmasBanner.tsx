@@ -17,12 +17,14 @@ export default function ChristmasBanner() {
         <span className="font-extrabold text-yellow-300">-10%</span> sur la
         création de site
       </span>
-      <span className="text-sm sm:text-base italic mx-2">
+      <span className="text-lg sm:text-base italic mx-2">
         (réservations avant le 31/01)
       </span>
       <Link
-        href="/contact"
-        className="bg-white text-red-600 font-bold px-4 py-2 rounded-full hover:bg-yellow-300 hover:text-red-700 transition-all duration-300 shadow-md text-sm sm:text-base mx-4">
+        href="https://calendly.com/priscillia-ammeux-pro/rdv-web-audit-noel"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-white text-red-600 font-bold px-4 py-2 rounded-full hover:bg-yellow-300 hover:text-red-700 transition-all duration-300 shadow-md text-lg sm:text-base mx-4">
         En profiter ! 🎁
       </Link>
     </>

@@ -73,7 +73,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
         <div className="max-w-6xl mx-auto">
           <Link
             href="/project"
-            className="text-sm mb-6 inline-block text-pink-700 hover:underline">
+            className="text-lg mb-6 inline-block text-pink-700 hover:underline">
             ← Retour aux projets
           </Link>
 
@@ -83,7 +83,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                 {project!.title}
               </h2>
 
-              <div className="flex flex-wrap gap-4 text-sm text-gray-500 mb-4">
+              <div className="flex flex-wrap gap-4 text-lg text-gray-500 mb-4">
                 {project!.client && (
                   <span className="font-medium">{project!.client}</span>
                 )}
@@ -94,7 +94,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                 <p className="text-lg mb-4">{project!.intro}</p>
               )}
               {project!.description && (
-                <p className="text-sm text-gray-600">{project!.description}</p>
+                <p className="text-lg text-gray-600">{project!.description}</p>
               )}
             </header>
 
@@ -117,28 +117,28 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                       href={project!.demoLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-block w-full text-center bg-pink-600 text-white px-4 py-2 rounded-lg font-semibold shadow hover:bg-pink-800 hover:scale-105 transition">
+                      className="inline-block w-full text-center bg-pink-600 text-white px-4 py-2 rounded-lg font-semibold shadow hover:bg-pink-800 hover:scale-105 transition text-lg">
                       Voir le site
                     </a>
                   )}
 
                   <Link
-                    href="/contact"
-                    className="block w-full text-center border border-pink-600 text-pink-600 px-4 py-2 rounded-lg hover:bg-pink-600 hover:text-white hover:scale-105 transition">
+                    href="https://calendly.com/priscillia-ammeux-pro/rdv-web-audit-noel"
+                    className="block w-full text-center border border-pink-600 text-pink-600 px-4 py-2 rounded-lg hover:bg-pink-600 hover:text-white hover:scale-105 transition text-lg">
                     Me contacter
                   </Link>
                 </div>
 
                 {project!.technologies && project!.technologies.length > 0 && (
                   <div>
-                    <h3 className="text-sm font-semibold text-pink-600 mb-2">
+                    <h3 className="text-lg font-semibold text-pink-600 mb-2">
                       Technologies
                     </h3>
                     <div className="flex flex-wrap gap-2">
                       {project!.technologies.map((t) => (
                         <span
                           key={t}
-                          className="text-xs bg-pink-100 text-pink-700 px-3 py-1 rounded-full">
+                          className="text-lg bg-pink-100 text-pink-700 px-3 py-1 rounded-full">
                           {t}
                         </span>
                       ))}
@@ -153,7 +153,9 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                     <h3 className="text-lg font-semibold text-pink-600 mb-2">
                       Contexte
                     </h3>
-                    <p className="leading-relaxed">{project!.context}</p>
+                    <p className="leading-relaxed text-lg">
+                      {project!.context}
+                    </p>
                   </section>
                 )}
 
@@ -162,7 +164,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                     <h3 className="text-lg font-semibold text-pink-600 mb-2">
                       Objectifs
                     </h3>
-                    <ul className="list-disc list-inside">
+                    <ul className="list-disc list-inside text-lg">
                       {project!.objectives.map((o, i) => (
                         <li key={i}>{o}</li>
                       ))}
@@ -175,7 +177,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                     <h3 className="text-lg font-semibold text-pink-600 mb-2">
                       Solutions apportées
                     </h3>
-                    <ul className="list-disc list-inside">
+                    <ul className="list-disc list-inside text-lg">
                       {project!.solutions.map((s, i) => (
                         <li key={i}>{s}</li>
                       ))}
@@ -188,21 +190,21 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                     <h3 className="text-lg font-semibold text-pink-600 mb-2">
                       Résultats
                     </h3>
-                    <p>{project!.result}</p>
+                    <p className="text-lg">{project!.result}</p>
                   </section>
                 )}
 
                 {project!.testimonial && (
                   <section>
                     <div className="bg-pink-50 border-l-4 border-pink-200 p-4 rounded-lg">
-                      <h3 className="text-sm font-semibold text-pink-600 mb-2">
+                      <h3 className="text-lg font-semibold text-pink-600 mb-2">
                         Témoignage
                       </h3>
-                      <blockquote className="italic text-gray-700">
+                      <blockquote className="italic text-gray-700 text-lg">
                         “{project!.testimonial.content}”
                       </blockquote>
                       {project!.testimonial.author && (
-                        <p className="mt-2 text-sm text-gray-500">
+                        <p className="mt-2 text-lg text-gray-500 text-lg">
                           — {project!.testimonial.author}
                         </p>
                       )}
@@ -212,10 +214,10 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
                 {project!.accompagnement && (
                   <section>
-                    <h3 className="text-sm font-semibold text-pink-600 mb-2">
+                    <h3 className="text-lg font-semibold text-pink-600 mb-2">
                       Accompagnement
                     </h3>
-                    <p className="text-sm leading-relaxed">
+                    <p className="text-lg leading-relaxed">
                       {project!.accompagnement}
                     </p>
                   </section>
@@ -223,10 +225,10 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
                 {project!.services?.length && (
                   <section>
-                    <h3 className="text-sm font-semibold text-pink-600 mb-2">
+                    <h3 className="text-lg font-semibold text-pink-600 mb-2">
                       Services
                     </h3>
-                    <ul className="list-disc list-inside text-sm">
+                    <ul className="list-disc list-inside text-lg">
                       {project!.services.map((s) => (
                         <li key={s}>{s}</li>
                       ))}

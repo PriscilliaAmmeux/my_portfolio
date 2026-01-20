@@ -1,7 +1,6 @@
-import Button from "@/app/components/button/button";
 import NavLink from "../../components/navlink/navlink";
 import Logo from "../logo/logo";
-import Link from "next/link";
+import CalendlyWidget from "../calendlyWidget/calendlyWidget";
 
 interface NavbarProps {
   forceWhiteText?: boolean;
@@ -47,15 +46,7 @@ export default function Navbar({ forceWhiteText = false }: NavbarProps) {
             isActive={true}
             forceWhiteText={forceWhiteText}
           />
-          <Link href="/contact">
-            <Button
-              type="button"
-              text="Contact"
-              ariaLabel="Aller à la page contact"
-              variant="bgPink"
-              className="px-4 py-2"
-            />
-          </Link>
+          <CalendlyWidget />
         </nav>
       </div>
     </section>

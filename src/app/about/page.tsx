@@ -1,10 +1,9 @@
 import YoutubeVideo from "../components/youtubeVideo/youtubeVideo";
 import About from "../ui/about/about";
-import ContactMe from "../ui/contactMe/contactMe";
 import Layout from "../ui/layout/layout";
 import { Metadata } from "next";
-import Logo from "../ui/logo/logo";
 import Stickers from "../ui/stickers/stickers";
+import ContactMe from "../ui/contactMe/contactMe";
 
 export const metadata: Metadata = {
   title: "pixeliaandco",

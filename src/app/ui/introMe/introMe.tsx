@@ -62,7 +62,7 @@ export default function IntroMe() {
 
         {/* Introduction */}
         <div className="mb-8 space-y-4">
-          <p className="text-sm sm:text-base leading-relaxed break-words">
+          <p className="text-lg leading-relaxed break-words">
             {INTRO_TEXT.greeting}{" "}
             <span className="font-semibold text-pink-600">
               {INTRO_TEXT.name}
@@ -71,15 +71,15 @@ export default function IntroMe() {
             {INTRO_TEXT.location}
           </p>
 
-          <p className="text-sm sm:text-base leading-relaxed break-words text-pink-600 font-medium">
+          <p className="text-lg  leading-relaxed break-words text-pink-600 font-medium">
             {INTRO_TEXT.passion}
           </p>
 
-          <p className="text-sm sm:text-base leading-relaxed break-words">
+          <p className="text-lg  leading-relaxed break-words">
             {INTRO_TEXT.mission}
           </p>
 
-          <p className="text-sm sm:text-base leading-relaxed break-words text-gray-700">
+          <p className="text-lg  leading-relaxed break-words text-gray-700">
             {INTRO_TEXT.approach}
           </p>
         </div>

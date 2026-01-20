@@ -35,7 +35,7 @@ export default function MockupCard({
             fill
             className="object-contain group-hover:scale-105 transition-transform duration-300"
           />
-          <span className="absolute top-4 right-4 bg-pink-600 text-white text-xs px-3 py-1.5 rounded-full font-medium shadow-md z-10">
+          <span className="absolute top-4 right-4 bg-pink-600 text-white text-lg px-3 py-1.5 rounded-full font-medium shadow-md z-10">
             {category}
           </span>
         </button>
@@ -43,7 +43,7 @@ export default function MockupCard({
         {/* Contenu */}
         <div className="p-6">
           <h3 className="font-bold text-lg text-gray-900 mb-2">{title}</h3>
-          <p className="text-gray-600 text-sm leading-relaxed mb-4">
+          <p className="text-gray-600 text-lg leading-relaxed mb-4">
             {description}
           </p>
 
@@ -53,7 +53,7 @@ export default function MockupCard({
               {tags.map((tag, index) => (
                 <span
                   key={index}
-                  className="text-xs bg-pink-50 text-pink-600 px-2 py-1 rounded-md">
+                  className="text-lg bg-pink-50 text-pink-600 px-2 py-1 rounded-md">
                   {tag}
                 </span>
               ))}
@@ -99,7 +99,7 @@ export default function MockupCard({
 
           <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/70 text-white px-6 py-3 rounded-lg backdrop-blur-sm">
             <p className="font-semibold">{title}</p>
-            <p className="text-sm text-gray-300">{category}</p>
+            <p className="text-lg text-gray-300">{category}</p>
           </div>
         </div>
       )}

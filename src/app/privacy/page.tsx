@@ -72,7 +72,7 @@ export default function Privacy() {
         </section>
 
         <div className="mt-8 p-4 bg-pink-50 border border-pink-200 rounded-lg">
-          <p className="text-sm text-gray-600 text-center">
+          <p className="text-lg text-gray-600 text-center">
             <strong>Dernière mise à jour :</strong> Cette politique de
             confidentialité peut être mise à jour. Nous vous encourageons à la
             consulter régulièrement.

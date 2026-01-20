@@ -5,7 +5,7 @@ export default function ShareOpinionGoogle() {
         <h3 className="text-xl font-bold text-pink-600 mb-2">
           Vous aussi, partagez votre expérience !
         </h3>
-        <p className="text-gray-600 text-sm">
+        <p className="text-gray-600 text-xl">
           Votre avis compte et aide d'autres porteurs de projets à me faire
           confiance.
         </p>
@@ -21,10 +21,10 @@ export default function ShareOpinionGoogle() {
             G
           </div>
           <div className="flex-1">
-            <h4 className="font-semibold text-gray-900 group-hover:text-pink-600 transition-colors">
+            <h4 className="font-semibold text-lg text-gray-900 group-hover:text-pink-600 transition-colors">
               Laisser un avis sur Google
             </h4>
-            <p className="text-sm text-gray-600">
+            <p className="text-lg text-gray-600">
               Aidez d'autres clients à me découvrir
             </p>
           </div>
@@ -51,10 +51,10 @@ export default function ShareOpinionGoogle() {
             in
           </div>
           <div className="flex-1">
-            <h4 className="font-semibold text-gray-900 group-hover:text-pink-600 transition-colors">
+            <h4 className="font-semibold text-lg text-gray-900 group-hover:text-pink-600 transition-colors">
               Me recommander sur LinkedIn
             </h4>
-            <p className="text-sm text-gray-600">
+            <p className="text-lg text-gray-600">
               Partagez votre expérience professionnelle
             </p>
           </div>

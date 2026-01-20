@@ -7,7 +7,6 @@ const urls = [
   { url: "/project", changefreq: "daily", priority: 0.8 },
   { url: " /prestations", changefreq: "daily", priority: 0.8 },
   { url: " /blog", changefreq: "daily", priority: 0.8 },
-  { url: " /contact", changefreq: "daily", priority: 0.7 },
 ];
 
 // Create a sitemap stream with the specified hostname

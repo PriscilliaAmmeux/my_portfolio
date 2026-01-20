@@ -45,9 +45,9 @@ const SECTIONS_CONTENT = {
 };
 
 // Styles unifiés pour tous les textes
-const TEXT_STYLE = "leading-relaxed text-pink-900";
-const LIST_STYLE = "list-disc list-inside text-pink-900 space-y-2";
-const PARAGRAPH_STYLE = "leading-relaxed text-pink-900 mb-3";
+const TEXT_STYLE = "leading-relaxed text-pink-900 text-lg";
+const LIST_STYLE = "list-disc list-inside text-pink-900 space-y-2 text-lg";
+const PARAGRAPH_STYLE = "leading-relaxed text-pink-900 mb-3 text-lg";
 
 // Fonction utilitaire pour styliser "Pixelia&Co" dans les paragraphes uniquement
 const highlightPixelia = (text: string) => {
@@ -59,7 +59,7 @@ const highlightPixelia = (text: string) => {
       </span>
     ) : (
       part
-    )
+    ),
   );
 };
 
@@ -68,7 +68,7 @@ const PrestationsButton = () => (
   <div className="flex justify-center">
     <Link
       href="/prestations"
-      className="inline-flex items-center justify-center px-4 py-2 text-sm font-semibold text-pink-700 bg-pink-100 border border-pink-200 rounded-lg hover:bg-pink-200 hover:text-pink-800 transition-colors duration-200">
+      className="inline-flex items-center justify-center px-4 py-2 text-lg font-semibold text-pink-700 bg-pink-100 border border-pink-200 rounded-lg hover:bg-pink-200 hover:text-pink-800 transition-colors duration-200">
       Voir mes prestations détaillées →
     </Link>
   </div>

@@ -1,6 +1,5 @@
 .custom-button {
   font-weight: bold;
-  padding: 0.25rem 1.5rem;
   border-radius: 0.75rem;
   transition: background-color 0.3s ease;
 }

@@ -2,7 +2,7 @@ import Card from "@/app/components/card/card";
 import prestationsData from "../../../data/prestations.json";
 
 function getPresentationContent(
-  presentation: { content: string } | { content: string }[] | undefined
+  presentation: { content: string } | { content: string }[] | undefined,
 ) {
   if (!presentation) return [];
   if (Array.isArray(presentation)) {
@@ -22,7 +22,7 @@ export default function ListPrestations() {
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
         {prestations.map((prestation: any) => {
           const presentationContent = getPresentationContent(
-            prestation.presentation
+            prestation.presentation,
           );
 
           const hasExamples =
@@ -36,7 +36,7 @@ export default function ListPrestations() {
               className="w-full lg:w-1/3 flex flex-col justify-between h-full"
               title={prestation.title}>
               <div className="flex-grow">
-                <ul className="text-white list-none mt-2 mb-2 text-sm">
+                <ul className="text-white list-none mt-2 mb-2 text-lg">
                   {prestation.price && (
                     <li className="mt-2 mb-4 font-bold">{prestation.price}</li>
                   )}
@@ -52,7 +52,7 @@ export default function ListPrestations() {
                           <li key={index} className="mt-1 mb-1 ml-4">
                             • {exemple}
                           </li>
-                        )
+                        ),
                       )}
                     </>
                   )}
@@ -93,7 +93,7 @@ export default function ListPrestations() {
         <h3 className="text-lg font-bold mb-4 flex items-center text-pink-900">
           <span className="mr-2 text-2xl">⚠️</span>À prévoir par le client
         </h3>
-        <ul className="space-y-3 text-pink-900 text-sm list-disc list-inside ml-2">
+        <ul className="space-y-3 text-pink-900 text-lg list-disc list-inside ml-2">
           <li className="pl-2">
             <strong>Hébergement et nom de domaine :</strong> pour être 100 %
             propriétaire de votre site web (je peux vous conseiller les
@@ -119,7 +119,7 @@ export default function ListPrestations() {
               title={service.title}
               className="w-full px-2 flex flex-col justify-between h-full">
               <div className="flex-grow">
-                <ul className="text-white list-none mt-2 mb-2 text-sm">
+                <ul className="text-white list-none mt-2 mb-2 text-lg">
                   {service.price && (
                     <li className="mt-2 mb-2 font-bold">{service.price}</li>
                   )}
@@ -143,12 +143,12 @@ export default function ListPrestations() {
                   {service.presentation &&
                     (Array.isArray(service.presentation) ? (
                       service.presentation.map((p: any, i: number) => (
-                        <li key={i} className="mt-1 mb-1 ml-0 text-sm">
+                        <li key={i} className="mt-1 mb-1 ml-0 text-lg">
                           → {p.content}
                         </li>
                       ))
                     ) : (
-                      <li className="mt-1 mb-1 text-sm">
+                      <li className="mt-1 mb-1 text-lg">
                         → {service.presentation.content}
                       </li>
                     ))}

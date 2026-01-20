@@ -70,7 +70,7 @@ export default function Me() {
             className="h-full">
             <div className="space-y-4">
               {section.paragraphs.map((paragraph, pIndex) => (
-                <p key={pIndex} className="text-sm leading-relaxed break-words">
+                <p key={pIndex} className="text-lg leading-relaxed break-words">
                   {paragraph}
                 </p>
               ))}
@@ -80,7 +80,7 @@ export default function Me() {
                   {section.list.map((item, lIndex) => (
                     <li
                       key={lIndex}
-                      className="text-sm leading-relaxed break-words">
+                      className="text-lg leading-relaxed break-words">
                       {item}
                     </li>
                   ))}
@@ -91,7 +91,7 @@ export default function Me() {
                 section.additionalParagraphs.map((paragraph, apIndex) => (
                   <p
                     key={apIndex}
-                    className="text-sm leading-relaxed break-words">
+                    className="text-lg leading-relaxed break-words">
                     {paragraph}
                   </p>
                 ))}

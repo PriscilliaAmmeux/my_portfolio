@@ -139,7 +139,7 @@ export default function ListCollab() {
               </a>
             }>
             {collab.desc.map((block, i) => (
-              <div key={i} className="text-sm text-left w-full">
+              <div key={i} className="text-lg text-left w-full">
                 <p className="font-semibold mb-2">{block.intro}</p>
                 <p className="mb-2">{block.presentation}</p>
                 <p className="mb-2">{block.contain}</p>
