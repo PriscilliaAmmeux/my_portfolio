@@ -3,12 +3,11 @@ import Title from "../ui/title/title";
 import { Metadata } from "next";
 import ListPrestations from "../ui/listPrestations/listPrestations";
 import ListCollab from "../ui/listCollab/listCollab";
-import Link from "next/link";
-import Button from "../components/button/button";
-import Image from "next/image";
 import IntroPrestations from "../ui/introPrestations/introPrestations";
 import Faq from "../components/faq/faq";
 import CtaFinal from "../ui/ctaFinal/ctaFinal";
+import ContactMe from "../ui/contactMe/contactMe";
+import Stickers from "../ui/stickers/stickers";
 
 export const metadata: Metadata = {
   title: "Mes prestations - Pixelia&Co",
@@ -70,14 +69,9 @@ export default function Page() {
         <Title text="Mes services" />
         <IntroPrestations />
         <ListPrestations />
-        <Image
-          src="/Stickers.webp"
-          alt="Ensemble de stickers Pixelia&Co"
-          className="mx-auto mt-10 animate-wave-gentle"
-          width={500}
-          height={500}
-        />
+        <Stickers />
         <ListCollab />
+        <ContactMe />
         <Faq />
         <CtaFinal />
       </section>

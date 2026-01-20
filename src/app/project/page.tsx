@@ -5,6 +5,9 @@ import { Metadata } from "next";
 import Layout from "../ui/layout/layout";
 import { slugify } from "../../lib/slugify";
 import MockupsGallery from "../ui/mockupsGallery/mockupsGallery";
+import ContactMe from "../ui/contactMe/contactMe";
+import { Stick } from "next/font/google";
+import Stickers from "../ui/stickers/stickers";
 
 export const metadata: Metadata = {
   title: "Mes projets - Pixelia&Co",
@@ -51,8 +54,10 @@ export default function Project() {
             />
           ))}
         </div>
-
+        <ContactMe />
+        <Stickers />
         <MockupsGallery />
+        <ContactMe />
       </section>
     </Layout>
   );

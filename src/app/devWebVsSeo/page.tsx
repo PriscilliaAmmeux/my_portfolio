@@ -4,6 +4,8 @@ import ArticleNavigation from "../components/articleNavigation/articleNagivation
 import Layout from "../ui/layout/layout";
 import { Metadata } from "next";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
+import Contact from "../contact/page";
+import ContactMe from "../ui/contactMe/contactMe";
 
 export const metadata: Metadata = {
   title: "Développeuse web ≠ rédactrice SEO",
@@ -149,14 +151,7 @@ export default function DevWebVsSeo() {
           et une <strong>expérience utilisateur</strong> soignée.
         </p>
 
-        <p className="mt-4 font-semibold text-black">
-          📩 Envie de lancer ton projet web ?{" "}
-          <Link
-            href="/contact"
-            className="text-pink-600 hover:text-pink-700 hover:underline transition-colors duration-200">
-            Parlons-en autour d’un café virtuel ☕
-          </Link>
-        </p>
+        <ContactMe />
 
         <ArticleNavigation
           nextHref="/freelanceQuesnoySurDeule"

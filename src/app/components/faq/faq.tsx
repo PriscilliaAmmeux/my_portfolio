@@ -47,7 +47,7 @@ export default function Faq() {
   };
 
   return (
-    <section className="py-12 px-4 lg:px-0" aria-labelledby="faq-title">
+    <section className="py-24 px-4 lg:px-0" aria-labelledby="faq-title">
       <div className="max-w-4xl mx-auto">
         <header className="text-center mb-10">
           <h2
