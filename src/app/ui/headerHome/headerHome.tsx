@@ -3,6 +3,7 @@ import Button from "../../components/button/button";
 import Image from "next/image";
 import Navigation from "../navigation/navigation";
 import Logo from "../logo/logo";
+import NavMobile from "../navMobile/navMobile";
 
 export default function HeaderHome() {
   return (
@@ -17,17 +18,18 @@ export default function HeaderHome() {
           priority
           quality={90}
         />
-        {/* Overlay sombre pour améliorer la lisibilité du texte */}
         <div className="absolute inset-0 bg-black/50" aria-hidden="true" />
       </div>
 
-      {/* Navigation en haut */}
       <nav className="relative z-20" aria-label="Navigation principale">
         <div className="flex justify-center mt-10 lg:hidden">
           <Logo width={200} height={60} />
         </div>
         <div className="hidden lg:block">
           <Navigation forceWhiteText={true} />
+        </div>
+        <div className="lg:hidden">
+          <NavMobile />
         </div>
       </nav>
 
