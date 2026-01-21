@@ -36,7 +36,7 @@ export default function Navbar({ forceWhiteText = false }: NavbarProps) {
           />
           <NavLink
             href="/prestations"
-            title="Services"
+            title="Mes offres"
             isActive={true}
             forceWhiteText={forceWhiteText}
           />

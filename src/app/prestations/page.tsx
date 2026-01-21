@@ -66,7 +66,7 @@ export default function Page() {
   return (
     <Layout>
       <section className="pt-4 px-4 sm:px-6 lg:px-20">
-        <Title text="Mes services" />
+        <Title text="Mes offres" />
         <IntroPrestations />
         <ListPrestations />
         <Stickers />

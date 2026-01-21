@@ -55,9 +55,11 @@ export default function Faq() {
             className="text-3xl lg:text-4xl font-bold text-pink-600 mb-4">
             Questions fréquentes
           </h2>
-          <p className="text-gray-700 max-w-2xl mx-auto">
-            Vous vous posez des questions sur mes services ? Voici les réponses
-            aux interrogations les plus courantes.
+          <p className="max-w-2xl mx-auto text-lg">
+            Vous vous posez des questions sur mes services ?
+          </p>
+          <p className="max-w-2xl mx-auto text-lg">
+            Voici les réponses aux interrogations les plus courantes.
           </p>
         </header>
 

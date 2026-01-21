@@ -35,7 +35,7 @@ export default function Footer() {
               Portfolio
             </a>
             <a href="/prestations" className="hover:underline">
-              Services
+              Mes offres
             </a>
             <a href="/blog" className="hover:underline">
               Blog
