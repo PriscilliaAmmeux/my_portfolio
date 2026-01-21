@@ -108,8 +108,8 @@ export default function ListPrestations() {
       </section>
 
       {/* Prestations supplémentaires */}
-      <section className="mt-8">
-        <h3 className="text-xl font-bold mb-4 ml-4">
+      <section className="mt-16 mb-10">
+        <h3 className="text-2xl font-bold mb-4 ml-4 mb-6">
           Prestations supplémentaires
         </h3>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4">

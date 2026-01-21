@@ -1,5 +1,104 @@
 [
   {
+    "id": 13,
+    "title": "Feeling & Create",
+    "slug": "feeling-and-create",
+    "client": "Feeling & Create",
+    "location": "France",
+    "intro": "Refonte du site internet de Feeling & Create, collectif créatif pluridisciplinaire.",
+    "description": "Refonte du site internet de Feeling & Create, collectif créatif dont je fais partie. Le projet s’inscrit dans le cadre d’un nouveau branding et d’une nouvelle charte graphique réalisés par la directrice artistique du collectif. De mon côté, j’interviens sur l’expression de besoin, la conception des maquettes sur Figma et la refonte du site sous WordPress, afin de proposer une expérience claire, cohérente et administrable en toute autonomie.",
+    "context": "Le site existant ne correspondait plus à l’identité actuelle du collectif ni à ses nouveaux objectifs. Une refonte globale était nécessaire pour aligner le site avec la nouvelle direction artistique, améliorer la lisibilité des contenus et faciliter l’administration du site par les membres du collectif.",
+    "objectives": [
+      "Traduire le nouveau branding du collectif dans une interface web cohérente",
+      "Structurer les contenus à partir de l’expression de besoin et des usages",
+      "Mettre en place un site WordPress administrable par le collectif"
+    ],
+    "solutions": [
+      "Ateliers et échanges autour de l’expression de besoin pour définir les objectifs, les contenus et les parcours utilisateurs",
+      "Conception des maquettes UX/UI sur Figma en cohérence avec la nouvelle charte graphique",
+      "Refonte et intégration du site sous WordPress avec un back-office permettant au collectif de gérer et faire évoluer ses contenus"
+    ],
+    "technologies": ["Figma", "WordPress", "SEO", "Accessibilité"],
+    "result": "Un site web en cours de refonte, aligné avec la nouvelle identité visuelle de Feeling & Create, offrant une structure claire, une meilleure expérience utilisateur et un back-office pensé pour l’autonomie du collectif.",
+    "accompagnement": "Projet en cours — accompagnement sur la conception, l’intégration WordPress et l’évolution des contenus, avec un suivi collaboratif au sein du collectif.",
+    "services": [
+      "Expression de besoin et cadrage du projet",
+      "Conception de maquettes UX/UI sur Figma",
+      "Refonte du site WordPress avec back-office administrable",
+      "Optimisation SEO et accessibilité",
+      "Accompagnement et support technique"
+    ],
+    "testimonial": {
+      "author": "Feeling & Create",
+      "content": ""
+    },
+    "image": "/F&C-in-progress.webp",
+    "demoLink": "",
+    "seoDescription": "Refonte du site WordPress de Feeling & Create suite à un nouveau branding. Expression de besoin, maquettes Figma et intégration WordPress avec back-office administrable.",
+    "keywords": [
+      "refonte site internet",
+      "site WordPress",
+      "collectif créatif",
+      "UX UI",
+      "maquette Figma",
+      "expression de besoin",
+      "accessibilité",
+      "SEO"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Mots Sur Mesure",
+    "slug": "mots-sur-mesure",
+    "client": "Mots Sur Mesure",
+    "location": "France",
+    "intro": "Création du site internet de Mots Sur Mesure, collectif de rédactrices web spécialisées en SEO et copywriting.",
+    "description": "Création du site internet de Mots Sur Mesure, porté par Christelle et Nesrine, deux rédactrices web spécialisées en SEO et copywriting. Le projet vise à valoriser leurs services, leur expertise et leur complémentarité à travers un site clair, professionnel et optimisé pour la visibilité en ligne. Design réalisé sur Figma, puis développement sous WordPress avec un back-office pensé pour leur permettre d’administrer le site en toute autonomie : mises à jour de contenus, ajouts d’articles de blog et évolutions futures.",
+    "context": "Christelle et Nesrine souhaitaient un site vitrine professionnel reflétant leur univers, leur double expertise et leur positionnement, tout en disposant d’un back-office simple leur permettant de gérer elles-mêmes le site après la mise en ligne.",
+    "objectives": [
+      "Présenter clairement les services de rédaction web, SEO et copywriting",
+      "Renforcer la crédibilité et la visibilité en ligne du collectif",
+      "Permettre une administration autonome du site via un back-office WordPress"
+    ],
+    "solutions": [
+      "Maquette interactive réalisée sur Figma pour valider l’ergonomie, les parcours utilisateurs et la hiérarchie de l’information",
+      "Développement d’un site WordPress avec un back-office personnalisé pour faciliter les modifications, l’ajout de contenus et la publication d’articles de blog"
+    ],
+    "technologies": [
+      "Figma",
+      "WordPress",
+      "O2Switch (nom de domaine, DNS et hébergement)",
+      "SEO",
+      "Accessibilité"
+    ],
+    "result": "Un site web moderne, clair et évolutif, doté d’un back-office intuitif permettant à Christelle et Nesrine de modifier leurs contenus, publier des articles de blog et faire évoluer leur site en toute autonomie, avec une base solide en SEO et accessibilité.",
+    "accompagnement": "Projet en cours — accompagnement incluant la prise en main du back-office WordPress et une maintenance de 3 mois après la mise en ligne pour garantir sécurité, stabilité et évolutions mineures.",
+    "services": [
+      "Mise en place d’un back-office WordPress administrable",
+      "Maintenance technique incluse pendant 3 mois",
+      "Autonomie client pour la gestion des contenus et du blog",
+      "Optimisation SEO et bonnes pratiques d’accessibilité",
+      "Assistance technique et support"
+    ],
+    "testimonial": {
+      "author": "Christelle & Nesrine",
+      "content": ""
+    },
+    "image": "/mots-sur-mesure-in-progress.webp",
+    "demoLink": "",
+    "seoDescription": "Création du site WordPress de Mots Sur Mesure avec back-office administrable. Design Figma, site accessible, optimisé SEO et pensé pour l’autonomie des rédactrices.",
+    "keywords": [
+      "rédaction web",
+      "copywriting",
+      "SEO",
+      "site WordPress",
+      "back office WordPress",
+      "Figma",
+      "création site internet",
+      "autonomie client"
+    ]
+  },
+  {
     "id": 11,
     "title": "Le Chantier d’à Côté",
     "slug": "le-chantier-d-a-cote",

@@ -50,7 +50,7 @@ export default function AccessibilityArticle() {
         <SectionArticle
           title={"Quelques chiffres clés"}
           content={
-            <ul className="list-disc list-inside">
+            <ul className="list-disc list-inside text-lg">
               <li>
                 15% de la population mondiale : représente environ un milliard
                 de personnes vivant avec un handicap.

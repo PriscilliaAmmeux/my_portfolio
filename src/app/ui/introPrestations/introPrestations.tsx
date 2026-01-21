@@ -1,6 +1,6 @@
 export default function IntroPrestations() {
   return (
-    <p className="mb-10">
+    <p className="mb-10 text-lg">
       Besoin d’un site vitrine professionnel, clair et efficace pour développer
       votre activité en ligne ? Découvrez mes offres de création de sites web
       pour entrepreneurs, artisans et petites entreprises. Des solutions

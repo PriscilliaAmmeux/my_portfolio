@@ -117,7 +117,9 @@ export default function Tartecitron() {
                 </a>
               </p>
               <p>Et si tu veux que je l’implémente sur ton projet :</p>
-              <Link href="/contact" className="self-center">
+              <Link
+                href="https://calendly.com/priscillia-ammeux-pro/rdv-web-audit-noel"
+                className="self-center">
                 <Button
                   type="button"
                   text="Contacte-moi"

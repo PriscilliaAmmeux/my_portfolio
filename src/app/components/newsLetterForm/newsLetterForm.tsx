@@ -5,10 +5,10 @@ export default function NewsletterForm() {
     <div className="mx-auto my-4" style={{ maxWidth: 1000 }}>
       <div className="bg-pink-100 rounded-xl shadow p-4 text-center space-y-6">
         <h2 className="text-3xl font-bold mb-2 text-pink-600">Newsletter</h2>
-        <p className="text-pink-900">
+        <p className="text-pink-900 text-lg">
           1 email par mois. Zéro spam. 100 % web & humain. 💻❤️
         </p>
-        <p className="text-pink-900 mx-20">
+        <p className="text-pink-900 text-lg mx-20">
           Entre coulisses de Pixelia&Co, conseils pratiques et réflexions sur le
           web d’aujourd’hui, ma newsletter te plonge chaque mois dans l’envers
           du décor d’une créatrice de sites passionnée. ✨

@@ -47,8 +47,8 @@ export default function ArticleBlog({
       <h2 className="text-pink-600 font-bold text-xl mt-4 text-center px-2 pb-2">
         {title}
       </h2>
-      <h3 className="text-pink-600 text-base text-center px-2">{subtitle}</h3>
-      <p className="text-pink-600 text-base ml-2 text-center mr-2">{date}</p>
+      <h3 className="text-pink-600 text-lg text-center px-2">{subtitle}</h3>
+      <p className="text-pink-600 text-lg ml-2 text-center mr-2">{date}</p>
       <span className="flex justify-center absolute bottom-0 w-full py-2 ">
         <Link className="flex justify-center" href={getHref(id)}>
           <Button
