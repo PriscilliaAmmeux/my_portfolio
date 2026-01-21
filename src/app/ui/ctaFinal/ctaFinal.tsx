@@ -13,19 +13,19 @@ export default function CtaFinal({ className = "" }: CtaFinalProps) {
         Un projet en tête ? Parlons-en.
       </h3>
       <div className="space-y-3 mb-6 max-w-2xl mx-auto">
-        <p className="text-gray-700 leading-relaxed">
+        <p className="text-gray-700 text-lg leading-relaxed">
           Je vous propose un échange gratuit pour définir vos besoins et créer
           un site qui vous ressemble vraiment.
         </p>
-        <p className="text-gray-700 leading-relaxed">
+        <p className="text-gray-700 text-lg leading-relaxed">
           Pas de jargon inutile, pas de bidouille compliquée.
         </p>
-        <p className="text-gray-700 font-medium">
+        <p className="text-gray-700 text-lg font-medium">
           Un site joli, clair, rapide, fait pour vendre. Point.
         </p>
       </div>
       <Link
-        href="/contact"
+        href="https://calendly.com/priscillia-ammeux-pro/rdv-web-audit-noel"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block">

@@ -42,7 +42,7 @@ export default function Faq() {
     setOpenItems((prev) =>
       prev.includes(index)
         ? prev.filter((item) => item !== index)
-        : [...prev, index]
+        : [...prev, index],
     );
   };
 
@@ -110,15 +110,15 @@ export default function Faq() {
           ))}
         </div>
 
-        <div className="text-center mt-10">
-          <p className="mb-4">
+        <div className="text-center  mt-10">
+          <p className="mb-4 text-lg">
             Une autre question ? N'hésitez pas à me contacter !
           </p>
           <a
-            href="/contact"
+            href="https://calendly.com/priscillia-ammeux-pro/rdv-web-audit-noel"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-pink-600 text-white px-6 py-3 rounded-lg hover:bg-pink-700 transition-colors font-medium">
+            className="inline-flex items-center gap-2 text-lg bg-pink-600 text-white px-6 py-3 rounded-lg hover:bg-pink-700 transition-colors font-medium">
             Me poser une question
             <svg
               className="w-4 h-4"

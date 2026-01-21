@@ -29,11 +29,15 @@ export default function ArticleHeader({
         />
       </section>
 
-      <h2 className="text-pink-600 font-bold text-xl mt-4 text-center">
+      <h2 className="text-pink-600 font-bold text-2xl mt-4 text-center mb-4">
         {title}
       </h2>
-      <h3 className="text-blue-900 font-bold text-center">{subtitle}</h3>
-      <p className="text-gray-700 text-base ml-2 text-center mb-4">{date}</p>
+      <h3 className="text-blue-900 font-bold text-xl text-center">
+        {subtitle}
+      </h3>
+      <p className="text-gray-600 italic text-lg ml-2 text-center mb-4">
+        Du : {date}
+      </p>
       {children}
     </article>
   );

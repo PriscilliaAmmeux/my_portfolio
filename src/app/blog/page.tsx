@@ -47,7 +47,7 @@ export default function Blog() {
           <Title text="Inspiration & Actus Web" />
         </div>
         <NewsletterForm />
-        <div className="w-full container mx-auto px-3">
+        <div className="w-full  container mx-auto px-3">
           <div className="md:grid md:grid-cols-2 gap-4">
             {sortedBlog.map((article) => (
               <ArticleBlog

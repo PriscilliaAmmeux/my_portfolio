@@ -1,10 +1,8 @@
-import Link from "next/link";
 import ArticleHeader from "../components/articleHeader/articleHeader";
 import ArticleNavigation from "../components/articleNavigation/articleNagivation";
 import Layout from "../ui/layout/layout";
 import { Metadata } from "next";
 import SectionArticle from "../components/sectionArticle/sectionArticle";
-import Contact from "../contact/page";
 import ContactMe from "../ui/contactMe/contactMe";
 
 export const metadata: Metadata = {
@@ -37,7 +35,7 @@ export default function DevWebVsSeo() {
         title="Développeuse web ≠ rédactrice SEO"
         subtitle="Beaucoup pensent que créer un site inclut automatiquement la rédaction des textes et le SEO… mais non !"
         date="13/11/2025">
-        <p className="mb-6 text-black">
+        <p className="mb-6 text-black text-lg">
           Lorsqu’on parle de <strong>création de site internet</strong>, une
           confusion revient souvent : on imagine que le ou la{" "}
           <strong>développeuse web</strong> s’occupe de tout — du code jusqu’aux
@@ -92,7 +90,7 @@ export default function DevWebVsSeo() {
           />
         </section>
 
-        <p className="mb-6 text-black">
+        <p className="mb-6 text-black text-lg">
           L’une ne remplace pas l’autre : un site peut être magnifique et
           rapide, mais invisible sur Google sans{" "}
           <strong>contenu optimisé</strong>. À l’inverse, un excellent{" "}
@@ -103,7 +101,7 @@ export default function DevWebVsSeo() {
           <strong>développement web</strong>.
         </p>
 
-        <p className="mb-6 text-black">
+        <p className="mb-6 text-black text-lg">
           C’est pourquoi, chez <strong>Pixelia&Co</strong>, je conçois des{" "}
           <strong>sites internet</strong> performants, durables et pensés pour
           l’humain. Mon rôle : la structure, la performance et l’
@@ -143,7 +141,7 @@ export default function DevWebVsSeo() {
           />
         </div>
 
-        <p className="italic mb-6 text-black">
+        <p className="italic mb-6 text-black text-lg">
           En résumé : ton site est la maison, ton{" "}
           <strong>contenu éditorial</strong> en est la voix. Ensemble, ils
           racontent ton histoire et t’aident à <strong>référencer</strong> ton

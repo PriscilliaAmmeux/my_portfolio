@@ -190,7 +190,7 @@ export default function DevLille() {
           Bref, merci à DevLille, ainsi qu’aux organisateurs, aux bénévoles, aux
           conférencier·es et à toutes les personnes croisées ce jour-là.
         </p>
-        <p className="mt-6 font-bold text-black">
+        <p className="mt-6 font-bold text-black text-lg">
           Vivement l’édition 2026 ! 🚀
         </p>
       </ArticleHeader>

@@ -15,7 +15,7 @@ export default function Card({ title, children }: ArticleProps) {
       className={`mb-4 bg-pink-700 text-white p-6 shadow-lg mr-4 ml-4`}>
       <div className="mb-10">
         <div className="flex items-center justify-center mb-4">
-          <h2 className="text-white text-xl font-semibold">{title}</h2>
+          <h2 className="text-white text-2xl font-semibold">{title}</h2>
         </div>
         <div className="text-white">{children}</div>
       </div>
