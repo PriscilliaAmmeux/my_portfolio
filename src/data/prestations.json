@@ -30,7 +30,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": 2,
       "title": "Pack Sur-Mesure – Site Vitrine",
       "price": "À partir de 1500 € TTC",
       "description": "Un site entièrement personnalisé, conçu avec Next.js pour des performances optimales et une identité visuelle unique. Jusqu’à 4 pages (ou plus selon devis).",
@@ -51,11 +51,22 @@
         "Déploiement et configuration d'hébergement",
         "6 mois de maintenance inclus"
       ]
+    },
+    {
+      "id": 3,
+      "title": "Refonte / Responsive / Accessibilité",
+      "price": "Sur devis",
+      "description": "Votre site n'est plus à jour ? Je le repense pour tous les écrans, accessible à tous et aligné avec les standards actuels.",
+      "presentation": [
+        {
+          "content": "Idéal pour : améliorer l'image, la compatibilité mobile, l'expérience utilisateur."
+        }
+      ]
     }
   ],
   "services_complementaires": [
     {
-      "id": 5,
+      "id": 4,
       "title": "Pack Évolution – Modification & Ajout de Pages",
       "price": "200 € TTC / page simple – 300 € TTC / page complexe",
       "description": "Besoin d’enrichir ou de mettre à jour votre site ? J’assure la modification de contenu existant ainsi que la création de nouvelles pages, simples ou complexes, adaptées à vos besoins.",
@@ -72,46 +83,11 @@
       ]
     },
     {
-      "id": 6,
+      "id": 5,
       "title": "Maintenance & Optimisation",
       "price": "70 € TTC / mois ou 700 € TTC / an",
-      "description": "Gardez votre site rapide, sécurisé et toujours à jour. Je m'occupe de la technique pendant que vous vous concentrez sur votre activité.",
-      "presentation": [
-        {
-          "content": "Idéal pour : sites existants, e-commerces, professionnels en activité."
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Refonte / Responsive / Accessibilité",
-      "price": "Sur devis",
-      "description": "Votre site n'est plus à jour ? Je le repense pour tous les écrans, accessible à tous et aligné avec les standards actuels.",
-      "presentation": [
-        {
-          "content": "Idéal pour : améliorer l'image, la compatibilité mobile, l'expérience utilisateur."
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "title": "Paiement en ligne",
-      "price": "100 € TTC",
-      "description": "Module de paiement sécurisé pour vos visiteurs avec Paypal ou Stripe."
-    },
-    {
-      "id": 9,
-      "title": "Newsletter avec Brevo",
-      "price": "70 € TTC",
-      "description": "Mise en place complète d'une newsletter via Brevo (compte gratuit suffisant). Inclut la formation à l'utilisation, le respect du RGPD et une intégration harmonieuse à votre site.",
-      "inclus": [
-        "Création et configuration de votre compte Brevo (ou connexion à un compte existant)",
-        "Formulaire d’inscription intégré à votre site web",
-        "Personnalisation avec votre branding (logo, couleurs, typographie)",
-        "Respect du RGPD (mentions et consentement intégrés, captcha anti-spam)",
-        "3 templates d’e-mails d’inspiration à votre image",
-        "Formation rapide pour gérer vos envois et vos contacts en autonomie"
-      ]
+      "description": "Gardez votre site rapide, sécurisé et toujours à jour.",
+      "presentation": ""
     }
   ]
 }
