@@ -19,7 +19,7 @@
     "next": "^14.2.7",
     "next-themes": "^0.3.0",
     "pg": "^8.17.2",
-    "react": "^18",
+    "react": "^19",
     "react-dom": "^18",
     "react-google-recaptcha": "^3.1.0",
     "react-hook-form": "^7.53.0",
@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "@types/node": "^25",
-    "@types/react": "^18",
+    "@types/react": "^19",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.4.23",
     "eslint": "^8",
