@@ -1,5 +1,6 @@
-import Card from "@/app/components/card/card";
 import prestationsData from "../../../data/prestations.json";
+import CardPinkBorder from "@/app/components/cardPinkBorder/cardPinkBorder";
+import ContactMe from "../contactMe/contactMe";
 
 function getPresentationContent(
   presentation: { content: string } | { content: string }[] | undefined,
@@ -19,7 +20,7 @@ export default function ListPrestations() {
 
   return (
     <>
-      <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4">
+      <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {prestations.map((prestation: any) => {
           const presentationContent = getPresentationContent(
             prestation.presentation,
@@ -31,12 +32,12 @@ export default function ListPrestations() {
             "inclus" in prestation && Array.isArray(prestation.inclus);
 
           return (
-            <Card
+            <CardPinkBorder
               key={prestation.id ?? Math.random()}
-              className="w-full lg:w-1/3 flex flex-col justify-between h-full"
+              className="w-full flex flex-col justify-between h-full"
               title={prestation.title}>
               <div className="flex-grow">
-                <ul className="text-white list-none mt-2 mb-2 text-lg">
+                <ul className="text-pink-900 list-none mt-2 mb-2 text-lg">
                   {prestation.price && (
                     <li className="mt-2 mb-4 font-bold">{prestation.price}</li>
                   )}
@@ -84,7 +85,7 @@ export default function ListPrestations() {
                   )}
                 </ul>
               </div>
-            </Card>
+            </CardPinkBorder>
           );
         })}
       </section>
@@ -112,14 +113,14 @@ export default function ListPrestations() {
         <h3 className="text-2xl font-bold mb-4 ml-4 mb-6">
           Prestations supplémentaires
         </h3>
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {prestationsData.services_complementaires.map((service: any) => (
-            <Card
+            <CardPinkBorder
               key={service.id ?? Math.random()}
               title={service.title}
               className="w-full px-2 flex flex-col justify-between h-full">
               <div className="flex-grow">
-                <ul className="text-white list-none mt-2 mb-2 text-lg">
+                <ul className="text-pink-900 list-none mt-2 mb-2 text-lg">
                   {service.price && (
                     <li className="mt-2 mb-2 font-bold">{service.price}</li>
                   )}
@@ -154,9 +155,10 @@ export default function ListPrestations() {
                     ))}
                 </ul>
               </div>
-            </Card>
+            </CardPinkBorder>
           ))}
         </div>
+        <ContactMe />
       </section>
     </>
   );
