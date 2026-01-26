@@ -329,61 +329,6 @@
     ]
   },
   {
-    "id": 8,
-    "title": "Stéphanie Heudre – Praticienne Bien-Être",
-    "slug": "stephanie-heudre-bien-etre",
-    "client": "Stéphanie Heudre",
-    "location": "France",
-    "intro": "Création d’un site web pour Stéphanie Heudre, praticienne bien-être, afin de présenter ses services et faciliter la prise de contact avec ses clients.",
-    "description": "Site web moderne et apaisant pour Stéphanie Heudre, mettant en avant ses prestations de bien-être. Développement avec Next.js et TailwindCSS, design responsive et SEO optimisé. Objectif : valoriser les services, rassurer les clients et faciliter la prise de rendez-vous.",
-    "context": "Stéphanie avait besoin d’un site qui reflète son univers apaisant et professionnel, tout en permettant aux clients de trouver facilement les informations sur ses prestations et de la contacter.",
-    "objectives": [
-      "Présenter les prestations de manière claire et attractive",
-      "Rassurer et engager les clients potentiels",
-      "Faciliter la prise de rendez-vous et le contact",
-      "Optimiser la visibilité SEO locale"
-    ],
-    "solutions": [
-      "Maquette Figma validée avec la cliente pour le design et l’ergonomie",
-      "Développement Next.js avec TailwindCSS pour un site rapide et responsive",
-      "Optimisation SEO et accessibilité pour un meilleur référencement",
-      "Intégration d’un formulaire de contact facile à utiliser",
-      "Design visuel apaisant reflétant l’univers bien-être de Stéphanie"
-    ],
-    "technologies": [
-      "Figma",
-      "Next.js",
-      "TailwindCSS",
-      "GitHub",
-      "Vercel",
-      "SEO local",
-      "Accessibilité"
-    ],
-    "result": "Un site clair et professionnel, qui valorise les services de Stéphanie Heudre et facilite la prise de contact des clients, tout en augmentant sa visibilité en ligne.",
-    "accompagnement": "Suivi régulier pour l’ajout de nouvelles prestations et l’optimisation SEO continue.",
-    "services": [
-      "Maintenance et mise à jour du site",
-      "Optimisation SEO locale",
-      "Support et assistance à la prise de contact"
-    ],
-    "testimonial": {
-      "author": "Stéphanie Heudre",
-      "content": "Priscillia a créé un site qui reflète parfaitement mon univers et mes services. Très satisfaite de la collaboration !"
-    },
-    "image": "/stephanie.webp",
-    "demoLink": "https://www.massage-stephanie-heudre.fr",
-    "seoDescription": "Site web pour Stéphanie Heudre, praticienne bien-être : présentation des prestations, contact facile, design apaisant, SEO local optimisé.",
-    "keywords": [
-      "massage-stephanie-heudre",
-      "site-bien-etre",
-      "praticienne-bien-etre",
-      "prise-rendez-vous-en-ligne",
-      "pixelia-and-co",
-      "site-web-france",
-      "NextJS-TailwindCSS"
-    ]
-  },
-  {
     "id": 7,
     "title": "Yaki – Application Gestion Personnel",
     "slug": "yaki-application-gestion-personnel",
