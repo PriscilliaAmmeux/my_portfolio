@@ -19,10 +19,9 @@ import ContactMe from "./ui/contactMe/contactMe";
 import CalendlyWidget from "./ui/calendlyWidget/calendlyWidget";
 
 export const metadata: Metadata = {
-  title:
-    "Pixelia&Co",
+  title: "Pixelia&Co",
   description:
-    "priscillia-ammeux-pixeliaandco-creation-site-internet-sur-mesure-eco-concu-design-creatif-quesnoy-sur-deule-nord",
+    "Développeuse web freelance à Quesnoy-sur-Deûle dans le Nord, spécialisée dans la création de sites internet sur mesure éco-conçus pour les professionnels du secteur médical, associatif et du bien-être.",
   keywords: [
     "developpeuse-web-freelance",
     "creation-site-internet-lille",
@@ -70,7 +69,7 @@ export default function Home() {
 
               <div className="flex flex-col sm:flex-row sm:justify-between items-center gap-6 sm:gap-4 w-full">
                 <CalendlyWidget variant="bgWhite" text="Me contacter" />
-                
+
                 <Link href="/project">
                   <Button
                     type="button"

@@ -2,7 +2,7 @@
   "offres_principales": [
     {
       "id": 1,
-      "title": "Pack Express – Landing Page WordPress",
+      "title": "Pack Express – Une page",
       "price": "À partir de 300 € TTC",
       "description": "Une landing page légère et personnalisable pour mettre rapidement votre activité ou événement en ligne. Simple mais efficace pour vos premiers clients.",
       "presentation": {
@@ -10,7 +10,7 @@
       },
       "inclus": [
         "Landing page responsive avec WordPress et template moderne",
-        "SEO de base",
+        "Référencement de base",
         "Liens PDF pour mentions légales et politique de confidentialité",
         "Pied de page avec réseaux sociaux et copyright",
         "Pas de barre de navigation ni formulaire de contact"
@@ -33,7 +33,7 @@
       "id": 2,
       "title": "Pack Sur-Mesure – Site Vitrine",
       "price": "À partir de 1500 € TTC",
-      "description": "Un site entièrement personnalisé, conçu avec Next.js pour des performances optimales et une identité visuelle unique. Jusqu’à 4 pages (ou plus selon devis).",
+      "description": "Un site entièrement personnalisé, pour des performances optimales et une identité visuelle unique. Jusqu’à 4 pages (ou plus selon devis).",
       "presentation": [
         {
           "content": "Design sur-mesure, possibilité de collaboration avec une UX/UI designer."
@@ -44,8 +44,7 @@
       ],
       "inclus": [
         "Design sur-mesure (maquette et intégration)",
-        "Développement Next.js performant",
-        "Optimisations performance et SEO avancées",
+        "Optimisations performance et référencement avancées",
         "Accessibilité et responsive avancés",
         "Intégration outils (analytics, formulaires, etc.)",
         "Déploiement et configuration d'hébergement",

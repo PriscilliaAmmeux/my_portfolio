@@ -6,14 +6,21 @@ export default function Hero() {
         <span className="font-semibold text-pink-600">Pixelia&Co</span>, studio
         web fondé par <span className="font-semibold">Priscillia Ammeux, </span>
         <span className="text-pink-600 font-medium">
-          développeuse web freelance à Quesnoy-sur-Deûle, près de Lille
+          créatrice de site web passionnée à Quesnoy-sur-Deûle, près de Lille
         </span>
         .
       </p>
       <p className="text-base sm:text-base md:text-lg leading-relaxed mb-3">
         Ici, je crée des sites internet pro, rapides et esthétiques, qui
         attirent des clients, et que vous pouvez gérer sans savoir coder.
-      </p>
+      </p>{" "}
+      <p className="text-base sm:text-base md:text-lg leading-relaxed mb-3">
+        <span className="font-semibold text-pink-600">
+          Spécialisée dans les secteurs de l'humain
+        </span>
+        , j'accompagne les professionnels de la santé, du médical, du bien-être
+        et les associations dans leur transformation digitale.
+      </p>{" "}
       <p className="text-base sm:text-base md:text-lg leading-relaxed mb-5">
         J’aide les entreprises, indépendants et associations à créer un site
         internet professionnel et à développer leur visibilité en ligne.

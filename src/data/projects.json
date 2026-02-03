@@ -1,163 +1,6 @@
 [
   {
-    "id": 13,
-    "title": "Feeling & Create",
-    "slug": "feeling-and-create",
-    "client": "Feeling & Create",
-    "location": "France",
-    "intro": "Refonte du site internet de Feeling & Create, collectif créatif pluridisciplinaire.",
-    "description": "Refonte du site internet de Feeling & Create, collectif créatif dont je fais partie. Le projet s’inscrit dans le cadre d’un nouveau branding et d’une nouvelle charte graphique réalisés par la directrice artistique du collectif. De mon côté, j’interviens sur l’expression de besoin, la conception des maquettes sur Figma et la refonte du site sous WordPress, afin de proposer une expérience claire, cohérente et administrable en toute autonomie.",
-    "context": "Le site existant ne correspondait plus à l’identité actuelle du collectif ni à ses nouveaux objectifs. Une refonte globale était nécessaire pour aligner le site avec la nouvelle direction artistique, améliorer la lisibilité des contenus et faciliter l’administration du site par les membres du collectif.",
-    "objectives": [
-      "Traduire le nouveau branding du collectif dans une interface web cohérente",
-      "Structurer les contenus à partir de l’expression de besoin et des usages",
-      "Mettre en place un site WordPress administrable par le collectif"
-    ],
-    "solutions": [
-      "Ateliers et échanges autour de l’expression de besoin pour définir les objectifs, les contenus et les parcours utilisateurs",
-      "Conception des maquettes UX/UI sur Figma en cohérence avec la nouvelle charte graphique",
-      "Refonte et intégration du site sous WordPress avec un back-office permettant au collectif de gérer et faire évoluer ses contenus"
-    ],
-    "technologies": ["Figma", "WordPress", "SEO", "Accessibilité"],
-    "result": "Un site web en cours de refonte, aligné avec la nouvelle identité visuelle de Feeling & Create, offrant une structure claire, une meilleure expérience utilisateur et un back-office pensé pour l’autonomie du collectif.",
-    "accompagnement": "Projet en cours — accompagnement sur la conception, l’intégration WordPress et l’évolution des contenus, avec un suivi collaboratif au sein du collectif.",
-    "services": [
-      "Expression de besoin et cadrage du projet",
-      "Conception de maquettes UX/UI sur Figma",
-      "Refonte du site WordPress avec back-office administrable",
-      "Optimisation SEO et accessibilité",
-      "Accompagnement et support technique"
-    ],
-    "testimonial": {
-      "author": "Feeling & Create",
-      "content": ""
-    },
-    "image": "/F&C-in-progress.webp",
-    "demoLink": "",
-    "seoDescription": "Refonte du site WordPress de Feeling & Create suite à un nouveau branding. Expression de besoin, maquettes Figma et intégration WordPress avec back-office administrable.",
-    "keywords": [
-      "refonte site internet",
-      "site WordPress",
-      "collectif créatif",
-      "UX UI",
-      "maquette Figma",
-      "expression de besoin",
-      "accessibilité",
-      "SEO"
-    ]
-  },
-  {
-    "id": 12,
-    "title": "Mots Sur Mesure",
-    "slug": "mots-sur-mesure",
-    "client": "Mots Sur Mesure",
-    "location": "France",
-    "intro": "Création du site internet de Mots Sur Mesure, collectif de rédactrices web spécialisées en SEO et copywriting.",
-    "description": "Création du site internet de Mots Sur Mesure, porté par Christelle et Nesrine, deux rédactrices web spécialisées en SEO et copywriting. Le projet vise à valoriser leurs services, leur expertise et leur complémentarité à travers un site clair, professionnel et optimisé pour la visibilité en ligne. Design réalisé sur Figma, puis développement sous WordPress avec un back-office pensé pour leur permettre d’administrer le site en toute autonomie : mises à jour de contenus, ajouts d’articles de blog et évolutions futures.",
-    "context": "Christelle et Nesrine souhaitaient un site vitrine professionnel reflétant leur univers, leur double expertise et leur positionnement, tout en disposant d’un back-office simple leur permettant de gérer elles-mêmes le site après la mise en ligne.",
-    "objectives": [
-      "Présenter clairement les services de rédaction web, SEO et copywriting",
-      "Renforcer la crédibilité et la visibilité en ligne du collectif",
-      "Permettre une administration autonome du site via un back-office WordPress"
-    ],
-    "solutions": [
-      "Maquette interactive réalisée sur Figma pour valider l’ergonomie, les parcours utilisateurs et la hiérarchie de l’information",
-      "Développement d’un site WordPress avec un back-office personnalisé pour faciliter les modifications, l’ajout de contenus et la publication d’articles de blog"
-    ],
-    "technologies": [
-      "Figma",
-      "WordPress",
-      "O2Switch (nom de domaine, DNS et hébergement)",
-      "SEO",
-      "Accessibilité"
-    ],
-    "result": "Un site web moderne, clair et évolutif, doté d’un back-office intuitif permettant à Christelle et Nesrine de modifier leurs contenus, publier des articles de blog et faire évoluer leur site en toute autonomie, avec une base solide en SEO et accessibilité.",
-    "accompagnement": "Projet en cours — accompagnement incluant la prise en main du back-office WordPress et une maintenance de 3 mois après la mise en ligne pour garantir sécurité, stabilité et évolutions mineures.",
-    "services": [
-      "Mise en place d’un back-office WordPress administrable",
-      "Maintenance technique incluse pendant 3 mois",
-      "Autonomie client pour la gestion des contenus et du blog",
-      "Optimisation SEO et bonnes pratiques d’accessibilité",
-      "Assistance technique et support"
-    ],
-    "testimonial": {
-      "author": "Christelle & Nesrine",
-      "content": ""
-    },
-    "image": "/mots-sur-mesure-in-progress.webp",
-    "demoLink": "",
-    "seoDescription": "Création du site WordPress de Mots Sur Mesure avec back-office administrable. Design Figma, site accessible, optimisé SEO et pensé pour l’autonomie des rédactrices.",
-    "keywords": [
-      "rédaction web",
-      "copywriting",
-      "SEO",
-      "site WordPress",
-      "back office WordPress",
-      "Figma",
-      "création site internet",
-      "autonomie client"
-    ]
-  },
-  {
-    "id": 11,
-    "title": "Le Chantier d’à Côté",
-    "slug": "le-chantier-d-a-cote",
-    "client": "Le Chantier d’à Côté",
-    "location": "Cognac (Nouvelle-Aquitaine)",
-    "intro": "Conception d’un site web moderne pour présenter les actions de l’association Le Chantier d’à Côté, dédiée à l’insertion professionnelle par l’activité économique.",
-    "description": "Site web moderne développé pour l’association Le Chantier d’à Côté à Cognac, valorisant ses actions d’insertion professionnelle. Design interactif sur Figma et développement React pour une navigation fluide. SEO local et accessibilité optimisés pour toucher le public et les partenaires. Découvrez comment ce projet met en lumière l’impact social de l’association.",
-    "context": "L’association souhaitait renforcer sa présence en ligne et améliorer la compréhension de ses missions auprès du public, des prescripteurs emploi et des partenaires. Le site précédent était peu clair et ne reflétait pas l’impact social du chantier d’insertion.",
-    "objectives": [
-      "Valoriser les actions et l’impact de l’association auprès du public",
-      "Présenter clairement les services, activités et parcours d’insertion",
-      "Faciliter la prise de contact et l’accès aux informations pratiques",
-      "Transmettre les valeurs humaines et sociales de l’association"
-    ],
-    "solutions": [
-      "Maquette interactive réalisée sur Figma pour valider l'ergonomie, les parcours et la hiérarchie de l'information",
-      "Développement d’un site vitrine moderne avec React pour une navigation fluide et performante",
-      "Structure de contenu claire : parcours d’insertion, activités, partenaires, recrutement",
-      "Optimisation SEO locale pour les recherches autour de Cognac et de l’insertion professionnelle",
-      "Intégration d’un formulaire de contact simple et accessible",
-      "Design responsive pour une expérience optimale sur mobile et ordinateur"
-    ],
-    "technologies": [
-      "Figma",
-      "React",
-      "CSS",
-      "GitHub",
-      "Vercel",
-      "OVH (nom de domaine et DNS)",
-      "SEO local",
-      "Accessibilité"
-    ],
-    "result": "Un site web clair, moderne et humain, renforçant la visibilité de l’association sur le territoire. Les informations sont mieux structurées, permettant une meilleure compréhension des missions du chantier d’insertion et une hausse des demandes de contact.",
-    "accompagnement": "Projet en cours — accompagnement et maintenance continue : suivi des retours utilisateurs, priorisation des évolutions et mises à jour régulières pour améliorer l'accessibilité et la navigation.",
-    "services": [
-      "Maintenance évolutive & hébergement",
-      "Mises à jour de contenu et optimisation SEO locale",
-      "Ajustements UX/accessibilité suite aux retours utilisateurs",
-      "Assistance technique et support"
-    ],
-    "testimonial": {
-      "author": "L'équipe du Chantier d’à Côté",
-      "content": "Nous sommes ravis de notre nouveau site ! Il met parfaitement en valeur notre activité et notre mission sociale. Un grand merci pour la qualité du travail et l’écoute."
-    },
-    "image": "/le-chantier.webp",
-    "demoLink": "https://www.lechantierdacote.com/",
-    "seoDescription": "Site web développé avec React pour l’association Le Chantier d’à Côté à Cognac : mise en valeur de l’insertion professionnelle, SEO local, design moderne et accessible.",
-    "keywords": [
-      "chantier-d-insertion-cognac",
-      "insertion-professionnelle-cognac",
-      "association-cognac",
-      "site-react-association",
-      "pixelia-and-co",
-      "creation-site-web-associatif",
-      "site-internet-cognac"
-    ]
-  },
-  {
-    "id": 12,
+    "id": 5,
     "title": "Hyperacousie Solidarité",
     "slug": "hyperacousie-solidarite",
     "client": "Hyperacousie Solidarité",
@@ -215,8 +58,123 @@
       "site-internet-sante"
     ]
   },
+
   {
-    "id": 10,
+    "id": 4,
+    "title": "Le Chantier d’à Côté",
+    "slug": "le-chantier-d-a-cote",
+    "client": "Le Chantier d’à Côté",
+    "location": "Cognac (Nouvelle-Aquitaine)",
+    "intro": "Conception d’un site web moderne pour présenter les actions de l’association Le Chantier d’à Côté, dédiée à l’insertion professionnelle par l’activité économique.",
+    "description": "Site web moderne développé pour l’association Le Chantier d’à Côté à Cognac, valorisant ses actions d’insertion professionnelle. Design interactif sur Figma et développement React pour une navigation fluide. SEO local et accessibilité optimisés pour toucher le public et les partenaires. Découvrez comment ce projet met en lumière l’impact social de l’association.",
+    "context": "L’association souhaitait renforcer sa présence en ligne et améliorer la compréhension de ses missions auprès du public, des prescripteurs emploi et des partenaires. Le site précédent était peu clair et ne reflétait pas l’impact social du chantier d’insertion.",
+    "objectives": [
+      "Valoriser les actions et l’impact de l’association auprès du public",
+      "Présenter clairement les services, activités et parcours d’insertion",
+      "Faciliter la prise de contact et l’accès aux informations pratiques",
+      "Transmettre les valeurs humaines et sociales de l’association"
+    ],
+    "solutions": [
+      "Maquette interactive réalisée sur Figma pour valider l'ergonomie, les parcours et la hiérarchie de l'information",
+      "Développement d’un site vitrine moderne avec React pour une navigation fluide et performante",
+      "Structure de contenu claire : parcours d’insertion, activités, partenaires, recrutement",
+      "Optimisation SEO locale pour les recherches autour de Cognac et de l’insertion professionnelle",
+      "Intégration d’un formulaire de contact simple et accessible",
+      "Design responsive pour une expérience optimale sur mobile et ordinateur"
+    ],
+    "technologies": [
+      "Figma",
+      "React",
+      "CSS",
+      "GitHub",
+      "Vercel",
+      "OVH (nom de domaine et DNS)",
+      "SEO local",
+      "Accessibilité"
+    ],
+    "result": "Un site web clair, moderne et humain, renforçant la visibilité de l’association sur le territoire. Les informations sont mieux structurées, permettant une meilleure compréhension des missions du chantier d’insertion et une hausse des demandes de contact.",
+    "accompagnement": "Projet en cours — accompagnement et maintenance continue : suivi des retours utilisateurs, priorisation des évolutions et mises à jour régulières pour améliorer l'accessibilité et la navigation.",
+    "services": [
+      "Maintenance évolutive & hébergement",
+      "Mises à jour de contenu et optimisation SEO locale",
+      "Ajustements UX/accessibilité suite aux retours utilisateurs",
+      "Assistance technique et support"
+    ],
+    "testimonial": {
+      "author": "L'équipe du Chantier d’à Côté",
+      "content": "Nous sommes ravis de notre nouveau site ! Il met parfaitement en valeur notre activité et notre mission sociale. Un grand merci pour la qualité du travail et l’écoute."
+    },
+    "image": "/le-chantier.webp",
+    "demoLink": "https://www.lechantierdacote.com/",
+    "seoDescription": "Site web développé avec React pour l’association Le Chantier d’à Côté à Cognac : mise en valeur de l’insertion professionnelle, SEO local, design moderne et accessible.",
+    "keywords": [
+      "chantier-d-insertion-cognac",
+      "insertion-professionnelle-cognac",
+      "association-cognac",
+      "site-react-association",
+      "pixelia-and-co",
+      "creation-site-web-associatif",
+      "site-internet-cognac"
+    ]
+  },
+
+  {
+    "id": 3,
+    "title": "Adrien Demarle – Ostéopathe D.O.",
+    "slug": "adrien-demarle-osteopathe",
+    "client": "Adrien Demarle",
+    "location": "France",
+    "intro": "Mise en place d’un site en ligne pour présenter l’activité et les services d’Adrien Demarle, ostéopathe D.O., avec un design moderne et un contenu clair.",
+    "description": "Création d’un site web élégant et intuitif pour l’ostéopathe Adrien Demarle, mettant en avant ses services, son parcours et la prise de rendez-vous en ligne. Site développé avec Next.js et TailwindCSS, optimisé SEO et mobile-friendly. Objectif : rassurer les patients, faciliter la prise de contact et valoriser l’expertise d’Adrien.",
+    "context": "Adrien souhaitait un site qui reflète sa pratique professionnelle tout en permettant aux patients de trouver facilement les informations sur les soins et de prendre rendez-vous en ligne.",
+    "objectives": [
+      "Valoriser les services et l’expertise d’Adrien Demarle",
+      "Faciliter la prise de rendez-vous et le contact",
+      "Améliorer la visibilité SEO locale",
+      "Offrir un site moderne, ergonomique et accessible"
+    ],
+    "solutions": [
+      "Maquette Figma pour valider l’ergonomie et le design",
+      "Développement Next.js et TailwindCSS pour un site rapide et responsive",
+      "Optimisation SEO locale et accessibilité pour un meilleur référencement",
+      "Intégration de la prise de rendez-vous en ligne",
+      "Design professionnel reflétant l’univers médical et rassurant"
+    ],
+    "technologies": [
+      "Figma",
+      "Next.js",
+      "TailwindCSS",
+      "GitHub",
+      "Vercel",
+      "SEO local",
+      "Accessibilité"
+    ],
+    "result": "Un site clair et professionnel qui rassure les patients et facilite les prises de contact, tout en améliorant la visibilité en ligne du cabinet d’Adrien Demarle.",
+    "accompagnement": "Maintenance et suivi SEO pour garantir une expérience utilisateur optimale et adapter le site aux besoins évolutifs du cabinet.",
+    "services": [
+      "Maintenance évolutive & mise à jour du contenu",
+      "Optimisation SEO locale",
+      "Support technique et assistance à la prise de rendez-vous"
+    ],
+    "testimonial": {
+      "author": "Adrien Demarle",
+      "content": "Le site reflète parfaitement mon activité et mes valeurs. Il est moderne, clair et très facile à utiliser pour mes patients."
+    },
+    "image": "/adrien.webp",
+    "demoLink": "https://www.adrien-demarle-osteopathe.fr/",
+    "seoDescription": "Site web pour l’ostéopathe Adrien Demarle : présentation des services, prise de rendez-vous en ligne, design moderne et SEO local optimisé.",
+    "keywords": [
+      "adrien-demarle-osteopathe",
+      "site-osteopathe",
+      "osteopathie-france",
+      "prise-rendez-vous-en-ligne",
+      "pixelia-and-co",
+      "site-web-sante",
+      "NextJS-TailwindCSS"
+    ]
+  },
+  {
+    "id": 2,
     "title": "Frédéric Deparis – Auteur",
     "slug": "frederic-deparis-auteur",
     "client": "Frédéric Deparis",
@@ -274,62 +232,7 @@
     ]
   },
   {
-    "id": 9,
-    "title": "Adrien Demarle – Ostéopathe D.O.",
-    "slug": "adrien-demarle-osteopathe",
-    "client": "Adrien Demarle",
-    "location": "France",
-    "intro": "Mise en place d’un site en ligne pour présenter l’activité et les services d’Adrien Demarle, ostéopathe D.O., avec un design moderne et un contenu clair.",
-    "description": "Création d’un site web élégant et intuitif pour l’ostéopathe Adrien Demarle, mettant en avant ses services, son parcours et la prise de rendez-vous en ligne. Site développé avec Next.js et TailwindCSS, optimisé SEO et mobile-friendly. Objectif : rassurer les patients, faciliter la prise de contact et valoriser l’expertise d’Adrien.",
-    "context": "Adrien souhaitait un site qui reflète sa pratique professionnelle tout en permettant aux patients de trouver facilement les informations sur les soins et de prendre rendez-vous en ligne.",
-    "objectives": [
-      "Valoriser les services et l’expertise d’Adrien Demarle",
-      "Faciliter la prise de rendez-vous et le contact",
-      "Améliorer la visibilité SEO locale",
-      "Offrir un site moderne, ergonomique et accessible"
-    ],
-    "solutions": [
-      "Maquette Figma pour valider l’ergonomie et le design",
-      "Développement Next.js et TailwindCSS pour un site rapide et responsive",
-      "Optimisation SEO locale et accessibilité pour un meilleur référencement",
-      "Intégration de la prise de rendez-vous en ligne",
-      "Design professionnel reflétant l’univers médical et rassurant"
-    ],
-    "technologies": [
-      "Figma",
-      "Next.js",
-      "TailwindCSS",
-      "GitHub",
-      "Vercel",
-      "SEO local",
-      "Accessibilité"
-    ],
-    "result": "Un site clair et professionnel qui rassure les patients et facilite les prises de contact, tout en améliorant la visibilité en ligne du cabinet d’Adrien Demarle.",
-    "accompagnement": "Maintenance et suivi SEO pour garantir une expérience utilisateur optimale et adapter le site aux besoins évolutifs du cabinet.",
-    "services": [
-      "Maintenance évolutive & mise à jour du contenu",
-      "Optimisation SEO locale",
-      "Support technique et assistance à la prise de rendez-vous"
-    ],
-    "testimonial": {
-      "author": "Adrien Demarle",
-      "content": "Le site reflète parfaitement mon activité et mes valeurs. Il est moderne, clair et très facile à utiliser pour mes patients."
-    },
-    "image": "/adrien.webp",
-    "demoLink": "https://www.adrien-demarle-osteopathe.fr/",
-    "seoDescription": "Site web pour l’ostéopathe Adrien Demarle : présentation des services, prise de rendez-vous en ligne, design moderne et SEO local optimisé.",
-    "keywords": [
-      "adrien-demarle-osteopathe",
-      "site-osteopathe",
-      "osteopathie-france",
-      "prise-rendez-vous-en-ligne",
-      "pixelia-and-co",
-      "site-web-sante",
-      "NextJS-TailwindCSS"
-    ]
-  },
-  {
-    "id": 7,
+    "id": 1,
     "title": "Yaki – Application Gestion Personnel",
     "slug": "yaki-application-gestion-personnel",
     "client": "XPEHO",
@@ -391,118 +294,6 @@
       "pixelia-and-co",
       "application-entreprise",
       "gestion-personnel-france"
-    ]
-  },
-  {
-    "id": 6,
-    "title": "Portfolio Priscillia Ammeux",
-    "slug": "portfolio-priscillia-ammeux",
-    "client": "Personnel",
-    "location": "France",
-    "intro": "Mon portfolio personnel pour présenter mes compétences, projets et services en développement web et administration de sites.",
-    "description": "Portfolio complet réalisé avec Next.js et TailwindCSS, présentant mes projets professionnels et freelance. Optimisé SEO et responsive design pour un rendu optimal sur tous les supports. Objectif : montrer mes compétences et faciliter la prise de contact pour de futurs clients et recruteurs.",
-    "context": "Besoin de centraliser et présenter mes projets de manière claire, attractive et professionnelle, tout en mettant en avant mes deux facettes : développeuse web et assistante administrative.",
-    "objectives": [
-      "Mettre en valeur mes compétences en développement web et administration",
-      "Présenter mes projets de manière professionnelle et SEO-friendly",
-      "Faciliter le contact et les opportunités de collaboration",
-      "Offrir une navigation fluide et moderne"
-    ],
-    "solutions": [
-      "Développement Next.js avec TailwindCSS pour performance et design moderne",
-      "Structuration des projets avec descriptions détaillées et SEO optimisé",
-      "Intégration responsive et mobile-first",
-      "Mise en avant des services, projets et témoignages clients"
-    ],
-    "technologies": [
-      "Next.js",
-      "TailwindCSS",
-      "React",
-      "GitHub",
-      "Vercel",
-      "SEO de base",
-      "Responsive design"
-    ],
-    "result": "Un portfolio clair, moderne et engageant, qui valorise mes compétences et mes projets pour attirer clients et recruteurs.",
-    "accompagnement": "Mises à jour régulières avec ajout de projets et optimisation SEO.",
-    "services": [
-      "Maintenance technique",
-      "Optimisation SEO",
-      "Mises à jour du contenu et ajout de projets"
-    ],
-    "testimonial": {
-      "author": "Personnel",
-      "content": "Portfolio complet et professionnel, reflétant parfaitement mes compétences et mes réalisations."
-    },
-    "image": "/portfolio.webp",
-    "demoLink": "https://www.pixelia-and-co.fr/",
-    "seoDescription": "Portfolio professionnel de Priscillia Ammeux : présentation de projets web, compétences en développement et administration, responsive design et SEO optimisé.",
-    "keywords": [
-      "portfolio-priscillia-ammeux",
-      "site-developpeuse-web",
-      "NextJS-TailwindCSS",
-      "pixelia-and-co",
-      "portfolio-france",
-      "site-web-personnel",
-      "SEO-responsive"
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Origins Digital – Projet Wild Code School",
-    "slug": "origins-digital",
-    "client": "Projet scolaire",
-    "location": "France",
-    "intro": "Application mobile et desktop pour le streaming musical réalisée en équipe lors du bootcamp de la Wild Code School.",
-    "description": "Projet fullstack réalisé avec React, Node.js, Express et MySQL, proposant une expérience mobile-first pour le streaming musical. Développement collaboratif en Agile Scrum, design sur Figma, optimisation SEO et accessibilité. Objectif : créer une plateforme intuitive et performante pour écouter et gérer du contenu musical.",
-    "context": "Projet P3 du bootcamp, réalisé en équipe, visant à concevoir une application de streaming ergonomique et accessible, respectant les bonnes pratiques de développement et l’accessibilité.",
-    "objectives": [
-      "Créer une application mobile et desktop intuitive pour le streaming musical",
-      "Assurer accessibilité et expérience utilisateur optimale",
-      "Travailler en équipe avec méthodologie Agile Scrum",
-      "Mettre en pratique les compétences fullstack acquises pendant le bootcamp"
-    ],
-    "solutions": [
-      "Design Figma pour mobile et desktop, validation UX/UI",
-      "Développement React front-end, Node.js/Express back-end, MySQL pour la base de données",
-      "Intégration responsive et mobile-first",
-      "Tests et validation des fonctionnalités",
-      "Optimisation SEO et respect des bonnes pratiques d’accessibilité"
-    ],
-    "technologies": [
-      "Figma",
-      "React",
-      "Node.js",
-      "Express",
-      "MySQL",
-      "Sass",
-      "GitHub",
-      "Trello",
-      "Vercel"
-    ],
-    "result": "Une application de streaming complète, ergonomique et accessible, permettant aux utilisateurs d’explorer, écouter et gérer leur contenu musical facilement.",
-    "accompagnement": "Projet académique — feedback et améliorations continues avec l’équipe pour perfectionner l’expérience utilisateur et le code.",
-    "services": [
-      "Développement fullstack",
-      "UX/UI design",
-      "Tests et validation",
-      "Optimisation responsive et SEO"
-    ],
-    "testimonial": {
-      "author": "Equipe Origins Digital",
-      "content": "Ce projet nous a permis de mettre en pratique toutes nos compétences fullstack et de livrer une application performante et agréable à utiliser."
-    },
-    "image": "/origins.webp",
-    "demoLink": "https://www.linkedin.com/posts/priscillia-ammeux_react-node-express-activity-7030500056227008512-k9fn/",
-    "seoDescription": "Projet Origins Digital réalisé en équipe, application de streaming musical fullstack React, Node.js, Express, MySQL, design responsive et accessibilité optimisée.",
-    "keywords": [
-      "origins-digital",
-      "application-streaming",
-      "React-Node-Express",
-      "MySQL",
-      "pixelia-and-co",
-      "projet-wild-code-school",
-      "application-web-mobile"
     ]
   }
 ]
