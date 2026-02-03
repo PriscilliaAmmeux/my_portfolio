@@ -20,7 +20,7 @@ import CalendlyWidget from "./ui/calendlyWidget/calendlyWidget";
 
 export const metadata: Metadata = {
   title:
-    "priscillia-ammeux-pixeliaandco-developpeuse-web-freelance-quesnoy-sur-deule",
+    "Pixelia&Co",
   description:
     "priscillia-ammeux-pixeliaandco-creation-site-internet-sur-mesure-eco-concu-design-creatif-quesnoy-sur-deule-nord",
   keywords: [
