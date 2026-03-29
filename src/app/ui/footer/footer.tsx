@@ -58,7 +58,7 @@ export default function Footer() {
             <section className="flex items-center space-x-2 cursor-pointer hover:underline flex-nowrap">
               <FaEnvelope />
               <a
-                href="mailto:contact[@]pixelia-and-co.fr"
+                href="mailto:contact@pixelia-and-co.fr"
                 className="whitespace-nowrap">
                Me contacter
               </a>
