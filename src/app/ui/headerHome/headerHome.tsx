@@ -49,8 +49,8 @@ export default function HeaderHome() {
             opacity: 0,
             animationFillMode: "forwards",
           }}>
-          Studio web & freelance WordPress spécialisé dans la création de sites
-          accessibles et performants
+          Studio web WordPress spécialisé dans la création de sites accessibles
+          et performants
         </p>
         <div
           className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto max-w-md sm:max-w-none px-4 animate-fade-in-up"

@@ -1,5 +1,4 @@
-import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
-import { TbBrandLinktree } from "react-icons/tb";
+import { FaLinkedin } from "react-icons/fa";
 import ProfileLink from "../profileLink/profileLink";
 import { BsInstagram } from "react-icons/bs";
 
@@ -18,12 +17,7 @@ export default function SocialNetwork() {
         Icon={BsInstagram}
         size={20}
       />
-      <ProfileLink
-        href="https://www.facebook.com/PixeliaAndCo"
-        ariaLabel="Link to Facebook profile"
-        Icon={FaFacebook}
-        size={20}
-      />
+    
     </section>
   );
 }

@@ -60,7 +60,7 @@ export default function Footer() {
               <a
                 href="mailto:contact@pixelia-and-co.fr"
                 className="whitespace-nowrap">
-                contact@pixelia-and-co.fr
+               Me contacter
               </a>
             </section>
           </div>

@@ -3,11 +3,9 @@ import Link from "next/link";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 
 const SERVICES_LIST = [
-  "Landing page wordpress simple (sans barre de navigation ni formulaire de contact): ici peu de personnalisation, j'utilise un template moderne.",
-  "Site vitrine wordpress (1 page) mais avec header + barre de navigation avec ancrage, design, personnalisation légère, ajouts de 2 sections au choix, formulaire de contact",
-  "Site vitrine wordpress (4 pages) - page personnalisable",
-  "Site sur mesure (avec next-vercel + ovh)",
-  "Refonte de site web",
+  "Landing page simple : une seule page, design moderne prêt à l'emploi, peu de personnalisation, avec un moyen simple pour que vos clients vous contactent.",
+  "Site sur mesure : développement entièrement personnalisé pour un site unique et performant, incluant un moyen pour que vos clients vous contactent.",
+  "Refonte de site web : modernisation et amélioration d’un site existant pour le rendre plus beau et efficace, avec un moyen pour que vos clients vous contactent.",
 ];
 
 const SECTIONS_CONTENT = {
