@@ -1,5 +1,21 @@
 [
   {
+    "id": 3,
+    "title": "Maquette site pour un cabinet médical",
+    "description": "Design moderne et professionnel pour un site de cabinet médical. Le site met en avant l'équipe, les services, la prise de rendez-vous en ligne et les conseils santé, avec une navigation claire et un style rassurant et accessible.",
+    "image": "/mockup-cabinet-medical.webp",
+    "category": "Maquette Figma",
+    "tags": ["Rédaction web", "Figma", "UX/UI", "Portfolio", "Médical"]
+  },
+  {
+    "id": 6,
+    "title": "Maquette site Esthéticienne",
+    "description": "Design moderne et apaisant pour un site d'esthéticienne. Le site met en avant les services, les tarifs, les avis clients et un espace de prise de rendez-vous en ligne, avec une navigation claire et un style élégant et relaxant.",
+    "image": "/mockup-esthéticienne.webp",
+    "category": "Maquette Figma",
+    "tags": ["Esthéticienne", "Figma", "UX/UI", "Portfolio", "Rendez-vous"]
+  },
+  {
     "id": 1,
     "title": "Maquette site d'un restaurant bistronomique",
     "description": "Design moderne pour un site de restaurant bistronomique avec menu interactif, réservation en ligne et mise en avant des plats signature",
@@ -21,14 +37,7 @@
     "category": "Maquette Figma",
     "tags": ["Rédaction web", "Figma", "UX/UI", "Portfolio", "Copywriting"]
   },
-  {
-    "id": 3,
-    "title": "Maquette site pour un cabinet médical",
-    "description": "Design moderne et professionnel pour un site de cabinet médical. Le site met en avant l'équipe, les services, la prise de rendez-vous en ligne et les conseils santé, avec une navigation claire et un style rassurant et accessible.",
-    "image": "/mockup-cabinet-medical.webp",
-    "category": "Maquette Figma",
-    "tags": ["Rédaction web", "Figma", "UX/UI", "Portfolio", "Médical"]
-  },
+
   {
     "id": 4,
     "title": "Maquette site Artiste",
@@ -44,13 +53,5 @@
     "image": "/mockup-artiste-lille.webp",
     "category": "Maquette Figma",
     "tags": ["Artiste", "Figma", "UX/UI", "Portfolio", "Expositions"]
-  },
-  {
-    "id": 6,
-    "title": "Maquette site Esthéticienne",
-    "description": "Design moderne et apaisant pour un site d'esthéticienne. Le site met en avant les services, les tarifs, les avis clients et un espace de prise de rendez-vous en ligne, avec une navigation claire et un style élégant et relaxant.",
-    "image": "/mockup-esthéticienne.webp",
-    "category": "Maquette Figma",
-    "tags": ["Esthéticienne", "Figma", "UX/UI", "Portfolio", "Rendez-vous"]
   }
 ]

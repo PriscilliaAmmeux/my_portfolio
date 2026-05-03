@@ -4,7 +4,7 @@ import Title from "../title/title";
 const INTRO_TEXT = {
   greeting: "Moi, c'est",
   name: "Priscillia Ammeux",
-  role: "développeuse web freelance et fondatrice de Pixelia&Co,",
+  role: "Créatrice de site web et fondatrice de Pixelia&Co,",
   location: "un studio créatif basé à Quesnoy-sur-Deûle, près de Lille.",
   passion:
     "Passionnée par l'alliance entre créativité et technologie, je transforme vos idées en sites web sur mesure.",
@@ -58,7 +58,7 @@ export default function IntroMe() {
 
       {/* Content Section */}
       <div className="flex-1 min-w-0 max-w-full">
-        <Title text="Développeuse web freelance à Lille - créer un site qui vous ressemble" />
+        <Title text="Créatrice de site web à Lille - créer un site qui vous ressemble" />
 
         {/* Introduction */}
         <div className="mb-8 space-y-4">

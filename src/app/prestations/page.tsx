@@ -6,7 +6,6 @@ import ListCollab from "../ui/listCollab/listCollab";
 import IntroPrestations from "../ui/introPrestations/introPrestations";
 import Faq from "../components/faq/faq";
 import CtaFinal from "../ui/ctaFinal/ctaFinal";
-import ContactMe from "../ui/contactMe/contactMe";
 import Stickers from "../ui/stickers/stickers";
 
 export const metadata: Metadata = {
@@ -71,7 +70,7 @@ export default function Page() {
         <ListPrestations />
         <Stickers />
         <ListCollab />
-        <ContactMe />
+
         <Faq />
         <CtaFinal />
       </section>

@@ -99,8 +99,8 @@ export default function ListCollab() {
             "&Co" prend tout son sens.
           </p>
           <p className="text-lg text-pink-900 font-medium leading-relaxed">
-            Je collabore avec des freelances passionnés et complémentaires pour
-            offrir à mes clients un accompagnement global, du design au
+            Je collabore avec des professionnels passionnés et complémentaires
+            pour offrir à mes clients un accompagnement global, du design au
             développement, en passant par la rédaction et la communication
             digitale.
           </p>
