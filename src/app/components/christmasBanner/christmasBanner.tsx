@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 
 export default function ChristmasBanner() {
   const [isVisible, setIsVisible] = useState(true);
@@ -11,22 +10,15 @@ export default function ChristmasBanner() {
   const scrollingContent = (
     <>
       <span className="text-lg sm:text-xl font-bold mx-2">
-        💝 Offre Saint-Valentin ❤️
+        🚧 Disponibilités limitées
       </span>
       <span className="text-base sm:text-lg mx-2">
-        <span className="font-extrabold text-yellow-300">-10%</span> sur la
-        création de site
+        Je suis actuellement en poste, ce qui limite mes disponibilités
+        freelance.
       </span>
       <span className="text-lg sm:text-base italic mx-2">
-        (réservations avant le 28/02)
+        Vous pouvez néanmoins me contacter pour discuter de projets futurs.
       </span>
-      <Link
-        href="https://calendly.com/priscillia-ammeux-pro/rdv-web-audit-noel"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="bg-white text-red-600 font-bold px-4 py-2 rounded-full hover:bg-yellow-300 hover:text-red-700 transition-all duration-300 shadow-md text-lg sm:text-base mx-4">
-        En profiter ! 💖
-      </Link>
     </>
   );
 
