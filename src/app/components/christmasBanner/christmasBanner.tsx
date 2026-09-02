@@ -10,14 +10,23 @@ export default function ChristmasBanner() {
   const scrollingContent = (
     <>
       <span className="text-lg sm:text-xl font-bold mx-2">
-        🚧 Disponibilités limitées
+        💗 Une page se tourne fin octobre
       </span>
+
       <span className="text-base sm:text-lg mx-2">
-        Je suis actuellement en poste, ce qui limite mes disponibilités
-        freelance.
+        Après une belle aventure avec Pixelia&Co, j’ai décidé de fermer mon
+        entreprise fin octobre 2026.
       </span>
-      <span className="text-lg sm:text-base italic mx-2">
-        Vous pouvez néanmoins me contacter pour discuter de projets futurs.
+
+      <span className="text-base sm:text-lg mx-2">
+        J’ai aujourd’hui un poste qui me plaît, et je n’ai malheureusement plus
+        le temps de consacrer à mes projets freelance l’attention qu’ils
+        méritent.
+      </span>
+
+      <span className="text-base sm:text-lg italic mx-2">
+        Merci à toutes les personnes qui m’ont fait confiance et ont participé à
+        cette aventure 💗
       </span>
     </>
   );
