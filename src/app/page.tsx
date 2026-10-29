@@ -58,6 +58,30 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <main>
+      <section
+        aria-labelledby="closure-notice-title"
+        className="bg-pink-100 px-4 py-8 text-center text-pink-950 sm:py-10">
+        <div className="mx-auto max-w-3xl">
+          <h2
+            id="closure-notice-title"
+            className="mb-3 text-2xl font-semibold sm:text-3xl">
+            PIXELIA&Co a fermé ses portes
+          </h2>
+          <p className="text-base leading-relaxed sm:text-lg">
+            L’entreprise a cessé son activité fin septembre. Une belle aventure
+            se termine, et je tiens à remercier chaleureusement toutes les
+            personnes qui m’ont fait confiance : clients, partenaires et
+            proches. Merci pour les projets, les échanges et tous les beaux
+            moments partagés. Vous pouvez retrouver les réalisations de
+            PIXELIA&Co dans le portfolio.
+          </p>
+          <Link
+            href="/project"
+            className="mt-4 inline-block font-semibold text-pink-700 underline underline-offset-4 hover:text-pink-900">
+            Découvrir le portfolio
+          </Link>
+        </div>
+      </section>
       <ChristmasBanner />
       <Layout hideNavigation={true}>
         <HeaderHome />
